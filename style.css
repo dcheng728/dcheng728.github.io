@@ -1,0 +1,221 @@
+html
+{
+}
+
+body
+{
+	font-family: "Lato", Helvetica, Arial, sans-serif;
+	font-size: 14pt;
+	margin: 0px;
+	border: 0px;
+	padding: 0px;
+}
+
+a
+{
+	text-decoration: none;
+	color: #007799; /*rgb(82, 173, 200);*/
+}
+
+#triangle
+{
+	position: absolute;
+	top: 345px;
+	left: 345px;
+	width: 36px;
+	overflow: hidden;
+}
+
+#sidebar
+{
+	position: absolute;
+	left: 0;
+	top: 0;
+	right: 0px;
+	width: 350px;
+	bottom: 0px;
+	background: #1c732d;
+	overflow-y: auto;
+	overflow-x: hidden;
+	scrollbar-width: none;
+}
+
+#profilePic
+{
+	margin: 8px;
+	width: 334px;
+}
+
+#sidebarHeading
+{
+	text-align: center;
+	margin: 5px;
+	font-size: 28pt;
+}
+
+#sidebarSubheading, #email
+{
+	text-align: center;
+	margin: 0px;
+	font-size: 18pt;
+	color: #222222
+}
+
+.institutionLogo
+{
+	width: 20px;
+	vertical-align: middle;
+}
+
+#tabList
+{
+	list-style-type: none;
+	text-align: right;
+	float: right;
+	margin: 0px;
+	border: 0px;
+	padding: 0px;
+	margin-top: 10px;
+	left: 0px;
+	width: 100%;
+}
+
+#tabList li
+{
+	cursor: pointer;
+	text-align: right;
+	font-size: 18pt;
+	margin: 0px;
+	border: 0px;
+	padding: 5px 0px 5px 0px;
+	width: 100%;
+	font-size: 22pt;
+	-webkit-touch-callout: none;
+	-webkit-user-select: none;
+	-khtml-user-select: none;
+	-moz-user-select: none;
+	-ms-user-select: none;
+	user-select: none;
+}
+
+.activeTab
+{
+	background: #6b9de4;
+}
+
+.inactiveTab
+{
+	background: inherit;
+}
+
+.inactiveTab:hover
+{
+	background: #b71313;
+}
+
+#homeBody
+{
+	background-image: url("Media/CMUWhiteboardDark.jpg");
+	background-attachment: fixed;
+	background-size: cover;
+	background-repeat: none;
+}
+
+#homeTextDiv
+{
+	position: absolute;
+	left: 350px;
+	top: 0;
+	bottom: 0;
+	right: 0;
+	padding: 110px;
+	overflow: scroll;
+}
+
+#homeTextDiv a
+{
+	color: blue;
+}
+
+#publicationsTextDiv
+{
+	position: absolute;
+	left: 350px;
+	top: 0;
+	bottom: 0;
+	right: 0;
+	padding: 110px;
+	overflow: scroll;
+
+	margin-top: -50px;
+	padding: 110px;
+}
+
+.publicationHeading
+{
+	font-size: 30px;
+}
+
+.publicationsTable
+{
+	border-spacing: 10px 0;
+}
+
+.citationImage
+{
+	vertical-align: top;
+}
+
+.citationImage img
+{
+	margin-left: -10px;
+	height: 100px;
+}
+
+.citationText
+{
+	vertical-align: top;
+	color: rgb(73, 78, 82);
+}
+
+.citationTitle
+{
+	color: rgb(0, 0, 0);
+}
+
+.citationAbbreviation
+{
+	vertical-align: top;
+	text-align: center;
+  font-weight: bold;
+}
+
+.citationAbbreviation a
+{
+	color: #1c732d;
+}
+
+.goldStar
+{
+  color: white;
+  font-weight: bold;
+  border-radius: 4px;
+  background: #eda715;
+  padding: 2px;
+  white-space: pre;
+}
+
+.silverStar
+{
+  color: white;
+  font-weight: bold;
+  border-radius: 4px;
+  background: black;
+  padding: 2px;
+  white-space: pre;
+}
+
+.spacerRow
+{
+	height: 15px;
+}
