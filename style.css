@@ -138,6 +138,8 @@ a
 	user-select: none;
 }
 
+
+
 .activeTab
 {
 	background: #6b9de4;
@@ -194,15 +196,19 @@ a
 .publicationHeading
 {
 	font-size: 30px;
+	padding-left: 10px;
 }
 
 .publicationsTable
 {
 	border-spacing: 10px 0;
+	padding-left: 10px;
 }
 
 .citationImage
 {
+	width: 100px;
+	height: 100px;
 	vertical-align: top;
 }
 
