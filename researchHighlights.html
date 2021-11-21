@@ -6,7 +6,7 @@
         <meta charset=utf-8>
         <link rel="stylesheet" type="text/css" href="style.css">
     </head>
-    <body id="homeBody">
+    <body id="homeBody", style="font-size:14px">
         <div class="sidenav">
             <a href="https://dcheng728.github.io/">Homepage</a>
             <a href="https://dcheng728.github.io/publications.html">Publications</a>
@@ -14,30 +14,101 @@
             <a href="#">Personal Projects</a>
         </div>
     
-        <div id="homeTextDiv" style="margin-left:-7%; margin-top:-6%; line-height:150%">
+        <div id="homeTextDiv" style="margin-left:-7%; margin-top:-6%; line-height:120%">
+
             <p class="publicationHeading">Research Highlights</p>
             <hr>
 
-            <center>
-                <h2>Grasp Planning Algorithms</h2><br>
-            </center>
-            
+
             <div style="width:100%; display:inline-block; ">
-                <span style="float:left;width: 40%;">
-                    <img src="papers/tactile sensing ICCMA/featureImg.jpg" 
-                     height="300" />
-                </span>
-                <span style="float:right;width: 60%; margin-top:-2%;">
-                    <p style="float:right; display:block;">
-                        Between October 2020 and June 2021, I looked for ways to reduce the dimensionality for grasp planning algorithms in order to decrease the search complexity. 
-                        A grasp planning algorithm is one find a stable way to grasp an object given the object geometry and hand configurations.
-                        The issue with grasp planning is that it is "complex" and it searches in high-dimensional space.
-                        A typical human hand have over 20 degrees of freedom, plus 6 more for translation and rotation, the anthropomorphic grasp configuration space is nearly 30-dimensional.
-                        In the past, researchers have reduced the complexity for finger configurations using Principal Component Analysis (PCA), which preserves over 80% of finger variance with only three eigenvectors.
-                        In my research, I looked for ways to reduce the complexity for searching for the hand transformation matrix. 
-                    </p>
-                </span>
+
+                <div style = 'float:left; width: 20%;'>
+                    <div style = 'position: fixed'>
+                        <div id="toc_container">
+                            <p class="toc_title">Contents</p>
+                            <ul class="toc_list">
+                              <li><a href="#First_Point_Header">1 First Point Header</a>
+                              <ul>
+                                <li><a href="#First_Sub_Point_1">1.1 First Sub Point 1</a></li>
+                                <li><a href="#First_Sub_Point_2">1.2 First Sub Point 2</a></li>
+                              </ul>
+                            </li>
+                            <li><a href="#Second_Point_Header">2 Second Point Header</a></li>
+                            <li><a href="#Third_Point_Header">3 Third Point Header</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+
+                <div style = 'float:right; width:70%'>
+                    <h4>Grasp Planning Algorithms</h2>
+                
+                
+                        <p>
+                            Between October 2020 and June 2021, I looked for ways to reduce the dimensionality for grasp planning algorithms in order to decrease the search complexity. 
+                            A grasp planning algorithm is one that finds stable ways to grasp an object given the object geometry.
+                            The issue with grasp planning is that it searches a space with high dimensionality.
+                            In the past, researchers have reduced the complexity for finger configurations using Principal Component Analysis (PCA), which preserves over 80% of finger variance with only three eigenvectors.
+                            In my research, I looked for ways to reduce the complexity of searching for the hand transformation matrix. 
+                            I had two theories:
+                            (1) the grasp space contain rotational symmetry, 
+                            (2) there is a many-to-one mapping between object geometry and stable grasps; that is, the same grasp is stable for many different objects.  
+                            Then I went on to conduct experiments with 60 everyday objects and 28 subjects, to see what ratio of the grasp space is needed for producing stable grasps.
+                            Turns out, less than 1/4 of the space can account for over 95% of the 13860 grasps that I recorded, which supports my initial hypothesis that grasp planning can be done in a significantly reduced transformation search space.
+                            In addition, my data shows the transformation parameters for human-planned grasps follow normal distribution.
+                        </p>
+            
+                        <h4>Arc-Channel Pelvis Fixation Path Algorithms</h2>
+                        
+                        
+                        <p>
+                            Pelvis fracture typically happen after traumatic injuries such as automobile accidents. This fracture is a serious injury with disability rate of 60% and death rate of 10%. 
+                            In order to put the fractured pelvis back together, a screw need to fixate the pelvis. 
+                            Due to the complex and irregular geometry of the human pelvis, a path for a straight screw is not ideal. 
+                            In the summer of 2021, I worked on designing an algorithm that finds a curved path to put a fixation screw in the pelvis. 
+                            We took a finite element approach to this problem where we approximated the pelvis' geometric structure to many tiny voxels, then generated constant-curvature paths that would fixate the fractured bone. 
+                            The finite element approach allows our algorithm choose a tradeoff between efficiency and being realistic by adjusting the voxel size. 
+                            We later performed computational biomechanics analysis to analyze the constant-curvature paths we generated, and the results indicate a higher safety measure than traditional straight paths.   
+                        </p>
+
+                        <h4>Soft Robotics</h2>
+                        <p>
+                            utational biomechanics analysis to analyze the constant-curvature paths we generated, and the results indicate a higher safety measure than traditional straight paths.   
+                        </p>
+
+                        <h4>HPC Security Risk Analaysis from PLATYPUS Attacks</h2>
+                        <p>
+                            omputational biomechanics analysis to analyze the constant-curvature paths we generated, and the results indicate a higher safety measure than traditional straight paths.   
+                        </p>
+
+                        <h4>Price Discrimination Identification in Apple Inc.</h2>
+                        <p>
+                            omechanics analysis to analyze the constant-curvature paths we generated, and the results indicate a higher safety measure than traditional straight paths.   
+                        </p>
+
+                        <h4>Intelligent Visual Servo System in Autonomous Spraying</h2>
+                        
+                        
+                            <p>
+                                gher safety measure than traditional straight paths.   
+                            </p>
+
+            
+                
+                </div>
+
+
             </div>
+
+
+            
+
+            
+           
+
+
+
+
 
 
         </div>
