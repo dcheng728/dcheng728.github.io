@@ -42,8 +42,8 @@ a
 
 #profilePic
 {
-	margin: 8px;
-	width: 334px;
+	margin: 10px;
+	width: 500px;
 }
 
 #sidebarHeading
@@ -192,7 +192,7 @@ a
 
 .citationAbbreviation a
 {
-	color: #1c732d;
+	color: #c7950d;
 }
 
 .goldStar
