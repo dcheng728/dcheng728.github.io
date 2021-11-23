@@ -52,13 +52,36 @@
                             In case you don't know what this game is about, League of Legends is a 5v5 multiplayer online game.
                             The "minimap" is on the bottom of a player's screen, it provides a lot of macro-information about what the player's teammates and opponents are doing.
                             Therefore, it is really important to look at the minimap once in a while, but a lot of players often forget.
-                            So I thought, can I create an AI that constantly keeps track of the minimap, and summarize the information for me? 
+                            So I thought, can I create an AI that constantly keeps track of the minimap, and summarize the information for me?
+
                         </p>
 
                         <center>
-                            <img src="media/grasp demo.gif" width="500"  />
-                            <p>Visualization of a grasp planning algorithm using "Graspit".</p>
+                            <img src="media/lol example.jpg" width="800"  />
+                            <p>In-game interface of League of Legends.</p>
                         </center>
+
+                        <p>
+                            I wanted to extract information from the game without hacking the server, which will get me banned.
+                            My idea was to use image recognition, I want an AI to recognize the avatars on the screen and keep track of where my enemies are.
+                            My pipeline begins with a image processing algorithm that extracts the avatars from the minimap image. 
+                            Then individually, the avatar images are passed to a image classification network which will label the avatars, and we know what enemy is where on the map.   
+                            
+                            <center>
+                                <img src="media/classification pipeline.png" width="700"  />
+                                <p>The pipeline for avatar recognition.</p>
+                            </center>
+
+                            <center>
+                                <img src="media/leagueX demo.gif" width="700"  />
+                                <p>Demo of the pipeline running live.</p>
+                            </center>
+
+                            I detailed my approach in two posts on CSDN (in Chinese): 
+                            <a href="https://blog.csdn.net/weixin_42488182/article/details/95088716?spm=1001.2014.3001.5501">part I</a>,
+                            <a href="https://blog.csdn.net/weixin_42488182/article/details/105161123?spm=1001.2014.3001.5501">part II</a>.
+
+                        </p>
             
                         <hr>
             
@@ -66,38 +89,25 @@
                         
                         
                         <p>
-                            Pelvis fracture typically happen after traumatic injuries such as automobile accidents. This fracture is a serious injury with disability rate of 60% and death rate of 10%. 
-                            In order to put the fractured pelvis back together, a screw need to fixate the pelvis. 
-                            Due to the complex and irregular geometry of the human pelvis, a path for a straight screw is not ideal. 
-                            In the summer of 2021, I worked on designing an algorithm that finds a curved path to put a fixation screw in the pelvis. 
-                            We took a finite element approach to this problem where we approximated the pelvis' geometric structure to many tiny voxels, then generated constant-curvature paths that would fixate the fractured bone. 
-                            The finite element approach allows our algorithm choose a tradeoff between efficiency and being realistic by adjusting the voxel size. 
-                            We later performed computational biomechanics analysis to analyze the constant-curvature paths we generated, and the results indicate a higher safety measure than traditional straight paths.   
+                            Rubik's cubes is one of my hobbies. In winter 2018, I wanted to make a program that can solve rubik's cube for those who do not know how.
+                            Fun fact, the maximum minimunm number of steps needed to solve any rubik's cube configuration is called <a href="https://www.cube20.org/">"God's Number"</a>.
+                            It was only recently proven that God's number is 20, and it has only been proven by solving every 46 quintillion configurations of the rubik's cube using a computer.
+                            At the time, there were already plenty of programs that can solve rubik's cubes, but the user have to enter the color of every face of the cube, which is tiring.
+                            So I thought, wouldn't it be nice if my program can scan the facets of the rubik's cube using the webcam, and then solve it for the user?
+                            
+
+                            <center>
+                                <img src="media/rubik demo.gif" width="700"  />
+                                <p>Demo of my rubik's cube scanner + solver.</p>
+                            </center>
+
+                            My program is actively scanning for rubik's cubes in the webcam image, and when it recognizes one, it will read the colors and automatically enter them into the solver.
+                            The solver then finds the solution and displays an animation of how to solve the cube.
+
+                            My source codes are accessible at <a href="https://github.com/dcheng728/Rubik-s-Cube-Scanner-Solver">github</a>, and I wrote a post about this program (in Chinese) at <a href="https://blog.csdn.net/weixin_42488182/article/details/103451877?spm=1001.2014.3001.5501">CSDN</a>.
+
                         </p>
 
-                        <div style="width:100%; display:inline-block; ">
-
-                            <div style = 'float:left; width: 30%;'>
-                                <center>
-                                    <img src="media/pelvis.jpg" width="150"  />
-                                    <p>Typical human pelvis structure with seed points for arc generation.</p>
-                                </center>
-
-                                <center>
-                                    <img src="media/planning procedure.JPG" width="150"  />
-                                    <p>Path generation using voxels visualized in 2D.</p>
-                                </center>
-                            </div>
-            
-
-                            <div style = 'float:right; width:70%'>
-                                <center>
-                                    <img src="media/planned paths straight.JPG" width="400"  /> <br>
-                                    <img src="media/planned paths arc.JPG" width="400"  />
-                                    <p>Planned straight fixation paths (top) and arc fixation paths (bottom).</p>
-                                </center>
-                            </div>
-                        </div>
 
                         <hr>
 
