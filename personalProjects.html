@@ -113,137 +113,23 @@
 
                         <h2 id="soft_robotics_section">Rock Paper Scissors Machine</h2>
                         <p>
-                            When most people think about robots, they picture a rigid humanoid built with metals.
-                            Traditionally, robotics have been built with rigid materials for durability and precision. 
-                            However, there are tasks that we wish a robotic system can be "soft".
-                            For example, when a robot needs to interact with humans or handle delicate objects. 
-                            At Beihang University between June 2018 and August 2021, I participated in several projects in design and innervation of soft robotics.
+                            Now days, computers are just beating humans at everythings, chess, GO, even DOTA2. 
+                            How about Rock Paper Scissors? 
+                            The optimal strategy to play Rock Paper Scissors is indeed play randomly, can humans' faith be restored in this classic game?
+                            The answer is NO. In the spring of 2020, I gained access to a <a href="https://www.ultraleap.com/product/leap-motion-controller/">Leap Motion Controller</a>, tool
+                            that can be used to track hand motions. 
+                            I gathered enough data to train a neural network that would recognize the three gestures of Rock Paper Scissors, and used it to play against others. 
 
-                            <div style="width:100%; display:inline-block; ">
+                            <center>
+                                <img src="media/rps demo.gif" width="700"  />
+                                <p>Demo of the computer rock paper scissors player.</p>
+                            </center>
 
-                                <div style = 'float:left; width: 5%;'>
-
-                                </div>
-                
-    
-                                <div style = 'float:right; width:95%'>
-                                    <h3 id="design_of_an_anthropomorphic_finger_section">Anthropomorphic finger</h3>
-
-                                    <p>With another PhD student, we designed a soft robotic finger with three degrees of freedom that can mimick the full range of motion of that of a finger.
-                                        The finger is 3D printed using nylon with notches carved into it. The notches are arranged in a specific way that it only allows joint-like rotation rather than shrinkage or elongation in the axial direction. 
-                                    </p>
-                                        <div style="width:100%; display:inline-block; ">
-
-                                            <div style = 'float:left; width: 70%;'>
-
-                                                <center>
-                                                    <img src="media/finger functions.JPG" height="220"  />
-                                                    <p>Our finger performing human motions.</p>
-                                                </center>
-                                                
-                                            </div>
-                            
-                
-                                            <div style = 'float:right; width:30%'>
-                                                <center>
-                                                    <img src="media/finger inhand manipulation.JPG" width= "180"  />
-                                                    <p>Our finger performing in-hand manipulations.</p>
-                                                </center>
-                                            </div>
-                                        </div>
-
-                                        <p>This soft finger proposal has been applied onto both robotic grippers and prosthetic hands.
-                                            The benefit of using soft fingers on hands is that the soft material is compliant in nature, so it can adapt to the surface geometry of the object it
-                                            is trying to grasp.     
-                                        </p>
-                                        
-                                </div>
-                            </div>
-
-                            <div style="width:100%; display:inline-block; ">
-
-                                <div style = 'float:left; width: 5%;'>
-
-                                </div>
-                
-    
-                                <div style = 'float:right; width:95%'>
-                                    <h3 id="innervation_of_soft_robotics_section">Innervation of Soft Robotics</h3>
-
-                                    <p>Soft robotics are superior to rigid robotics in compliance and adaptability, but this comes with the price of much harder kinematic modeling and sensorization.
-                                        Innervation means "to give something the ability to sense". For traditional rigid robots, the robot's movement in response to actuation is much more predictable: most can be modeled using classical physics or trignometric equations.
-                                        However, for soft robotics, a lot of times we don't know how it will behave, and this makes innervating soft robotics a persistent challenge in the soft robotics community.
-                                        We came up with a biomimetic design to allow soft manipulators to sense. 
-                                        The proprioception framework in human body is how we feel where our body parts are at and how heavy things are, when someone is trying to stand on one foot with their eyes closed, they are using their proprioception. 
-                                        We applied this mechanism to soft robotics, and by using machine learning algorithms, we were able to distinguish 8 different textures with a soft robotic finger.
-
-                                        <div style="width:100%; display:inline-block; ">
-
-                                            <div style = 'float:left; width: 50%;'>
-
-                                                <center>
-                                                    <img src="media/proprioception framework.png" width= "400"  />
-                                                    <p>The human proprioception framework (top) and our sensing mechanism (bottom).</p>
-                                                </center>
-                                                
-                                            </div>
-                            
-                
-                                            <div style = 'float:right; width:50%'>
-                                                <center>
-                                                    <br>
-                                                    <br>
-                                                    <br>
-                                                    <img src="media/sensing experiment.JPG" width= "450"  />
-                                                    <p>Our robotic finger is capable of palpating different objects to identify which is which. 
-                                                        It achieves 99% 6-fold cross validation accuracy when identifying 8 different textures. </p>
-                                                </center>
-                                            </div>
-                                        </div>
-
-                                    </p>
-                                        
-                                </div>
-                            </div>
-
+                            The program is not actually "predicting" what the human will play next, it is classifying the human's hand motion into one of the three categories, then reacting very quickly.
+                            So technically, the computer is cheating, but does that mean faith in humanity can be restored?
 
                         </p>
 
-                        <hr>
-
-                        <h2 id="identifying_price_discrimination_in_apple_section">Price Discrimination Identification in Apple Inc. <img class="institutionLogo" src="media/apple logo.png"/></h2>
-                        <p>
-                            Naturally, consumers with different sensitivities towards prices exist in a market. 
-                            Firms may choose to take advantage of such varying price sensitivity to maximize profit. 
-                            This practice is called price discrimination or personalized pricing. 
-                            Apple Inc. is considered by many to have changed the personalized computer and phone industry, it is also once the world’s largest company with market capitalization in the trillions. 
-                            The iPhone is a popular product from Apple sold across the globe. 
-                            In fact, the prices of iPhones vary in an interesting fashion across different markets. 
-                            For example, the iPhone 13 with 128gb of storage is sold at $799 in the U.S. and roughly $1441 in Brazil, a much less developed economy. 
-                            Selling iPhones in Brazil definitely requires additional costs that may otherwise be avoided in the U.S. But when those additional costs are accounted for, are iPhones still price higher in countries such as Brazil than in the U.S?
-                            
-                            <br>
-
-                            I was interested in finding out whether geo-economical factors affect the price of iPhones in different countries when differentiated costs are accounted for.
-                            In my work, I adopted Stigler's definition for price discrimination, gathered price of iPhones and socioeconomical data from 53 countries where Apple Inc. sell their products, and performed econometric analysis.
-                            I found strong statistical evidence of Apple utilizing its market power to increase profit. Specifically, iPhones are <br> 
-                            <div style="width:100%; display:inline-block; ">
-
-                                <div style = 'float:left; width: 5%;'>
-                                </div>
-                
-    
-                                <div style = 'float:right; width:95%'>
-                                    (1) significantly more expensive (p < 0.01) in markets where Apple has a high market share <br>
-                                    (2) significantly more expensive (p < 0.01) in economies with high gini index (high gini index -> high income inequality</0.01>) <br>
-                                    (3) significantly more expensive (p < 0.01) in upper-middle-income economies (another word for developing countries) 
-                                    
-                                </div>
-                                
-                            </div>
-
-                        </p>
-                
                 </div>
 
             </div>
