@@ -22,7 +22,7 @@
     </div>
 
     <body id="homeBody">
-        
+        <script src="stickgame.js"></script>
     
         <div id="homeTextDiv" style="margin-left:-7%; margin-top:-6%; line-height:120%">
 
@@ -45,7 +45,62 @@
                     </div>
                 </div>
 
+
+
                 <div style = 'float:right; width:70%'>
+                    <h2 id="stick_game_section">The Stick Game</h2>
+
+                    <center>
+                        <div id="game">
+                            <div style="width:100%; display:inline-block; line-height: 40%; margin-left: 10%;">
+                                <div style = 'float:left; width:50%'>
+                                    <h5 id="targetSumTxt">Target Sum: 24</h5> 
+                                    <h5 id="currentSumTxt" style="margin-top: -3%">Current Sum: 0</h5>
+                                    <h5 id="mimMaxTxt" style="margin-top: -3%">Min: 1, Max: 5</h5>
+                                </div>
+
+
+                                <div style = 'float:right; width:50%; line-height:120%'>
+                                    <input id="userMove" style="margin-top: 0%; width: 50px;"><br>
+                                    <input id="userMove" style="margin-top: 0%; width: 50px;"><br>
+                                    <input id="userMove" style="margin-top: 0%; width: 50px;">
+                                </div>
+                            </div>
+
+
+                            <!-- <h5 id="targetSumTxt">Target Sum: 24</h5>
+                            <h5 id="currentSumTxt" style="margin-top: -3%">Current Sum: 0</h5>
+                            <h5 id="mimMaxTxt" style="margin-top: -3%">Min: 1, Max: 5</h5> -->
+
+                            <div style="width:100%; display:inline-block; ">
+
+                                <div style = 'float:left; width: 30%;'>
+
+                                    <input id="userMove" style="margin-top: 0%; width: 50px;">
+                                    <br><br>
+                                    <button onclick="confirm()" id = "Confirm" style="margin-left: 0%;">Confirm</button>
+
+                                </div>
+                
+                                <div style = 'float:left; width:40%'>
+
+                                </div>
+
+                                <div style = 'float:right; width:30%'>
+
+                                    <p id="computerMoveTxt"></p>
+
+                                </div>
+
+                            </div>
+
+                            
+
+                        </div>
+                    </center>
+                    
+
+                    <hr>
                     <h2 id="grasp_planning_algorithms_section">Deep Learning in Video Game</h2>
                         <p>
                             This project started in January 2019, when I was very enthuisastic about the video game "League of Legends".
