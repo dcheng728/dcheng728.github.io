@@ -5,7 +5,7 @@ html
 body
 {
 	font-family: "Lato", Helvetica, Arial, sans-serif;
-	font-size: 15pt;
+	font-size: 13pt;
 	margin: 0px;
 	border: 0px;
 	padding: 0px;
@@ -46,20 +46,6 @@ a
 	width: 500px;
 }
 
-#sidebarHeading
-{
-	text-align: center;
-	margin: 5px;
-	font-size: 28pt;
-}
-
-#sidebarSubheading, #email
-{
-	text-align: center;
-	margin: 0px;
-	font-size: 18pt;
-	color: #222222
-}
 
 /* The sidebar menu */
 .sidenav {
@@ -138,23 +124,6 @@ a
 	user-select: none;
 }
 
-
-
-.activeTab
-{
-	background: #6b9de4;
-}
-
-.inactiveTab
-{
-	background: inherit;
-}
-
-.inactiveTab:hover
-{
-	background: #b71313;
-}
-
 #homeBody
 {
 	/* background-image: url("Media/CMUWhiteboardDark.jpg"); */
@@ -197,73 +166,6 @@ a
 {
 	font-size: 30px;
 	padding-left: 10px;
-}
-
-.publicationsTable
-{
-	border-spacing: 10px 0;
-	padding-left: 10px;
-}
-
-.citationImage
-{
-	width: 100px;
-	height: 100px;
-	vertical-align: top;
-}
-
-.citationImage img
-{
-	margin-left: -10px;
-	height: 100px;
-}
-
-.citationText
-{
-	vertical-align: top;
-	color: rgb(73, 78, 82);
-}
-
-.citationTitle
-{
-	color: rgb(0, 0, 0);
-}
-
-.citationAbbreviation
-{
-	vertical-align: top;
-	text-align: center;
-  font-weight: bold;
-}
-
-.citationAbbreviation a
-{
-	color: #c7950d;
-}
-
-.goldStar
-{
-  color: white;
-  font-weight: bold;
-  border-radius: 4px;
-  background: #eda715;
-  padding: 2px;
-  white-space: pre;
-}
-
-.silverStar
-{
-  color: white;
-  font-weight: bold;
-  border-radius: 4px;
-  background: black;
-  padding: 2px;
-  white-space: pre;
-}
-
-.spacerRow
-{
-	height: 15px;
 }
 
 #toc_container {

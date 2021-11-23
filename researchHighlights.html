@@ -21,7 +21,7 @@
         <a href="personalProjects.html">Personal Projects</a>
     </div>
 
-    <body id="homeBody", style="font-size:17px">
+    <body id="homeBody">
         
     
         <div id="homeTextDiv" style="margin-left:-7%; margin-top:-6%; line-height:120%">
@@ -56,21 +56,27 @@
                         <p>
                             Between October 2020 and June 2021, I looked for ways to reduce the dimensionality for grasp planning algorithms in order to decrease the search complexity. 
                             A grasp planning algorithm is one that finds stable ways to grasp an object given the object geometry.
-                            The issue with grasp planning is that it searches a space with high dimensionality.
+                            The issue with grasp planning is that it searches in a space with high dimensionality.
                             In the past, researchers have reduced the complexity for finger configurations using Principal Component Analysis (PCA), which preserves over 80% of finger variance with only three eigenvectors.
-                            In my research, I looked for ways to reduce the complexity of searching for the hand transformation matrix. 
+                            In my research, I looked for ways to reduce the complexity of searching for where to place the hand (a.k.a. the hand transformation matrix). 
                             I had two theories:
                             (1) the grasp space contain rotational symmetry, 
                             (2) there is a many-to-one mapping between object geometry and stable grasps; that is, the same grasp is stable for many different objects.  
-                            Then I went on to conduct experiments with 60 everyday objects and 28 subjects, to see what ratio of the grasp space is needed for producing stable grasps.
-                            Turns out, less than 1/4 of the space can account for over 95% of the 13860 grasps that I recorded, which supports my initial hypothesis that grasp planning can be done in a significantly reduced transformation search space.
+                            Then I went on to conduct experiments with 60 everyday objects and 28 subjects, to approximate what ratio of the transformation space is needed for producing stable grasps.
+                            <u>Turns out, less than 1/4 of the search space can account for over 95% of the 13860 grasps that I recorded, which supports my initial hypothesis that grasp planning can be done in a significantly reduced transformation search space.</u>
                             In addition, my data shows the transformation parameters for human-planned grasps follow normal distribution.
                         </p>
 
                         <center>
                             <img src="media/grasp demo.gif" width="500"  />
-                            <p>Visualization of a grasp planning algorithm using "Graspit".</p>
+                            <p>Visualization of a grasp planning algorithm converging using "Graspit".</p>
                         </center>
+
+                        <p>
+                            My work on this project has been organized in an arXiv <a href="https://arxiv.org/abs/2106.14158">preprint</a>.
+                            The core of this project is the dataset of 13800 grasps from 28 univeristy students. 
+                            I named this dataset "GUVOOD", that is "Grasps Under Varied Object Orientation Dataset", and it is open-source on <a href="https://github.com/dcheng728/The-GUVOOD">github</a>.
+                        </p>
             
                         <hr>
             
@@ -139,7 +145,7 @@
                                             <div style = 'float:left; width: 70%;'>
 
                                                 <center>
-                                                    <img src="media/finger functions.JPG" height="220"  />
+                                                    <img src="media/finger functions.JPG" height="170"  />
                                                     <p>Our finger performing human motions.</p>
                                                 </center>
                                                 
@@ -148,7 +154,7 @@
                 
                                             <div style = 'float:right; width:30%'>
                                                 <center>
-                                                    <img src="media/finger inhand manipulation.JPG" width= "180"  />
+                                                    <img src="media/finger inhand manipulation.JPG" width= "150"  />
                                                     <p>Our finger performing in-hand manipulations.</p>
                                                 </center>
                                             </div>
@@ -184,7 +190,7 @@
                                             <div style = 'float:left; width: 50%;'>
 
                                                 <center>
-                                                    <img src="media/proprioception framework.png" width= "400"  />
+                                                    <img src="media/proprioception framework.png" width= "350"  />
                                                     <p>The human proprioception framework (top) and our sensing mechanism (bottom).</p>
                                                 </center>
                                                 
@@ -196,7 +202,7 @@
                                                     <br>
                                                     <br>
                                                     <br>
-                                                    <img src="media/sensing experiment.JPG" width= "450"  />
+                                                    <img src="media/sensing experiment.JPG" width= "300"  />
                                                     <p>Our robotic finger is capable of palpating different objects to identify which is which. 
                                                         It achieves 99% 6-fold cross validation accuracy when identifying 8 different textures. </p>
                                                 </center>
