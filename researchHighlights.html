@@ -7,6 +7,13 @@
         <link rel="stylesheet" type="text/css" href="style.css">
     </head>
 
+    <style>
+        table, th, td {
+          border:1px solid black;
+          border-collapse: collapse;
+        }
+    </style>
+
     <div class="sidenav">
         <a href="index.html">Homepage</a>
         <a href="publications.html">Publications</a>
@@ -14,7 +21,7 @@
         <a href="#">Personal Projects</a>
     </div>
 
-    <body id="homeBody", style="font-size:16px">
+    <body id="homeBody", style="font-size:17px">
         
     
         <div id="homeTextDiv" style="margin-left:-7%; margin-top:-6%; line-height:120%">
@@ -26,25 +33,26 @@
             <div style="width:100%; display:inline-block; ">
 
                 <div style = 'float:left; width: 20%;'>
-                    <div style = 'position: fixed'>
+                    <div style = 'position: fixed;line-height:150%'>
                         <div id="toc_container">
                             <p class="toc_title">Contents</p>
                             <ul class="toc_list">
-                              <li><a href="#First_Point_Header">1 First Point Header</a>
+                              <li><a href="#grasp_planning_algorithms_section">Grasp Planning Algorithms</a>
+                              <li><a href="#Arc_Channel_pelvis_fixation_path_algorithms_section">Arc Pelvis Fixation Path Algorithms</a></li>
+                              <li><a href="#soft_robotics_section">Soft Robotics</a></li>
                               <ul>
-                                <li><a href="#First_Sub_Point_1">1.1 First Sub Point 1</a></li>
-                                <li><a href="#First_Sub_Point_2">1.2 First Sub Point 2</a></li>
+                                <li><a href="#design_of_an_anthropomorphic_finger_section">Anthropomorphic Finger</a></li>
+                                <li><a href="#innervation_of_soft_robotics_section">Innervation of Soft Robotics</a></li>
                               </ul>
                             </li>
-                            <li><a href="#Second_Point_Header">2 Second Point Header</a></li>
-                            <li><a href="#Third_Point_Header">3 Third Point Header</a></li>
+                            <li><a href="#identifying_price_discrimination_in_apple_section">Price Discrimination Identification</a></li>
                             </ul>
                         </div>
                     </div>
                 </div>
 
-                <div style = 'float:right; width:75%'>
-                    <h2>Grasp Planning Algorithms</h2>
+                <div style = 'float:right; width:70%'>
+                    <h2 id="grasp_planning_algorithms_section">Grasp Planning Algorithms</h2>
                         <p>
                             Between October 2020 and June 2021, I looked for ways to reduce the dimensionality for grasp planning algorithms in order to decrease the search complexity. 
                             A grasp planning algorithm is one that finds stable ways to grasp an object given the object geometry.
@@ -66,7 +74,7 @@
             
                         <hr>
             
-                        <h2>Arc-Channel Pelvis Fixation Path Algorithms</h2>
+                        <h2 id="Arc_Channel_pelvis_fixation_path_algorithms_section">Arc Pelvis Fixation Path Algorithms</h2>
                         
                         
                         <p>
@@ -105,7 +113,7 @@
 
                         <hr>
 
-                        <h2>Soft Robotics</h2>
+                        <h2 id="soft_robotics_section">Soft Robotics</h2>
                         <p>
                             When most people think about robots, they picture a rigid humanoid built with metals.
                             Traditionally, robotics have been built with rigid materials for durability and precision. 
@@ -121,7 +129,7 @@
                 
     
                                 <div style = 'float:right; width:95%'>
-                                    <h3>Design of a 3-DOF anthropomorphic finger</h3>
+                                    <h3 id="design_of_an_anthropomorphic_finger_section">Anthropomorphic finger</h3>
 
                                     <p>With another PhD student, we designed a soft robotic finger with three degrees of freedom that can mimick the full range of motion of that of a finger.
                                         The finger is 3D printed using nylon with notches carved into it. The notches are arranged in a specific way that it only allows joint-like rotation rather than shrinkage or elongation in the axial direction. 
@@ -162,7 +170,7 @@
                 
     
                                 <div style = 'float:right; width:95%'>
-                                    <h3>Innervation of Soft Robotics</h3>
+                                    <h3 id="innervation_of_soft_robotics_section">Innervation of Soft Robotics</h3>
 
                                     <p>Soft robotics are superior to rigid robotics in compliance and adaptability, but this comes with the price of much harder kinematic modeling and sensorization.
                                         Innervation means "to give something the ability to sense". For traditional rigid robots, the robot's movement in response to actuation is much more predictable: most can be modeled using classical physics or trignometric equations.
@@ -205,7 +213,7 @@
 
                         <hr>
 
-                        <h2>Identify Price Discrimination Identification in Apple Inc.</h2>
+                        <h2 id="identifying_price_discrimination_in_apple_section">Price Discrimination Identification in Apple Inc.</h2>
                         <p>
                             Naturally, consumers with different sensitivities towards prices exist in a market. 
                             Firms may choose to take advantage of such varying price sensitivity to maximize profit. 
@@ -233,56 +241,12 @@
                                     (3) significantly more expensive (p < 0.01) in upper-middle-income economies (another word for developing countries) 
                                     
                                 </div>
-
-                                <table>
-                                    <tr>
-                                      <td>&nbsp;</td>
-                                      <td>Knocky</td>
-                                      <td>Flor</td>
-                                      <td>Ella</td>
-                                      <td>Juan</td>
-                                    </tr>
-                                    <tr>
-                                      <td>Breed</td>
-                                      <td>Jack Russell</td>
-                                      <td>Poodle</td>
-                                      <td>Streetdog</td>
-                                      <td>Cocker Spaniel</td>
-                                    </tr>
-                                    <tr>
-                                      <td>Age</td>
-                                      <td>16</td>
-                                      <td>9</td>
-                                      <td>10</td>
-                                      <td>5</td>
-                                    </tr>
-                                    <tr>
-                                      <td>Owner</td>
-                                      <td>Mother-in-law</td>
-                                      <td>Me</td>
-                                      <td>Me</td>
-                                      <td>Sister-in-law</td>
-                                    </tr>
-                                    <tr>
-                                      <td>Eating Habits</td>
-                                      <td>Eats everyone's leftovers</td>
-                                      <td>Nibbles at food</td>
-                                      <td>Hearty eater</td>
-                                      <td>Will eat till he explodes</td>
-                                    </tr>
-                                  </table>
+                                
                             </div>
 
-
-                            
-                        
-                            
                         </p>
-
-            
                 
                 </div>
-
 
             </div>
 

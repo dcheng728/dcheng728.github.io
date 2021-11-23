@@ -157,7 +157,7 @@ a
 
 #homeBody
 {
-	background-image: url("Media/CMUWhiteboardDark.jpg");
+	/* background-image: url("Media/CMUWhiteboardDark.jpg"); */
 	background-attachment: fixed;
 	background-size: cover;
 	background-repeat: none;
@@ -267,12 +267,14 @@ a
 }
 
 #toc_container {
-    background: #f9f9f9 none repeat scroll 0 0;
+    background: #e7e2e2 none repeat scroll 0 0;
     border: 1px solid #aaa;
     display: table;
     font-size: 95%;
-    margin-bottom: 1em;
-    padding: 20px;
+	margin-bottom: 1em;
+	margin-top: 40%;
+	margin-left: -7%;
+    padding: 1px;
     width: auto;
 }
 
