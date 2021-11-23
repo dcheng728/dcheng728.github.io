@@ -26,7 +26,7 @@
     
         <div id="homeTextDiv" style="margin-left:-7%; margin-top:-6%; line-height:120%">
 
-            <p class="publicationHeading">Research Highlights</p>
+            <p class="publicationHeading">Personal Projects</p>
             <hr>
 
 
@@ -37,34 +37,22 @@
                         <div id="toc_container">
                             <p class="toc_title">Contents</p>
                             <ul class="toc_list">
-                              <li><a href="#grasp_planning_algorithms_section">Grasp Planning Algorithms</a>
-                              <li><a href="#Arc_Channel_pelvis_fixation_path_algorithms_section">Arc Pelvis Fixation Path Algorithms</a></li>
-                              <li><a href="#soft_robotics_section">Soft Robotics</a></li>
-                              <ul>
-                                <li><a href="#design_of_an_anthropomorphic_finger_section">Anthropomorphic Finger</a></li>
-                                <li><a href="#innervation_of_soft_robotics_section">Innervation of Soft Robotics</a></li>
-                              </ul>
-                            </li>
-                            <li><a href="#identifying_price_discrimination_in_apple_section">Price Discrimination Identification</a></li>
+                              <li><a href="#grasp_planning_algorithms_section">Deep Learning in Video Game</a>
+                              <li><a href="#Arc_Channel_pelvis_fixation_path_algorithms_section">Rubik's Cube Scanner + Solver</a></li>
+                              <li><a href="#soft_robotics_section">Rock Paper Scissors Machine</a></li>
                             </ul>
                         </div>
                     </div>
                 </div>
 
                 <div style = 'float:right; width:70%'>
-                    <h2 id="grasp_planning_algorithms_section">Grasp Planning Algorithms</h2>
+                    <h2 id="grasp_planning_algorithms_section">Deep Learning in Video Game</h2>
                         <p>
-                            Between October 2020 and June 2021, I looked for ways to reduce the dimensionality for grasp planning algorithms in order to decrease the search complexity. 
-                            A grasp planning algorithm is one that finds stable ways to grasp an object given the object geometry.
-                            The issue with grasp planning is that it searches a space with high dimensionality.
-                            In the past, researchers have reduced the complexity for finger configurations using Principal Component Analysis (PCA), which preserves over 80% of finger variance with only three eigenvectors.
-                            In my research, I looked for ways to reduce the complexity of searching for the hand transformation matrix. 
-                            I had two theories:
-                            (1) the grasp space contain rotational symmetry, 
-                            (2) there is a many-to-one mapping between object geometry and stable grasps; that is, the same grasp is stable for many different objects.  
-                            Then I went on to conduct experiments with 60 everyday objects and 28 subjects, to see what ratio of the grasp space is needed for producing stable grasps.
-                            Turns out, less than 1/4 of the space can account for over 95% of the 13860 grasps that I recorded, which supports my initial hypothesis that grasp planning can be done in a significantly reduced transformation search space.
-                            In addition, my data shows the transformation parameters for human-planned grasps follow normal distribution.
+                            This project started in January 2019, when I was very enthuisastic about the video game "League of Legends".
+                            In case you don't know what this game is about, League of Legends is a 5v5 multiplayer online game.
+                            The "minimap" is on the bottom of a player's screen, it provides a lot of macro-information about what the player's teammates and opponents are doing.
+                            Therefore, it is really important to look at the minimap once in a while, but a lot of players often forget.
+                            So I thought, can I create an AI that constantly keeps track of the minimap, and summarize the information for me? 
                         </p>
 
                         <center>
@@ -74,7 +62,7 @@
             
                         <hr>
             
-                        <h2 id="Arc_Channel_pelvis_fixation_path_algorithms_section">Arc Pelvis Fixation Path Algorithms</h2>
+                        <h2 id="Arc_Channel_pelvis_fixation_path_algorithms_section">Rubik's Cube Scanner + Solver</h2>
                         
                         
                         <p>
@@ -113,7 +101,7 @@
 
                         <hr>
 
-                        <h2 id="soft_robotics_section">Soft Robotics</h2>
+                        <h2 id="soft_robotics_section">Rock Paper Scissors Machine</h2>
                         <p>
                             When most people think about robots, they picture a rigid humanoid built with metals.
                             Traditionally, robotics have been built with rigid materials for durability and precision. 
