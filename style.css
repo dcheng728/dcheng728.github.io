@@ -11,9 +11,11 @@ body
 	padding: 0px;
 }
 
+
+
 #game{
-	width: 700px;
-	height:400px;
+	width: 550px;
+	height:380px;
 	border: 1px solid black;
 }
 
