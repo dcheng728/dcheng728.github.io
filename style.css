@@ -34,19 +34,6 @@ a
 	overflow: hidden;
 }
 
-#sidebar
-{
-	position: absolute;
-	left: 0;
-	top: 0;
-	right: 0px;
-	width: 500px;
-	bottom: 0px;
-	background: #1c732d;
-	overflow-y: auto;
-	overflow-x: hidden;
-	scrollbar-width: none;
-}
 
 #profilePic
 {
@@ -58,7 +45,7 @@ a
 /* The sidebar menu */
 .sidenav {
 	height: 100%; /* Full-height: remove this if you want "auto" height */
-	width: 300px; /* Set the width of the sidebar */
+	width:  300px; /* Set the width of the sidebar */
 	position: fixed; /* Fixed Sidebar (stay in place on scroll) */
 	z-index: 1; /* Stay on top */
 	top: 0; /* Stay at the top */
@@ -143,11 +130,11 @@ a
 #homeTextDiv
 {
 	position: absolute;
-	left: 350px;
+	left: 300px;
 	top: 0;
 	bottom: 0;
 	right: 0;
-	padding: 110px;
+	padding: 50px;
 	overflow: scroll;
 }
 
@@ -174,6 +161,24 @@ a
 {
 	font-size: 30px;
 	padding-left: 10px;
+}
+
+.featureImageContainer{
+	float:left;
+	width: 170px;
+	margin-top: 10px;
+}
+
+.metaPubContainer{
+	float:right;
+	display:block;
+	text-align:right;
+}
+
+.detailPubContainer{
+	float:left;
+	width: 60%;
+	margin-top:0%;
 }
 
 #toc_container {
