@@ -171,6 +171,7 @@ a
 
 .metaPubContainer{
 	float:right;
+	width = 40%;
 	display:block;
 	text-align:right;
 }
@@ -180,6 +181,8 @@ a
 	width: 60%;
 	margin-top:0%;
 }
+
+
 
 #toc_container {
     background: #e7e2e2 none repeat scroll 0 0;
