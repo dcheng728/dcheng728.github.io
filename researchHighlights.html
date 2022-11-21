@@ -16,7 +16,7 @@
 
     <div class="sidenav">
         <a href="index.html">Homepage</a>
-        <a href="publications.html">Publications</a>
+        <a href="publications+manuscripts.html">Publications & Manuscripts</a>
         <a href="researchHighlights.html">Research Highlights</a>
         <a href="personalProjects.html">Personal Projects</a>
     </div>
@@ -52,6 +52,29 @@
                 </div>
 
                 <div style = 'float:right; width:70%'>
+                    <h2 id="infSupergame">Infinitely Repeated Prisoners' Dilemma Supergames</h2>
+
+
+                        <p>
+                            The prisoners' dilemma is a classic and powerful example in Game Theory. In the classic setting, the equilibrium of this game would be both players defecting.
+                            However, it is known that when the game is repeated, the equilibria can change, making cooperation possible.
+                            I was interested in what happens if it were to be repeated infinitely many times. <br>
+
+                            I abstracted every possible configurations of the game as states, and used finite-state machines to model the dynamics of a infinitely repeated game.
+                            I was able to characterize transition properties between states when the utility function satisfies certain constraints:
+                            locally non-cooperative and monotone increasing. These properties allowed me to derive asymmetric equilibria in games when the utility function is symmetric!
+                            Furthermore, it turns out there is a connection between the asymmetric equilibria that I derived and a famous empirical result obtained by Robert Axelrod in 1981, called <a href="https://www.science.org/doi/10.1126/science.7466396">"tit for tat"</a>.
+                            Basically, Robert Axelrod gathered a bunch of game theorists and asked them to implement a strategy using computer programs and then repeatedly play the prisoners' dilemma against each other in a tournament.
+                            The strategy that won the tournament was called "tit for tat", which plays cooperate until the other player defects, then plays defect for the rest of the game.
+                            Axelrod found this interesting and later showed that the "tit for tat" strategy is an evolutionary-stable equilibrium strategy,
+                            a much stronger notion of equilibrium strategy. The purely theoretical results that I obtained in the infinitely repeated prisoners' dilemma turn out to imply the "tit for tat" strategy as the equilibrium strategy in repeated prisoners' dilemma!
+                            I later presented this result at the 33rd International Conference on Game Theory, Stony Brook.
+                        </p>
+
+
+
+                        <hr>
+
                     <h2 id="grasp_planning_algorithms_section">Grasp Planning Algorithms</h2>
                         <p>
                             Between October 2020 and June 2021, I looked for ways to reduce the dimensionality for grasp planning algorithms in order to decrease the search complexity. 
@@ -75,7 +98,7 @@
                         <p>
                             My work on this project has been organized in an arXiv <a href="https://arxiv.org/abs/2106.14158">preprint</a>.
                             The core of this project is the dataset of 13800 grasps from 28 univeristy students. 
-                            I named this dataset "GUVOOD", that is "Grasps Under Varied Object Orientation Dataset", and it is open-source on <a href="https://github.com/dcheng728/The-GUVOOD">github</a>.
+                            I named this dataset "GUVOOD", that is "Grasps Under Varied Object Orientation Dataset", and it is stored on <a href="https://github.com/dcheng728/The-GUVOOD">github</a>.
                         </p>
             
                         <hr>
