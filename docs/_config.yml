@@ -25,7 +25,7 @@
 
 title: Davidson Cheng Homepage
 email: dcheng728@gmail.com
-description: >- Homepage of Davidson Cheng
+description: -> "Homepage of Davidson Cheng" # description
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://dcheng728.github.io/" # the base hostname & protocol for your site, e.g. http://example.com
 #twitter_username: jekyllrb
