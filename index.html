@@ -1,0 +1,2353 @@
+<!DOCTYPE html>
+<html lang="en">
+
+
+<head>
+<title>solutions</title>
+
+<script type="text/x-mathjax-config">
+  MathJax.Hub.Config({tex2jax: {inlineMath: [['$','$'], ['\_\_(','\_\_)']]}});
+</script>
+<script type="text/javascript"
+  src="http://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML">
+</script>
+
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+</style>
+</head>
+<body>
+<h1>Solutions</h1>
+<details>
+<summary style="margin-left:0px;">
+misc<span class="icon"></span></summary>
+<div style="margin-left:30px;">
+<a href="misc/deriving the dirac equation.pdf">deriving the dirac equation.pdf</a></div>
+<details>
+<summary style="margin-left:30px;">
+unorganized.md<span class="icon"></span></summary>
+<div style="margin-left:60px;border: 3px dashed black; background-color:powderblue;"">
+<ul>
+<li>Effective potential: $V_{eff}(r)=U_0(r) + \frac{l^2}{2mr^2}$</li>
+<li>$Z= \frac{1}{i\omega C} = i \omega L = R$</li>
+<li>
+<p>$\sigma_Z^2 = \sum_{i} (\partial_{x_i}Z)^2 \sigma_{i}^2$</p>
+</li>
+<li>
+<p>V is always continuous</p>
+</li>
+<li>derivatives of V is always continuous, except at charged surfaces</li>
+<li>
+<p>V is constant throughout a conductor</p>
+</li>
+<li>
+<p>there is on energy cost to moving an image charge</p>
+</li>
+<li>
+<p>the mass of electron is about 0.5 MeV</p>
+</li>
+<li>
+<p>Wien displacement Law: $$\lambda_{max} = \frac{2.9 \times 10^{-3}mK}{T}$$</p>
+</li>
+<li>stefan boltzmann: $$\frac{E}{V} \propto T^4 $$</li>
+<li>
+<p>rayleigh formula: $I \propto I_0 \lambda^{-4}$</p>
+</li>
+<li>
+<p>copper: $T\uparrow$ conductivity $\downarrow$</p>
+</li>
+<li>silicon:  $T\uparrow$ conductivity $\uparrow$</li>
+<li>impurities in copper decreases conductivity</li>
+<li>
+<p>compton shift: $\Delta \lambda = \frac{h}{m_e c}(1-\cos{\theta})$</p>
+</li>
+<li>
+<p>homogeneous B only applies torque</p>
+</li>
+<li>
+<p>inhomogeneous B can also apply force</p>
+</li>
+<li>
+<p>stern-gerlach: e deflects only to two places, implies quantized spin</p>
+</li>
+<li>
+<p>milliken oil drop: charge of electron quantized</p>
+</li>
+<li>
+<p>rutherford scattering: mass resides in a tiny lump inside the atom</p>
+</li>
+<li>
+<p>at low enerties, the predominant effect that removes a photon from a beam is the photoelectric effect, where a photon is absorbed and its energy transferred to an electron</p>
+</li>
+<li>at intermediate enerties, compton dominates</li>
+<li>
+<p>at high-enough energies, pair production dominates</p>
+</li>
+<li>
+<p>phonons are quantized thermal waves in a solid</p>
+</li>
+<li>
+<p>polarization $\vec{P}$: electric dipole moment per unit volume, produces bound charges:
+$$\sigma_b = \vec{P} \cdot \vec{n}, \quad \rho_b = - \vec{\nabla}\cdot \vec{P}$$</p>
+</li>
+<li>
+<p>dielectric constant $\kappa$: dielectrics such as insulators can be polarized in applied field, and thus slightly cancels the applied field, this is analogous to $\epsilon_0 \rightarrow \kappa \epsilon_0$</p>
+</li>
+<li>
+<p>$\vec{S} = \frac{1}{\mu_0}(\vec{E}\times \vec{B})$ poynting vector is power per unit area, the intensity is given by averaging over a perdiod $I = \frac{1}{2} c \epsilon_0 E_0^2$</p>
+</li>
+<li>
+<p>adiabatic invariant: $I = \frac{1}{2\pi} \oint p(x)dx$ over a period</p>
+</li>
+<li>virial theorem: $2 <T> = \lambda <U>$ if $U(r) = Ar^\lambda$</li>
+<li>radiation pressuren: atoms absorb photon, acquiring its momentum, resulting in a time derivative of its momentum</li>
+<li>
+<p>rotational motion is always defined with respect to a reference point or axis</p>
+</li>
+<li>
+<p>a constant $\omega$ rotating reference frame is not inertial, yet one can write a formula resembling Newton's 2nd law $F=ma$ at the price of introducing fictitious forces:
+$$F_{centrifugal} = -m\omega^2 r, \quad F_{coriolis} = -2m \vec{\omega}\times \vec{v}$$</p>
+</li>
+<li>
+<p>Fermi energy: $$E_F = \frac{\hbar^2}{2m}(3\pi^2 n)^{2/3}, \quad k_F = (3\pi ^2 n)^{1/3}$$</p>
+</li>
+<li>energy of mirror image potential configuration needs to be halfed</li>
+</ul>
+<p>Some solutions to differential equations defined by circuit elements
+- $V=IR + L \partial_t  \Rightarrow I = \frac{V}{R}(1-e^{-t/\tau_{RL}})$, where $\tau_{RL} = RC$
+- $0 = R \partial_t Q + \frac{1}{C}Q \Rightarrow \tau_{RC} = RC$</p>
+<ul>
+<li>volumetric probability density for $r$: $r^2 |R(r)|^2$</li>
+<li>$$\Delta p \Delta x \ge \hbar$$</li>
+<li>
+<p>compton wavelength: $\lambda = \frac{h}{mc}$</p>
+</li>
+<li>
+<p>Hamilton's eq: $\dot{p} = - \frac{\partial H}{\partial q}, \quad \dot{q}=\frac{\partial H}{\partial p}$</p>
+</li>
+<li>
+<p>GND state of harmonic oscillator has minimum unvertainty</p>
+</li>
+<li>$L_z = -i \hbar \frac{\partial}{\partial \phi}$</li>
+<li>$\phi$ dependence of $Y^m_l$ is always in the form of $e^{im\phi}$</li>
+<li>$\alpha = \frac{e^2}{4\pi \epsilon_0 \hbar c} \approx 1/137$</li>
+<li>spin operators always commute with spatial operators</li>
+<li>hyperfine splits singlet and triplet</li>
+<li>lambshift splits 2s, 2p</li>
+<li>fine structure splits degeneracy in $l$, conserves $m_j$</li>
+</ul>
+<h1>some 4 vectors</h1>
+<ul>
+<li>energy momentum: $p^\mu = (E/c, \vec{p})$</li>
+<li>current density: $j^\mu = (c\rho, \vec{J})$</li>
+<li>
+<p>wave vector: $k^\mu = (\omega/c, \vec{k})$</p>
+</li>
+<li>
+<p>conserved: same as before</p>
+</li>
+<li>
+<p>invariant: same to other observers</p>
+</li>
+<li>
+<p>binding energies are on the order of MeV</p>
+</li>
+<li>X-rays have energies of order keV</li>
+<li>300K $\approx \frac{1}{40}$eV, $\hbar c \approx$ 200 MeV$\cdot$ fm</li>
+<li>
+<p>atomic radius are angstrom meter orders, nucleus radius $10^{-15}$ meter order</p>
+</li>
+<li>
+<p>energy scales of MeV are typical for nuclear binding</p>
+</li>
+<li>
+<p>all steps of carnot cycle are reversible</p>
+</li>
+<li>
+<p>specific heat of water: 4.18 J K$^{-1}g^{-1}$ = 1 calorie</p>
+</li>
+<li>
+<p>line integral of a vector sums the alignment of the vector with the path along the path</p>
+</li>
+<li>highest normal mode $\approx$ out of phase</li>
+</ul>
+<h1>particle dynamic conserved quantities</h1>
+<ul>
+<li>charge</li>
+<li>energy</li>
+<li>lepton for each formula</li>
+<li>baryon #</li>
+<li>
+<p>strangeness</p>
+</li>
+<li>
+<p>relativistic kinetic energy: $T= (\gamma -1)mc^2$</p>
+</li>
+<li>
+<p>a particle has to be moving at speed faster than (the speed of light in that medium) to emit light</p>
+</li>
+<li>
+<p>rotation temperature for $N_2, O_2$: 3K</p>
+</li>
+<li>
+<p>vibrational temperature: $10^3$ K</p>
+</li>
+<li>
+<p>$\frac{\partial^2 A}{\partial B^2}$ has units of $\frac{A}{B^2}$</p>
+</li>
+</ul><span class="icon"></span></div>
+</details>
+</details>
+<details>
+<summary style="margin-left:0px;">
+(therst)callen<span class="icon"></span></summary>
+<details>
+<summary style="margin-left:30px;">
+2-the conditions of equilibrium<span class="icon"></span></summary>
+<div style="margin-left:60px;">
+<a href="(therst)callen/2-the conditions of equilibrium/callen_2_2-1.pdf">callen_2_2-1.pdf</a></div>
+<div style="margin-left:60px;">
+<a href="(therst)callen/2-the conditions of equilibrium/callen_2_2-4.pdf">callen_2_2-4.pdf</a></div>
+<div style="margin-left:60px;">
+<a href="(therst)callen/2-the conditions of equilibrium/callen_2_3-2.pdf">callen_2_3-2.pdf</a></div>
+</details>
+<details>
+<summary style="margin-left:30px;">
+3-some formal relationships and sample systems<span class="icon"></span></summary>
+<div style="margin-left:60px;">
+<a href="(therst)callen/3-some formal relationships and sample systems/callen_3_2-1.pdf">callen_3_2-1.pdf</a></div>
+<div style="margin-left:60px;">
+<a href="(therst)callen/3-some formal relationships and sample systems/callen_3_3-1?.pdf">callen_3_3-1?.pdf</a></div>
+<div style="margin-left:60px;">
+<a href="(therst)callen/3-some formal relationships and sample systems/callen_3_3-2.pdf">callen_3_3-2.pdf</a></div>
+<div style="margin-left:60px;">
+<a href="(therst)callen/3-some formal relationships and sample systems/callen_3_4-3.pdf">callen_3_4-3.pdf</a></div>
+<div style="margin-left:60px;">
+<a href="(therst)callen/3-some formal relationships and sample systems/callen_3_5-2.pdf">callen_3_5-2.pdf</a></div>
+<div style="margin-left:60px;">
+<a href="(therst)callen/3-some formal relationships and sample systems/callen_3_6-1.pdf">callen_3_6-1.pdf</a></div>
+<div style="margin-left:60px;">
+<a href="(therst)callen/3-some formal relationships and sample systems/callen_3_6-2.pdf">callen_3_6-2.pdf</a></div>
+</details>
+<details>
+<summary style="margin-left:30px;">
+4-reversible processes and the maximum work theorem<span class="icon"></span></summary>
+<div style="margin-left:60px;">
+<a href="(therst)callen/4-reversible processes and the maximum work theorem/callen_4_2-1.pdf">callen_4_2-1.pdf</a></div>
+<div style="margin-left:60px;">
+<a href="(therst)callen/4-reversible processes and the maximum work theorem/callen_4_2-3.pdf">callen_4_2-3.pdf</a></div>
+<div style="margin-left:60px;">
+<a href="(therst)callen/4-reversible processes and the maximum work theorem/callen_4_4-1.pdf">callen_4_4-1.pdf</a></div>
+<div style="margin-left:60px;">
+<a href="(therst)callen/4-reversible processes and the maximum work theorem/callen_4_4-2a?.pdf">callen_4_4-2a?.pdf</a></div>
+</details>
+</details>
+<details>
+<summary style="margin-left:0px;">
+(therst)glazer wark<span class="icon"></span></summary>
+<details>
+<summary style="margin-left:30px;">
+1-back to basics<span class="icon"></span></summary>
+<div style="margin-left:60px;">
+<a href="(therst)glazer wark/1-back to basics/glazerwark_1_3.pdf">glazerwark_1_3.pdf</a></div>
+</details>
+<details>
+<summary style="margin-left:30px;">
+2-the statistics of distinguishable particles<span class="icon"></span></summary>
+<div style="margin-left:60px;">
+<a href="(therst)glazer wark/2-the statistics of distinguishable particles/glazerwark_2_4.pdf">glazerwark_2_4.pdf</a></div>
+<div style="margin-left:60px;">
+<a href="(therst)glazer wark/2-the statistics of distinguishable particles/glazerwark_2_7.pdf">glazerwark_2_7.pdf</a></div>
+</details>
+<details>
+<summary style="margin-left:30px;">
+3-paramagnet and oscillators<span class="icon"></span></summary>
+<div style="margin-left:60px;">
+<a href="(therst)glazer wark/3-paramagnet and oscillators/glazerwark_3_2.pdf">glazerwark_3_2.pdf</a></div>
+<div style="margin-left:60px;">
+<a href="(therst)glazer wark/3-paramagnet and oscillators/glazerwark_3_3.pdf">glazerwark_3_3.pdf</a></div>
+</details>
+<details>
+<summary style="margin-left:30px;">
+4-indistinguishable particles and monatomic ideal gases<span class="icon"></span></summary>
+<div style="margin-left:60px;">
+<a href="(therst)glazer wark/4-indistinguishable particles and monatomic ideal gases/glazerwark_4_1.pdf">glazerwark_4_1.pdf</a></div>
+</details>
+<details>
+<summary style="margin-left:30px;">
+5-diatomic ideal gases<span class="icon"></span></summary>
+<div style="margin-left:60px;">
+<a href="(therst)glazer wark/5-diatomic ideal gases/glazerwark_5_1.pdf">glazerwark_5_1.pdf</a></div>
+</details>
+<details>
+<summary style="margin-left:30px;">
+7-electrons in metals<span class="icon"></span></summary>
+<div style="margin-left:60px;">
+<a href="(therst)glazer wark/7-electrons in metals/glazerwark_7_1.pdf">glazerwark_7_1.pdf</a></div>
+<div style="margin-left:60px;">
+<a href="(therst)glazer wark/7-electrons in metals/glazerwark_7_2.pdf">glazerwark_7_2.pdf</a></div>
+<div style="margin-left:60px;">
+<a href="(therst)glazer wark/7-electrons in metals/glazerwark_7_5.pdf">glazerwark_7_5.pdf</a></div>
+</details>
+<details>
+<summary style="margin-left:30px;">
+8-photons phonons<span class="icon"></span></summary>
+<div style="margin-left:60px;">
+<a href="(therst)glazer wark/8-photons phonons/glazerwark_8_1.pdf">glazerwark_8_1.pdf</a></div>
+<div style="margin-left:60px;">
+<a href="(therst)glazer wark/8-photons phonons/glazerwark_8_4.pdf">glazerwark_8_4.pdf</a></div>
+<div style="margin-left:60px;">
+<a href="(therst)glazer wark/8-photons phonons/glazerwark_8_5.pdf">glazerwark_8_5.pdf</a></div>
+</details>
+</details>
+<details>
+<summary style="margin-left:0px;">
+(therst)fermi<span class="icon"></span></summary>
+<details>
+<summary style="margin-left:30px;">
+4-entropy<span class="icon"></span></summary>
+<div style="margin-left:60px;">
+<a href="(therst)fermi/4-entropy/fermi_4_1.pdf">fermi_4_1.pdf</a></div>
+<div style="margin-left:60px;">
+<a href="(therst)fermi/4-entropy/fermi_4_2.pdf">fermi_4_2.pdf</a></div>
+</details>
+</details>
+<details>
+<summary style="margin-left:0px;">
+(tqft)atiyah<span class="icon"></span></summary>
+<details>
+<summary style="margin-left:30px;">
+atiyah notes.md<span class="icon"></span></summary>
+<div style="margin-left:60px;border: 3px dashed black; background-color:powderblue;"">
+<h1>Introduction</h1>
+<p>The Atiyah TQFT assigns complex vector fields to manifolds of a certain dimensions. So inherently, the theory bears a certain degree of topological-invariance, which is Atiayh's initial goal for establishing this theory. </p>
+<p>At first glance, assigning complex vector fields to manifolds may seem like a weird concept, especially to non-physicists. But this is a very practical design. Because often in physics, the object we want to study has configuration space given by some manifold. </p>
+<p>The complex vector space is necessary to define a quantum theory. Simply because R is not sufficient for solving the differential equations in QM, so use C.</p>
+<h2>Manifolds</h2>
+<p>We define a $d$-dimensional manifold, or a $d$-manifold, to be a topological space that locally resembles $\mathbb{R}^d$ or $\mathbb{R}_{\ge 0} \times \mathbb{R}^{d-1}$. By locally resemble, we mean having a neighborhood homeomorphic to. </p>
+<ul>
+<li>A topological space $M$ is a $d$-<strong>manifold</strong> if for any $x\in M$, there exists an open neighborhood $U$ of $x$ such that it can be mapped homeomorphically to some open subset of $\mathbb{R}^{d}$, or alternatively, $\mathbb{R}_{\ge 0} \times \mathbb{R}^{d-1}$.</li>
+</ul>
+<p>The additional relaxation of allowing $U$ to resemble $\mathbb{R}_{\ge 0} \times \mathbb{R}^{d-1}$ is present because we are working with manifolds with boundary. One can easily see that the former condition of locally resembling $\mathbb{R}^d$ is stronger. </p>
+<ul>
+<li>For a $d$-manifold $M$, we define the <strong><em>interior points</em></strong> $\text{int} (M)$ of $M$ to be the set of all points in $M$ that locally resembles $\mathbb{R}^n$.</li>
+</ul>
+<p>It would then be natural to define the <strong><em>boundary</em></strong> of $M$ to be $M \setminus \text{int} (M)$, denoted as $\partial M$. </p>
+<h3>examples</h3>
+<ul>
+<li>a line segment is a 1-manifold its boundaries are its two endpoints. </li>
+<li>A circle is a 1-manifold.</li>
+<li>Disjoint union of a line and a circles, or a line and a line, or a circle and a circle is a 1-manifold. </li>
+</ul>
+<h3>lemma</h3>
+<p>Finite disjoint union of $k$-manifolds is a $k$-manifold. </p>
+<p>One can easily check that all points on a circle are interior, so a circle, as a 1-manifold has the empty set as its boundary. When this happens, we say the manifold is \textbf{closed}. Colloquially, the boundary of a manifold is be known as the ``sharp edges" of the manifold. In low dimensions, it is very convenient to determine the boundary of a manifold by identifying its sharp edges. </p>
+<p>\begin{example}
+    The sphere $S^2$ is a closed 2-manifold.
+\end{example}</p>
+<p>\begin{example}
+    A torus is a closed 2-manifold.
+\end{example}</p>
+<p>\begin{example}
+    A pair of pants is closed a 2-manifold. 
+\end{example}</p>
+<p>Atiyah's TQFT requires the manifold to be ``oriented." However, the precise definition of orientable manifold is not necessary for the rest of this paper, because we mostly deal with manifolds in low dimension. All that a reader needs to know is the orientation of a manifold is a continuous assignment of a binary direction between clockwise and counter-clockwise along the manifold. Whenever necessary, we will specify the orientation of a manifold.</p>
+<p>\begin{example}
+    A circle is orientable.
+\end{example}</p>
+<p>By assumption we let circle $S^1$ be clockwise, and we will denote its mirror image which would be counter-clockwise with $\bar{S}^1$. For any orientable manifold $M$, we will denote its mirror image with opposite orientation with $\bar{M}$.</p>
+<p>\subsection{Cobordism}</p>
+<p>The concept of cobordism arises when considering a manifold of dimension one higher that can be constructed with some manifold as its boundary. </p>
+<p>\begin{definition}
+    Given oriented $d$-manifolds $M_1, M_2$, we say that they are \textbf{cobordant} if there exists $(d+1)$-manifold $Y$ such that $\partial Y = M_1 \cup \bar{M_2}$. When such $Y$ exists, we call it the \textbf{cobordism} between $M_1$ and $M_2$.
+\end{definition}</p>
+<p>\begin{figure}[H]
+    \centering
+    \includegraphics[width = 0.5 \textwidth]{illustrations/TQFT/cob.png}
+    \caption{An example of cobordism between two circles. Note that the orientations of the circles are opposite.}
+\end{figure}</p>
+<p>Figure 1 displays a cobordism between $S^1$ and $S^1$. When thinking about cobordisms, the notion of orientation is crucial for making the subject well-defined. Because we will be exploring cobordisms between manifolds and the empty set in the next section, as one can check for themselves, losing the notion of orientation will create contradictions all over the place. </p>
+<p>There are two equivalent formalisms for establishing the corbordism between two manifolds $M_1$ and $M_2$. The first approach begins by drawing $M_1$ on the left with the same orientation, and $M_2$ on the right with the opposite orientation. Then any manifold that one can draw which utilizes $M_1$ and $M_2$ as its boundary would be a cobordism between the two. The alternate approach is to draw both $M_1$ and $M_2$ with the same orientation, but on top of each other. Then one considers the cobordism between $M = M_1 \cup M_2$ and the empty set. The two methods have their own advantages dependent on the nature of the manifold being drawn. As one can see, Figure 1 takes the first approach. </p>
+<p>% There are two equivalent formalisms for establishing the cobordism between manifolds, both of them require defining a direction in advance, which is often taken to be from left to right. This means when we say cobordism between $M_1$ and $M_2$, the manifold $M_1$ would be drawn to be on the left and $M_2$ would be on the right. Then, the manifold $M_1$ would be drawn </p>
+<p>% \begin{enumerate}
+%     \item 
+% \end{enumerate}</p>
+<p>\subsection{Tensor Products}</p>
+<p>Now we move on to vector spaces, which is key to defining quantum states in quantum field theory. The reason that Atiyah's theory needs to incorporate complex vector spaces is that, in general, quantum field theory is defined over an uncountably-infinite-dimensional complex vector space called the Hilbert space. Linear operators in the Hilbert space tell us, in principle, various things we can know about a physical state, such as spin, energy, momentum, etc. </p>
+<p>\begin{definition}
+    Let $K$ be a field and $K^l$, $K^m$ be $l,m$ dimensional vector fields over $K$. For some $u \in K^l$ and $v \in K^m$, we define the tensor product between $u$ and $v$ denoted $u \otimes v$ to be a vector $w$ in the vector field $K^{l \times m}$ with $w_{(m * i) + j + 1} = u_{i+1} * v_{j+1}$ for $i \in {0,1,...,l-2}$, $j \in {0,1,...,m-1}$.
+\end{definition}</p>
+<p>\begin{example}
+    $$\begin{bmatrix}
+a_1 \
+a_2 
+\end{bmatrix} \otimes 
+ \begin{bmatrix}
+b_1 \
+b_2 
+\end{bmatrix} =
+\begin{bmatrix}
+a_1 * b_1 \
+a_1 * b_2\
+a_2 * b_1 \
+a_2 * b_2
+\end{bmatrix}$$
+\end{example}</p>
+<p>\section{Axiomatization}</p>
+<p>We begin with Atiyah's axioms for his TQFT. According to Atiyah, a TQFT of dimension $d$ is a function $Z$ which does the two following jobs:</p>
+<p>\begin{itemize}
+    \item[\textbf{J1}] Assign a complex vector space $Z(\Sigma)$ to each compact, oriented, smooth $d$-manifold $\Sigma$.
+    \item[\textbf{J2}] Assign a vector $Z(Y) \in Z(\Sigma)$ for each compact, oriented $(d+1)$-manifold whose boundary is $\Sigma$.
+\end{itemize}</p>
+<p>The function $Z$ shall satisfy the following  axioms.</p>
+<p>\begin{itemize}
+    \item[\textbf{A1}] $Z(\Sigma_1 \cup \Sigma_2) \cong Z(\Sigma_1) \otimes  Z(\Sigma_2)$ for disjoint $\Sigma_1, \Sigma_2$
+    \item[\textbf{A2}] If $Y_1$ is a cobordism with boundary $\Sigma_1$ and $\Sigma_2$, then $Z(Y_1)$ is a homomorphism from $Z(\Sigma_1)$ to $Z(\Sigma_2)$. If, in addition, $Y_2$ is a cobordism with bounary $\Sigma_2$ and $\Sigma_3$, then $Z(Y_1 \wedge_{\Sigma_2} Y_2) \cong Z(Y_2) \circ Z(Y_1)$ is a homomorphism from $Z(\Sigma_1)$ to $\Sigma_3$. In other words, $Z$ is associative. 
+    \item[\textbf{A3}] $Z(\bar{\Sigma})$ is isomorphic to $Z(\Sigma)^*$, the dual vector space of $Z(\Sigma)$.
+\end{itemize}</p>
+<p>\begin{example}
+    For a $d$-manifold $\Sigma$, $Z(\Sigma \times I)$ is the identity homomorphism $Z(\Sigma)$. 
+\end{example}</p>
+<p>\begin{proof}
+    The product $\Sigma \times I$ is a $(d+1)$-manifold that is a cobordism with disjoint boundaries $\Sigma$ and $\Sigma$ at 0 and 1 in its $(d+1)$st dimension, so by \textbf{A2}, $Z(\Sigma \times I)$ is a homomorphism from $Z(\Sigma)$ to $Z(\Sigma)$.
+\end{proof}</p>
+<p>\begin{remark}
+    The $(d+1)$-manifold $\Sigma \times I$ is just a cylinder with $\Sigma$ on each side.
+\end{remark}</p>
+<p>\begin{proposition}
+    In any dimension, $Z(\emptyset)  = \mathbb{C}$ by convention.
+\end{proposition}</p>
+<p>\newcommand{\AO}{\textbf{A1}}</p>
+<p>% The above example states that $Z$ maps the empty set to simply a complex number. Since no matter how you transform the empty set, it is still the empty set, $Z(\emptyset)$ have to be a complex constant in each dimension! This is a very simple corollary of Atiyah's axioms but has important implications, because the boundary of any closed manifold of any dimension is the empty set. This is the first topological invariance of Atiyah's TQFT. </p>
+<p>\section{\texorpdfstring{d = 1}{}}</p>
+<p>In the case of $d = 1$, the $(d+1)$-manifold $Y$ is a 2-manifold (i.e. surface) with $1$-manifold $\Sigma$ as its boundary. The simplest 1-manifold object are the circles, denoted $S^1$. By \textbf{J1}, we know that $Z(S^1)$ gives some complex vector space which we will denote as $A$:</p>
+<p>$$Z(S^1) = A.$$</p>
+<p>Then the disjoint union of $n$ circles will produce a tensor product of $A$:</p>
+<p>$$Z(\bigcup_{i=1}^n S^1_i) =A \otimes A \otimes ... A = \bigotimes_{i=1}^n A = A^{\otimes n}.$$</p>
+<p>\paragraph{Tube} A Tube $Y$ is simply a cobordism between two circles, so </p>
+<p>\begin{align<em>}
+    Z(Y) \cong m &amp;: Z(S^1) \rightarrow Z(S^1)\
+    &amp;: A \rightarrow A
+\end{align</em>}</p>
+<p>is a homomorphism. But alternatively, using the second convention for cobordism, we can regard a tube as a cobordism between two circles of same orientation, and the empty set, we then obtain</p>
+<p>\begin{align<em>}
+    Z(Y) \cong m'&amp;: Z(S^1 \cup S^1) \rightarrow Z(\emptyset)\
+    &amp;: A \otimes A \rightarrow \mathbb{C}
+\end{align</em>}</p>
+<p>This implies that there exists an isomorphism between $m: A \rightarrow A$ and $m': A \otimes A \rightarrow \mathbb{C}$, which we will denote as some $g: m \rightarrow m'$.</p>
+<p>\paragraph{Pants}
+ Suppose we have a cobordism $B$ whose boundaries are 2 circles on the left, and 1 circle on the right, i.e. $B$ is a pair of pants. We will denote its left boundary with $\Sigma_1 = S^1 \cup S^1$ and its right boundary with $\Sigma_2 = S^1$. Then the boundary of $B$ is the disjoint union </p>
+<p>$$\partial B = \Sigma = \Sigma_1 \cup \Sigma_2.$$ </p>
+<p>\newcommand{\AT}{\textbf{A2}}</p>
+<p>By \AT, $Z(B) \in Z(\Sigma)$ is a homomorphism between $Z(\Sigma_1)$ and $Z(\Sigma_2)$:</p>
+<p>\begin{align<em>}
+    Z(B) &amp;: Z(\Sigma_1) \rightarrow Z(\Sigma_2) \
+    &amp;:Z(S^1 \cup S^1) \rightarrow Z(S^1) \
+    &amp;: A \otimes A \rightarrow A
+\end{align</em>}</p>
+<p>is a homomorphism. </p>
+<p>\paragraph{Disc}</p>
+<p>We define a disc $D$ to be a surface whose boundary is a circle. This means that a Disc is also a 2-manifold. </p>
+<p>Observe that $D$ has the boundary specified by $S^1$ which is also equal to $S^1 \cup \bar{\emptyset}$, so $D$ is a cobordism between $S^1$ and $\emptyset$, thus</p>
+<p>$$Z(D): A \rightarrow \mathbb{C}$$ is a homomorphism. </p>
+<p>\paragraph{Pants + Disc =  Tube}
+We can regard a tube as a pair of pants wedged with a disc. Imagine a pair of pants with two boundaries on the left and one on the right. We can take a disc, match the boundary of the disc with the boundary of the pair of pants on the right. Because the interior of a disc is filled, this will allow us to patch up our pair of pants and now we only have two holes on the left. If we then straighten the patched up manifold we obtain a tube. </p>
+<p>Applying \AT, we know for the tube $Y$, pants $B$, and disc $D$, we have</p>
+<p>$$Z(Y) \cong Z(B) \circ Z(D).$$</p>
+<p>Since $Z(B)$ and $Z(D)$ are homomorphisms from $A \otimes A$ to $A$ and $A$ to $\mathbb{C}$, respectively. This tells us $Z(Y)$ is a homomorphism from $A \otimes A$ to $\mathbb{C}$. Applying the isomorphism $g^{-1}$ that we found in the Tube section, we obtain a homomorphism between $A$ and $A$, which is what we expect for a tube. </p>
+<p>\paragraph{\texorpdfstring{$\overline{\textbf{Disc}}$}{} + Disc = Sphere} A sphere shall be regarded as a two discs with opposite orientations wedged together. Again, by applying \AT, we obtain</p>
+<p>\begin{align<em>}
+    Z(S^2) \cong Z(\bar{D}) \circ Z(D)
+\end{align</em>}</p>
+<p>We know that $Z(\bar{D})$ is a homomorphism from $\mathbb{C}$ to $A$ and $Z(D)$ is a homomorphism from $A$ to $\mathbb{C}$. Thus $Z(S^2)$ must define a homomorphism between $\mathbb{C}$ and $\mathbb{C}$. </p>
+<p>But equivalently, we could have also defined $\Sigma_1$ to be $S^1$ and $\Sigma_2$ to be $S^1 \cup S^1$, we could have flipped the pair of pants. In that case we would have obtained</p>
+<p>$$Z(B) = m : A \rightarrow A \otimes A.$$</p>
+<p>Suppose $A$ is a vector space with dimension $a$, then $A \otimes A$ would have dimension $a^2$. The only choice to give $A$ and $A \otimes A$ the same dimension is making $A$ one-dimensional, i.e. $A \cong \mathbb{C}$. </p>
+<p>\paragraph{Disc} Now consider the $(d+1)$-manifold to be a disc $D$, which is simply a circle with its interior filled. Its boundary $\Sigma$ is a circle $S^1$. Topologically, the disc is a cobordism between the empty set and the circle. So by \AT, $Z(D)$ is a homomorphism between $Z(\emptyset)$ and $Z(S^1)$, which we know are $c \in \mathbb{C}$ and $A$, respectively:</p>
+<p>$$Z(D): A \rightarrow \mathbb{C}$$</p>
+<p>Similarily, changing the orientation of $D$ will give us the homomorphism</p>
+<p>$$Z(\bar{D}): \mathbb{C} \rightarrow A.$$</p>
+<p>\paragraph{Sphere} The 2 sphere $S^2$ is a a closed manifold, which means we expect $Z(S^2) $</p>
+<p>\section{References}</p>
+<p>(in order of relevance)</p>
+<p>\begin{itemize}
+    \item <code>\textit{Geometry and Physics of Knots}," book by Michael Atiyah published by Cambridge University Press, 1993.
+    \item</code>\textit{The Classification of Extended Topological Field Theories}," talk by Jacob Lurie at the Institute for Advanced Studies, 2022.
+    \item ``\textit{Oriented Cobordism: Calculation and Application}," lecture notes by Alexander Kupers, 2017.
+\end{itemize}</p><span class="icon"></span></div>
+</details>
+</details>
+<details>
+<summary style="margin-left:0px;">
+(spinors)steane(arxiv1312_3824)<span class="icon"></span></summary>
+<div style="margin-left:30px;">
+<a href="(spinors)steane(arxiv1312_3824)/1312_3824_1.pdf">1312_3824_1.pdf</a></div>
+<div style="margin-left:30px;">
+<a href="(spinors)steane(arxiv1312_3824)/1312_3824_12.pdf">1312_3824_12.pdf</a></div>
+<div style="margin-left:30px;">
+<a href="(spinors)steane(arxiv1312_3824)/1312_3824_13.pdf">1312_3824_13.pdf</a></div>
+<div style="margin-left:30px;">
+<a href="(spinors)steane(arxiv1312_3824)/1312_3824_2.pdf">1312_3824_2.pdf</a></div>
+<div style="margin-left:30px;">
+<a href="(spinors)steane(arxiv1312_3824)/1312_3824_5.pdf">1312_3824_5.pdf</a></div>
+<div style="margin-left:30px;">
+<a href="(spinors)steane(arxiv1312_3824)/1312_3824_8.pdf">1312_3824_8.pdf</a></div>
+</details>
+<details>
+<summary style="margin-left:0px;">
+(cm)goldstein<span class="icon"></span></summary>
+<details>
+<summary style="margin-left:30px;">
+1-survey of the elementary principles<span class="icon"></span></summary>
+<div style="margin-left:60px;">
+<a href="(cm)goldstein/1-survey of the elementary principles/goldstein_1_1.pdf">goldstein_1_1.pdf</a></div>
+<div style="margin-left:60px;">
+<a href="(cm)goldstein/1-survey of the elementary principles/goldstein_1_12.pdf">goldstein_1_12.pdf</a></div>
+<div style="margin-left:60px;">
+<a href="(cm)goldstein/1-survey of the elementary principles/goldstein_1_2.pdf">goldstein_1_2.pdf</a></div>
+<div style="margin-left:60px;">
+<a href="(cm)goldstein/1-survey of the elementary principles/goldstein_1_3.pdf">goldstein_1_3.pdf</a></div>
+<div style="margin-left:60px;">
+<a href="(cm)goldstein/1-survey of the elementary principles/goldstein_1_8.pdf">goldstein_1_8.pdf</a></div>
+<div style="margin-left:60px;">
+<a href="(cm)goldstein/1-survey of the elementary principles/goldstein_1_9.pdf">goldstein_1_9.pdf</a></div>
+<details>
+<summary style="margin-left:60px;">
+goldstein_1_notes.md<span class="icon"></span></summary>
+<div style="margin-left:90px;border: 3px dashed black; background-color:powderblue;"">
+<ul>
+<li>conservative force: work done independent of path taken in configuration space, $\vec{F} = -\vec{\nabla} V(\vec{r})$</li>
+<li>
+<p>A exerting force on B = A transferring its momentum to B</p>
+</li>
+<li>
+<p>force on systems of particles are distinguished as <strong>external</strong> and <strong>internal</strong></p>
+</li>
+<li>weak, strong <strong>law of action and reaction</strong> come hand in hand with conservation of total momentum and total angular momentum, for a system of particles</li>
+<li>total kinetic energy decomposed into COM kinetic energy and kinetic energy of individual particles about COM</li>
+</ul>
+<h1>constraints</h1>
+<ul>
+<li><strong>holonomic</strong> constraints: $$f(\vec{r}_1,...,\vec{r}_n,t) = 0$$</li>
+<li><strong>rheonomous</strong>: constraint depends on time, <strong>scleronomous</strong>: constraint time-independent</li>
+<li>
+<p>constraints introduce dependence between coordinates, decoupling of such facilitates the introduction of generalized coordinates.</p>
+</li>
+<li>
+<p><strong>holonomic</strong> constraints are more tractable</p>
+</li>
+</ul>
+<h1>d'alembert's principle</h1>
+<ul>
+<li>the <strong>generalized coordinates</strong> form a manifold (configuration space), the motion of the particle traces a curve on the surface parameterized by affine parameter $t$</li>
+<li><strong>virtual displacement</strong>: the displacement is consistent with current displacements and forces applied, yet the virtual displacement does not result in modification of applied force or constraint (as an actual indinitesmal displacement would)</li>
+<li><strong>principle of virtual work</strong>: virtual work as of applied forces vanishes</li>
+<li>principle of virtual work + $\vec{F}_i - \dot{\vec{p}}_i$ = <strong>d'Alembert's principle</strong>:
+$$\sum_i [\vec{F}_i^{(a)} - \dot{\vec{p}}_i] \cdot \delta \vec{r}_i = 0$$</li>
+<li>transforming d'Alembert's principle into generalized coordinates gives Lagrange's equation.</li>
+<li>Lagrange's equation is not unique</li>
+</ul>
+<h1>velocity-dependent potentials</h1>
+<ul>
+<li>lorentz force in EM is derivable from a velocity-dependent potential</li>
+<li>when not all forces acting on the system are derivable from a potential, then Lagrange's equation can be written in a more generalized form
+$$\frac{d}{dt}(\frac{\partial L}{\partial \dot{q}_j}) - \frac{\partial L}{\partial q_j} = Q_j$$
+for some generalized force $Q_j$ that can be put into $Q_j = - \frac{\partial U}{q_j} + \frac{d}{dt}(\frac{\partial U}{\partial \dot{\vec{q}}_j})$. Notice the velocity dependence.</li>
+<li>
+<p>frictional force is derivable from Rayleigh's dissipation function, a 2nd order equation in velopcity</p>
+</li>
+<li>
+<p>The lagrangian is invariant under 
+$$L \rightarrow L' = L + \frac{dF(q_1, ..., q_n, t)}{dt}$$</p>
+</li>
+<li>the EM field is invariant under
+$$\vec{A}\rightarrow \vec{A} + \nabla \psi, \quad \phi \rightarrow \phi - \frac{1}{c}\frac{\partial \psi}{\partial t}$$</li>
+</ul><span class="icon"></span></div>
+</details>
+</details>
+<details>
+<summary style="margin-left:30px;">
+2-variational principles and lagr<span class="icon"></span></summary>
+<div style="margin-left:60px;">
+<a href="(cm)goldstein/2-variational principles and lagr/goldstein_2_3.pdf">goldstein_2_3.pdf</a></div>
+<div style="margin-left:60px;">
+<a href="(cm)goldstein/2-variational principles and lagr/goldstein_2_5?.pdf">goldstein_2_5?.pdf</a></div>
+<details>
+<summary style="margin-left:60px;">
+goldstein_2_notes.md<span class="icon"></span></summary>
+<div style="margin-left:90px;border: 3px dashed black; background-color:powderblue;"">
+<h1>minimum action principle</h1>
+<ul>
+<li><strong>hamilton's principle</strong>: 
+$$I = \int_{t_1}^{t_2}Ldt = \int_{t_1}^{t_2}[T-V]dt$$
+has vanishing 1st order differential with respect to all nearby paths for $L$ defined as a path</li>
+<li>holonomic constraint implies <strong>equivalence of hamilton's principle and lagrange's equation</strong>. This gives an alternative derivation of Lagr beside from d'alembert's principle of vanishing work from virtual displacements</li>
+<li>minimum action principle can be applied to solve<ul>
+<li>shortest path between 2 pts in space</li>
+<li>minimum surface of revolution</li>
+<li>brachistochrone</li>
+</ul>
+</li>
+</ul>
+<h1>for nonholonomic constraints</h1>
+<ul>
+<li>In deriving lagr, the constraints as holonomic ones were only used in the last step to move to generalized coordinates, this then gives independent equations of motion. Nonholonomic constraints clearly ruins this.</li>
+<li><strong>semiholonomic</strong>: $f(q_1,..., q_n, \dot{q}_1, ..., \dot{q}_n) = 0$</li>
+<li>
+<p>l<strong>agrange multipliers</strong> can treat nonholonomic constraints</p>
+</li>
+<li>
+<p>in almost every field of physics, the variational principle can be used to express equations of motion (EM, thermo)</p>
+</li>
+<li>impulse: $\int{\Delta t} F dt$. If impulse is finite then the force is called impulsive. </li>
+<li>semi-holonomic constraints are typically given in the form of $$\sum_i a_{ik} dq_k + a_{it}dt = 0$$</li>
+<li>variational principle provides a clean explanation to the arbitrariness of lagr within an addition of a total time derivative: the action is integrated over time!</li>
+<li></li>
+</ul><span class="icon"></span></div>
+</details>
+</details>
+<details>
+<summary style="margin-left:30px;">
+3-the central force problem<span class="icon"></span></summary>
+<details>
+<summary style="margin-left:60px;">
+goldstein_3_notes.md<span class="icon"></span></summary>
+<div style="margin-left:90px;border: 3px dashed black; background-color:powderblue;"">
+<ul>
+<li>the relative energy of two particles about their COM is 
+$$T' = \frac{1}{2}m_1 \vec{r}_1^2 + \frac{1}{2}m_2\vec{r}^2_2,$$
+where $\vec{r}_1, \vec{r}_2$ are polar vectors to the COM. Goldstein shows
+$$T' = \frac{1}{2}\frac{m_1 m_2}{m_1 + m_2} \dot{\vec{r}}^2$$
+where $\vec{r}$ is the separation between particle 1 and particle 2.</li>
+</ul>
+<h2>goldstein 3.3</h2>
+<ul>
+<li>for 2 bodies under central force, examining the magnitude of the radial vector only gives a 1D problem. The fictitious centrifugal force is introduced: $f \rightarrow d' + \frac{l^2}{mr^3} \approx V \rightarrow V' = V + \frac{1}{2}\frac{l^2}{2mr^2}$</li>
+</ul>
+<h2>goldstein 3.4</h2>
+<ul>
+<li>by considering $G = \sum_i \vec{p}_i \cdot \vec{r}_i$, and taking time average, we arrive at
+$$<T> = -\frac{1}{2}&lt;\sum_i \vec{F}_i \cdot \vec{r}_i&gt;$$
+this is the <strong>virial theorem</strong></li>
+<li>goldstein claims that the virial theorem can be used to argue the <strong>ideal gas law</strong></li>
+</ul><span class="icon"></span></div>
+</details>
+</details>
+</details>
+<details>
+<summary style="margin-left:0px;">
+(sstate)kittel<span class="icon"></span></summary>
+<details>
+<summary style="margin-left:30px;">
+1-crystal structure<span class="icon"></span></summary>
+<div style="margin-left:60px;">
+<a href="(sstate)kittel/1-crystal structure/kittel_1_1.pdf">kittel_1_1.pdf</a></div>
+<div style="margin-left:60px;">
+<a href="(sstate)kittel/1-crystal structure/kittel_1_2x.pdf">kittel_1_2x.pdf</a></div>
+<div style="margin-left:60px;">
+<a href="(sstate)kittel/1-crystal structure/kittel_1_3.pdf">kittel_1_3.pdf</a></div>
+<details>
+<summary style="margin-left:60px;">
+kittel_1_notes.md<span class="icon"></span></summary>
+<div style="margin-left:90px;border: 3px dashed black; background-color:powderblue;"">
+<p>I. Crystal structure, symmetry and types of chemical bonds. (Chapter 1)
+• The crystal lattice
+• Point symmetry
+• The 32 crystal classes
+• Types of bonding (covalent, ionic, metallic bonding; hydrogen and van der Waals).</p>
+<p>• II. Diffraction from periodic structures (Chapter 2)
+• Reciprocal lattice; Brillouin zones
+• Laue condition and Bragg law
+• Structure factor; defects
+• Methods of structure analysis
+• HRXRD. Experimental demonstration in the Physics Lab using Bruker D8 Discover XRD</p>
+<p>• III. Lattice vibrations and thermal properties (Chapter 3)
+• Elastic properties of crystals; elastic waves
+• Models of lattice vibrations
+• Phonons
+• Theories of phonon specific heat; thermal conduction.
+• Anharmonicity; thermal expansion
+• Raman Scattering by phonons. Experimental demonstration in the Physics Lab using Ar-laser/SPEX 500M, CCD –based Raman Scattering setup</p>
+<p>• IV. Electrons in metals (Chapters 4–5)
+• Free electron theory of metals
+• Fermi Statistics
+• Band theory of solids</p>
+<p>• V. Semiconductors (Chapters 6–7)
+• Band structure.
+• Electron statistics; carrier concentration and transport; conductivity; mobility
+• Impurities and defects
+• Magnetic field effects: cyclotron resonance and Hall effect
+• Optical properties; absorption, photoconductivity and luminescence
+• Basic semiconductor devices
+• Photoluminescence. Experimental demonstration in the Physics Lab using Nd:YAG laser/SPEX –based Photoluminescence setup</p>
+<p>• VI. Dielectric properties of solids (Chapters 8)
+• Dielectric constant and polarizability (susceptibility)
+• Dipolar polarizability, ionic and electronic polarizability
+• Piezoelectricity; pyro- and ferroelectricity
+• Light propagation in solids</p>
+<p>• VII. Magnetism (Chapters 9)
+• Magnetic susceptibility
+• Classification of materials; diamagnetism, paramagnetism
+• Ferromagnetism and antiferromagnetism
+• Magnetic resonance
+• Multiferroic Materials
+• VIII. Superconductivity (Chapter 10)</p><span class="icon"></span></div>
+</details>
+</details>
+<details>
+<summary style="margin-left:30px;">
+2-wave diffraction and the reciprocal lattice<span class="icon"></span></summary>
+<div style="margin-left:60px;">
+<a href="(sstate)kittel/2-wave diffraction and the reciprocal lattice/kittel_2_1x.pdf">kittel_2_1x.pdf</a></div>
+<div style="margin-left:60px;">
+<a href="(sstate)kittel/2-wave diffraction and the reciprocal lattice/kittel_2_2ab.pdf">kittel_2_2ab.pdf</a></div>
+<div style="margin-left:60px;">
+<a href="(sstate)kittel/2-wave diffraction and the reciprocal lattice/kittel_2_3.pdf">kittel_2_3.pdf</a></div>
+<div style="margin-left:60px;">
+<a href="(sstate)kittel/2-wave diffraction and the reciprocal lattice/kittel_2_4.pdf">kittel_2_4.pdf</a></div>
+<details>
+<summary style="margin-left:60px;">
+kittel_2_notes.md<span class="icon"></span></summary>
+<div style="margin-left:90px;border: 3px dashed black; background-color:powderblue;"">
+<ul>
+<li>
+<p>ordinary optical refraction happens at 500A in crystals</p>
+</li>
+<li>
+<p>bragg diffraction (crystal diffraction) can be used to select a special spectrum of beam</p>
+</li>
+<li>
+<p>bragg law: $2d \sin{\theta} = n \lambda$, this is the recurring theme of this chapter and will be echoed in the next chapter</p>
+</li>
+<li>
+<p>in the fourer expansion of a function on the lattice, periodicity only allows terms with the same periodicity as the lattice in phase space. This defines the reciprocal lattice. Thus we can say the function is expanded on the reciprocal lattice in phase space:
+$$n(x) = \sum_p n_p \exp{i \frac{2 \pi p}{a} x}$$
+where $\frac{2 \pi p}{a}$ is a point in the <em>reciprocal lattice</em>, with dimension of inverse distance. </p>
+</li>
+<li>
+<p>periodicity is the realm of fourier analysis</p>
+</li>
+<li>
+<p>If $\vec{a}_1, \vec{a}_2, \vec{a}_3$ are primitive vectors of the crystal lattice, the primitive vectors of the reciprocal lattice $\vec{b}_1, \vec{b}_2, \vec{b}_3$ are give by 
+$$\vec{b}_i = 2 \pi \frac{\vec{a}_j \times \vec{a}_k }{\vec{a}_i \cdot \vec{a}_j \times \vec{a}_k}$$</p>
+</li>
+<li>
+<p>the diffraction pattern of the crystal is a map of the reciprocal lattice</p>
+</li>
+</ul>
+<h2>brillouin zones</h2>
+<ul>
+<li>a brillouin zone is defined as a wigner-seitz primitive cell in the reciprocal lattice</li>
+<li>
+<p>only waves whose wavevector $\vec{k}$ drawn from the origin terminates on the surface of the brillouin zone can be diffracted by the crystal</p>
+</li>
+<li>
+<p>sc has reciprocal of sc</p>
+</li>
+<li>bcc and fcc are reciprocals of each other</li>
+</ul>
+<h2>some fourier analysis</h2>
+<ul>
+<li>by assuming refraction amplitude proportional to electron density, the total amplitude of the scattered wave in direction $k'$ from original wave in direction $k$ can be written as a function modulo the lattice with a function of the directions, such as below
+$$n(\vec{r})dV \times \exp{[i(\vec{k} - \vec{k}') \cdot \vec{r}]}$$
+scattering amplitude for crystal with $N$ cells can be written as 
+$$F_G = N \int_{cell} dV n(\vec{r}) \exp{-i\vec{G} \cdot \vec{r}} = N s_G$$
+where $s_G$ is the structure factor. </li>
+<li>the structure factor contains single-cell information </li>
+<li>atomic form factor is integrated over all space</li>
+</ul>
+<h1>TODO:</h1>
+<ul>
+<li>understand structure factor and form factor</li>
+</ul><span class="icon"></span></div>
+</details>
+</details>
+<details>
+<summary style="margin-left:30px;">
+3-crystal binding and elastic constants<span class="icon"></span></summary>
+<div style="margin-left:60px;">
+<a href="(sstate)kittel/3-crystal binding and elastic constants/kittel_3_1.pdf">kittel_3_1.pdf</a></div>
+<div style="margin-left:60px;">
+<a href="(sstate)kittel/3-crystal binding and elastic constants/kittel_3_2.pdf">kittel_3_2.pdf</a></div>
+<div style="margin-left:60px;">
+<a href="(sstate)kittel/3-crystal binding and elastic constants/kittel_3_3.pdf">kittel_3_3.pdf</a></div>
+<div style="margin-left:60px;">
+<a href="(sstate)kittel/3-crystal binding and elastic constants/kittel_3_5.pdf">kittel_3_5.pdf</a></div>
+<div style="margin-left:60px;">
+<a href="(sstate)kittel/3-crystal binding and elastic constants/kittel_3_extra1.pdf">kittel_3_extra1.pdf</a></div>
+<details>
+<summary style="margin-left:60px;">
+kittel_3_notes.md<span class="icon"></span></summary>
+<div style="margin-left:90px;border: 3px dashed black; background-color:powderblue;"">
+<ul>
+<li>inert gas ~ noble gas ~ rare gas</li>
+</ul>
+<p>-<strong><em>van der waal potential ~ london potential ~ induced dip-dip potental</em></strong>. It is the principal attractive interaction in inert gas. The othe major contribution to inert gas interactions is <em>pauli exclusive principle</em>, repulsive. These two forces add to give lennard jones.</p>
+<ul>
+<li>
+<p><strong>lennard jones potential</strong>: a combination of induced-dipole (or van der waal, or london) amd pauli exclusion principle
+$$U(R) = 4 \epsilon [(\frac{\sigma}{R})^{12} - (\frac{\sigma}{R})^6]$$</p>
+</li>
+<li>
+<p>if we neglect the kinetic energy of the inert gas atoms, the cohesive energy of an inert gas crystal is given by summing the <strong>lennard-jones</strong> potential over all pairs of atoms in the crystal.</p>
+</li>
+</ul>
+<h1>ionic crystals</h1>
+<ul>
+<li>the interaction of ionic crystals are largely coulomb, van der waal in ionic crystals only make contribute 1-2% in ionic crystals</li>
+<li>the name for electrostatic energy in ionic crystals is called madelung energy, because madelung was the first one to compute complicated sums over whole lattice of electrostatics</li>
+<li>
+<p>the madelung constant is a sum of inverse of lattice separation over whole lattice, it decouples lattice structure in cohesive energy</p>
+</li>
+<li>
+<p>covalent bonds consists of two antisymmetric electrons</p>
+</li>
+<li>
+<p>in metals, bonds are formed due to lowering of valence electron energy as compared with free atoms without bonding</p>
+</li>
+<li>
+<p><strong>hydrogen bonds</strong>: an atom of H is attracted to 2 other atoms. h-bond is important for th einteraction between H2O molecules and is responsible together with the electrostatic attraction of edip for water and ice</p>
+</li>
+<li>
+<p>the elastic properties of a crystal is viewed by consideration of it as a continuous homogeneous medium, rather than a lattice. This is valid for elastic waves with $\lambda$ longer than E-6 cm or E12 Hz.</p>
+</li>
+</ul><span class="icon"></span></div>
+</details>
+</details>
+<details>
+<summary style="margin-left:30px;">
+4-phonons I crystal vibrations<span class="icon"></span></summary>
+<div style="margin-left:60px;">
+<a href="(sstate)kittel/4-phonons I crystal vibrations/kittel_4_4.pdf">kittel_4_4.pdf</a></div>
+<details>
+<summary style="margin-left:60px;">
+kittel_4_notes.md<span class="icon"></span></summary>
+<div style="margin-left:90px;border: 3px dashed black; background-color:powderblue;"">
+<ul>
+<li>
+<p>when a wave propagates in a crystal, we model it with entire planes of atoms moving in phase with displacements either parallel or perpendicular to wave vector (longitudinal/transverse)</p>
+</li>
+<li>
+<p>the author builds a model using hook's law assuming contributions from planes after the most two closest planes vanish, then solved as a coupled oscillator. The dispersion relation is then obtained</p>
+</li>
+<li>
+<p>only the elastic waves in the first brillouin zone are physically significant, for those outside such can be lattice-transformed into the first brillouin zone. </p>
+</li>
+<li>
+<p>at the boundaries of the first brillouin zone, the solution to the wave is not traveling, i.e. standing. Recall that for refraction the boundaries on the first brillouin zone give the only wavevectors that can refract. </p>
+</li>
+<li>
+<p>zero point energy $\approx$ GND state energy</p>
+</li>
+<li>
+<p>wave-like solutions do not exist for certain frequencies in polyatomic lattices.
+for diatomic, this is between $\sqrt{2C/M_1}$ and $\sqrt{2C/M_2}$. There is a frequency gap at the boundary $K_{max} = \pm \frac{\pi}{a}$ of first brillouin zone.</p>
+</li>
+</ul>
+<p>TODO:
+- understand the connection between elastic waves, refraction, bragg law, first brillouin zone. </p><span class="icon"></span></div>
+</details>
+</details>
+<details>
+<summary style="margin-left:30px;">
+notes.md<span class="icon"></span></summary>
+<div style="margin-left:60px;border: 3px dashed black; background-color:powderblue;"">
+<ul>
+<li>ordinary optical refraction happens at 500A in crystals</li>
+<li>braggs diffraction (crystal diffraction) can be used to select a special spectrum of beam</li>
+<li>hydrogen bonds: an atom of H is attracted to 2 other atoms. h-bond is important for th einteraction between H2O molecules and is responsible together with the electrostatic attraction of edip for water and ice</li>
+<li>
+<p>the elastic properties of a crystal is viewed by consideration of it as a continuous homogeneous medium, rather than a lattice. This is valid for elastic waves with $\lambda$ longer than E-6 cm or E12 Hz.</p>
+</li>
+<li>
+<p>in the fourer expansion of a function on the lattice, periodicity only allows terms with the same periodicity as the lattice in phase space. This defines the reciprocal lattice. Thus we can say the function is expanded on the reciprocal lattice in phase space:
+$$n(x) = \sum_p n_p \exp{i \frac{2 \pi p}{a} x}$$
+where $\frac{2 \pi p}{a}$ is a point in the reciprocal lattice, with dimension of inverse distance. </p>
+</li>
+<li>If $\vec{a}_1, \vec{a}_2, \vec{a}_3$ are primitive vectors of the crystal lattice, the primitive vectors of the reciprocal lattice $\vec{b}_1, \vec{b}_2, \vec{b}_3$ are give by 
+$$\vec{b}_i = 2 \pi \frac{\vec{a}_j \times \vec{a}_k }{\vec{a}_i \cdot \vec{a}_j \times \vec{a}_k}$$</li>
+<li>the diffraction pattern of the crystal is a map of the reciprocal lattice</li>
+<li>by assuming refraction amplitude proportional to electron density, the total amplitude of the scattered wave in direction $k'$ from original wave in direction $k$ can be written as a function modulo the lattice with a function of the directions, such as below
+$$n(\vec{r})dV \times \exp{[i(\vec{k} - \vec{k}') \cdot \vec{r}]}$$
+scattering amplitude for crystal with $N$ cells can be written as 
+$$F_G = N \int_{cell} dV n(\vec{r}) \exp{-i\vec{G} \cdot \vec{r}} = N s_G$$
+where $s_G$ is the structure factor. </li>
+<li>bcc and fcc are reciprocals of each other</li>
+</ul>
+<p>-van der waal potential ~ london potential ~ induced dip-dip potental. It is the principal attractive interaction in inert gas. The othe major contribution to inert gas interactions is pauli exclusive principle, repulsive. 
+- inert gas ~ noble gas ~ rare gas</p>
+<h6></h6>
+<ul>
+<li>inert gas ~ noble gas ~ rare gas</li>
+</ul>
+<p>-<em>van der waal potential ~ london potential ~ induced dip-dip potental</em>. It is the principal attractive interaction in inert gas. The othe major contribution to inert gas interactions is <em>pauli exclusive principle</em>, repulsive. These two forces add to give lennard jones.</p>
+<ul>
+<li>
+<p>lennard jones potential: a combination of induced-dipole (or van der waal, or london) amd pauli exclusion principle
+$$U(R) = 4 \epsilon [(\frac{\sigma}{R})^{12} - (\frac{\sigma}{R})^6]$$</p>
+</li>
+<li>
+<p>if we neglect the kinetic energy of the inert gas atoms, the cohesive energy of an inert gas crystal is given by summing the lennard-jones potential over all pairs of atoms in the crystal.</p>
+</li>
+<li>
+<p>hydrogen bonds: an atom of H is attracted to 2 other atoms. h-bond is important for th einteraction between H2O molecules and is responsible together with the electrostatic attraction of edip for water and ice</p>
+</li>
+<li>
+<p>the elastic properties of a crystal is viewed by consideration of it as a continuous homogeneous medium, rather than a lattice. This is valid for elastic waves with $\lambda$ longer than E-6 cm or E12 Hz.</p>
+</li>
+</ul>
+<h6></h6><span class="icon"></span></div>
+</details>
+</details>
+<details>
+<summary style="margin-left:0px;">
+(ced)jackson<span class="icon"></span></summary>
+<details>
+<summary style="margin-left:30px;">
+1-intro to electrostatics<span class="icon"></span></summary>
+<details>
+<summary style="margin-left:60px;">
+jackson_1_notes.md<span class="icon"></span></summary>
+<div style="margin-left:90px;border: 3px dashed black; background-color:powderblue;"">
+<ul>
+<li>[ ] 1.6 </li>
+<li>[ ] 1.10</li>
+<li>[ ] 1.12</li>
+<li>[ ] 1.13</li>
+</ul>
+<p>electrostatics = coulomb's law at various extents and contexts
+- $\rho \rightarrow$  potential $\rightarrow \vec{E} \rightarrow$ force</p>
+<p>|ESU|SI|
+|--|--|
+|k=1|$k=(4\pi\epsilon_0)^{-1}$|
+|charge in units of <strong>statcoulomb</strong>|charge in <strong>coulombs</strong>|
+|field in statvolts/meter|field in volts/meter|</p>
+<h1>delta function in 8 equations</h1>
+<ol>
+<li>$\delta(x-a) = 0$ for $x\neq a$</li>
+<li>$\int \delta(x-a) dx = 1$</li>
+<li>$\int f(x)\delta(x-a)dx = f(a)$</li>
+<li>$\int f(x) \delta'(x-a) dx = - f'(a)$, where $\delta' = \frac{\partial \delta(x-a)}{\partial x}$, $f' = \frac{\partial f(x)}{\partial x}$</li>
+<li>$\delta[f(x)] = \sum_i |\frac{df}{dx}(x_i)|^{-1}\delta(x-x_i)$</li>
+<li>$\delta(\vec{x}- \vec{X}) = \delta(x_1-X_1)\delta(x_2-X_2)\delta(x_3-X_3)$</li>
+<li>$\int_{V}\delta(\vec{x}-\vec{X}) d^3x =$ 1 if $V$ contains $\vec{X}$ else 0</li>
+<li>$\nabla^2 \frac{1}{|\vec{x} - \vec{x}'|} = -4\pi \delta (\vec{x}-\vec{x}')$</li>
+<li>
+<p>$\delta$ has units of inverse length </p>
+</li>
+<li>
+<p>$\vec{E}$'s gauss law depends on 1. inverse square law, 2. central force nature, 3. linear superposition</p>
+</li>
+<li>
+<p>differential form $\approx$ differential equation</p>
+</li>
+<li>a vector field can be specified almost completely if $(\nabla \cdot)$ and $(\nabla \times)$ are specified everywhere. This introducees potential</li>
+<li>There is discontinuity of $\sigma/\epsilon_0$ in crossing surface for $\vec{E}$</li>
+<li>Green's function is developed to handle boundary conditions</li>
+</ol>
+<h1>boundary conditions</h1>
+<ul>
+<li>dirichlet's problem: potential specified on closed surface</li>
+<li>
+<p>neumann's problem: normal derivatives specified</p>
+</li>
+<li>
+<p>green's function satisfy 
+$$\vec{\nabla}^2 (\frac{1}{|\vec{x}- \vec{x}'|}) = - 4 \pi \delta(\vec{x}- \vec{x}')$$</p>
+</li>
+</ul>
+<h2>jackson 1.8</h2>
+<ul>
+<li>The formula $\Phi(\vec{x}) = \frac{1}{4\pi \epsilon_0} \int \frac{\rho(\vec{x}')}{|\vec{x}-\vec{x}'|} d^3 x'$ becomes inconvenient for certain problems</li>
+<li>green's theorem is developed to handle complicated boundary conditions.</li>
+<li>green's 1st identity: 
+$$\int_V (\phi \nabla^2 \psi + \nabla \phi \cdot \nabla \psi)d^3x = \oint_S \phi \frac{\partial \psi}{\partial n} da$$</li>
+<li>green's 2nd identity
+$$\int_v (\phi \nabla^2 \psi - \psi \nabla^2 \phi)d^3x = \oint_S \left[ \phi \frac{\partial \psi}{\partial n} - \psi \frac{\partial \phi}{\partial n} \right] da$$</li>
+<li>letting $\psi = \frac{1}{R} \equiv \frac{1}{|\vec{x} - \vec{x}'|}$ gives a formulation for $\Phi$</li>
+</ul>
+<h2>jackson 1.9</h2>
+<ul>
+<li>jackson proves uniqueness of $\Phi$ using green's identity for both dirichlet and neumann conditions</li>
+</ul>
+<h2>jackson 1.10</h2>
+<ul>
+<li>green's function must satisfy 
+$$\nabla'^2 G(\vec{x},\vec{x}') = - 4\pi \delta(\vec{x}-\vec{x}')$$
+it has the most general form of
+$$G(\vec{x},\vec{x}') = \frac{1}{|\vec{x}-\vec{x}'|} + F(\vec{x},\vec{x}')$$
+with $F$ satisfying the laplace equation inside volume $V$: $\nabla'^2 F(\vec{x},\vec{x}') = 0$</li>
+<li>the freedom in $F$ can be used to eliminate one of the surface integrals in (1.36), which one depends in the type of boundary condition (dirichlet/neumann)</li>
+<li>
+<h3>method of images</h3>
+</li>
+<li>the total induced surface charge is the image charge, the negative of the real charge, or some combination of the two.</li>
+</ul>
+<h3>Lecture 6:Advanced Electrostatics III:</h3>
+<p>Green Functions for Poisson’s Equation
+Obtaining Green Functions from the Method of Images</p>
+<ul>
+<li>green operated by linear differential operators results in the delta function. see LN pg128.</li>
+<li>Green Function approach. The basic idea is to find the 'impulse' response function for the differential equation: the generalized potential one gets if one has a point-like source. Given the impulse response function, linearity, one can obtain the generalized potential for an arbitrary source function by convolving the impulse response function with that source function.</li>
+<li>The freedom F in G is crucial for satisfying nontrivial boundary conditions</li>
+<li>both F and G are symmetric in their arguments</li>
+<li>
+<p>LN 3.47 discussion: pg 135 star</p>
+</li>
+<li>
+<p>the component F_D of the full Dirichlet Green Function G_D can be determined by the method of images in some cases.</p>
+</li>
+</ul>
+<h2>jackson 1.11</h2>
+<ul>
+<li>$W = \frac{1}{2}\int \rho(\vec{x}) \Phi(\vec{x}) d^3 \vec{x} = \frac{\epsilon}{2} \int |\vec{E}|^2 d^3 x$</li>
+</ul><span class="icon"></span></div>
+</details>
+</details>
+<details>
+<summary style="margin-left:30px;">
+2-electrostatics boundary problems I<span class="icon"></span></summary>
+<details>
+<summary style="margin-left:60px;">
+jackson_2_notes.md<span class="icon"></span></summary>
+<div style="margin-left:90px;border: 3px dashed black; background-color:powderblue;"">
+<ul>
+<li>method of images is concerned with N point charges in presence of boundary surfaces, i.e. conductors at certain potentials</li>
+<li>the image charge must lie external to field of interest</li>
+</ul><span class="icon"></span></div>
+</details>
+</details>
+<details>
+<summary style="margin-left:30px;">
+3-electrostatics boundary problems II<span class="icon"></span></summary>
+<details>
+<summary style="margin-left:60px;">
+jackson_3_notes.md<span class="icon"></span></summary>
+<div style="margin-left:90px;border: 3px dashed black; background-color:powderblue;"">
+<ul>
+<li>finite element analysis (FEA) encompasses a variety of numerical approaches for the solution of a boundary value problem in physics and engineering</li>
+<li>
+<p>jackson uses galerkin's method as illustrations, in 2D</p>
+</li>
+<li>
+<p>legendre polynomials form a complete set of orthogonal functions on [-1,1]. Thus any function in this range can be expanded in legendre polynomials:
+$$f(x) = \sum_{l=0}^{\infty} A_l P_l(x), \quad A_l = \frac{2l+1}{2}\int_{-1}^{1} f(x) P_l(x) dx$$</p>
+</li>
+<li>problems possessing azimuthal symmetry have solutions of form
+$$\Phi(r,\theta) = \sum_{l=0}^\infty [A_l r^l + B_l r^{-(l+1)}] P_l (\cos \theta)$$</li>
+<li>if the range of $\theta$ is restricted, then we might need a special set of legendre polynomials</li>
+</ul>
+<h1>3.5 associated legendre functions and spherical harmonics</h1>
+<ul>
+<li>to have finite solutions on [-1,1] the parameter $l$ must be nonzero integer, and integer $m$ takes on $2l+1$ values between $\pm l$. These legendre polynomial are called associated legendre functions $P^m_l (x)$,
+$$P^m_l (x) = (-1)^m (1-x^2)^{m/2} \frac{d^m}{dx^m} P_l(x)$$, in rodriguez form: 
+$$P^m_l (x) = \frac{(-1)^m}{2^l l!} (1-x^2)^{m/2} \frac{d^{l+m}}{dx^{l+m}}[(x^2-1)^l]$$</li>
+<li>for fixed $m$, $P^m_l$ furnishes an orthogonal set in $l$ on $[-1,1]$: 
+$$\int^1_{-1} P^m_{l'}(x) P^m_l(x) dx = \frac{2}{2l+1} \frac{(l+m)!}{(l-m)!} \delta_{l'l}$$</li>
+<li>together with the radial function, we can build a set of function that are orthonormal over $l,m$, on the surface of of a sphere
+$$Y_{lm}(\theta,\phi) = \sqrt{\frac{2l+1}{4\pi} \frac{(l-m)!}{(l+m)!}} P^m_l (\cos \theta) e^{im\phi}$$</li>
+<li>$Y_{l-m}(\theta,\phi) = (-1)^m Y^<em>_{lm}(\theta, \phi)$
+$$\int^{2\pi}_0 d\phi \int^\pi_0 (\sin \theta d\phi) Y^</em><em>{l'm'} Y</em>{lm} = \delta_{l'l} \delta_{m'm}$$
+$$\sum_{l=0}^\infty \sum_{m=-l}^l Y^*<em>{lm}(\theta',\phi') Y</em>{lm}(\theta,\phi) = \delta(\phi-\phi')\delta(\cos \theta - \cos \theta')$$</li>
+<li>an arbitrary function over the surface of the sphere can be expanded in spherical harmonics
+$$g(\theta,\phi) \sum_{l=0}^\infty \sum_{m=-l}^l A_{lm} Y_{lm}(\theta,\phi)$$
+$$A_{lm} = \int d \Omega Y^*_{lm}(\theta,\phi) g(\theta,\phi)$$</li>
+<li>the general solution for boundary-value problem in spherical coordinates can be written in terms of spherical harmonics and powers of r in generalization of (3.3)
+$$\Phi(r,\theta,\phi) = \sum_{l=0}^\infty \sum_{m=-l}^{l} [A_{lm}r^l + B_{lm} r ^{-(l+1)}]Y_{lm}(\theta,\phi)$$</li>
+</ul>
+<h1>3.6 additional theorems for spherical harmonics</h1>
+<p>the addition theorem expresses a legendre polynomial of order $l$ in the angle $\gamma$ in terms of products of the spherical harmonics of the angle $\theta,\phi$ and $\theta',\phi'$
+$$P_l(\cos \gamma) = \frac{4\pi}{2l+1} \sum_{m=-l}^{l} Y^*<em>{lm}(\theta',\phi') Y</em>{lm}(\theta,\phi)$$</p><span class="icon"></span></div>
+</details>
+</details>
+</details>
+<details>
+<summary style="margin-left:0px;">
+(particles)griffiths<span class="icon"></span></summary>
+<details>
+<summary style="margin-left:30px;">
+2-elementary particle dynamics<span class="icon"></span></summary>
+<div style="margin-left:60px;">
+<a href="(particles)griffiths/2-elementary particle dynamics/griffiths_2_1.pdf">griffiths_2_1.pdf</a></div>
+<div style="margin-left:60px;">
+<a href="(particles)griffiths/2-elementary particle dynamics/griffiths_2_2.pdf">griffiths_2_2.pdf</a></div>
+<div style="margin-left:60px;">
+<a href="(particles)griffiths/2-elementary particle dynamics/griffiths_2_3.pdf">griffiths_2_3.pdf</a></div>
+</details>
+<details>
+<summary style="margin-left:30px;">
+4-symmetries<span class="icon"></span></summary>
+<div style="margin-left:60px;">
+<a href="(particles)griffiths/4-symmetries/griffiths_4_15.pdf">griffiths_4_15.pdf</a></div>
+<div style="margin-left:60px;">
+<a href="(particles)griffiths/4-symmetries/griffiths_4_17.pdf">griffiths_4_17.pdf</a></div>
+<div style="margin-left:60px;">
+<a href="(particles)griffiths/4-symmetries/griffiths_4_21.pdf">griffiths_4_21.pdf</a></div>
+<div style="margin-left:60px;">
+<a href="(particles)griffiths/4-symmetries/griffiths_4_23.pdf">griffiths_4_23.pdf</a></div>
+<div style="margin-left:60px;">
+<a href="(particles)griffiths/4-symmetries/griffiths_4_24.pdf">griffiths_4_24.pdf</a></div>
+<div style="margin-left:60px;">
+<a href="(particles)griffiths/4-symmetries/griffiths_4_27.pdf">griffiths_4_27.pdf</a></div>
+<div style="margin-left:60px;">
+<a href="(particles)griffiths/4-symmetries/griffiths_4_28.pdf">griffiths_4_28.pdf</a></div>
+</details>
+<details>
+<summary style="margin-left:30px;">
+5-bound states<span class="icon"></span></summary>
+<div style="margin-left:60px;">
+<a href="(particles)griffiths/5-bound states/griffiths_5_1.pdf">griffiths_5_1.pdf</a></div>
+<div style="margin-left:60px;">
+<a href="(particles)griffiths/5-bound states/griffiths_5_10.pdf">griffiths_5_10.pdf</a></div>
+<div style="margin-left:60px;">
+<a href="(particles)griffiths/5-bound states/griffiths_5_11.pdf">griffiths_5_11.pdf</a></div>
+<div style="margin-left:60px;">
+<a href="(particles)griffiths/5-bound states/griffiths_5_3.pdf">griffiths_5_3.pdf</a></div>
+<details>
+<summary style="margin-left:60px;">
+griffiths_5_notes.md<span class="icon"></span></summary>
+<div style="margin-left:90px;border: 3px dashed black; background-color:powderblue;"">
+<ul>
+<li>[ ] 5.8</li>
+<li>[ ] 5.10</li>
+<li>bound states are made significant by quark model</li>
+<li>perturbation theory was made to handle scattering and decaying, dont handle bound states well</li>
+<li>relativistic $\approx$ kinetic energy &gt;&gt; $mc^2$ or binding energy &gt;&gt; $mc^2$</li>
+<li>schro are treated as axioms in QM</li>
+</ul>
+<h1>hydrogen atom</h1>
+<ul>
+<li>radial schro picks up an effective potential
+$$V(r) \rightarrow V(r) + \frac{\hbar^2}{2m}\frac{l(l+1)}{r^2}$$
+just like in CM</li>
+<li><strong>relativistic</strong> correction together with <strong>spin-orbit</strong> coupling to form <strong>fine structure</strong> because they are both $O(\alpha^4)$</li>
+<li><strong>lambshift</strong>: splits 2s, 2p, $O(\alpha^5)$</li>
+<li><strong>hyperfine</strong>: spin-spin coupling via magnetic dipole, $O(\alpha^4)$</li>
+<li><strong>quarkoniums</strong> are difficult to deal with because <ol>
+<li>strong force is involved, whose potential we dont know</li>
+<li>light quarks (u,d,s) are intrinsically relativistic</li>
+</ol>
+</li>
+</ul>
+<h1>light quark mesons</h1>
+<ul>
+<li>within a multiplet, the particle with the higher charge is assigned the greater $I_3$</li>
+<li>$\pi^0$ is neither $u\bar{u}$ nor $d\bar{d}$, but the $I_3= 0$ state of the isospin triplet
+$$\text{isospin triplet} = \begin{cases} 
+|11&gt; = -u\bar{u}\
+|10&gt; = (u\bar{u} - d\bar{d})/\sqrt{2} \
+|1-1&gt; = d \bar{u}
+\end{cases}$$</li>
+<li>$\eta' = (u\bar{u} + d\bar{d} + s\bar{s})/\sqrt{3}$ is unaffected under SU(3) in the same sense that $\pi^0$ is an singlet under isospin SU(2)</li>
+<li>light quarks (u,d,s) belong to the fundamental rep. of SU(3), their antiquarks belong to the conjugate rep. of SU(3): $3 \otimes \bar{3} = 8 \oplus 1$ </li>
+<li>the fact that quarks have unequal masses breaks mass symmetry in quark multilets</li>
+</ul>
+<h1>heavy quark baryons</h1>
+<ul>
+<li>non-relativistic due to large mass</li>
+<li>3 body systems, complicates things</li>
+<li>
+<p>most similar to helium in theories we have already studied</p>
+</li>
+<li>
+<p>the 3-body difficulty is alleviated by considering $l=0$ states, where angular momentum of entire system comes from only coupling of the spins. This gives a j=3/2 quartet (totally symmetric), and two j=1/2 doublets (both antisymmetric among two particles): $2\otimes 2 \otimes 2 = 4 \oplus 2 \oplus 1$</p>
+</li>
+<li>pauli's exclusion principle dictates which flavor states are allowed to couple with which color, spin, space state. The total spin of baryon being 3/2 or 1/2 implies the entire state must be totally antisymmetric. </li>
+<li>3 light quarks in 3 flavors yields 1 decuplet, 2 octets, and a singlet: $3 \otimes 3 \otimes = 10 \oplus 8 \oplus 8 \oplus 1$</li>
+<li>every naturally occuring particle is a color singlet. Baryons have 3 particles with color, there is only 1 singlet, so <strong>that singlet must be the one baryons occupy</strong>: 
+$$\psi(\text{color}) = (rgb-rbg + gbr - grb + brg - bgr)/\sqrt{6}$$</li>
+<li>Since a baryon is antisymmetric, its color being singlet means the rest of its wavefunction is symmetric</li>
+<li>natural occuring particles are color singlets because suppose it's a colorless non singlet then a SU(3) color transformation can give it a color</li>
+</ul><span class="icon"></span></div>
+</details>
+</details>
+<details>
+<summary style="margin-left:30px;">
+6-the feynman calculus<span class="icon"></span></summary>
+<div style="margin-left:60px;">
+<a href="(particles)griffiths/6-the feynman calculus/griffiths_6_7.pdf">griffiths_6_7.pdf</a></div>
+<div style="margin-left:60px;">
+<a href="(particles)griffiths/6-the feynman calculus/griffiths_6_8.pdf">griffiths_6_8.pdf</a></div>
+<details>
+<summary style="margin-left:60px;">
+griffiths_6_notes.md<span class="icon"></span></summary>
+<div style="margin-left:90px;border: 3px dashed black; background-color:powderblue;"">
+<p>There are 3 experimental probes of elementary particle interactions: bound states, decays, scattering.</p>
+<h1>decaying</h1>
+<ul>
+<li>We can not hope to calculate the lifetime of any particular particle, rather, we calculate the mean lifetime $\tau$ of a bunch of particles. The critical parameter, then, is the <strong>decay rate</strong> $\Gamma$, the probability per unit time that any muon will decay, for example.  </li>
+<li>A short derivation finds the mean lifetime $\tau$ is $\tau = \frac{1}{\Gamma}$</li>
+<li>The <strong>branching ratio</strong> is the fraction of all particles of a given type that decay by each mode.</li>
+<li>For decays, the essential problem is to calculate the decay rate $\Gamma$, then it would be easy to compute everything else</li>
+</ul>
+<h1>Scattering</h1>
+<ul>
+<li>The parameter of interest is the cross-sectional $\sigma$</li>
+<li><strong>resonance</strong>: a special energy at which the particles involved 'like' to interact, forming a short-lived semibound state before breaking apart. resonance produces bumps in the graph of $\sigma$ v.s. $E$. </li>
+</ul>
+<h1>The golden rule</h1>
+<ul>
+<li>the amplitude contains all the <strong>dynamical</strong> information, we calculate it by evaluating the feynman diagrams.</li>
+<li>the phase space factors contains only the <strong>kinematical</strong> information, it depends on the masses, energies, and momenta of the participant. </li>
+<li>The transition rate for a given process is determined by the amplitude and phase space according to <strong>Fermi's golden rule</strong>:
+$$\text{transition rate} = \frac{2\pi}{\hbar}|\mathscr{M}|^2\times (\text{phase space})$$</li>
+</ul><span class="icon"></span></div>
+</details>
+</details>
+<details>
+<summary style="margin-left:30px;">
+7-quantum electrodynamics<span class="icon"></span></summary>
+<div style="margin-left:60px;">
+<a href="(particles)griffiths/7-quantum electrodynamics/griffiths_7_10.pdf">griffiths_7_10.pdf</a></div>
+<div style="margin-left:60px;">
+<a href="(particles)griffiths/7-quantum electrodynamics/griffiths_7_25.pdf">griffiths_7_25.pdf</a></div>
+<div style="margin-left:60px;">
+<a href="(particles)griffiths/7-quantum electrodynamics/griffiths_7_26.pdf">griffiths_7_26.pdf</a></div>
+<div style="margin-left:60px;">
+<a href="(particles)griffiths/7-quantum electrodynamics/griffiths_7_28.pdf">griffiths_7_28.pdf</a></div>
+<div style="margin-left:60px;">
+<a href="(particles)griffiths/7-quantum electrodynamics/griffiths_7_30.pdf">griffiths_7_30.pdf</a></div>
+<div style="margin-left:60px;">
+<a href="(particles)griffiths/7-quantum electrodynamics/griffiths_7_34?.pdf">griffiths_7_34?.pdf</a></div>
+<div style="margin-left:60px;">
+<a href="(particles)griffiths/7-quantum electrodynamics/griffiths_7_38?.pdf">griffiths_7_38?.pdf</a></div>
+<div style="margin-left:60px;">
+<a href="(particles)griffiths/7-quantum electrodynamics/griffiths_7_9.pdf">griffiths_7_9.pdf</a></div>
+<details>
+<summary style="margin-left:60px;">
+griffiths_7_notes.md<span class="icon"></span></summary>
+<div style="margin-left:90px;border: 3px dashed black; background-color:powderblue;"">
+<ul>
+<li>[ ] renormalization</li>
+</ul>
+<h1>the dirac equation</h1>
+<ul>
+<li>in nonrelativistic qm, particles are described by the schrodinger equation, in relativistic qm, particles of spin 0 are described by the KG equation, particles of spin 1/2 are described by the dirac equation, and particles of spin 1 are described by the proca equation.</li>
+<li>the derivation of dirac's equation involves first 'factor' the enerty momentum relation:
+    $$(p^0)^2 - m^2c^2=(p^0+mc)(p^0-mc)=0$$</li>
+<li>the next brillance of dirac was the idea of making the $\gamma$s matrices instead of just a number, then we find the anticommutator relation (7.15), and some further derivation yields the <strong>dirac equation</strong> (7.20).</li>
+<li>Although the solution to Dirac equation has 4 components, it's not a 4-vector, rather it transforms like 2 spinors.</li>
+</ul>
+<h1>solutions to the dirac equation</h1>
+<ul>
+<li>one solves the dirac equation in the rest frame ($\vec{p} = 0$) and finds 4 independent solutions (7.30).these shall be interpreted as a spin up, spin down electron, and a spin up, spin down antielectron. <strong>this is not a 4 vector</strong>!</li>
+<li>A quick examination of the solutions in (7.30) lets one find that these solutions only propagate in time, but not in space. 
+    The natural next step would be to extend the result at $\vec{p} = 0$ to general 4-momentum of a massive particle. Such planewaves furnish a representation of the corresponding little group.</li>
+<li>The above pursuit would yield the momentum space dirac equation, which then leads to the solution in (7.43), which after conventional normalization is written as (7.46)</li>
+<li>you might guess that $u^{(1)}$ describes an electron with spin up, and $u^{(2)}$ with spin down. but no. if we orient the $z$ axis so that it points along the direction of motion ($\vec{p}_x=\vec{p}_y = 0$), then $u^{(1)},u^{(2)},u^{(3)},u^{(4)}$ would correspond to the eigenstate of $S_z$ for electron spin up, electron spin down, antielectron spin up, antielectron spin down, respectively. </li>
+</ul>
+<h1>bilinear covariants</h1>
+<ul>
+<li>griffiths makes an argument that \textbf{the dirac spinor aint 4-vector} (7.52-57)</li>
+<li>showed a way to construct scalar with dirac spinor (7.58-60), and asked is this a scalar or pseudoscalar?
+    \footnote{the difference between scalar and pseudoscalar is how they transform under parity} It is a scalar (7.61-62). But is there another way to construct pseudoscalar out of dirac spinors? Yes, using $\gamma_5 = i \gamma^0\gamma^1\gamma^2\gamma^3$ (7.63-7.67)</li>
+<li>besides scalars and pseudoscalars, we can also construct vectors, pseudovectors, and antisymmetric tensor with dirac spinors (7.68-69)</li>
+</ul>
+<h1>the photon</h1>
+<ul>
+<li>states the field forms of the maxwell equations (7.70), finds the index notation form of the inhomogeneous maxwell equations (7.70-74)</li>
+<li>for the homogeneous maxwell equations, introduce a vector potential $\vec{A}$, which gives us an index notation form of the homogeneous equations in terms of the potential (7.75-7.79), and notice that we can also write the inhomogeneous maxwell equations with the potential rather than field (7.80)
+-[❤️] we have two ways to write maxwell's equations, in EM fields, or in a single potential $A$. \href{https://en.wikipedia.org/wiki/Maxwell%27s_equations#Alternative_formulations}{wikipedia}</li>
+<li>in classical electrodynamics, the fields are the physical entities while the potentials are mathematical constructs that automatically satisfy the homogeneous equations. the subtlety in the potential formulations is that is only unique up to a gauge. There is no way to eliminate the gauge ambiguity, so we can either <ul>
+<li>live with the indeterminacy, meaning carrying along spurious degrees of freedom</li>
+<li>impose an additional constraint, which spoils the manifest lorentz covariance of the theory</li>
+</ul>
+</li>
+<li>griffiths choose the coulomb gauge $\nabla \cdot \vec{A} = 0$.</li>
+<li>in qed, the potential $A^\mu$ becomes the wave function of the photon, and we have a eqm for this photon: $\Box A^\mu = 0 $. solving this equation yields $A^\mu(x) = a e^{-(i/\hbar)p\cdot x}\epsilon^\mu(p)$, which can be interpreted as a wave propagation (exponential part) of some initial condition $\epsilon^\mu(p)$ at $x = 0$, this $\epsilon^\mu(p)$ is called the <strong>polarization vector</strong>.</li>
+<li>some further derivation indicates the polarization vector is orthogonal to the direction of the momentum vector, so we say a free photon is <strong>transversely polarized</strong>, for this reason the coulomb gauge is also called <strong>transverse gauge</strong>. </li>
+</ul>
+<h1>casimir's trick and the trace theorems</h1>
+<p>the feynman rules stated for qed works with spin, but we often dont care about the spins in actual experiments. In those cases the relevant cross section is an <strong>average</strong> over all initial spin configurations, and <strong>sum</strong> over all final spin configurations. </p><span class="icon"></span></div>
+</details>
+</details>
+<details>
+<summary style="margin-left:30px;">
+8-electrodynamics of quarks and hadrons<span class="icon"></span></summary>
+<div style="margin-left:60px;">
+<a href="(particles)griffiths/8-electrodynamics of quarks and hadrons/griffiths_8_1.pdf">griffiths_8_1.pdf</a></div>
+<div style="margin-left:60px;">
+<a href="(particles)griffiths/8-electrodynamics of quarks and hadrons/griffiths_8_2.pdf">griffiths_8_2.pdf</a></div>
+</details>
+<details>
+<summary style="margin-left:30px;">
+9-quantum chromodynamics<span class="icon"></span></summary>
+<div style="margin-left:60px;">
+<a href="(particles)griffiths/9-quantum chromodynamics/griffiths_9_3.pdf">griffiths_9_3.pdf</a></div>
+<div style="margin-left:60px;">
+<a href="(particles)griffiths/9-quantum chromodynamics/griffiths_9_4.pdf">griffiths_9_4.pdf</a></div>
+<div style="margin-left:60px;">
+<a href="(particles)griffiths/9-quantum chromodynamics/griffiths_9_5.pdf">griffiths_9_5.pdf</a></div>
+</details>
+</details>
+<details>
+<summary style="margin-left:0px;">
+(qft)weinberg<span class="icon"></span></summary>
+<details>
+<summary style="margin-left:30px;">
+15-nonabelian gauge theories<span class="icon"></span></summary>
+<details>
+<summary style="margin-left:60px;">
+weinberg_15_notes.md<span class="icon"></span></summary>
+<div style="margin-left:90px;border: 3px dashed black; background-color:powderblue;"">
+<h1>non-abelian gauge theories</h1>
+<ul>
+<li>qed uses U(1) as its gauge group, but the qft that have proved successful in describing the real world are all non-abelian gauge theories.</li>
+<li>it is natural that local gauge invariance should be extended to invariance under local non-abelian gauge transformations</li>
+</ul>
+<h1>gauge invariance</h1>
+<ul>
+<li>in generalizing qed to non-abelian gauge symmetry, we begin with a general, non-abelian gauge symmetry group with nontrivial generators
+    $$\delta \psi_l (x) = i\epsilon^\alpha(x)(t_\alpha)_l^m \psi_m(x)$$</li>
+<li>by assuming that these transformations can be made infintesmal, this non-abelian group has to be a lie group and we derive the commutator relations (structure constants) $[t_\alpha, t_\beta]  = i C^\gamma_{\alpha \beta}t_\gamma$, and find its adjoint representation </li>
+<li>from the need to make the lagrangian gauge invariant with derivative couplings, <strong>we have to include a gauge field</strong> $A_\mu$, with gauge terms $\dmu \epsilon$ in order to cancel non-gauge-invariant terms in the lagrangian. This naturally introduces $D_\mu \psi$ , which transforms just like $\psi$ under gauge transformations. 
+    The $\dmu \epsilon$ terms in $A$ introduces $\dnu \dmu \epsilon$ terms in $\dmu A_\mu$, which calls for an antisymmetric tensor $F = \dmu A_\nu-\dnu A_\mu$ as definition of the derivative of $A$. But this antisymmetric tensor has its own problem of having $\dmu \epsilon-\dnu \epsilon$ terms, which is resolved by finding its covariant version
+    $$[D_\nu, D_\mu]\psi = -i(t_\gamma) F \psi, \quad F \cong \dnu A - \dmu A + C A\nu A\mu$$
+    we find that $F$ must transform like a matter field that happens to belong to the adjoint representation of the gauge grp.</li>
+<li>we find that by choosing lorentz transformation $\Lambda$ to act on the state in hilbert space, we can make the gauge field $A^\alpha_{\mu \Lambda(x)}$ vanish at any one point. Furthermore, $\Lambda$ can be chosen such that one component of $A$ vanishes completely, so we'll do that.</li>
+<li>a field is <strong>pure gauge</strong> if it can vanish purely from a choice of gauge</li>
+</ul>
+<h1>connections to gr</h1>
+<ul>
+<li><strong>connection</strong> on a fiber bundle is a device that defines a notion of parallel transport on the bundle; that is, a way to "connect" or identify fibers over nearby points. 
+$$\textbf{gauge:} \quad \dmu\psi \xrightarrow{A_\mu (x)} \text{cov. derivative of } \psi$$
+$$\textbf{gr:} \quad ? \xrightarrow{\Gamma^\mu_{\nu \lambda}(x)} \text{cov. derivative of } T$$</li>
+<li>$F \sim R$ (Riemann-christofell curvature tensor)</li>
+</ul>
+<h1>gauge theory lagrangians and simple lie groups</h1>
+<ul>
+<li>just as in electrodynamics, for any massless particle of unit spin, the lagr must contain a free-particle term quadratic in $\dmu A^\alpha_\nu - \partial_\nu A^\alpha_\mu$<blockquote>
+<p>for the 4-momentum reason</p>
+</blockquote>
+</li>
+<li>it is not possible to introduce a kinematic term for the gauge field $A^\alpha_\mu(x)$ without also including self-interactions fo the field: 
+    $$\Lagr'<em>A = -\frac{1}{4}g</em>{\alpha \beta}F^\alpha_{\mu \nu} F^{\beta \mu \nu}$$
+    this is another place where non-abelian gauge theories resemble general relativity, where the field self-interaction takes place via $\frac{-\sqrt{g}R}{8 \pi G}$ in the einstein-hilbert lagr density. This can be explained by observing the gauge field interacts with anything that transforms according to a nontrivial representation of the gauge group, including itself. </li>
+<li>[$\rightarrow$] the term $-\frac{1}{4}F^2$ in qed does not entail interactions, it's purely a kinematic term for the photon. when the gauge group is nontrivial, however, it is a self-interaction. </li>
+<li>we find that in order for things to work, the lie algebra has to be the direct sum of commuting compact simple and U(1) subalgebras.</li>
+</ul>
+<h1>field equations and conservation laws</h1>
+<ul>
+<li>we determine the full lagrangian in ordinary derivatives (15.3.1), solves its eqm (15.3.2), and find a conservation law $\dnu \mathscr{J}^\nu_\alpha$ where $\mathscr{J}^\nu_\alpha = -\dmu F^{\mu\nu}_\alpha =$ for the current with ordinary derivatives rather than gauge covariant derivatives. </li>
+<li>the gauge invariance of the eqm is made manifest by replacing the ordinary derivatives in the eqm with gauge-covariant ones (15.3.5-8), this gives a gauge-covariant conservation law $D_\nu J^\nu_\alpha = 0$ with $\mathscr{J}^\nu_\alpha = -D_\mu F^{\mu\nu}_\alpha =$</li>
+<li>weinberg makes a connection to gr</li>
+</ul>
+<h1>quantization</h1>
+<ul>
+<li>in quantizing gauge-invariant theory, we encounter the same problem as we did in electrodynamics where it's not clear that we can satisfy all eqms at once. A similar approach to before (choosing the right gauge) is warranted, and for the moment we choose the <strong>axial gauge</strong>.</li>
+<li>after identifying the canonical variables, we write the path integral for th amplitude, and with some criterion checking (hamiltonian being quadratic in $p$, $A_{\alpha0}$ being independent variable of integration) we find that the exponent in the path integral is just the <strong>action</strong>. 
+    $$<T\{O...\}> \propto \int_{\psi \text{ pth}} \int_{A \text{ pth}} (O...) e^{iI + \epsilon \text{ terms}}$$</li>
+</ul>
+<h1>dewitt-faddeev-papov method</h1>
+<ul>
+<li>the axial gauge picked earlier hides the inherent lorentz and rotational invariance of the amplitude, in order to make that manifest, a change of gauge is warranted.</li>
+<li>something important stated in chapter 9: field-independent factors in the functional path integral affect only the vacuum fluctuation part of expectation values and S-matrix elements, and so are irrelevant to the calculation of the connected parts f the S-matrix. </li>
+<li>recognize that the functional integral in gauge qft is a special cause of a more general functional integral (15.5.1):
+    $$\mathscr{J} = \int[\prod_{n,x}d\phi_n(x)]\mathscr{G}B[f[\phi]]\det \mathscr{F}[\phi]$$
+    $f[\phi]$ a non-gauge-invariant gauge-fixing functional, $B$ some functional. </li>
+<li>[$\rightarrow$] <strong>theorem</strong>: the integral (15.5.1) is actually independent of the gauge-fixing functional $f_\alpha[\phi;x]$ and depends on the choice of the functional $B[f]$ only through an irrelevant constant factor. and we get (15.2.21) as a powerful formula, whose effect on the lagr can be written as adding a term to the <strong>effective lagrangian</strong>
+    $$\Lagr_{\text{EFF}} = \Lagr - \frac{1}{2\zeta}f_\alpha f_\alpha$$</li>
+<li>this is a powerful theorem that lets us derive feynman rules in a more convenient gauge. As our purpose is to make the amplitude manifestly lorentz invariant, the simplest choice is the lorenz gauge: $\dmu A_\mu = 0$</li>
+<li>then the lorentz gauge is chosen to derive the feynman rules in this gauge invariant theory, which makes this theory manifestly lorentz invariant.</li>
+</ul>
+<h1>ghosts</h1>
+<ul>
+<li>the determinant term in equation (15.5.21) may have non-trivial interpretations, in this context of non-abelian gauge theory.</li>
+<li>recall from section 9.5 that the determinant of any matrix $\mathscr{F}_{\alpha x, \beta y}$ can be written as a path integral over fermionic fields (15.6.1-2). </li>
+<li>the $\omega^*$ and $\omega$ in (15.6.2) are not necessarily complex conjugates of each other, because they are to be interpreted as separate path integrals.</li>
+<li>Thus the determinant of $\mathscr{F}$ term in (15.5.21) can be accounted for by path integrating over some effective action over $\omega, \omega^\star$ fields given by (15.6.2,4)</li>
+<li>the fields $\omega, \omega^\star$ are lorentz scalars so they are spin 0, but in order for the determinant $\rightarrow$ integral procedure to work they have to be grassman numbers (obeying fermi statics, or equivalently, anticommute), so it would appear that spin and statics is broken.
+    yet we are fine because no particles described by these fields can appear in initial or final states. Thus $\omega, \omega^\star$ are called the <strong>ghost</strong> and <strong>antighost</strong> particles.</li>
+<li>the ghost action is
+    $I_{GH} = \int d^4x d^4y \omega^\star \omega \mathscr{F}$, $\mathscr{F}$ is the matrix whose determinant we wish to evaluate.
+    the modified action is
+    $I_{MOD} = \int d^4x [\Lagr - \frac{1}{2\zeta}f_\alpha f_\alpha] + I_{GH} = I_{EFF} + I_{GH}$</li>
+<li>Further inspection of (15.6.2) shows that the action respects the conservation of 'ghost number', equal to +1 for ghost, and -1 for antighost. </li>
+<li>to see what ghost vertices look like in feynman diagrams, we pick the simplest $\mathscr{F}$ (15.6.5), derive its interaction lagrangian density along with propagator term (15.6.5-13. we find that in this simplest theory the ghost vertex looks like a vector bosonic line with a ghost line and an antighost line. </li>
+</ul>
+<h1>brst</h1>
+<ul>
+<li>when we made the amplitude lorentz invariant with dewitt-faddeev-papov method we had to pick a specific gauge, this would hide the gauge-invariance of the theory.</li>
+<li>this is a serious problem in proving renormalizability, as gauge invariance places restrictions on the counterterms available. so it's up to us to determine what kind of freedom we have in picking counterterms for canceling what kinds of infinities.</li>
+<li>we take the $I_{MOD} = I_{EFF} + I_{GHOST}$ and fourier transform the gauge fixing condition $B[f]$ in $\Lagr_{MOD}$ and to find ourselves having to integrate over some new fields $h_\alpha$ (Nakanishi-Lautrup fields), weinberg creatively picks the name $I_{NEW}$ for the new action:
+    $$I_{NEW} = \int d^4x(\Lagr + \omega_\alpha^* \Delta_\alpha + h_\alpha f_\alpha + \frac{1}{2} \zeta h_\alpha h_\alpha)$$
+    $\omega$ is ghost field, $h$ is the nakanishi-lautrup field</li>
+<li>this action is not gauge invariant, yet it is invariant under brst:
+    $$\delta_\theta \psi = i t_\alpha \theta \omega_\alpha \psi, \quad
+    \delta_\theta A_{\alpha \mu} = \theta D_\mu \omega_\alpha, \quad
+    \delta_\theta \omega_\alpha^* = - \theta h_\alpha,$$
+    $$\delta_\theta \omega_\alpha = - \frac{1}{2}\theta C_{\alpha \beta \gamma} \omega_\beta \omega_\gamma, \quad
+    \delta_\theta h_\alpha = 0$$</li>
+<li><strong>nilpotentcy</strong> in general is $A^N = 0$ (useless power), here means if $\delta_\theta F \cong \theta s F$, then $\delta_\theta(sF) = 0$</li>
+<li>weinberg shows in terms of nilpotency, 
+    $$I_{NEW} = \int d^4x \Lagr + s\psi$$
+    and subsequently the brst symmetry of $I$. 
+    Notice that this equation indicates that the physical content of any gauge theory is in the kernel of the brst operator. The kernel modulo the image of any nilpotent transformation is said to form the <strong>cohomology</strong> of the transformation.</li>
+<li>btst symmetry will be useful in proving renormalizability as we will use the brst-invariance of the divergent terms in feynman diagrams</li>
+<li>brst transformation is not real
+    $$&lt;\alpha|Q = Q|\beta&gt; = 0$$
+    physical states differ by $Q\ket{\beta}$ are indistinguishable physically, thus independent physical states correspond to states in the kernel of $Q$, modulo the image of $Q$, in other words, they correspond to the cohomology of $Q$. </li>
+<li><a href="https://www.youtube.com/watch?v=ZTgnSPYRCDk">cohomology = reversing arrows</a></li>
+</ul><span class="icon"></span></div>
+</details>
+</details>
+<details>
+<summary style="margin-left:30px;">
+16-external field methods<span class="icon"></span></summary>
+<details>
+<summary style="margin-left:60px;">
+weinberg_16_notes.md<span class="icon"></span></summary>
+<div style="margin-left:90px;border: 3px dashed black; background-color:powderblue;"">
+<p>\subsection{external field methods}</p>
+<p>\paragraph{effective action from external field}</p>
+<p>\begin{itemize}
+    \item $Z[J]$ is the vac-vac amplitude under external current $J$ coupled to $\phi$, it is given by
+    [Z[J] = \sum_{N=0}^{\infty}\frac{(iW[J])^N}{N!} = \exp{(iW[J])}]
+    where $iW[J]$ is the sum of all connected vacvac amp, counting permutations as different diagrams. This means finding Z is finding W.
+    \item define $\phi_J$ to be the vac expect value of the operator $\Phi(x)$ in the presence of the current $J$, 
+    or equivalently
+    [\phi_J = \frac{\delta}{\delta J(x)}W[J]]
+    \item the quantum effective action is defined as
+    [\Gamma[\phi] \cong - \int d^4x \phi^r(x) J_{\phi r}(x) + W[J]]
+    one finds $\frac{\delta \Gamma[\phi]}{\delta \phi^s(y)} = -J_{\phi s}(y)$
+    it is shown that $\Gamma[\phi]$ is the sum of all connected one-particle irreducible graphs in presence of $J_\phi$
+    \item $W_\Gamma [J,g]$ is for $W[J]$ when $I[\phi] \rightarrow g^{-1}\Gamma[\phi]$
+    \item[\HEART] we find W via the effective action: 
+    [iW[J] = \int_{\text{conn. tree}}\left[ \prod_{r,x}d\phi^r(x) \right] \exp{ \left[ i\Gamma[\phi] + i \int \phi^r(x)J_r(x) d^4x \right] }]
+\end{itemize}</p>
+<p>\paragraph{application on scalar theory}
+\begin{itemize}
+    \item take scalar action and add position-independent external field $\phi_0(x) = \phi_x$ assumed to be some functional over all space so we get a $\mathscr{V}_4 = \int d^4x$, and $\Gamma[\phi_0] = - \mathscr{V}_4 V(\phi_0)$
+    \item where $V(\phi_0)$ is known as the effective potential, if we wish to calculate it to one-loop order, we obtain (16.2.13,14)
+    \item the divergence of the effective potential can be absorbed into appropriate constants (16.2.15)
+\end{itemize}</p>
+<p>\paragraph{energy interpretation}
+\begin{itemize}
+    \item 
+\end{itemize}</p><span class="icon"></span></div>
+</details>
+</details>
+<details>
+<summary style="margin-left:30px;">
+2-relativistic qm<span class="icon"></span></summary>
+<details>
+<summary style="margin-left:60px;">
+weinberg_2_notes.md<span class="icon"></span></summary>
+<div style="margin-left:90px;border: 3px dashed black; background-color:powderblue;"">
+<h2>quantum mechanics</h2>
+<ul>
+<li>physical states are represented by rays (normalized vectors that differ only by a phase) in HIlbert space, a hilbert space is an infinite dimensional complex vector space with inner/scalar product defined</li>
+<li>observables are represented by <strong>hermitian</strong> operators.</li>
+<li>Important concepts of Hilbert space operators/vectors include <strong>unitary</strong>, <strong>linearity</strong>, <strong>antiunitary</strong>, <strong>antilinearity</strong>, and <strong>adjoint</strong></li>
+<li>For all Hilbert space vectors: </li>
+</ul>
+<p>$$(\phi,\psi) = (\psi,\phi)^<em>, \quad (\phi,a\psi_1+b\psi_2) = a(\phi,\psi_1) + b(\phi,\psi_2)$$
+$$(a\phi_1+b\phi_2,\psi) = a^</em>(\phi_1,\psi) + b^<em>(\phi_2,\psi)$$
+- Wigner proved that for any symmetry transformation, there is a corresponding operator $U$ in Hilbert space that is either unitary and linear or </em><em>antiunitary</em><em> and </em><em>antilinear</em>*
+- differential probability $\Leftrightarrow$ amplitude squared</p>
+<h2>symmetries</h2>
+<ul>
+<li>a <strong>symmetry transformation</strong> is a change in POV that does not change the result of possible experiments</li>
+<li>wigner proved that symmetry transformations must be reflected in hilbert space by <strong>unitary and linear</strong>, or <strong>antiunitary and antilinear</strong> operators
+    Unitary and Linear means $$(U\psi,U\phi) = (\psi,\phi) \quad
+    U(a\psi_1 + b\psi_2) = aU\psi_1 + bU\psi_2$$antiunitary and antilinear means $$\braket{U\psi}{U\phi} = \braket{\psi}{\phi}^<em> \quad
+    U(a\psi_1 + b\psi_2) = a^</em>U\psi_1 + b^<em>U\psi_2$$
+    the adjoint for unitary is defined as $$(\phi,A\psi) = (A^\dagger \phi,\psi)$$while the adjoint for antiunitary operator is defined as $$(\phi,A\psi) = (A^\dagger \phi,\psi)^</em>$$</li>
+<li>symmetry transformations that can be made continuously into the identity must be <strong>unitary and linear</strong>, because the identity is unitary and linear.</li>
+<li>observables and infinitesmal transformations: the generators of infinitesmal symmetry transformations must be <strong>hermitian</strong> (adjoint equals itself) and <strong>linear</strong> for such transformation to be unitary, which makes them candidates for observables. Indeed, most perhaps all of the physical observables, such as <strong>angular momentum</strong>, <strong>momentum</strong>, <strong>energy</strong> arise from symmetry transformation.</li>
+<li>the transformations in hilbert space that corresponds to a given symmetry transformation is said to furnish a <strong>representation</strong> of the symmetry transformation group $$\textbf{Rep}(\Lambda_1)\textbf{Rep}(\Lambda_2)= N(\Lambda_1, \Lambda_2)\textbf{Rep}(\Lambda_1 \Lambda_2) \simeq \textbf{Rep}(\Lambda_1 \Lambda_2)$$in other words, representations of symmetry transformations tell us how the states transform in response to this symmetry transformation in the hilbert space.</li>
+<li>[❤️] we are looking for Poincare-invariant theories thus we are interested in <strong>unitary representations of the Poincare group</strong>. </li>
+</ul>
+<h2>quantum lorentz trans</h2>
+<ul>
+<li>the <strong>Poincare group</strong> is also known as the <strong>inhomogeneous lorentz group</strong>, while the group of <strong>boosts and rotations</strong> are known as the <strong>homogeneous poincare group</strong>, or the <strong>lorentz group</strong>.</li>
+<li>the subgroup of lorentz transformations with determinant 1 and $\Lambda^0_0\ge 1$ is known as the <strong>proper orthochronous lorentz group</strong>
+    &gt;The proper orthochronous Lorentz group SO(1,3) consists of all Lorentz transformations that preserve the orientation and direction of time and are connected to the identity transformation.</li>
+<li>any lorentz transformation can be constructed with the proper orthocho. lorentz group together with a discrete transformation. <blockquote>
+<p>any lorentz transformation is either proper and orthochronous, or may be written as the product of an element of the proper orthochronous lorentz group with a discrete transformation parity or time-reversal</p>
+</blockquote>
+</li>
+<li>[❤️] the study of the whole lorentz group reduces to the study of its <strong>proper orthochronous subgroup</strong> $+$ <strong>parity and time-reversal</strong></li>
+</ul>
+<h2>the poincare algebra</h2>
+<ul>
+<li>much of the information about any Lie symmetry group is contained in properties near the identity, ie infinitesmal transformations</li>
+<li>the condition that $\Lambda g \Lambda = g$ requires that the infinitesmal transformation $\omega_{\mu \nu}$ obeys   $$\omega_{\mu \nu} = -\omega_{\nu \mu}$$</li>
+<li>[❤️] we find the <strong>Lie algebra</strong> for the Poincare grp
+$$
+    i[J^{\mu\nu}, J^{\rho \sigma}] = \eta^{\nu \rho} J^{\mu \sigma} - \eta^{\mu \rho}J^{\nu \sigma} - \eta^{\sigma \mu} J^{\rho \nu} + \eta^{\sigma \nu} J ^{\rho \mu} \
+    i[P^\mu, J^{\rho \sigma}] = \eta^{\mu \rho} P^{\sigma} - \eta^{\mu \sigma} P^{\rho}\
+    [P^\mu, P^\rho] = 0
+$$
+    or equivalently with $P={P^1,P^2,P^3}$, $J={J^{23},J^{31},J^{12}}$, $K={J^{01},J^{02},J^{03}}$, 
+    we have 
+$$
+    [J_i, J_j] = i \epsilon_{ijk} J_k, \quad
+    [J_i, K_j] = i \epsilon_{ijk} K_k, \quad
+    [K_i, K_j] = -i \epsilon_{ijk} J_k, \quad
+    [J_i, P_j] = i \epsilon_{ijk} P_k$$$$ [K_i, P_j] = - i H \delta_{ij}, \quad
+    [K_i, H] = -i P_i, \quad
+    [J_i, H] = [P_i, H] = 0 
+$$</li>
+</ul>
+<h2>1particle states</h2>
+<p>In this section, we consider the representation of the lorentz group, and classify the states by their little group, and we find that such classification corresponds to that of massive and massless particles. 
+- We begin with a general statement of how representation of a lorentz transformation should act on a state (2.5.3)
+- no matter how we lorentz transform, we can never transform a time-like particle into a massive particle, so we can classify the particle  by their momentum into 'cliques', where momenta from two different cliques are never related by a lorentz transformation. 
+- we pick a standard momentum in each 'clique', we define a standard transformation that takes the standard momentum to any other momentum within the clique
+- The standard momentum and standard transformation above allows us to factor a general operator induced by a lorentz transformation into an operator induced by the standard transformation and some other operator reduced by a transformation that fixes the momentum, we call this 'other transformation' the 'little group' 
+- On Lil grp: $p^\mu = L^{\mu}<em>{\nu} p^\nu(p) k^{\mu}$ with $k^\nu$ being the standard momentum, along with $\psi</em>{p,\sigma} \equiv N(p) U(L(p))\psi_{k \sigma}$ gives
+    $U(\Lambda) \psi_{p,\sigma} = N(p) U(L^{-1}\Lambda L(p)) \psi_{k\sigma}$
+    Observe that $L^{-1}\Lambda L(p)$ belongs to the subgrp of the homogeneous lorentz group that fixes $k$, this is a more rigorous definition of the Wigner's little group. 
+- Some simple further derivation leads quickly to (2.5.11), which turns the problem of finding the representation of lorentz group into finding representation of the little group. At a more fundamental level, what (2.5.11) says is that the representation of a general $\Lambda$ can be written as scaling by some number $\frac{N(p)}{N(\Lambda p)}$ together with a representation of the little group $D(W, p)$. 
+- we fix the normalization factor in (2.5.11), shown in (2.5.18) 
+- [❤️] the little group is <strong>SO(3)</strong> and <strong>ISO(2)</strong> for massive and massless particles}</p>
+<h2>parity and time reversal</h2>
+<ul>
+<li>Parity and time-reversal are only conserved without the context of weak-nuclear force, the inclusion of which puts them at approximately conserved</li>
+</ul>
+<h3>Properties of P and T on the Poincare generators}</h3>
+<pre><code>    $$P \JJ P^{-1} = \JJ \quad
+    P \KK P^{-1} = -\KK \quad
+    P \PP P^{-1} = -\PP $$
+</code></pre>
+<p>$$T \JJ T^{-1} = -\JJ \quad
+        T \KK T^{-1} = \KK \quad
+        T \PP T^{-1} = -\PP$$</p>
+<h4>massive 1particle states</h4>
+<ul>
+<li>$P \Psi_{\vec{p}, \sigma} = \eta \Psi_{P\vec{p}, \sigma}$</li>
+<li>$T \Psi_{\vec{p}, \sigma} = \xi(-)^{j-\sigma} \Psi_{P\vec{p}, -\sigma}$    </li>
+</ul>
+<h4>massless 1particle states}</h4>
+<ul>
+<li>$P \Psi_{\vec{p}, \sigma} = \eta_{\sigma} \exp{\mp i \pi \sigma} \Psi_{P\vec{p}, -\sigma}$ this happens because parity inverts momentum but not the direction of angular momentum, thus the helicity is inverted, the state also gains a phase factor dependent on the helicity. the sign in $\mp$ is dependent on whether the two-component of $\vec{p}$ is positive or negative. </li>
+<li>this also tells us that the existence of a symmetry under parity requires that any species of massless particle with non-zero helicity be accompanied with another of opposite helicity.</li>
+<li>We know that $T$ changes both the direction of angular momentum and momentum, so its logical that it doesnt change helicity, indeed it doesnt.
+        $$T \Psi_{\vec{p}, \sigma} = \xi_{\sigma} \exp{\pm i \pi \sigma} \Psi_{P\vec{p}, \sigma}$$
+    again the $\pm$ depends on whether the two component of $\vec{p}$ is positive or negative</li>
+</ul><span class="icon"></span></div>
+</details>
+</details>
+<details>
+<summary style="margin-left:30px;">
+3-scattering theory<span class="icon"></span></summary>
+<details>
+<summary style="margin-left:60px;">
+weinberg_3_notes.md<span class="icon"></span></summary>
+<div style="margin-left:90px;border: 3px dashed black; background-color:powderblue;"">
+<h1>Scattering theory</h1>
+<h2>IN and OUT states</h2>
+<h3>formalism on actual physical states</h3>
+<ul>
+<li>states that are energy eigenstates can not be localized in time, we must consider wave packets, superpositions of states.</li>
+<li>we assume that the state evolved like a free one long before the interaction took place</li>
+<li>we use $\Psi$ tp denote the actual physical state with interaction</li>
+<li>by convention, we let $\alpha$ denote momentum, spin and such, then we convene
+    $$\braket{\Psi_\alpha}{\Psi_{\alpha'}}=\delta(\alpha,\alpha')$$
+    since $\alpha$ can contain discrete labels, we define
+    $$\int d \alpha = \sum_{\text{discrete labels}} \int d \text{(continuous labels)}$$
+    the completeness relation reads
+    $$\Psi = \int d\alpha \braket{\Psi}{\Psi_\alpha}\Psi_\alpha$$
+    the eigenvalue when acted on by the full hamiltonian is
+    $$H \Psi_\alpha = E_\alpha \Psi_\alpha$$</li>
+<li>Weinberg uses $\Psi^+$ for in states and $\Psi^-$ for out states, they describe the states at time $t=-\infty$ and $t=\infty$ respectively</li>
+<li>energy eigenstates can not be localized in time, because the time evolution operator would yield an inconsequential phase factor</li>
+<li>we need to consider wave packet states, superpositions of states that are given by some amplitude
+    $$\Psi p \int d\alpha g(\alpha) \Psi_\alpha$$</li>
+</ul>
+<h3>relation to free states to Lipp-Schwinger</h3>
+<ul>
+<li>We decompose $H = H_0 + V$, and let $\Phi$ be the solution to $H_0$</li>
+<li>we convene
+    $$H_0 \Phi_\alpha = E_\alpha \Phi_\alpha$$
+    $$\braket{\Phi_\alpha}{\Phi_{\alpha'}}=\delta(\alpha,\alpha')$$</li>
+<li>notice that we convened the same spectrum of $H$ on $\Psi$ as $H_0$ on $\Phi$, this requires that the masses appearing in $H_0$ be the physical masses that are actually measured, which are not necessarily the bare mass in $H$, 
+    if there is any difference it must be accounted for in $V$</li>
+<li>we then find
+    $$\Psi_\alpha^{\pm} = \Omega(\mp \infty) \Phi_\alpha,$$ 
+    where
+    $$\Omega(\tau) = \exp{iH\tau} \exp{-iH_0 \tau}$$
+    and additionally 
+    $$\braket{\Psi_\alpha^\pm}{\Psi_{\beta}^\pm} = \delta(\alpha - \beta)$$</li>
+<li>
+<p>further derivations leads to the Lippmann-Schwinger formula
+    $$\Psi_\alpha^{\pm} = \Phi_\alpha + \int d\beta \frac{T_{\beta \alpha}^{\pm} \Phi_\beta}{E_\alpha - E_\beta \pm i\epsilon},
+    \text{\quad \quad}
+    T_{\beta \alpha}^{\pm} \equiv \braket{\Phi_\beta}{V \Psi_\alpha^{\pm}}$$</p>
+</li>
+<li>
+<p>as a convenient representation for the factor of $\frac{1}{E_\alpha - E_\beta \pm i \epsilon}$, we have
+    $$\frac{1}{E \pm i \epsilon} = \frac{\mathscr{P}}{E} \mp i \pi \delta(E)$$
+    where $\mathscr{P} = \frac{E}{E^2 + \epsilon^2}$</p>
+</li>
+</ul>
+<h2>S-matrix</h2>
+<ul>
+<li>we define the S matrix by
+    $$S_{\beta \alpha} = \braket{\Psi_\beta^-}{\Phi_\alpha^+}$$</li>
+<li>
+<p>If there were no interaction then the in and out states would be the same, meaning
+    $$S_{\beta \alpha} = \delta(\alpha-\beta),$$
+    thus the rate of reaction $\Psi_\alpha \rightarrow \Psi_\beta$ is $|S_{\beta \alpha} - \delta(\alpha - \beta)|^2$ \footnote{the in and out states are not differentiated, they are only labeled differently here, and they only differ in how they are created or their asymptotic time evolution, in other words 
+    $$\braket{\Psi_\beta^-}{\Phi_\alpha^+} = \braket{\Psi_\beta}{\Phi_\alpha}$$</p>
+</li>
+<li>
+<p>S matrix connects two complete sets of orthonormal states, it must be unitary
+    $$\int d\beta S_{\beta \gamma}^* S_{\beta \alpha} = \braket{\Psi_\gamma}{\Psi_\alpha} = \delta(\gamma - \alpha),
+    \quad 
+    S^\dag S = 1$$</p>
+</li>
+<li>
+<p>If we define the operator analog of the S matrix as
+    $$\braket{\Phi_\beta}{S \Phi_\alpha} = S_{\beta \alpha}$$
+    we will find
+    $$S = \Omega(\infty)^\dag \Omega(-\infty) = U(\infty, -\infty)$$
+    $$U(\tau, \tau_0) = \exp{iH_0 \tau }\exp{-iH(\tau - \tau_0)}\exp{-iH_0 \tau }$$</p>
+</li>
+</ul>
+<h3>Lipp-Schwin analog of S</h3>
+<ul>
+<li>We now try to derive a similar formula for $S^\alpha_\beta$ using the Lippmann-Schwinger formula</li>
+<li>the method is to instead of taking the $t \rightarrow -\infty$ limit for $\Psi^+$, we take the $+\infty$ limit,
+    this means we have to close the contour of integration for $E_\alpha$ in the lower half plane now, 
+    and now we do pick up a contribution from the singular factor $(E_\alpha - E_\beta +i\epsilon)$, 
+    by the method of the residues and taking $t\rightarrow \infty$, we obtain
+$$\mathscr{I}<em>\beta^+  \equiv \int d\alpha \frac{e^{-i E</em>\alpha t} g(\alpha) T_{\beta \alpha}^{\pm}}{E_\alpha - E_\beta \pm i\epsilon}
+      \quad \rightarrow -2i\pi e^{-iE_\beta t} \int d\alpha \delta(E_\alpha - E_\beta)g(\alpha) T_{\beta \alpha}^+$$</li>
+<li>we then find
+    $$S_{\beta \alpha} \propto \delta(\beta - \alpha) - 2i\pi \delta(E_\alpha - E_\beta) \braket{\Phi_\beta}{V \Phi_\alpha}$$
+    which is known as the Born approximation, an approximation for the S-matrix at weak interactions. </li>
+</ul>
+<h2>Symmetries of the S-matrix</h2>
+<h3>Lorentz-invariance</h3>
+<ul>
+<li>We state the Lorentz-invariance condition as
+    $$S_{\alpha \beta} = \braket{\Psi_\alpha}{\Psi_\beta}= \braket{U(\Lambda, a)\Psi_\alpha}{ U(\Lambda, a) \Psi_\beta}$$</li>
+<li>We do not get Lorentz-invariance of the $S$-matrix for free, that is, it is only for certain special choices of interaction Hamiltonian that will give the theory's S-matrix lorentz invariance, as defined above </li>
+<li>As another caveat, how do we know $U(\Lambda)$ acts the same on the in and out state? We dont, but we can apply the transformation rules in Hilbert space and we will find that the inner product will be invariant if the theory satisfies
+    $$ [S, U(\Lambda)_0] = 0$$,
+    which when expressed in terms of the infinitesmal lorentz transformation, is
+    $$[H_0,S]=[\PP,S]=[\JJ_0, S]=[\KK_0,S]=0$$</li>
+<li>Weinberg also goes to show that an alternative formulation of the condition also makes Smat lorentz invariant
+    $$[V,\PP_0] = [V, \JJ_0]=0$$</li>
+</ul>
+<h3>Internal Symmetries</h3>
+<ul>
+<li>We apply the same procedure as above but to internal symmetries, we find that the condition now becomes
+    $$[U_0(T), H_0] = [U_0(T), V] = 0$$</li>
+<li>a classic example of conservation law from internal symmetry is electric charge</li>
+<li>More examples include baryon #(protons, neutrons, hyperons), lepton #(electrons, muons, $\tau$ particles, neutrinos), but these examples are believed to be only very good approximations.</li>
+<li>other examples of this type that are definitely approximation: conservation of strangeness</li>
+<li>isotopic spin invariance is only believed to be a good approximation, because such invariance is not respected by interactions such as EM\footnote{different members of the isospin multiplet have different electric charges and slightly different masses}</li>
+</ul>
+<h3>parity</h3>
+<ul>
+<li>parity $P$ is not conserved in the following sense: $$
+    \begin{cases}
+        [P, H_0] \approx 0 &amp; \text{not conserved in weak interaction between left and right handed ferions} \
+        [P, V] \approx 0 &amp; \text{conserved in EM but not weak interaction}
+    \end{cases}$$the weak interaction is responsible for $\beta$-decay</li>
+<li>The naive definition of the parity operator is $$U(P) \Psi_{p, \sigma} = \eta \Psi_{P p, \sigma} $$where $\eta$ is the <strong>intrinsic parity</strong> (a phase factor that arises as an eigenvalue of the parity operation) of the state. In a subtle way, this gives us the freedom to redefine $P$ if $P$ were to be conservedm<ul>
+<li>Parity being conserved means $$[P, H_0] = [P, V] = 0$$
+    If we have a conserved internal symmetry $T$ means
+    $$[U_0(T), H_0] = [U_0(T), V] = 0$$
+    thus
+    $$[P U_0(T), H_0] = [P U_0(T), V] = 0$$$$P' = PU_0(T) \text{ for internal symmetry } T $$</li>
+</ul>
+</li>
+<li>Must the intrinsic parity always take on $\pm 1$, ignoring normalization?<ul>
+<li>Yes, Suppose it doesn't, then we have         $$P^2 \Psi = e^{i\theta} \Psi $$
+   \ul{ if the theory we are considering has a continuous internal symmetry}, then we can redefine $\parity \rightarrow \parity I$ for some internal symmetry $I$ that cancels the $e^{i\theta}$ exactly, and this new $\parity'$ will give intrinsic parity of $\pm 1$, we then redefine it to be the parity operator $\Box$</li>
+<li>No, if we don't have continuous internal symmetry.</li>
+</ul>
+</li>
+<li>$P^2 \Psi = \eta \Psi$ means $P^2$ acts like an internal symmetry</li>
+</ul>
+<h3>time-reversal</h3>
+<ul>
+<li>we expect that time-reversal swaps the in and out states</li>
+<li>As usual, applying the transformation rules of symmetry transformation to states in hilbert space we find the requirement for a thoery to be time-reversal invariant
+    $$[T_0, H_0] = [T_0,V] = 0 $$
+    we will then find
+    $$T \Omega(-\infty) \Psi_{\alpha} = \Omega(\infty) \Psi_{T \alpha } $$
+    which makes sens</li>
+<li>time reverasl symmetry is much more difficult to experimentally verify than parity, because experimentally, it is extremely difficult to set up
+    $\text{Ni}^{60} + e^- + \bar{nu} \rightarrow \text{Co}^{60}$</li>
+</ul>
+<h3>PT</h3>
+<ul>
+<li>PT would have to be anti-unitary, because P is unitary and T is anti-unitary
+    $$S_{\beta \alpha} \rightarrow -e^{2i(\delta_\alpha + \delta_\beta)} S^*_{\parity \timeR \beta \parity \timeR \alpha}$$
+    $\parity \timeR$ would preserve the momenta while swapping spin, so invariance of S-matrix under $\parity \timeR$ implies there wouldnt be any preference for the electron in the decay $\text{Co}^{60} \rightarrow \text{Ni}^{60} + e^- + \bar{nu}$ to be emitted in the same or opposite direction to the $\text{Co}^{60}$ spin</li>
+<li>the 1957 experiment did not rule out time-reversal symmetry immediately, but ruled out PT by demonstrating the above statement is false    </li>
+</ul>
+<h3>C</h3>
+<p>It is understood today that C is not conserved in the weak interaction, just like how P is not conserved</p>
+<h3>CP</h3>
+<p>It is thought to be true that CP is ''more conserver" than C and P in weak force, but nevertheless CP is still not a conserved quantity</p>
+<h3>CPT</h3>
+<p>There is good reason to believe that CPT is conserved exactly, which would be really nice as it 
+1. gives a good interpretation of antiparticles
+2. the fact that CPT commutes with the Hamiltonian tells us that the particle and antiparticle have the same mass</p>
+<h2>Rates and Cross-section</h2>
+<p>Weinberg: this section is more like a mnemonic, because it seems like no interesting open problems in physics hinge on getting the fine points right regarding these matters</p>
+<h2>Implications of Unitarity</h2>
+<h3>Optical theorem</h3>
+<ul>
+<li>By the requirement that the S-matrix being unitary, we can actually find that the imaginary part of $M_{\alpha \alpha}$ (Recall that the $M$ matrix is part of the S-matrix after we removed the part where nothing happens) is actually somewhat interesting. $$\Im M_{\alpha \alpha } = - \pi \int d\beta  \delta^{4}(p_\beta  - p_\alpha ) |M_{\beta \alpha }|^2 $$</li>
+<li>This is the <strong>optical theorem</strong></li>
+<li>If we take the optical theorem to the high energy limit, we will find that unstable particles and their corresponding antiparticles have precisely the same lifetimes. </li>
+</ul>
+<h3>Boltzmannn H-theorem</h3>
+<ul>
+<li>The optical theorem is obtained using $S^\dagger S =1$, using the other condition of $SS^\dagger = 1$, we find
+    $$\Im M_{\alpha \alpha } = - \pi \int d\beta  \delta^{4}(p_\beta  - p_\alpha ) |\boxed{M_{\alpha \beta }}|^2 $$which implies $$\int d\beta  \delta^{4}(p_\beta  - p_\alpha ) |\boxed{M_{\alpha \beta }}|^2 = \int d\beta  \delta^{4}(p_\beta  - p_\alpha ) |\boxed{M_{\beta \alpha }}|^2$$</li>
+<li>further derivation shows  $$-\frac{d}{dt} \int d\alpha P_\alpha \ln{P_\alpha/c_\alpha} \ge 0 $$which called the Boltzmann H-theorem, equivalent to entropy never decreases.</li>
+</ul><span class="icon"></span></div>
+</details>
+</details>
+<details>
+<summary style="margin-left:30px;">
+4-cluster decom princp<span class="icon"></span></summary>
+<details>
+<summary style="margin-left:60px;">
+weinberg_4_notes.md<span class="icon"></span></summary>
+<div style="margin-left:90px;border: 3px dashed black; background-color:powderblue;"">
+<p>\subsection{Cluster Decomposition Principle}
+\begin{itemize}
+    \item We can express the Hamiltonian by giving its matrix elements between states with arbitrary number of particles. 
+    We will do so via a bunch of creation and annihilation operator, the benefit of this approach is that if a certain condition on the $\ap \ap^\dag $s in the Hamiltonian are satisfied, the S-matrix will satisfy the \textbf{cluster decomposition principle}, which will imply \textbf{locality} 
+    \footnote{events separated by spacelike vectors can not influence each other}
+    is obeyed.
+    \item It can be argued that the cluster-decomposition principle plays a role in field theory inevitable, because past attempts to formulate a relativistic quantum theory without using field theory have either failed lorentz invariance or the CDP.
+\end{itemize}</p>
+<p>Structure of this chapter:</p>
+<p>\begin{itemize}
+    \item discuss the basis of states containing arbitrary # of bosons and fermions
+    \item define the creation and annihilation operators
+    \item show how to construct the Hamiltonian that yields the S-matrix that satisfies the CDP
+\end{itemize}</p>
+<p>\subsubsection{Bosons and Fermions}</p>
+<p>\begin{itemize}
+    \item the \textbf{bose and fermi statics} state that bosons are symmetric under exchange while fermions are antisymmetric
+    [\Phi_{p_1, p_2} = \pm \Phi_{p_2, p_1}]
+    \item we will define the bosons to be the ones that take the plus sign, and fermion as the ones that take the minus sign
+    \item claim: all particles are either bosons or fermions
+    \begin{itemize}
+        \item Suppose there exists another particle that is not fermion or boson, meaning its eigenvalue under exchange is $\alpha \neq \pm 1$, 
+        then consider an arbitrary state under two operations of exchange, find that the original state gets scale by a nontrivial value $\alpha^2$ \Box
+        \item the above argument depends on two operations of exchange get us back to the initial state, but this doesn't have to be the case, 
+        the state can take a tour that doesnt end back where it began. This would be a problem in two-dimensional space, but not in 3,4, and will come in section 9.7
+        This would be a problem if the $\alpha$ depends on more things than the species of the particles, and is assumed away in the cluster decomposition principle
+    \end{itemize}
+    \item We now want to mathematically define a bunch of states that contain bosons and fermions, and is symmetric under exchagne of boson-boson, boson-fermions, but asymmetric under exchange of fermion-fermion. 
+    Such is accomplished with delta functions on all permutations, shown on page 172 
+\end{itemize}</p>
+<p>\subsubsection{Creation and Annihilation Operators}</p>
+<p>\begin{itemize}
+    \item The creation and annihilation operators in Weinberg specifically operate on the states that obey the exchange statistics of bosons and fermions defined by Weinberg
+    \item The annihilation operators of both bosons and fermions annihilate the vacuum
+    \item These operators obey the following commutation/anti-commutation relation:
+    [a(q')a^\dag(q) \mp a^\dag(q)a(q') = \delta(q' - q)]
+    where the anticommutator is for fermion-fermion, commutator for everything else
+    \item Claim: Any operator maybe expressed as a sum of products of creation and annihilation operators
+    \begin{itemize}
+        \item Begin with $\braket{\Psi_0}{\mathscr{O}\Psi_0} = C_00$, the rest follows pretty intuitively as on page 175
+    \end{itemize}
+    \item the lorentz transformation rules for the creation operators are on page 177
+    \item the transformation rules for the creation operators under the discrete transformations are beneath
+\end{itemize}</p>
+<p>\subsubsection{Cluster Decomposition and Connected Amplitudes}</p>
+<p>\begin{itemize}
+    \item The cluster decomposition principle simply states that experiments that are sufficiently separated in space have unrelated results
+    \item Consider a process where $A = {a_1, a_2, a_n} \rightarrow B = {b_1,b_2, ..., b_m}$, the S-matrix element would be $S_{AB}$
+    \begin{itemize}
+        \item Think about all the possible processes that could have led to this happening, we can have $a_1 \rightarrow b_1$, 
+        the rest doing the corresponding, or $a_1 \rightarrow b_2$, the rest doing the corresponding, or $a_1, a_2 \rightarrow b_1, b_2$, and the rest doing the corresponding...
+        \item without a doubt, there is a way to represent such multistate transition with combinatorics, and it will involve using $(-1)^?$ terms because some of the terms in the combinatoric monster will involve fermion-fermion exchange.
+        \item Indeed, we find that $S_{\beta \alpha}$ corresponds to a sum over all different ways of partitioning the particles in $A$ to clusters that goes to clusters in $B$
+    \end{itemize}
+    \item the cluster decomposition principle is a statement that if $\alpha_1 \rightarrow \beta_1 $, $\alpha_2 \rightarrow \beta_2 $, ... $\alpha_n \rightarrow \beta_n $ are studied in $n$ labs that are very far from each other, the amplitude $S_{\beta \beta}$ factorizes as it would for Prob[AB]=Prob[A]Prob[B], in other words, we can treat the processes as independent events
+    \item the recursively defined connected parts of the S-matrix gives us a way to rewrite $S_{\beta \alpha}$, thus another way to state the cluster decomposition principle, the recursiveness comes from the fact that the connected 1-particle component to define the connected 2-particle component, ...
+    \item This gives a restatement of the cluster decomposition principle, into the statement that $S_{\beta \alpha}^C$ vanishes if any particles in the state $\beta$ or $\alpha$ are far from any others
+\end{itemize}</p>
+<p>\subsubsection{Structure of the interaction}</p>
+<p>\begin{itemize}
+    \item How do we formulate a Hamiltonian that respects the Cluster decomposition principle? The answer is if the Hamiltonian satisfies (4.4.1), (4.4.2).
+    \item "the trusting reader may prefer to skip the rest of this chapter, and move on to consider the implications in chapter 5", I trust you! So I ll skip!
+\end{itemize}</p><span class="icon"></span></div>
+</details>
+</details>
+<details>
+<summary style="margin-left:30px;">
+5-quantum fields and antiparticles<span class="icon"></span></summary>
+<details>
+<summary style="margin-left:60px;">
+weinberg_5_notes.md<span class="icon"></span></summary>
+<div style="margin-left:90px;border: 3px dashed black; background-color:powderblue;"">
+<p>\subsection{Quantum Fields and Antiparticles}</p>
+<p>In this chapter, quantum fields will be introduced, during its construction, as a result of the union between special relaticity and quantum mechanics, we will encounter</p>
+<p>\begin{itemize}
+    \item the connection between spin and statistics
+    \item the existence of antiparticles
+    \item relationships beteween particles and antiparticles, such as CPT
+\end{itemize}</p>
+<p>\subsubsection{Free fields}</p>
+<p>\begin{itemize}
+    \item We would like to construct a Hamiltonian out of creation and annihilation operators, from (4.2.12) we know that under Lorentz transformations each of those operators is multiplied by a matrix that depends on the momentum of the operator, and the whole thing may not look as nice, because the Hamiltonian has different operators at different momentum the coefficients would be fked up, we would like to solve this issue.
+    \item the solution is to construct the Hamiltonian out of \textbf{creation} and \textbf{annihilation} \textbf{fields}, $\Psi^-, \Psi^+$, respectively, (5.1.4, 5.1.5)
+    \item the nice thing about this is under lorentz transformation, each field is multiplied by a position-independent matrix 
+    \footnote{See (5.1.6, 5.1.7, the $D_{\bar{l} l}$) on the RHS is the matrix that weinberg is referring to},
+    furthermore, we find that these $D$-matrices furnish a representation of the homogeneous lorentz group. </p>
+<pre><code>\item (4.2.12) gives us the transformation rules of the $\ap^\dag$, we take its adjoint and find the transformation rules of both $\ap, \ap^\dag$. Then putting the transformation rules of $\ap, \ap^\dag$ with that of $\Psi^\pm$, we find the transformation rules of coefficients $u,v$ of $\ap, \ap^\dag$ in $\Psi^\pm$ under general Lorentz transformation (5.1.13, 5.1.14), these are the fundamental requirements that will allow us to calculate the $u,v$
+
+\item[\HEART] We then take the rule above, and plug in pure translations, boosts, and rotations, and find
+\begin{itemize}
+    \item \textbf{translation}: we get a general rule for arbitrary homogeneous lorentz transformation $\Lambda$ (5.1.19, 5.1.20)
+    \item \textbf{boosts}: we get a relation between $u,v$ at $0$ momentum and some nonzero momentum (5.1.21, 5.1.22)
+    \item \textbf{rotations}: we get a relation between $u,v$ of different spin $\sigma, \bar{\sigma}$ (5.1.23-5.1.26), notice that the summation on the LHS of these equations is over $\bar{\sigma}$, and that on the right is over $l$, which is an index in the coefficients $u,v$. 
+\end{itemize}
+</code></pre>
+<p>\end{itemize}</p>
+<p>\paragraph{Causality}</p>
+<p>\begin{itemize}
+    \item We check the causality condition of the general free field constructed with coefficients in front of a continuous spectrum of creation and annihilation operators.
+    \item The tator 
+    \footnote{tator means commutator/anticommutator}<br />
+    $[\psi^+(x),\psi^-(y)]$ in (5.1.30) does not vanish in general. This means \ul{we can not have fields that are created purely with creation operators, or fields that are purely annihilation operators}. So the natural thing is to try linear combinations of the creation and annihilation fields:
+    [\kappa \psi^+ + \lambda \psi^-]
+    We will see later that WLOG $\kappa = \lambda$ so we are only free to choose the scale of the field.
+    \item we see that in order for this theory to conserve quantum numbers like electric charge, there must be a doubling of particle species carrying non-zero values of such quantum numbers: if a particular componenet of the annihilation field destrooys a particle of species $n$, then the same component of the creation field must create particles of species $\bar{n}$, \ul{this is the reason for antiparticles}.
+\end{itemize}</p>
+<p>\paragraph{Conserved Quantum Number}
+\begin{itemize}
+    \item Lets say each particle carries some quantum number, and there is some sort of conservation law for that quantum number. Then creation of a particle would add such number and annihilation takes away such number. 
+    \item Formulating this in terms of mathematics: Suppose the Hermitian operator $Q$ corresponds to the observable of quantum number $q$ that the particle carries. Then we necessarily have
+    [[Q,\ap] = Q\ap - \ap Q = -q \ap]
+    [[Q, \ap^\dag] = Q\ap^\dag - \ap^\dag Q = q \ap^\dag]
+    \footnote{because $\ap Q$ first makes a measurement, then takes the particle away, and $Q \ap$ makes the measurement after the particle is taken away, so the former measurement seems to observe an additional $q$. Similar idea for the latter tator relation.}
+    \item Recall the form of our Hamiltonian $\Ham$ in terms of the creation and annihilation fields (5.1.9)
+    \footnote{
+    It would be fair to say $\Ham$ is a polynomial in $\psi^+$, $\psi^-$
+    }:
+    \begin{align<em>}
+        \Ham = &amp;\sum_{NM} \sum_{l'<em>1 ... l'_N} \sum</em>{l_1 ... l_M} g_{l'<em>1...l'_N,l_1...l_M}\
+        &amp; \psi^-</em>{l'<em>1}...\psi^-</em>{l'<em>N} \psi^+</em>{l_1}...\psi^+_{l_M}
+    \end{align</em>}
+    Weinberg claims that in order for the Hamiltonian to commute with $Q$, it is necessary that the Hamiltonian be formed out of fields that have simple commutation relations with $Q$, meaning $[Q, \psi_l] = -q_l \psi_l$\footnote{I don't understand why this HAS to be the case right now, I see why it would be nice, but I ll take his words.}.
+    \item But this is clearly not the case for $\psi = \ap + \ap^\dag$, unless $Q=0$. 
+    \footnote{for $[Q,\psi] = [Q, \ap + \ap^\dag] = -q(\ap- ap^\dag)$.}
+    \item A possible solution would be to introduce another particle that carries the opposite charge. This is the idea behind \textbf{antiparticles}.
+\end{itemize}</p>
+<p>\textbf{causal}: fields commute at spacelike separations.</p>
+<p>\subsubsection{Causal Scalar Fields}</p>
+<p>\paragraph{what 'scalar' means}
+\begin{itemize}
+    \item scalar representation means the field only takes on a scalar value at each point in spacetime, for that value to be Lorentz invariant \ul{it must be a Lorentz scalar}. 
+    \item[\RA] Recall the definition of the annihilation field in terms of its operator and coefficient
+        [\Psi^+<em>{\boxed{l}}(x) = \sum</em>{\sigma n} \int d^3 u_{\boxed{l}} (x;\pp, \sigma, n) a(\pp, \sigma, n) ]
+        having scalar field means \ul{we can remove this $l$ index}, 
+        again, keep in mind that the field only takes on a scalar value at each point in spacetime!
+    \item[\RA] the field being just a scalar means the \textbf{matrix} $D_{\bar{l} l}(\Lambda)$ that we were talking about is \ul{simply a \textbf{scalar}: $D(\Lambda)$}!
+        \item[\RA] In his book weinberg considers the simplest representation where $D(\Lambda)=1$
+\end{itemize}</p>
+<p>\paragraph{spin 0 is necessary}
+\begin{itemize}
+    \item Recall that the $D^{(j)}$ representation of the rotation group is dim $2j + 1$, so for this representation to be a scalar representation we necessarily have spin = 0. A scalar field necessarily describes particle with 0 spin.
+    \item[\RA] we can drop the $\bar{\sigma},\sigma$ labels because they only take on the value of 0, assuming we are working with one species of particles, we can drop the $n$ as well, so we write
+    [u = u(p), v = v(p)]
+    \item it is conventional to normalize the annihilation and creation fields so that
+    $u(0) = v(0) = \sqrt{\frac{1}{2m}}$, so we have
+    [u(\pp) = \sqrt{\frac{1}{2p^0}}, 
+    \quad
+    v(\pp) = \sqrt{\frac{1}{2p^0}}]
+\end{itemize}</p>
+<p>\paragraph{implications of causality}
+\begin{itemize}
+    \item That's for the invariance under lorentz transformation, for causality, we need the fields to commute at spacelike separations. We find that while $[\phi^\pm , \phi^\pm]<em>{\mp} =0$, $[\phi^\pm , \phi^\mp]</em>{\mp}$ is not necessarily 0 for spacelike separations. 
+    \item To address this problem, we find that (5.2.6-5.2.9) the constants for both fields \ul{$\kappa, \lambda$ must be equal in magnitude}, and \ul{we must be considering the boson}, in other words, the \textbf{commutator} instead of \textbf{anticommutator}. This solution works by exploiting the evenness of $\Delta_+$. 
+    \item we can redefine the relative phase of the creation and annihilation operators so that $\kappa$ and $\lambda$ are equal exactly (5.2.10)
+\end{itemize}</p>
+<p>\paragraph{scalar fields need anti-particles for conserved charge}
+\begin{itemize}
+    \item The issue here is that $[Q, \phi^+] = -q\phi^+$, $[Q, \phi^{+\dag}] = q\phi^+$, we will have 
+    [[Q, \phi^+ + \phi^{+\dag}] = q (\phi^{+\dag} - \phi^+)]
+    this is not a commutation relation that allows for charge conservation.
+    \item Indeed, if the particles that are destroyed and created by $\phi$ carry some conserved quantum number like electric charge, then $\Ham$ will conserve the quantum number if and only if each term in $\Ham$ contains equal number of $\ap$ and $\ap^\dag$, but this would be impossible if $\Ham$ is a polynomial in $\ap + \ap^\dag$. 
+    \item[\HEART] In order for the scalar field to have conserved charge, we must imagine there is another field of the particle with opposite charge， let these two fields be $\phi^+, \phi^{+c}$, then we form the field by
+    \begin{align<em>}
+        \phi &amp;= \phi^+ + \phi^{+c\dag} \
+        &amp; = \int \frac{d^3 p}{(2\pi)^{3/2} (2 p^0)^{1/2}} 
+        \left[ a_{\pp}e^{ip\cdot x} + a_{\pp}^{c\dag}e^{-ip \cdot x}\right]
+    \end{align</em>}
+\end{itemize}</p>
+<p>\paragraph{MISC}
+\begin{itemize}
+    \item The commutator of the complex scalar field with its adjoint is
+    [[\phi(x), \phi^\dag(y)] = \Delta(x-y) = \Delta_+(x-y) - \Delta_+(y-x)]
+    \begin{itemize}
+        \item Parity: The intrinsic parity of a state containing a spinless particle and its antiparticle is even.
+        \item Charge Conju: The intrinsic charge conjugation parity of a state consisting of a spinless particle and antiparticle is even. If the particle is its own antiparticle, the charge conjugation must be real, $\pm 1$
+        \item Merlin: even, real if its own antiparticle. 
+    \end{itemize}
+\end{itemize}</p>
+<p>\subsubsection{Causal Vector Fields}</p>
+<p>We first follow the same procedure as we did for the scalar field (5.3.1-5.3.5), we encounter a difference when it comes to spin of the particle: vector field can have nontrivial spin (5.3.6, 5.3.7).
+Thus we need to examine spin by looking at the rotation transforamtion properties of the vector field, by looking at the rotation generators $\mathscr{J}^\mu_\nu$</p>
+<p>\paragraph{Rotation Generator}</p>
+<p>\begin{itemize}
+    \item The rotation generators are
+    [\left(\begin{array}{rrr}
+     0 &amp; 0 &amp; 0 \
+     0 &amp; 0 &amp; -i \
+     0 &amp; i &amp; 0
+     \end{array}\right),
+     \left(\begin{array}{rrr}
+     0 &amp; 0 &amp; i \
+     0 &amp; 0 &amp; 0 \
+     -i &amp; 0 &amp; 0
+     \end{array}\right),
+     \left(\begin{array}{rrr}
+     0 &amp; -i &amp; 0 \
+     i &amp; 0 &amp; 0 \
+     0 &amp; 0 &amp; 0
+     \end{array}\right)]
+     squaring them, and adding them up yields $2\delta^i_j$.
+    \item We know that in the four vector representation of the rotation group, the time component is zero, pluggint this into (5.3.6, 5.3.7) we obtain (5.3.12, 5.3.14). Plugging in our our last result of $2\delta$ into (5.3.6, 5.3.7), we find (5.3.13, 5.3.15).
+    \footnote{Recall that $(J^{(s)})^2 = s(s+1)$, so it may seem like for the $2\delta$ to be true, we must have $s =1$, but that would be the case if the rotation generators are the entire story of this representation. Which isnt the case because there is also another component of time. If the spatial components is nonzero and nontrivial, then we necessarily have $s=1$. However, there is another solution of setting the spatial components trivially to be 0, which would allow us to set $s=0$. }
+    \begin{itemize}
+        \item \textbf{Possibility 1:} at $\pp=0$, only $u^0, v^0$ are nonzero and $s$ (or $j$) equals 0.
+        \item \textbf{Possibility 2:} at $\pp =0$, only $u^i, v^i$ are nonzero and $s = 1$.
+    \end{itemize}
+\end{itemize}</p>
+<p>\paragraph{Spin 0}
+\begin{itemize}
+    \item The conventional values for $u^0, v^0$ are
+    [u^0, v^0 = \pm i \sqrt{\frac{1}{2m}}]
+    \item as before, we drop the $\sigma$ label for they only take on a single value of $0$
+    \item[\HEART] We find that for general momenta, the coefficients are (5.3.16, 5.3.17), and we observe that the annihilation and creation fields are simply the \textbf{4-gradient of the scalar field}. Then weinberg be like thats enough i dont feel like exploring this option no more. 
+\end{itemize}</p>
+<p>\paragraph{Spin 1}
+\begin{itemize}
+    \item For spin 1 the label $\sigma$ can take on between $-1, 0, 1$.
+    \item By the analogy of the past normalization conventions, we find the 0-momenta, 0-spin coefficients (5.3.20)
+    \item Using the raising and lowering operators $J_1^{(1)}\pm iJ_2^{(1)}$, we find the spin 1, -1 coefficients at $\pp = 0$ (5.3.21, 5.3.22)
+    \item[\HEART] the above two procedures give us the coefficients for $\sigma = -1, 0, 1$, now we can apply a boost to find the coefficients for any general momenta, and any of those three spins!
+    \footnote{The $e^\mu(\pp, \sigma)$ vectors are a simpler way to state the the coefficients for arbitary momenta in terms of the three basis vectors $e(0,-1), e(0,0), e(0,1)$} 
+    and we find the fields $\phi^{+\mu}, \phi^{- \mu}$. 
+\end{itemize}</p>
+<p>\paragraph{Spin 1 causality}
+\begin{itemize}
+    \item In computing the tators relations for spin 1 particle at spacelike separations, we find this $\Pi^{\mu \nu}$, which by some algebra is reduced to the familiar $\Delta_+$, which we know is even.
+    \item[\RA] we apply the same procedure for causality as we did for the scalar field, and we find that for causality it is necessary and sufficient that the spin 1 particle is \textbf{boson} and $|\kappa| = |\lambda|$. So we do the same procedure as scalar to adjust the pahse of the creation and annihilation operators to get them to be exactly equal. 
+    \item In addition, we find that this field is self-conjugate, so it is real which prohibits conservation of quantum number like electric charge. 
+    \item What if we want to conserve a charge? We do the same thing where we imageine there is another boson with exactly the same mass, spin, but opposite charge. This will give us a complex field. 
+    \item again, we can let the particle be neutral, and the boson would be its own antiparticle, and we simply conserve charge = 0.
+\end{itemize}
+\paragraph{spin 1 MISC}
+\begin{itemize}
+    \item A quick check indicates that the spin 1 field satisfies the KG equation. 
+    \item we can not get electrodynamics by simply taking the $m\rightarrow0$ limit of the massive spin 1 theory, because the spacelike commutator contains a $m^2$ at the bottom (5.3.30) which blows up.
+    \item weinberg then discusses something related to photon vs spin1 massive boson, then talk about discrete symmetries.
+\end{itemize}</p>
+<p>\subsubsection{Dirac Formalism}</p>
+<p>\begin{itemize}
+    \item The Dirac formalism is just one representation of the homogeneous lorentz group, but it has some \ul{special importance}
+    \footnote{
+    What is this special importance?
+    \begin{itemize}
+        \item A
+        \item B
+    \end{itemize}
+    }. This formalism was introduced by Dirac, but weinberg wants to introduce it mathematically rather than historically
+    \item from the point of view we are following here, the structure and properties of any quantum field are dictated by the \ul{representation of the homogeneous lorentz group} under which it transforms. </p>
+<p>\end{itemize}</p>
+<p>\paragraph{Clifford Algebra}
+\begin{itemize}
+    \item By a representation of the homogeneous Lorentz group, we mean a set of matrices $D(\Lambda)$ satisfying
+    [D(\Lambda_1)D(\Lambda_2) = D(\Lambda_1 \Lambda_2)]
+    \item by looking at the infinitesmal transformations, we get the lie algebra of the lorentz group (5.4.4).
+    \footnote{Any set of matrices satisfying the commutation relations in 5.4.4 acts as a set of generators for the some representation of the lorentz group.}
+    \item the key here is that we find a set of matrices satisfying 5.4.4 via the \textbf{clifford algebra} (5.4.5 - 5.4.7).
+    \item The properties of clifford algebra is explored by weinberg, the essential take away is that the clifford algebra allows us to obtain 
+    \begin{itemize}
+        \item lorentz scalars (5.4.9), 
+        \item lorentz vectors (5.4.8), 
+        \item lorentz rank-2 tensors (5.4.10), 
+        \item lorentz rank-3 tensors (5.4.11),
+        \item lorentz rank-4 tensors (5.4.12). 
+    \end{itemize}
+    All these $\uparrow$ are representations of the Lorentz group, so we can form representations of the Lorentz group using clifford algebra!
+    \item the clifford algebra automatically defines a parity operator (5.4.13-16)
+\end{itemize}</p>
+<p>\paragraph{Return to 4D spacetime dimensions}
+\begin{itemize}
+    \item In the 4D spacetime dimensions, weinberg considers an example set of $\gamma$ (5.4.17), the Pauli spinors.
+    \item recall that the pauli spinor matrices give the projection of the electron's spin along a direction. 
+    \item using the relation between $\mathscr{J}$ and $\gamma$ given in (5.4.6), we find the lorentz group generators (5.4.19,20), and we find that these generators are block-diagonal, meaning we have found a reduciable representation that is simply a direct sum of two irreducible ones.
+\end{itemize}</p>
+<p>\paragraph{Convenient way to write the clifford rank4tensor}
+\begin{itemize}
+    \item Weinberg considers how to write the rank4 tensor $\mathscr{P}^{\rho \sigma \tau \eta}$ in a more compact way&gt;
+    \item The answer relates to the $\gamma^5$ matrix defined by $\gamma^5 = -i\gamma^0 \gamma^1 \gamma^2 \gamma^3 $, with dis definition, we then find
+    [\mathscr{P}^{\rho \sigma \tau \eta} = 4!i\epsilon^{\rho \sigma \tau \eta} \gamma^5]
+    \item This matrix $\gamma^5$ is a pseudoscalar in the following sense
+    [[\mathscr{J}^{\rho \sigma}, \gamma_5] = 0, \quad 
+    \beta \gamma_5 \beta^{-1} = - \gamma_5.]
+    \item Moreover, we find $\mathscr{A}^{\rho \sigma \tau} = 3! i \epsilon^{\rho \sigma \tau \eta} \gamma_5 \gamma_\eta$.
+    \item The 16 independent 4x4 matrices can therefore be taken as the components of the scalar 1 (D1), the vector $\gamma^{\rho}$ (D4), the antisymmetric tensor $\mathscr{J}^{\rho \sigma}$ (D 6), the axial vector $\gamma_5 \gamma_\eta$ (D4), and the pseudoscalar $\gamma_5$ (D1). 
+    \item recall from earlier that weinberg made a statement about how the clifford scalar, vector, tensors furnish representations of the lorentz group, in addition, they are all linearly independent, and we overall got 16 linearly independent componenet? What he has done here is writing the two tensors with $\gamma_5$ matrix, simplifying this representation. 
+    \item Weinberg then shows that the $\gamma_5$ matrix has unit square and anticommutes with the other four cliford matrices. This is particularly convenient, because this anticommutation relation gives us a D5 clifford algebra. 
+\end{itemize}</p>
+<p>\subsubsection{Causal Dirac Field}</p>
+<p>\begin{itemize}
+    \item Naturally, we now apply the Dirac representation
+    \footnote{This simply means plugging the $\mathscr{J}$ that we obtained in the last section using $\gamma$ into the formula
+    [\sum_{\bar{\sigma}}u_{\bar{l}}(0, \bar{\sigma}) \JJ^{(j)}<em>{\bar{\sigma} \sigma} = \sum</em>{l} \mathscr{J}_{\bar{l}l} u_l(0, \sigma)]}
+    we find the two equations above (5.5.3). 
+    \item By a theorem from group theory, we find that the spin of the representation must be $\frac{1}{2}$, and we further find the basis vectors (equations above 5.5.6 )
+\end{itemize}</p>
+<p>\paragraph{The following are read at an extremely cursory pace}</p>
+<p>\begin{itemize}
+    \item Weinberg notes that the coefficients $\pm c, \pm b$ are determined by the parity operator. he illustrates this point to (5.5.17, 5.5.18). 
+    \item Then weinberg does what he did with all the other field: examining its causality. He finds that \textbf{the dirac formalism has to describe fermions}!
+    \item then he explores the discrete transformation properties of the dirac field.
+\end{itemize}</p>
+<p>\subsubsection{General irreducible representations of the Homogeneous Lorentz Group}</p>
+<p>\subsubsection{General Causal FIelds}</p>
+<p>\subsubsection{The CPT theorem}
+The CPT theorem states</p>
+<p>\textit{For an appropriate choice of inversion phases, the product CPT of all the inverisons is conserved.}</p>
+<p>\subsubsection{Massless Particle fields}</p>
+<p>\begin{itemize}
+    \item We begin by assuming that the massless particle field is also made out of the a field with creation and annihilation operators. Using the transformation relations (2.5.42), we arrive at (5.9.2, 3, 4)
+    \item We find that the coefficients $u,v$ must satisfy (5.9.6,7), we simplify these equations by considering momentum-related transformations as not going from $p_1 \rightarrow p_2$, but $k \rightarrow p_2$. So we can express the general momentum coefficient $u(\pp),v(\pp)$ in terms of the standard momentum $u(\kk),v(\kk)$: (5.9.8,9).
+    \item Now we zoom into the $\kk$ case, this transforms by the little group: (5.9.10,11).
+    \item we find that \ul{no 4vector field can be constructed from the annihilation and creation operators for a particle of mass zero and helicity $\pm 1$. }
+    \item way out: use gauge invariance, and \textbf{tensor} field!
+    \item we further find that causality implies the particle be its own charge conjugate, which would be the case for a photon. 
+\end{itemize}</p><span class="icon"></span></div>
+</details>
+</details>
+<details>
+<summary style="margin-left:30px;">
+6-feynman rules<span class="icon"></span></summary>
+<details>
+<summary style="margin-left:60px;">
+weinberg_6_notes.md<span class="icon"></span></summary>
+<div style="margin-left:90px;border: 3px dashed black; background-color:powderblue;"">
+<p>\subsection{The Feynman Rules}</p>
+<p>\begin{itemize}
+    \item There is obvious advantage in using a perturbation technique which keeps lorentz invariance and causality (cluster decomposition principle) manifest at all stages of the expansion.
+    \item The old-fashion perturbation theory was not one of those advantageous techniques. The Feynman-Schwinger-Tomonaga is one of those advantageous technique above.
+    \item This chapter outlines the diagrammatic calculational techniques first described by Feynman at Poconos Conference in 1948.
+    \footnote{
+    Feynman was led to these diagrammatic rules through his development of the path-integral approach, which will be the subject of section 9.
+    }
+\end{itemize}</p>
+<p>\subsubsection{Derivation of the Rules via Dyson series}</p>
+<p>\begin{itemize}
+    \item The Dyson's series expresses the matrix element as (6.1.1)
+    \footnote{
+    Recall the expression of $S$ in terms of Dyson series (3.5.10), using our newest creation and annihilation operator formalism, we put the free fields on both sides of (3.5.10), and putting the corresponding creation and annihilation operators between the free fields and $S$ yields (6.1.1)
+    }
+    \item The field of a specific particle that transforms under a particular representation of the homogeneous lorentz group, is given by (6.1.3)
+    \footnote{
+    This can be understood as the 'wave equation' of the particle, which contains everything we can possibly know about such particle. The integral over those coefficients imply that this is a localized particle, or 'wave packet'.
+    }
+    \item weinberg here convenes a distinction between particles and antiparticle:
+    \begin{itemize}
+        \item field operators that destroy particles and create antiparticles are '\textbf{fields}'
+        \item field operators that destroy antiparticles and create particles are '\textbf{field adjoints}'
+    \end{itemize}
+    \item We now move the $\ap$s on the left of (6.1.1) to the right, using the commutator relations (6.1.4, 5, 6).
+    \item In this way, the contributions to (6.1.1) are those arising from the delta function terms on the right-hand side of (6.1.4). The contribution to (6.1.1) of a given order in each of the terms $\Ham_i$ in the polynomial $\Ham(\psi(x),\psi^\dag(x))$ is given by a sum, over all the ways of pairing creation and annihilation operators, of the integrals of products of factors, in the 6 ways in (5.1.9-14)\footnote{These pairings are derived very trivially from 6.1.4 and 6.1.3}
+    \item The S-matrix is obtained by multiplying these factors together, along with additional numerical factors to be discussed below, then integrating over $x_1,x_2,...,x_N$, then summing over all pairings, and then over the numbers of interactions of each type.
+    \item It is probably worth nothing that Feynman diagrams are simply a diagrammatic mnemonics for keeping tracks of the terms that we encounter in moving the annihilation from left to right in (6.1.1) according to the rules between (6.1.9) and (6.1.14), which tells you how to handle $\ap$ with $\psi$, $\ap$ with $\ap^\dag$, and $\ap$ with time-ordering, respectively. Keep in mind that the lines represent a pairing that you can have. Figure 6.1 tells you more specifically what the pairings corresponds to. 
+\end{itemize}</p>
+<p>\paragraph{The rules}
+The rules for calculating the S-matrix are conveniently summarized in temrs of Feynman diagrams. Each vertex in the diagrams represent one of the $\Ham_i$, and each of the lines represent a pairing described above.</p>
+<p>\begin{itemize}
+    \item arrows always point \textbf{in} the direction that a \textbf{particle} is moving, and \textbf{opposite} to the direction an \textbf{antiparticle} is moving.
+    \item To compute the contribution to the S-matrix for a given process, of a given order $N_i$ in each of the interaction terms $H_i$ in (6.1.2), we carry over the following steps:
+    \begin{enumerate}
+        \item draw all feynman diagrams consisting of $N_i$ vertices of each type $i$, and containing a line coming into the diagram from below for each particle/antiparticle in the initial state, and a line going upwards out of the diagram for eevery orticle in the final state, together with any number of internal lines running from one vertex to another, as required to give each vertex the proper number of attached lines. Each vertex is labeled with an interaction type $i$ and spacetime coordinate $x^\mu$. Each internal or external line is labeled at the field $\psi_l(x)$ or $\psi_l^\dag(x)$ that creates or destroys the orticle at that vertex, and each external line where it enters or leaves the diagram is labeled with the quantum numbers $\pp, \sigma, n$ or $\pp' \sigma', n'$ of the initial or final orticle.
+        \item For each vertex of type $i$, include a factor $-i$, obviously from $(-i)^N$, and a factor $g_i$, the coupling constant. For every final orticle, include a factor of (6.1.9,10), For every initial orticle, include a factor of (6.1.11,12). For internal lines include factors of (6.1.13,14)
+        \item Integrate the product of all these factors over the coordinates $x_1, x_2, ...$ of each vertex
+        \item Add up the results obtained in this way from each Feynman Diagram. The complete perturbation series for the S-matrix is obtained by adding up the contribution of each order in each interaction type, up to whatever order our strength permits.
+    \end{enumerate}
+    \item Some special rules apply for specific scenarios:
+    \begin{enumerate}
+        \item Suppose that an interaction $\Ham_i(x)$ contains $M$ factors of the same field. Then we get an additional factor of $M!$ in front of each diagram. The traditional method to combat this is to adjust the coupling factor to $\frac{g}{M!}$ in the $M$-th order expansion.
+        \item Remember how the permutations of the vertices cancel with the factor of $\frac{1}{N!}$, this is not always the casae because some permutations of the vertices do not necessarily produce a new diagram. This occurs when we have loop diagrams. In loop diagrams, we need to add an additional factor of $\frac{1}{N}$.
+        \item Whenever permutation puts the annihilation part $\psi^+(x)$ of a field in $\Ham$ just to the left of the creation part $\psi^{+\dag}(y)$ of a field adjoint in $\Ham(y)$, the permutation that puts the annihilation part $\psi^{-\dag}(y)$ of the field adjoint just to the left of the creation part $\psi^-(x)$ of the field involves one extra interchange of fermion operators, yielding the minus sign in the second term of (6.1.14) for fermions.
+    \end{enumerate}
+    \item The overall sign of the S-mat does not matter, but the relative signs do.
+    \item general Feynman diagrams form either chains of lines that pass through the diagram with arbitrary number of interactions (traditional &gt;--&lt; diagrams), or else fermionic loops (loop ----&gt;O&lt; diagrams)
+\end{itemize}</p><span class="icon"></span></div>
+</details>
+</details>
+<details>
+<summary style="margin-left:30px;">
+7-canonical formalism<span class="icon"></span></summary>
+<details>
+<summary style="margin-left:60px;">
+weinberg_7_notes.md<span class="icon"></span></summary>
+<div style="margin-left:90px;border: 3px dashed black; background-color:powderblue;"">
+<p>\subsection{the canonical formalism}</p>
+<p>\begin{itemize}
+    \item all of the most familiar qft furnish canonical systems, and these can easily be put in a Lagrangian formalism
+    \item The benefit of using Lagrangian formalism, a classical theory with a lorentz-invariant lagrangian density will when canonically quantized lead to a lorentz-invariant quantum theory.
+    \item it would be hopeless to try to guess at a form of the Hamiltonian in non-abelian gauge theories without starting with a lorentz-invariant and gauge-invariant lagrangian density
+\end{itemize}</p>
+<p>\subsubsection{canonical variables}</p>
+<p>\paragraph{Weinberg formalism to Lagr to Hamiltonian}</p>
+<p>\begin{itemize}
+    \item this section shows that various quantum theories that we have constructed so far satisfy the commutation rules and equations of motions of the Hamiltonian version of the canonical formalism, this means identifying the operators $q,p$ in theories we have considered so far (scalar, vector, tensor, etc) that satisfy the canonical commutator or anticommutation relations
+    [[q(\vec{x},t),p(\vec{y},t)]<em>{\mp} = i\delta^3(\vec{x}-\vec{y})]
+    [[q(\vec{x},t),q(\vec{y},t)]</em>{\mp} = 0]
+    [[p(\vec{x},t),p(\vec{y},t)]_{\mp} = 0]
+    \item Then weinberg uses the commutator relations between fields to find the right $p,q$ for each theory, specifically the \ul{real scalar field}, \ul{complex scalar field}, \ul{real vector field}, \ul{dirac field of non-majoranna spin 1/2 particle} (7.1.4-16). 
+    \item Then weinberg defines the quantum mechanical functional derivative (7.1.17,18) for a functional that takes in a system of operators that satisfy the canonical tator relations. 
+    \item Then he transitions to the Hamiltonian formalism by identifying that the functional derivative corresponds to the time-dependence of the operators $p,q$, and observing that the free Hamiltonian $H_0$ derived in weinberg formalism is equal to that of Hamiltonian formalism up to a constant.<br />
+\end{itemize}</p>
+<p>\paragraph{what Lagr gives free Hami}</p>
+<p>\begin{itemize}
+    \item This question may be answered by Legendre transformation from Hamiltonian to Lagrangian (7.1.26)
+    \item Lagr: lorentz-invariant, Hami: can be used to get S-mat elements, constraint, the Lagr must correspond to the right free field hami.
+\end{itemize}</p>
+<p>\paragraph{Can an interacting theory be formulated via canonical variable? }</p>
+<p>\begin{itemize}
+    \item weinberg introduces the canonical variables in heisenberg picture. He uses capital letters for those canonical variables.
+    \item These canonical variables are quantized in the same way as the non-interacting ones
+    \item weinberg notes that the relation between the canonical conjugates in interacting fields $P$ and the field variables $Q$, and the field variables $\dot{Q}$ is in general not the same as for the free theory operators. 
+\end{itemize}</p>
+<p>\subsubsection{the lagr formalism}</p>
+<p>\paragraph{How do we choose the hami?}</p>
+<p>\begin{itemize}
+    \item the easiest way to enforce lorentz invariance is via choosing a suitable lagr then derive the hami. 
+    \item The lagrangian is a functional of $\psi^l$ and $\dot{\psi}^l$ while the conjugate fields $\pi_l$ are defined to be the $\cdot{\psi}^l$ dependence of the lagr.
+    \item pretty standard stuff, gets Euler lagrange in (7.2.9)
+    \item The hamiltonian is obtained via legendre transformation, it would be a functional of the lagr, $\pi_l$ and $\cdot{\psi}$.
+    \item after obtaining the equations of motion from the lagr and hami formalism, it would be tempting to identify the field variables $\psi$ and $\pi$ with canonical variables $q,p$. This works for the simple example of real scalar field, but \textbf{does not work in general}, because there are field variables, such as the time component of a vector field or the hermitian conjugate of a dirac field, that are not canonical variables, and do not have canonical conjugates, yet lorentz invariance requires them to be in the lagr.
+\end{itemize}</p>
+<p>\paragraph{getting the 'non-canonical' terms in the lagrangian}</p>
+<p>\begin{itemize}
+    \item the terms that do not behave like canonical variables are denoted $C^r$, so now we have 
+    [P_n(\vec{x},t) = \frac{\delta L[Q(t),\dot{Q}(t),C(t)]}{\delta \dot{Q}^n(\vec{x},t)}, \quad
+    0 = \frac{\delta L[Q(t),\dot{Q}(t),C(t)]}{\delta C^r(\vec{x},t)}]
+    \item in a simple case, these equations can be solved to give $C$ in terms of $Q,P$. 
+\end{itemize}</p>
+<p>\subsubsection{global symmetries}</p>
+<p>the real point of lagr is that it provides a natural framework for the qm implementation of symmetry principles</p>
+<p>\subsubsection{lorentz invariance}</p>
+<p>\subsubsection{example: transition to interaction picture}</p>
+<p>\subsubsection{constraints and dirac brackets}</p>
+<p>\begin{itemize}
+    \item the chief obstacle to deriving the hami from lagr is the constraints, there are two types
+    \begin{itemize}
+        \item \textbf{primary} constraints are either imposed on the system, or arise from the structure of the lagr
+        \item \textbf{secondary} constraints arise from the requirement that the primary constraint be consistent with the equations of motion. 
+    \end{itemize}
+    \item weinberg says the the distinction between primary, secondary constraints is not important and he will treat them equally, but then why bother mentioning it?
+    \item the constraints we have found for the massive vector field are of a type known as second class, which has a standard prescription for the tator relations.
+\end{itemize}</p>
+<p>\paragraph{the standard prescription for some constraints}</p>
+<p>\begin{itemize}
+    \item defines poisson bracket, notice that poisson brackets satisfy the algebraic properties of commutators and jacobi identity as well.
+    \begin{itemize}
+        \item a constraint is known to be \textbf{first} class if its poisson bracket with all other constraints vanishes when we impose the constraints.
+        \item after the first class constraints are eliminated by a choice of gauge, the remaining constraint equaitons are such that no linear combination of the poission brackets of these constraints with each other vanishes, it follows that the matrix of the poisson brackets of the remaining constraints is non-singular, these are called \textbf{second} class constraints 
+        \footnote{
+        there must be an even number of second class constraints
+        }. 
+    \end{itemize}
+    \item Dirac suggests that when all constraints are second class, the commutator relations will be given by the dirac bracket (7.6.19-20), which satisfies the commutator relations and jacobi identity as well (7.6.21-23)
+    \item Maskawa and Nakajima: for any set of canonical variables, governed by second class constraints, it is always possible by a canonical transformation to construct two sets of variables $Q^n, \mathscr{Q}^r$ and their respective conjugates $P_n, \mathscr{P}_r$ such that the constraints read $\mathscr{Q}^r = \mathscr{P}_r = 0$.
+    \item we then find that the dirac bracket is equal to the poisson bracket calculated in terms of the reduced set of unconstrained canonical variables. 
+\end{itemize}</p><span class="icon"></span></div>
+</details>
+</details>
+<details>
+<summary style="margin-left:30px;">
+8-qed<span class="icon"></span></summary>
+<details>
+<summary style="margin-left:60px;">
+weinberg_8_notes.md<span class="icon"></span></summary>
+<div style="margin-left:90px;border: 3px dashed black; background-color:powderblue;"">
+<p>\subsection{qed}</p>
+<p>\begin{itemize}
+    \item infer the need for a principle of gauge invariance from the difficulty of formulating quantum theory of massless particles with spin
+    \item deduce the features of electrodynamics from gauge invariance
+    \item take gauge invariance as a starting point and deduce the existence of a vector potential for massless particles of unit spin
+\end{itemize}</p>
+<p>\paragraph{gauge invariance}</p>
+<p>\begin{itemize}
+    \item there is no way to construct a 4-vector as a linear combination of the creation and annihilation operators for helicity $\pm 1$
+    \item Instead of banishing $A_\mu$ from the action, we shall require that the part of the action $I_M$ for matter and its interaction with radiation be invariant under a gauge transformation 
+    $A_\mu \rightarrow A_\mu +\dmu \epsilon$
+    \item we'd find that the lorentz invariance of $I_M$ requires $\dmu \frac{\delta I_M}{\delta A_\mu (x)} = 0$ which implies $\frac{\delta I_M}{\delta A_\mu (x)}$ is a conserved current
+    \item How to construct such current? We know that infinitesmal internal symmetries of the action implies conserved currents, in fact consider the transformation
+    [\delta \psi^l(x) = i \epsilon(x) q_l \psi^l (x)]
+    that leaves the matter action invariant for a constant $\epsilon$, when the matter field satisfies the field equations this transformation defines a conserved current $J^\mu$. 
+    \item we can construct a lorentz-invariant theory by coupling the vector field $A_\mu$ to the conserved $J^\mu$ in the sense that $\delta I_M/\delta A_\mu(x)$ is taken to be proportional to $J^\mu$ from above:
+    [\frac{\delta I_M}{\delta A_\mu(x)} = J^\mu (x)]
+    \item the requirement above can be restated as a principle of invariance: the matter action is invariant under the adjoint transformations:
+    [\delta A_\mu(x) = \dmu \epsilon(x), \quad
+    \delta \psi_l(x) = o \epsilon(x) q_l \psi_l(x)]
+    \begin{itemize}
+        \item If $\epsilon$ is a constant, this is a global symmetry, or gauge invariance of the first kind
+        \item If $\epsilon(x)$ is arbitrary, then this is a local symmetry, or gauge invariance of the second kind
+    \end{itemize}
+    \item Taking the radiation action to be that of (8.1.14), and imposing the equation of motion yields $0 = \frac{\delta}{\delta A_\nu} [I_\gamma + I_{M}] = \dmu F^{\mu \nu} + J^\nu$, which is the inhomogeneous maxwell equations. 
+\end{itemize}</p>
+<p>\paragraph{constraints and gauge conditions}
+\begin{itemize}
+    \item there are constraints that arise when we try to quantize the theory whose lagrangian we just studied above
+    \item the first constraint arises from the fact that the lagrangian density is independent of the time-derivative of $A_0$, meaning $\Pi_0 = 0$. this is a primary constraint. this primary constraint leads immediately to the secondary constraint of 
+    [\partial_i \Pi^i = - J^0]
+    \item because of the partial arbitrariness of $A_\mu$ due to gauge invariance, it is not possible to apply the canonical quantization procedure directly, rather, we need to first choose a gauge.
+\end{itemize}</p>
+<p>\paragraph{choosing coulomb gauge}</p>
+<p>\begin{itemize}
+    \item choosing the coulomb gauge, and then applying dirac's method of removing second class constraints, we done.
+\end{itemize}</p><span class="icon"></span></div>
+</details>
+</details>
+<details>
+<summary style="margin-left:30px;">
+9-path integral<span class="icon"></span></summary>
+<details>
+<summary style="margin-left:60px;">
+weinberg_9_notes.md<span class="icon"></span></summary>
+<div style="margin-left:90px;border: 3px dashed black; background-color:powderblue;"">
+<p>\subsection{path integral methods}</p>
+<p>\begin{itemize}
+    \item the awkwardness in obtaining simple results in the last chapter hinders canonical formalism from being applied to more complex theories (non-abelian gauge, general relativity, etc)
+    \item[(1960s)] fadeev, popov and dewitt showed how to apply it to non-abelian gauge theories and general relativity, this revived path integral approach
+    \item[(1971)] t'hooft used path-integral methods to derive the feynman rules for spontaneously broken gauge theories, including weak and electromagnetic interactions, in a gauge that made the high energy behavior of these theories transparent. this was a turning point for path integral
+    \item in this chapter we derive the path integral formalism from canonical formalism, and see what additional sorts of vertices are needed to supplement the simplest version of the feynman path-integral method. 
+\end{itemize}</p>
+<p>\paragraph{the general path integral formula}
+\begin{itemize}
+    \item weinberg begins with the general formalism for quantum mechanics (9.1.1-12)
+    \item the key insight is that after considering general $\braket{q':t}{q,t}$, weinberg considers the transition into a state with infinitesmal increment of time: $\braket{q': \tau + d\tau}{q: \tau}$
+    \item this can be written with $d\tau$ taken to be $N$ tiny slices of $d\tau/N$, and we obtain a semi-main equation (9.1.26) in the limit of $N \rightarrow \infty$ this becomes a integral and we obtain a main equation (9.1.34) which is a constrained path integral. Physically this is the integral of all path that take $q(\tau)$ from $q$ at $\tau = t$ to $q'$ at $\tau = t'$. 
+    \item the great advantage of writing matrix elements in this way is that the path integrals are easy to calculate when expanded in powers of the coupling constants in $H$
+    \item the path integral formalism allows us to not only compute transition probability between states, but also matrix elements between states with time-ordered products of general operators in between (9.1.35-38).
+\end{itemize}</p>
+<p>\paragraph{transition to the s-matrix}</p>
+<p>\begin{itemize}
+    \item if we want to convert the result of (9.1.34) to a notation appropriate to qft, we shall let the index $a$ run over all points $\vec{x}$
+    \footnote{
+    The idea being instead of all paths from point to point, we are integrating over all fields that take on the initial and final conditions
+    } 
+    in space and over a spin and species index $m$, and replacing $Q_a(t)$ with $Q_a(\vec{x},t)$, same for $P$.
+    \item Then to get the $S$ matrix element we just need to take the $t\rightarrow \pm \infty$ limits in the final and initial states. 
+    \item some derivations later we find an expression for the annihilation operators in the in and out states (9.2.7), together with (9.2.8), we have a differential equation to solve
+    \item going with a gaussian ansatz, and the solution of vacuum expectation value of time ordered products can be expressed as (9.2.17). recall that in 6.4 we learned that the S-mat element is like the vacuum expectation value of t-ordered products, so this marks a intermediate stoppoint.
+\end{itemize}</p>
+<p>\paragraph{lagr version of path integral}</p>
+<p>\begin{itemize}
+    \item In (9.1.38), if $H$ is of the form (9.3.1), then the exponential part of (9.1.38) can be written as the corresponding lagrangian (9.3.1-10)
+    \item however, there are some additional caveats with (9.3.10), being the determinant of $\mathscr{A}$.
+    \begin{itemize}
+        \item recall 
+        [M = \frac{\mel{VAC}{T{...}}{VAC}}{\braket{VAC}{VAC}}]
+        so if this determinant amounts to some constant, then we have no problem (this would be the case for a set of scalar fields)
+        \item HMANASS, weinberg gives an example of a 'nonlinear $\sigma$ model' whose lagrangian density amounts to the determinant of $\mathscr{A}$ having exponential dependence on the trace of a term in the lagrangian. we can regard this determinant as providing a correction ($\Delta \Lagr$) to the effective lagrangian density. This means we can still interpert the exponential part as an exponential of a lagrangian, but the lagrangian needs to be modified.
+        \item HMANASS, weinberg gives another example where we need to add a correction to the lagrangian density in order to keep the $e^{i\int \Lagr}$ interpretation. 
+        \item[\HEART] In order to keep the exponentiated action interpretation, we add a $i\epsilon \times (\text{terms})$ to the lagrangian, giving (9.3.11). 
+    \end{itemize}
+\end{itemize}</p>
+<p>\paragraph{path integral derivation of the feynman rules}</p>
+<p>\begin{itemize}
+    \item using the equation for $M$ (9.4.1), and our newly derived interpretation of $e^{i I[\psi]}$ as the weight function in the path integral (9.3.11), we obtain a formula for $M$: (9.4.2). 
+    \item dividing the lagrangian into a free and interaction part, we get the action in free and interaction parts as well (9.4.4-7)
+    \item by adopting the actio weighting function interpretation, we have assumed that the lagrangian is quadratic in the fields, so we can always write the free action in the \textbf{generalized quadratic form} (9.4.8-9.4.11)
+    \item To deal with interactions, we will expand the exponential in powers of $I_1$ and then $I_1$ in powers of the field (9.4.12)
+    \item The general integral that we encounter both in the numerator and the denominator of (9.4.2) are of the form $\mathscr{J}$ in (9.4.13)
+    \footnote{
+    the $psi$s can be taken to be 1 to get the denominator
+    }
+    using some formula in the appendix, this can be written as (9.4.14), which amounts to the instructions of drawing feynman diagrams. what's left is to check that the factors of each vertex/line match the feynman rules we derived earlier
+    \item the propagator in the path integral approach can be written as (9.4.15), some derivations later we find that its the same as the propagator we found earlier (9.4.16-18). 
+    \item weinberg then goes on to show that the same equivalence between path integral and feynman rules holds for another unperturbed lagrangian (the previous example was with a scalar field), and that the same holds for a lagrangian with derivative couplings.<br />
+\end{itemize}</p><span class="icon"></span></div>
+</details>
+</details>
+</details>
+<details>
+<summary style="margin-left:0px;">
+(gr)schutz<span class="icon"></span></summary>
+<details>
+<summary style="margin-left:30px;">
+4-perfect fluids in special relativity<span class="icon"></span></summary>
+<div style="margin-left:60px;">
+<a href="(gr)schutz/4-perfect fluids in special relativity/schutz_4_4.pdf">schutz_4_4.pdf</a></div>
+<div style="margin-left:60px;">
+<a href="(gr)schutz/4-perfect fluids in special relativity/schutz_4_5.pdf">schutz_4_5.pdf</a></div>
+<div style="margin-left:60px;">
+<a href="(gr)schutz/4-perfect fluids in special relativity/schutz_4_6.pdf">schutz_4_6.pdf</a></div>
+<div style="margin-left:60px;">
+<a href="(gr)schutz/4-perfect fluids in special relativity/schutz_4_7.pdf">schutz_4_7.pdf</a></div>
+</details>
+<details>
+<summary style="margin-left:30px;">
+6-curved manifolds<span class="icon"></span></summary>
+<div style="margin-left:60px;">
+<a href="(gr)schutz/6-curved manifolds/schutz_6_21.pdf">schutz_6_21.pdf</a></div>
+<div style="margin-left:60px;">
+<a href="(gr)schutz/6-curved manifolds/schutz_6_28.pdf">schutz_6_28.pdf</a></div>
+<div style="margin-left:60px;">
+<a href="(gr)schutz/6-curved manifolds/schutz_6_29.pdf">schutz_6_29.pdf</a></div>
+<div style="margin-left:60px;">
+<a href="(gr)schutz/6-curved manifolds/schutz_6_30.pdf">schutz_6_30.pdf</a></div>
+<div style="margin-left:60px;">
+<a href="(gr)schutz/6-curved manifolds/schutz_6_31.pdf">schutz_6_31.pdf</a></div>
+<div style="margin-left:60px;">
+<a href="(gr)schutz/6-curved manifolds/schutz_6_32.pdf">schutz_6_32.pdf</a></div>
+<div style="margin-left:60px;">
+<a href="(gr)schutz/6-curved manifolds/schutz_6_33.pdf">schutz_6_33.pdf</a></div>
+<div style="margin-left:60px;">
+<a href="(gr)schutz/6-curved manifolds/schutz_6_35.pdf">schutz_6_35.pdf</a></div>
+<div style="margin-left:60px;">
+<a href="(gr)schutz/6-curved manifolds/schutz_6_7a.pdf">schutz_6_7a.pdf</a></div>
+</details>
+<details>
+<summary style="margin-left:30px;">
+7-physics in a curved spacetime<span class="icon"></span></summary>
+<div style="margin-left:60px;">
+<a href="(gr)schutz/7-physics in a curved spacetime/schutz_7_2.pdf">schutz_7_2.pdf</a></div>
+<div style="margin-left:60px;">
+<a href="(gr)schutz/7-physics in a curved spacetime/schutz_7_3.pdf">schutz_7_3.pdf</a></div>
+<div style="margin-left:60px;">
+<a href="(gr)schutz/7-physics in a curved spacetime/schutz_7_6.pdf">schutz_7_6.pdf</a></div>
+</details>
+</details>
+<details>
+<summary style="margin-left:0px;">
+course reference.md<span class="icon"></span></summary>
+<div style="margin-left:30px;border: 3px dashed black; background-color:powderblue;"">
+<p>solid state:
+<a href="https://web.njit.edu/~sirenko/Phys-446/PHYS446SSP.htm">NJIT PHYS446</a></p>
+<p>electrodynamics:
+<a href="https://sites.astro.caltech.edu/~golwala/ph106bc/#mozTocId238853">Caltech 106bc</a>
+<a href="https://ocw.mit.edu/courses/8-311-electromagnetic-theory-spring-2004/pages/readings/">MIT 8.311</a></p>
+<p>particle physics:
+<a href="https://www.physics.purdue.edu/~jones105/phys564_Fall2005/notes/index.html">Purdue PHYS564</a></p>
+<p>classical mechanics:
+<a href="http://theory.caltech.edu/~preskill/ph106a/">Caltech 106a</a>: goldstein 1,2,3,4,5,6,8,9,10,11</p>
+<p>misc:
+spinors: 1312_3824</p>
+<p>undergraduate physics curricula:
+caltech: <a href="https://pma.caltech.edu/courses/undergrad/department/Ph/2020-21">course catalog</a>, <a href="https://pma.caltech.edu/research-and-academics/physics/physics-undergraduate-studies/physics-undergraduate-option-requirements">degree requirement</a>
+princeton: <a href="https://phy.princeton.edu/undergraduate-program">undergraduate program</a></p><span class="icon"></span></div>
+</details>
+</body>
+</html>

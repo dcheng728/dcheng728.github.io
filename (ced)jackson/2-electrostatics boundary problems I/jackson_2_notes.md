@@ -1,0 +1,2 @@
+- method of images is concerned with N point charges in presence of boundary surfaces, i.e. conductors at certain potentials
+- the image charge must lie external to field of interest
