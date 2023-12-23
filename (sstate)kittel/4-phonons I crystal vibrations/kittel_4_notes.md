@@ -13,4 +13,5 @@
 for diatomic, this is between $\sqrt{2C/M_1}$ and $\sqrt{2C/M_2}$. There is a frequency gap at the boundary $K_{max} = \pm \frac{\pi}{a}$ of first brillouin zone.
 
 TODO:
-- understand the connection between elastic waves, refraction, bragg law, first brillouin zone. 
+- [x] understand the connection between elastic waves, refraction, bragg law, first brillouin zone. 
+When bragg condition is satisfied, traveling waves dont form, so we obtain standing waves that oscillate back and forth
