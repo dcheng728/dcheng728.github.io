@@ -12,3 +12,17 @@ where $\vec{r}$ is the separation between particle 1 and particle 2.
 $$<T> = -\frac{1}{2}<\sum_i \vec{F}_i \cdot \vec{r}_i>$$
 this is the **virial theorem**
 - goldstein claims that the virial theorem can be used to argue the **ideal gas law**
+
+# 3.5 the differential equation for the orbit and integrable power-law potentials
+- $l dt = mr^2 d\theta \Rightarrow \frac{d}{dt} = \frac{l}{mr^2}\frac{d}{d\theta}$ 
+- [ ] make sense of the equation above, in terms of the differentials
+- goldstein argues that if $\theta$ satisfies the eqm, $-\theta$ does as well
+- not every power of $r$ in $V = ar^{n+1}$ can be solved by integration. Only for $n=1,-2,-3$ have trig solns. For $n=5,3,0,-4,-5,-7$ have elliptic soln. 
+
+# 3.7
+- $$\theta = \theta' - \arccos \left[\frac{\frac{l^2 u}{mk}-1}{\sqrt{1+\frac{2El^2}{mk^2}}} \right]$$
+- finds eqm for inverse square central force
+- for elliptic orbits the major axis depends solely upon the energy, this is argued by solving a quadratic formula
+- eccentricity (semiminor axis) governed by angular momentum
+- [ ] eccentricity
+
