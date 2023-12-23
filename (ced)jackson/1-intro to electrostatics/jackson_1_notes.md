@@ -3,7 +3,7 @@
 - [ ] 1.12
 - [ ] 1.13
  
-
+- **mean value theorem:** In charge-free space, the value of the electrostatic potential at any point is the average of the potential over the surface of any sphere centered on that point. 
 electrostatics = coulomb's law at various extents and contexts
 - $\rho \rightarrow$  potential $\rightarrow \vec{E} \rightarrow$ force
 
