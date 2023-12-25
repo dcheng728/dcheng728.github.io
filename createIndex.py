@@ -62,15 +62,12 @@ def link(margin,url,text):
     f.write("""</a></div>\n""")
     
 def removeJunk(toRemove):
-    try: 
-        toRemove.remove('.gitignore')
-        toRemove.remove('.DS_Store')
-        toRemove.remove('createHome.py')
-        toRemove.remove('home.html')
-        toRemove.remove('.git')
-        toRemove.remove('.obsidian')
-    except:
-        pass
+    removeList = ['.gitignore', '.DS_Store', 'createIndex.py', 'index.html', '.git', '.obsidian']
+    for removeItem in removeList:  
+        try: 
+            toRemove.remove(removeItem)
+        except:
+            pass
     return toRemove
 
 def readMarkdown(SOURCE):
@@ -111,7 +108,7 @@ def dig(file_or_dir,level):
     
             
     
-        
+print(removeJunk(os.listdir(os.getcwd())))
         
 
 for filename in removeJunk(os.listdir(os.getcwd())):

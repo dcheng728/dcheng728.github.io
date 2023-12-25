@@ -40,7 +40,6 @@ $$\sigma_b = \vec{P} \cdot \vec{n}, \quad \rho_b = - \vec{\nabla}\cdot \vec{P}$$
 - $\vec{S} = \frac{1}{\mu_0}(\vec{E}\times \vec{B})$ poynting vector is power per unit area, the intensity is given by averaging over a perdiod $I = \frac{1}{2} c \epsilon_0 E_0^2$
 
 - adiabatic invariant: $I = \frac{1}{2\pi} \oint p(x)dx$ over a period
-- virial theorem: $2 <T> = \lambda <U>$ if $U(r) = Ar^\lambda$
 - radiation pressuren: atoms absorb photon, acquiring its momentum, resulting in a time derivative of its momentum
 - rotational motion is always defined with respect to a reference point or axis
 

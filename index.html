@@ -103,7 +103,6 @@ $$\sigma_b = \vec{P} \cdot \vec{n}, \quad \rho_b = - \vec{\nabla}\cdot \vec{P}$$
 <li>
 <p>adiabatic invariant: $I = \frac{1}{2\pi} \oint p(x)dx$ over a period</p>
 </li>
-<li>virial theorem: $2 <T> = \lambda <U>$ if $U(r) = Ar^\lambda$</li>
 <li>radiation pressuren: atoms absorb photon, acquiring its momentum, resulting in a time derivative of its momentum</li>
 <li>
 <p>rotational motion is always defined with respect to a reference point or axis</p>
@@ -634,6 +633,21 @@ where $\vec{r}$ is the separation between particle 1 and particle 2.</li>
 $$<T> = -\frac{1}{2}&lt;\sum_i \vec{F}_i \cdot \vec{r}_i&gt;$$
 this is the <strong>virial theorem</strong></li>
 <li>goldstein claims that the virial theorem can be used to argue the <strong>ideal gas law</strong></li>
+</ul>
+<h1>3.5 the differential equation for the orbit and integrable power-law potentials</h1>
+<ul>
+<li>$l dt = mr^2 d\theta \Rightarrow \frac{d}{dt} = \frac{l}{mr^2}\frac{d}{d\theta}$ </li>
+<li>[ ] make sense of the equation above, in terms of the differentials</li>
+<li>goldstein argues that if $\theta$ satisfies the eqm, $-\theta$ does as well</li>
+<li>not every power of $r$ in $V = ar^{n+1}$ can be solved by integration. Only for $n=1,-2,-3$ have trig solns. For $n=5,3,0,-4,-5,-7$ have elliptic soln. </li>
+</ul>
+<h1>3.7</h1>
+<ul>
+<li>$$\theta = \theta' - \arccos \left[\frac{\frac{l^2 u}{mk}-1}{\sqrt{1+\frac{2El^2}{mk^2}}} \right]$$</li>
+<li>finds eqm for inverse square central force</li>
+<li>for elliptic orbits the major axis depends solely upon the energy, this is argued by solving a quadratic formula</li>
+<li>eccentricity (semiminor axis) governed by angular momentum</li>
+<li>[ ] eccentricity</li>
 </ul><span class="icon"></span></div>
 </details>
 </details>
@@ -723,8 +737,11 @@ kittel_2_notes.md<span class="icon"></span></summary>
 <li>
 <p>bragg law: $2d \sin{\theta} = n \lambda$, this is the recurring theme of this chapter and will be echoed in the next chapter</p>
 </li>
+</ul>
+<h1>reciprocal lattice and fourier</h1>
+<ul>
 <li>
-<p>in the fourer expansion of a function on the lattice, periodicity only allows terms with the same periodicity as the lattice in phase space. This defines the reciprocal lattice. Thus we can say the function is expanded on the reciprocal lattice in phase space:
+<p>in the fourer expansion of a function on the lattice, periodicity only allows terms with the same periodicity as the lattice in phase space. This defines the <strong>reciprocal</strong> lattice. Thus we can say the function is expanded on the reciprocal lattice in phase space:
 $$n(x) = \sum_p n_p \exp{i \frac{2 \pi p}{a} x}$$
 where $\frac{2 \pi p}{a}$ is a point in the <em>reciprocal lattice</em>, with dimension of inverse distance. </p>
 </li>
@@ -738,8 +755,9 @@ $$\vec{b}_i = 2 \pi \frac{\vec{a}_j \times \vec{a}_k }{\vec{a}_i \cdot \vec{a}_j
 <li>
 <p>the diffraction pattern of the crystal is a map of the reciprocal lattice</p>
 </li>
+<li>a reciprocal lattice vector $G=h b_1 + kb_2 + lb_3$ is normal to the plane (hkl) planes of direct lattice</li>
 </ul>
-<h2>brillouin zones</h2>
+<h1>brillouin zones</h1>
 <ul>
 <li>a brillouin zone is defined as a wigner-seitz primitive cell in the reciprocal lattice</li>
 <li>
@@ -750,7 +768,7 @@ $$\vec{b}_i = 2 \pi \frac{\vec{a}_j \times \vec{a}_k }{\vec{a}_i \cdot \vec{a}_j
 </li>
 <li>bcc and fcc are reciprocals of each other</li>
 </ul>
-<h2>some fourier analysis</h2>
+<h1>some fourier analysis</h1>
 <ul>
 <li>by assuming refraction amplitude proportional to electron density, the total amplitude of the scattered wave in direction $k'$ from original wave in direction $k$ can be written as a function modulo the lattice with a function of the directions, such as below
 $$n(\vec{r})dV \times \exp{[i(\vec{k} - \vec{k}') \cdot \vec{r}]}$$
@@ -786,8 +804,9 @@ kittel_3_notes.md<span class="icon"></span></summary>
 <ul>
 <li>inert gas ~ noble gas ~ rare gas</li>
 </ul>
-<p>-<strong><em>van der waal potential ~ london potential ~ induced dip-dip potental</em></strong>. It is the principal attractive interaction in inert gas. The othe major contribution to inert gas interactions is <em>pauli exclusive principle</em>, repulsive. These two forces add to give lennard jones.</p>
+<h1>inert bonds</h1>
 <ul>
+<li><strong><em>van der waal potential ~ london potential ~ induced dip-dip potental</em></strong>. It is the principal attractive interaction in inert gas. The othe major contribution to inert gas interactions is <em>pauli exclusive principle</em>, repulsive. These two forces add to give lennard jones.</li>
 <li>
 <p><strong>lennard jones potential</strong>: a combination of induced-dipole (or van der waal, or london) amd pauli exclusion principle
 $$U(R) = 4 \epsilon [(\frac{\sigma}{R})^{12} - (\frac{\sigma}{R})^6]$$</p>
@@ -799,13 +818,13 @@ $$U(R) = 4 \epsilon [(\frac{\sigma}{R})^{12} - (\frac{\sigma}{R})^6]$$</p>
 <h1>ionic crystals</h1>
 <ul>
 <li>the interaction of ionic crystals are largely coulomb, van der waal in ionic crystals only make contribute 1-2% in ionic crystals</li>
-<li>the name for electrostatic energy in ionic crystals is called madelung energy, because madelung was the first one to compute complicated sums over whole lattice of electrostatics</li>
-<li>
-<p>the madelung constant is a sum of inverse of lattice separation over whole lattice, it decouples lattice structure in cohesive energy</p>
-</li>
-<li>
-<p>covalent bonds consists of two antisymmetric electrons</p>
-</li>
+<li>the name for electrostatic energy in ionic crystals is called <strong>madelung energy</strong>, because madelung was the first one to compute complicated sums over whole lattice of electrostatics</li>
+<li>the madelung constant is a sum of inverse of lattice separation over whole lattice, it decouples lattice structure in cohesive energy</li>
+<li>ionic bond examples: NaCl, CsCl</li>
+</ul>
+<h1>covalent bonds</h1>
+<ul>
+<li>covalent bonds consists of two antisymmetric electrons</li>
 <li>
 <p>in metals, bonds are formed due to lowering of valence electron energy as compared with free atoms without bonding</p>
 </li>
@@ -821,6 +840,8 @@ $$U(R) = 4 \epsilon [(\frac{\sigma}{R})^{12} - (\frac{\sigma}{R})^6]$$</p>
 <details>
 <summary style="margin-left:30px;">
 4-phonons I crystal vibrations<span class="icon"></span></summary>
+<div style="margin-left:60px;">
+<a href="(sstate)kittel/4-phonons I crystal vibrations/kittel_4_1.pdf">kittel_4_1.pdf</a></div>
 <div style="margin-left:60px;">
 <a href="(sstate)kittel/4-phonons I crystal vibrations/kittel_4_4.pdf">kittel_4_4.pdf</a></div>
 <details>
@@ -849,7 +870,93 @@ for diatomic, this is between $\sqrt{2C/M_1}$ and $\sqrt{2C/M_2}$. There is a fr
 </li>
 </ul>
 <p>TODO:
-- understand the connection between elastic waves, refraction, bragg law, first brillouin zone. </p><span class="icon"></span></div>
+- [x] understand the connection between elastic waves, refraction, bragg law, first brillouin zone. 
+When bragg condition is satisfied, traveling waves dont form, so we obtain standing waves that oscillate back and forth</p><span class="icon"></span></div>
+</details>
+</details>
+<details>
+<summary style="margin-left:30px;">
+6-free electron fermi gas<span class="icon"></span></summary>
+<div style="margin-left:60px;">
+<a href="(sstate)kittel/6-free electron fermi gas/kittel_6_1.pdf">kittel_6_1.pdf</a></div>
+<details>
+<summary style="margin-left:60px;">
+kittel_6_notes.md<span class="icon"></span></summary>
+<div style="margin-left:90px;border: 3px dashed black; background-color:powderblue;"">
+<ul>
+<li>the free electron model have the valence electrons in metals move freely through the volume of the metal</li>
+<li>free electron model most useful when we focus on kinematic properties of conduction electrons</li>
+<li>[ ] 3s conduction band</li>
+<li>electrons in metals can have mean free path of $10^8$ interatomic spacing. This observation is incompatible with treating particles as solid balls, so wave-theory (QM) is needed. Further, infrequency of electron-electron scattering may be interpreted by pauli xclu principle in free electron fermi gas model.</li>
+</ul>
+<h1>energy levels in 1D</h1>
+<ul>
+<li><strong>orbital</strong> denotes solutions to the wave equation for a system of only 1 electron. The orbital formalism is relevant for when we treat N particle wave func as N x 1 particle wave func</li>
+<li>uses ISW model</li>
+<li>pauli xclu pcpl allows only one e- per orbital</li>
+<li>pauli xclu pcpl demand ISW orbitals are filled from bottom up in pairs</li>
+<li>fermi energy is the energy of topmost filled level, for N e- in GND state: 
+$$\epsilon_F \frac{\hbar^2}{2m}(\frac{N \pi}{2L})^2$$</li>
+</ul>
+<h1>effect of T on the fermi-dirac dist</h1>
+<ul>
+<li>fermi-dirac dist gives the probability that an orbital at energy $\epsilon$ will be occupied in an ideal electorn gas in thermal equilibrium: 
+$$f(\epsilon)= \frac{1}{\exp{[(\epsilon-\mu(T))/k_B T]} + 1}$$</li>
+<li>By imposing $f(\epsilon)$ be binary at $T = 0$, we find $\mu(T=0) = \epsilon_F$</li>
+<li>The $\epsilon - \mu &gt;&gt; k_B T$ is the classical limit (giving Boltzmann Maxwell dist)</li>
+</ul>
+<h1>free electron gas in 3D</h1>
+<ul>
+<li>3D generalization of 1D is straightforward (see Kittel/Griffiths/Glazer&amp;Wark/etc.)</li>
+<li>By transitioning to $k$ space, we obtain the density of state and find fermi energy $k_F = (\frac{3\pi^2N}{V})^{1/3}$, $\epsilon_F = \frac{\hbar^2}{2m}(\frac{3\pi^2 N }{V})^{2/3}$</li>
+<li>Density of state: 
+$$D(\epsilon) = \frac{dN}{d\epsilon} = \frac{V}{2\pi^2}( \frac{2m}{\hbar^2} )^{3/2}\epsilon^{1/2}$$</li>
+</ul>
+<h1>heat capacity of the electron gas</h1>
+<ul>
+<li>classical mechanics predicts $\frac{3}{2}k_B$, yet the actual heat capacity is 0.01 of this value</li>
+<li>this is due to electrons below fermi energy being 'locked'</li>
+<li>only a fraction $T/T_F$ can be excited at $T$, giving energy O(kT)</li>
+<li>At room temp, fermi temperature is approximately $5\times10^4$ K</li>
+</ul>
+<h1>experimental heat capacity of metals</h1>
+<ul>
+<li>debye + free electron gas gives
+$$C = \gamma T + AT^3$$ this $\gamma$ is given the name of <strong>sommerfeld parameter</strong></li>
+<li>thermal effective mass measures discrepancy between observed and actual values of $\gamma$. This discrepancy is due to other interactions besides pauli exclu, lattice inperfection, phonon scattering, etc.</li>
+</ul>
+<h1>electrical conductivity &amp; Ohm</h1>
+<ul>
+<li>use mv = $\hbar k$, a classical interperetation of electorn quantum momentum + lorentz force law</li>
+<li>in the absence of collisions, the fermi sphere accelerates, But the collisions and lattice imperfections introduce a 'frag'</li>
+<li>The collisions are measured with $\tau$, 'collision time'</li>
+</ul><span class="icon"></span></div>
+</details>
+</details>
+<details>
+<summary style="margin-left:30px;">
+7-energy bands<span class="icon"></span></summary>
+<details>
+<summary style="margin-left:60px;">
+kittel_7_notes.md<span class="icon"></span></summary>
+<div style="margin-left:90px;border: 3px dashed black; background-color:powderblue;"">
+<ul>
+<li>free electron model fails to disitinguish metals, semimetals, semiconductors, insulators; positive hall coeff. etc. </li>
+<li>energy bands/gaps: gaps in spectrum where no electron is permitted</li>
+<li>explanation of bands require periodicity potential to be taken into account</li>
+</ul>
+<h1>nearly free electron model</h1>
+<ul>
+<li>treat periodic potential as perturbation</li>
+<li>bragg reflection occurs for waves in crystals, electorns are waves so can reflect braggly, giving gaps</li>
+</ul>
+<h1>bloch functions</h1>
+<ul>
+<li><strong>bloch functions:</strong> solutions of the schro for a periodic potential must be of form
+$$\psi_\vec{k} (\vec{r}) = u_{\vec{k}} (\vec{r}) \exp{i \vec{k} \cdot \vec{r}}$$ I think griffiths does this derivation as well</li>
+<li>bloch functions can be decomposed into a sum of traveling waves</li>
+<li></li>
+</ul><span class="icon"></span></div>
 </details>
 </details>
 <details>
@@ -917,10 +1024,15 @@ jackson_1_notes.md<span class="icon"></span></summary>
 <li>[ ] 1.6 </li>
 <li>[ ] 1.10</li>
 <li>[ ] 1.12</li>
-<li>[ ] 1.13</li>
+<li>
+<p>[ ] 1.13</p>
+</li>
+<li>
+<p><strong>mean value theorem:</strong> In charge-free space, the value of the electrostatic potential at any point is the average of the potential over the surface of any sphere centered on that point. 
+electrostatics = coulomb's law at various extents and contexts</p>
+</li>
+<li>$\rho \rightarrow$  potential $\rightarrow \vec{E} \rightarrow$ force</li>
 </ul>
-<p>electrostatics = coulomb's law at various extents and contexts
-- $\rho \rightarrow$  potential $\rightarrow \vec{E} \rightarrow$ force</p>
 <p>|ESU|SI|
 |--|--|
 |k=1|$k=(4\pi\epsilon_0)^{-1}$|
@@ -1011,6 +1123,10 @@ Obtaining Green Functions from the Method of Images</p>
 <details>
 <summary style="margin-left:30px;">
 2-electrostatics boundary problems I<span class="icon"></span></summary>
+<div style="margin-left:60px;">
+<a href="(ced)jackson/2-electrostatics boundary problems I/jackson_2_2.pdf">jackson_2_2.pdf</a></div>
+<div style="margin-left:60px;">
+<a href="(ced)jackson/2-electrostatics boundary problems I/jackson_2_extra.pdf">jackson_2_extra.pdf</a></div>
 <details>
 <summary style="margin-left:60px;">
 jackson_2_notes.md<span class="icon"></span></summary>
@@ -1018,6 +1134,11 @@ jackson_2_notes.md<span class="icon"></span></summary>
 <ul>
 <li>method of images is concerned with N point charges in presence of boundary surfaces, i.e. conductors at certain potentials</li>
 <li>the image charge must lie external to field of interest</li>
+</ul>
+<h1>2.2</h1>
+<ul>
+<li>the charge density on a surface is the normal derivative of $\Phi$ on the surface</li>
+<li>force in mirror image configuration can be calculated by taking mirror charges into consideration directly. </li>
 </ul><span class="icon"></span></div>
 </details>
 </details>
@@ -1304,9 +1425,9 @@ weinberg_15_notes.md<span class="icon"></span></summary>
 <li>in generalizing qed to non-abelian gauge symmetry, we begin with a general, non-abelian gauge symmetry group with nontrivial generators
     $$\delta \psi_l (x) = i\epsilon^\alpha(x)(t_\alpha)_l^m \psi_m(x)$$</li>
 <li>by assuming that these transformations can be made infintesmal, this non-abelian group has to be a lie group and we derive the commutator relations (structure constants) $[t_\alpha, t_\beta]  = i C^\gamma_{\alpha \beta}t_\gamma$, and find its adjoint representation </li>
-<li>from the need to make the lagrangian gauge invariant with derivative couplings, <strong>we have to include a gauge field</strong> $A_\mu$, with gauge terms $\dmu \epsilon$ in order to cancel non-gauge-invariant terms in the lagrangian. This naturally introduces $D_\mu \psi$ , which transforms just like $\psi$ under gauge transformations. 
-    The $\dmu \epsilon$ terms in $A$ introduces $\dnu \dmu \epsilon$ terms in $\dmu A_\mu$, which calls for an antisymmetric tensor $F = \dmu A_\nu-\dnu A_\mu$ as definition of the derivative of $A$. But this antisymmetric tensor has its own problem of having $\dmu \epsilon-\dnu \epsilon$ terms, which is resolved by finding its covariant version
-    $$[D_\nu, D_\mu]\psi = -i(t_\gamma) F \psi, \quad F \cong \dnu A - \dmu A + C A\nu A\mu$$
+<li>from the need to make the lagrangian gauge invariant with derivative couplings, <strong>we have to include a gauge field</strong> $A_\mu$, with gauge terms $\partial_\mu \epsilon$ in order to cancel non-gauge-invariant terms in the lagrangian. This naturally introduces $D_\mu \psi$ , which transforms just like $\psi$ under gauge transformations. 
+    The $\partial_\mu \epsilon$ terms in $A$ introduces $\partial_\nu \partial_\mu \epsilon$ terms in $\partial_\mu A_\mu$, which calls for an antisymmetric tensor $F = \partial_\mu A_\nu-\partial_\nu A_\mu$ as definition of the derivative of $A$. But this antisymmetric tensor has its own problem of having $\partial_\mu \epsilon-\partial_\nu \epsilon$ terms, which is resolved by finding its covariant version
+    $$[D_\nu, D_\mu]\psi = -i(t_\gamma) F \psi, \quad F \cong \partial_\nu A - \partial_\mu A + C A\nu A\mu$$
     we find that $F$ must transform like a matter field that happens to belong to the adjoint representation of the gauge grp.</li>
 <li>we find that by choosing lorentz transformation $\Lambda$ to act on the state in hilbert space, we can make the gauge field $A^\alpha_{\mu \Lambda(x)}$ vanish at any one point. Furthermore, $\Lambda$ can be chosen such that one component of $A$ vanishes completely, so we'll do that.</li>
 <li>a field is <strong>pure gauge</strong> if it can vanish purely from a choice of gauge</li>
@@ -1314,25 +1435,25 @@ weinberg_15_notes.md<span class="icon"></span></summary>
 <h1>connections to gr</h1>
 <ul>
 <li><strong>connection</strong> on a fiber bundle is a device that defines a notion of parallel transport on the bundle; that is, a way to "connect" or identify fibers over nearby points. 
-$$\textbf{gauge:} \quad \dmu\psi \xrightarrow{A_\mu (x)} \text{cov. derivative of } \psi$$
+$$\textbf{gauge:} \quad \partial_\mu\psi \xrightarrow{A_\mu (x)} \text{cov. derivative of } \psi$$
 $$\textbf{gr:} \quad ? \xrightarrow{\Gamma^\mu_{\nu \lambda}(x)} \text{cov. derivative of } T$$</li>
 <li>$F \sim R$ (Riemann-christofell curvature tensor)</li>
 </ul>
 <h1>gauge theory lagrangians and simple lie groups</h1>
 <ul>
-<li>just as in electrodynamics, for any massless particle of unit spin, the lagr must contain a free-particle term quadratic in $\dmu A^\alpha_\nu - \partial_\nu A^\alpha_\mu$<blockquote>
+<li>just as in electrodynamics, for any massless particle of unit spin, the lagr must contain a free-particle term quadratic in $\partial_\mu A^\alpha_\nu - \partial_\nu A^\alpha_\mu$<blockquote>
 <p>for the 4-momentum reason</p>
 </blockquote>
 </li>
 <li>it is not possible to introduce a kinematic term for the gauge field $A^\alpha_\mu(x)$ without also including self-interactions fo the field: 
-    $$\Lagr'<em>A = -\frac{1}{4}g</em>{\alpha \beta}F^\alpha_{\mu \nu} F^{\beta \mu \nu}$$
+    $$\mathscr{L}'<em>A = -\frac{1}{4}g</em>{\alpha \beta}F^\alpha_{\mu \nu} F^{\beta \mu \nu}$$
     this is another place where non-abelian gauge theories resemble general relativity, where the field self-interaction takes place via $\frac{-\sqrt{g}R}{8 \pi G}$ in the einstein-hilbert lagr density. This can be explained by observing the gauge field interacts with anything that transforms according to a nontrivial representation of the gauge group, including itself. </li>
 <li>[$\rightarrow$] the term $-\frac{1}{4}F^2$ in qed does not entail interactions, it's purely a kinematic term for the photon. when the gauge group is nontrivial, however, it is a self-interaction. </li>
 <li>we find that in order for things to work, the lie algebra has to be the direct sum of commuting compact simple and U(1) subalgebras.</li>
 </ul>
 <h1>field equations and conservation laws</h1>
 <ul>
-<li>we determine the full lagrangian in ordinary derivatives (15.3.1), solves its eqm (15.3.2), and find a conservation law $\dnu \mathscr{J}^\nu_\alpha$ where $\mathscr{J}^\nu_\alpha = -\dmu F^{\mu\nu}_\alpha =$ for the current with ordinary derivatives rather than gauge covariant derivatives. </li>
+<li>we determine the full lagrangian in ordinary derivatives (15.3.1), solves its eqm (15.3.2), and find a conservation law $\partial_\nu \mathscr{J}^\nu_\alpha$ where $\mathscr{J}^\nu_\alpha = -\partial_\mu F^{\mu\nu}_\alpha =$ for the current with ordinary derivatives rather than gauge covariant derivatives. </li>
 <li>the gauge invariance of the eqm is made manifest by replacing the ordinary derivatives in the eqm with gauge-covariant ones (15.3.5-8), this gives a gauge-covariant conservation law $D_\nu J^\nu_\alpha = 0$ with $\mathscr{J}^\nu_\alpha = -D_\mu F^{\mu\nu}_\alpha =$</li>
 <li>weinberg makes a connection to gr</li>
 </ul>
@@ -1350,8 +1471,8 @@ $$\textbf{gr:} \quad ? \xrightarrow{\Gamma^\mu_{\nu \lambda}(x)} \text{cov. deri
     $$\mathscr{J} = \int[\prod_{n,x}d\phi_n(x)]\mathscr{G}B[f[\phi]]\det \mathscr{F}[\phi]$$
     $f[\phi]$ a non-gauge-invariant gauge-fixing functional, $B$ some functional. </li>
 <li>[$\rightarrow$] <strong>theorem</strong>: the integral (15.5.1) is actually independent of the gauge-fixing functional $f_\alpha[\phi;x]$ and depends on the choice of the functional $B[f]$ only through an irrelevant constant factor. and we get (15.2.21) as a powerful formula, whose effect on the lagr can be written as adding a term to the <strong>effective lagrangian</strong>
-    $$\Lagr_{\text{EFF}} = \Lagr - \frac{1}{2\zeta}f_\alpha f_\alpha$$</li>
-<li>this is a powerful theorem that lets us derive feynman rules in a more convenient gauge. As our purpose is to make the amplitude manifestly lorentz invariant, the simplest choice is the lorenz gauge: $\dmu A_\mu = 0$</li>
+    $$\mathscr{L}<em>{\text{EFF}} = \mathscr{L} - \frac{1}{2\zeta}f</em>\alpha f_\alpha$$</li>
+<li>this is a powerful theorem that lets us derive feynman rules in a more convenient gauge. As our purpose is to make the amplitude manifestly lorentz invariant, the simplest choice is the lorenz gauge: $\partial_\mu A_\mu = 0$</li>
 <li>then the lorentz gauge is chosen to derive the feynman rules in this gauge invariant theory, which makes this theory manifestly lorentz invariant.</li>
 </ul>
 <h1>ghosts</h1>
@@ -1365,7 +1486,7 @@ $$\textbf{gr:} \quad ? \xrightarrow{\Gamma^\mu_{\nu \lambda}(x)} \text{cov. deri
 <li>the ghost action is
     $I_{GH} = \int d^4x d^4y \omega^\star \omega \mathscr{F}$, $\mathscr{F}$ is the matrix whose determinant we wish to evaluate.
     the modified action is
-    $I_{MOD} = \int d^4x [\Lagr - \frac{1}{2\zeta}f_\alpha f_\alpha] + I_{GH} = I_{EFF} + I_{GH}$</li>
+    $I_{MOD} = \int d^4x [\mathscr{L} - \frac{1}{2\zeta}f_\alpha f_\alpha] + I_{GH} = I_{EFF} + I_{GH}$</li>
 <li>Further inspection of (15.6.2) shows that the action respects the conservation of 'ghost number', equal to +1 for ghost, and -1 for antighost. </li>
 <li>to see what ghost vertices look like in feynman diagrams, we pick the simplest $\mathscr{F}$ (15.6.5), derive its interaction lagrangian density along with propagator term (15.6.5-13. we find that in this simplest theory the ghost vertex looks like a vector bosonic line with a ghost line and an antighost line. </li>
 </ul>
@@ -1373,8 +1494,8 @@ $$\textbf{gr:} \quad ? \xrightarrow{\Gamma^\mu_{\nu \lambda}(x)} \text{cov. deri
 <ul>
 <li>when we made the amplitude lorentz invariant with dewitt-faddeev-papov method we had to pick a specific gauge, this would hide the gauge-invariance of the theory.</li>
 <li>this is a serious problem in proving renormalizability, as gauge invariance places restrictions on the counterterms available. so it's up to us to determine what kind of freedom we have in picking counterterms for canceling what kinds of infinities.</li>
-<li>we take the $I_{MOD} = I_{EFF} + I_{GHOST}$ and fourier transform the gauge fixing condition $B[f]$ in $\Lagr_{MOD}$ and to find ourselves having to integrate over some new fields $h_\alpha$ (Nakanishi-Lautrup fields), weinberg creatively picks the name $I_{NEW}$ for the new action:
-    $$I_{NEW} = \int d^4x(\Lagr + \omega_\alpha^* \Delta_\alpha + h_\alpha f_\alpha + \frac{1}{2} \zeta h_\alpha h_\alpha)$$
+<li>we take the $I_{MOD} = I_{EFF} + I_{GHOST}$ and fourier transform the gauge fixing condition $B[f]$ in $\mathscr{L}<em>{MOD}$ and to find ourselves having to integrate over some new fields $h</em>\alpha$ (Nakanishi-Lautrup fields), weinberg creatively picks the name $I_{NEW}$ for the new action:
+    $$I_{NEW} = \int d^4x(\mathscr{L} + \omega_\alpha^* \Delta_\alpha + h_\alpha f_\alpha + \frac{1}{2} \zeta h_\alpha h_\alpha)$$
     $\omega$ is ghost field, $h$ is the nakanishi-lautrup field</li>
 <li>this action is not gauge invariant, yet it is invariant under brst:
     $$\delta_\theta \psi = i t_\alpha \theta \omega_\alpha \psi, \quad
@@ -1384,7 +1505,7 @@ $$\textbf{gr:} \quad ? \xrightarrow{\Gamma^\mu_{\nu \lambda}(x)} \text{cov. deri
     \delta_\theta h_\alpha = 0$$</li>
 <li><strong>nilpotentcy</strong> in general is $A^N = 0$ (useless power), here means if $\delta_\theta F \cong \theta s F$, then $\delta_\theta(sF) = 0$</li>
 <li>weinberg shows in terms of nilpotency, 
-    $$I_{NEW} = \int d^4x \Lagr + s\psi$$
+    $$I_{NEW} = \int d^4x \mathscr{L} + s\psi$$
     and subsequently the brst symmetry of $I$. 
     Notice that this equation indicates that the physical content of any gauge theory is in the kernel of the brst operator. The kernel modulo the image of any nilpotent transformation is said to form the <strong>cohomology</strong> of the transformation.</li>
 <li>btst symmetry will be useful in proving renormalizability as we will use the brst-invariance of the divergent terms in feynman diagrams</li>
@@ -2334,15 +2455,16 @@ weinberg_9_notes.md<span class="icon"></span></summary>
 <summary style="margin-left:0px;">
 course reference.md<span class="icon"></span></summary>
 <div style="margin-left:30px;border: 3px dashed black; background-color:powderblue;"">
-<p>solid state:
-<a href="https://web.njit.edu/~sirenko/Phys-446/PHYS446SSP.htm">NJIT PHYS446</a></p>
-<p>electrodynamics:
-<a href="https://sites.astro.caltech.edu/~golwala/ph106bc/#mozTocId238853">Caltech 106bc</a>
-<a href="https://ocw.mit.edu/courses/8-311-electromagnetic-theory-spring-2004/pages/readings/">MIT 8.311</a></p>
-<p>particle physics:
-<a href="https://www.physics.purdue.edu/~jones105/phys564_Fall2005/notes/index.html">Purdue PHYS564</a></p>
-<p>classical mechanics:
-<a href="http://theory.caltech.edu/~preskill/ph106a/">Caltech 106a</a>: goldstein 1,2,3,4,5,6,8,9,10,11</p>
+<h1>solid state</h1>
+<p><a href="https://web.njit.edu/~sirenko/Phys-446/PHYS446SSP.htm">NJIT PHYS446</a>: Kittel 1,2,3,4,5,6,7,8,9,10,11,12</p>
+<h1>electrodynamics</h1>
+<p><a href="https://sites.astro.caltech.edu/~golwala/ph106bc/#mozTocId238853">Caltech 106bc</a>: Griffiths + Jackson + Heald &amp;Marion in order of usage. Covers topics entire Griffiths with more depth provided by the other 2. 
+<a href="https://ocw.mit.edu/courses/8-311-electromagnetic-theory-spring-2004/pages/readings/">MIT 8.311</a>: Schwinger + some Jackson. </p>
+<h1>particle physics</h1>
+<p><a href="https://www.physics.purdue.edu/~jones105/phys564_Fall2005/notes/index.html">Purdue PHYS564</a>
+<a href="https://www2.ph.ed.ac.uk/~vjm/Lectures/SH_IM_Particle_Physics_2013.html">Edinburgh Particle Physics SH/IM</a></p>
+<h1>classical mechanics</h1>
+<p><a href="http://theory.caltech.edu/~preskill/ph106a/">Caltech 106a</a>: goldstein 1,2,3,4,5,6,8,9,10,11</p>
 <p>misc:
 spinors: 1312_3824</p>
 <p>undergraduate physics curricula:
