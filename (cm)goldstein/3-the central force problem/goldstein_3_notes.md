@@ -25,4 +25,14 @@ this is the **virial theorem**
 - for elliptic orbits the major axis depends solely upon the energy, this is argued by solving a quadratic formula
 - eccentricity (semiminor axis) governed by angular momentum
 - [ ] eccentricity
+## intuition for semimajor and semiminor axis
+- $$E = \frac{1}{2}m\dot{r}^2 + \frac{1}{2}\frac{l^2}{mr^2} - \frac{k}{r}$$
+is the energy of the system, when $\dot{r} = 0$, this defines a purely algebraic, quadratic equation, the roots of which gives 2 exterme points of $r$, the bigger one is semimajor, smaller one is semiminor.
+- angular velocity $\dot{\theta}$ attains its max value at perihelion, minimum at aphelion
 
+# 3.8 motion in time in kepler problem
+- it is customary to measure polar angle by setting $\theta=0$ at perihelion (point of closest approach, highest angular velocity) 
+
+# 3.10 scattering in central force fields
+$$\sigma(\Omega) d\Omega = \frac{\# \text{particles scattered into solid angle } d\Omega \text{ per unit time}}{\text{incident intensity}}$$
+$d\Omega = 2\pi \sin \theta d \theta$

@@ -1,0 +1,10 @@
+# formulation of the problem
+- system in equilibrium when potential is at extremum, minimum = stable equilibrium, otherwise unstable.
+- we are interested in the motion of the system within the immediate neighborhood of stable equilibria, giving bound states
+- by equilibrium condition and shifting the zero of potential, the potential can be written purely quadratically for small displacements in any system upto O(2).
+
+# 6.3
+- the lengthy arguments in 6.2 demonstratest that the eqm of small displacements ($\eta_i$) can be solved by the ansats 
+$$\eta_i = Ca_ie^{-i\omega t}$$
+a complete solution is a superposition of allowed frequencies
+- the soln. of the secular equations are called resonant frequencies of the system.
