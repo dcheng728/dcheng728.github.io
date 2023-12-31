@@ -4,18 +4,18 @@
 
 \begin{itemize}
     \item $Z[J]$ is the vac-vac amplitude under external current $J$ coupled to $\phi$, it is given by
-    \[Z[J] = \sum_{N=0}^{\infty}\frac{(iW[J])^N}{N!} = \exp{(iW[J])}\]
+    $$Z[J] = \sum_{N=0}^{\infty}\frac{(iW[J])^N}{N!} = \exp{(iW[J])}$$
     where $iW[J]$ is the sum of all connected vacvac amp, counting permutations as different diagrams. This means finding Z is finding W.
     \item define $\phi_J$ to be the vac expect value of the operator $\Phi(x)$ in the presence of the current $J$, 
     or equivalently
-    \[\phi_J = \frac{\delta}{\delta J(x)}W[J]\]
+    $$\phi_J = \frac{\delta}{\delta J(x)}W[J]$$
     \item the quantum effective action is defined as
-    \[\Gamma[\phi] \cong - \int d^4x \phi^r(x) J_{\phi r}(x) + W[J]\]
+    $$\Gamma[\phi] \cong - \int d^4x \phi^r(x) J_{\phi r}(x) + W[J]$$
     one finds $\frac{\delta \Gamma[\phi]}{\delta \phi^s(y)} = -J_{\phi s}(y)$
     it is shown that $\Gamma[\phi]$ is the sum of all connected one-particle irreducible graphs in presence of $J_\phi$
     \item $W_\Gamma [J,g]$ is for $W[J]$ when $I[\phi] \rightarrow g^{-1}\Gamma[\phi]$
-    \item[\HEART] we find W via the effective action: 
-    \[iW[J] = \int_{\text{conn. tree}}\left[ \prod_{r,x}d\phi^r(x) \right] \exp{ \left[ i\Gamma[\phi] + i \int \phi^r(x)J_r(x) d^4x \right] }\]
+    \item[❤️] we find W via the effective action: 
+    $$iW[J] = \int_{\text{conn. tree}}\left[ \prod_{r,x}d\phi^r(x) \right] \exp{ \left[ i\Gamma[\phi] + i \int \phi^r(x)J_r(x) d^4x \right] }$$
 \end{itemize}
 
 \paragraph{application on scalar theory}

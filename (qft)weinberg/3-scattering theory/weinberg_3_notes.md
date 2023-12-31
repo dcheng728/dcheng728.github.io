@@ -75,11 +75,15 @@ $$\mathscr{I}_\beta^+  \equiv \int d\alpha \frac{e^{-i E_\alpha t} g(\alpha) T_{
     $$S_{\alpha \beta} = \braket{\Psi_\alpha}{\Psi_\beta}= \braket{U(\Lambda, a)\Psi_\alpha}{ U(\Lambda, a) \Psi_\beta}$$
 - We do not get Lorentz-invariance of the $S$-matrix for free, that is, it is only for certain special choices of interaction Hamiltonian that will give the theory's S-matrix lorentz invariance, as defined above 
 - As another caveat, how do we know $U(\Lambda)$ acts the same on the in and out state? We dont, but we can apply the transformation rules in Hilbert space and we will find that the inner product will be invariant if the theory satisfies
-    $$ [S, U(\Lambda)_0] = 0$$,
+    
+    $$ [S, U(\Lambda)_0] = 0$$
+    ,
     which when expressed in terms of the infinitesmal lorentz transformation, is
-    $$[H_0,S]=[\PP,S]=[\JJ_0, S]=[\KK_0,S]=0$$
+    
+    $$[H_0,S]=[P,S]=[J_0, S]=[K_0,S]=0$$
+
 - Weinberg also goes to show that an alternative formulation of the condition also makes Smat lorentz invariant
-    $$[V,\PP_0] = [V, \JJ_0]=0$$
+    $$[V,P_0] = [V, J_0]=0$$
 ### Internal Symmetries
 - We apply the same procedure as above but to internal symmetries, we find that the condition now becomes
     $$[U_0(T), H_0] = [U_0(T), V] = 0$$
@@ -96,12 +100,16 @@ $$\mathscr{I}_\beta^+  \equiv \int d\alpha \frac{e^{-i E_\alpha t} g(\alpha) T_{
 - The naive definition of the parity operator is $$U(P) \Psi_{p, \sigma} = \eta \Psi_{P p, \sigma} $$where $\eta$ is the **intrinsic parity** (a phase factor that arises as an eigenvalue of the parity operation) of the state. In a subtle way, this gives us the freedom to redefine $P$ if $P$ were to be conservedm
 	- Parity being conserved means $$[P, H_0] = [P, V] = 0$$
         If we have a conserved internal symmetry $T$ means
+        
         $$[U_0(T), H_0] = [U_0(T), V] = 0$$
+        
         thus
-        $$[P U_0(T), H_0] = [P U_0(T), V] = 0$$$$P' = PU_0(T) \text{ for internal symmetry } T $$
+        
+        $$[P U_0(T), H_0] = [P U_0(T), V] = 0$$
+        $$P' = PU_0(T) \text{ for internal symmetry } T$$
 - Must the intrinsic parity always take on $\pm 1$, ignoring normalization?
 	- Yes, Suppose it doesn't, then we have         $$P^2 \Psi = e^{i\theta} \Psi $$
-       \ul{ if the theory we are considering has a continuous internal symmetry}, then we can redefine $\parity \rightarrow \parity I$ for some internal symmetry $I$ that cancels the $e^{i\theta}$ exactly, and this new $\parity'$ will give intrinsic parity of $\pm 1$, we then redefine it to be the parity operator $\Box$
+       ***if the theory we are considering has a continuous internal symmetry***, then we can redefine $\textbf{P} \rightarrow \textbf{P} I$ for some internal symmetry $I$ that cancels the $e^{i\theta}$ exactly, and this new $\textbf{P}'$ will give intrinsic parity of $\pm 1$, we then redefine it to be the parity operator $\Box$
        - No, if we don't have continuous internal symmetry.
 - $P^2 \Psi = \eta \Psi$ means $P^2$ acts like an internal symmetry
 ### time-reversal
@@ -115,8 +123,10 @@ $$\mathscr{I}_\beta^+  \equiv \int d\alpha \frac{e^{-i E_\alpha t} g(\alpha) T_{
     $\text{Ni}^{60} + e^- + \bar{nu} \rightarrow \text{Co}^{60}$
 ### PT
 - PT would have to be anti-unitary, because P is unitary and T is anti-unitary
-    $$S_{\beta \alpha} \rightarrow -e^{2i(\delta_\alpha + \delta_\beta)} S^*_{\parity \timeR \beta \parity \timeR \alpha}$$
-    $\parity \timeR$ would preserve the momenta while swapping spin, so invariance of S-matrix under $\parity \timeR$ implies there wouldnt be any preference for the electron in the decay $\text{Co}^{60} \rightarrow \text{Ni}^{60} + e^- + \bar{nu}$ to be emitted in the same or opposite direction to the $\text{Co}^{60}$ spin
+    
+    $$S_{\beta \alpha} \rightarrow -e^{2i(\delta_\alpha + \delta_\beta)} S^*_{\textbf{P} \textbf{T} \beta \textbf{P} \textbf{T} \alpha}$$
+
+    $\textbf{P} \textbf{T}$ would preserve the momenta while swapping spin, so invariance of S-matrix under $\textbf{P} \textbf{T}$ implies there wouldnt be any preference for the electron in the decay $\text{Co}^{60} \rightarrow \text{Ni}^{60} + e^- + \bar{nu}$ to be emitted in the same or opposite direction to the $\text{Co}^{60}$ spin
 - the 1957 experiment did not rule out time-reversal symmetry immediately, but ruled out PT by demonstrating the above statement is false    
 ### C
 It is understood today that C is not conserved in the weak interaction, just like how P is not conserved
@@ -139,5 +149,12 @@ Weinberg: this section is more like a mnemonic, because it seems like no interes
 - If we take the optical theorem to the high energy limit, we will find that unstable particles and their corresponding antiparticles have precisely the same lifetimes. 
 ### Boltzmannn H-theorem
 - The optical theorem is obtained using $S^\dagger S =1$, using the other condition of $SS^\dagger = 1$, we find
-    $$\Im M_{\alpha \alpha } = - \pi \int d\beta  \delta^{4}(p_\beta  - p_\alpha ) |\boxed{M_{\alpha \beta }}|^2 $$which implies $$\int d\beta  \delta^{4}(p_\beta  - p_\alpha ) |\boxed{M_{\alpha \beta }}|^2 = \int d\beta  \delta^{4}(p_\beta  - p_\alpha ) |\boxed{M_{\beta \alpha }}|^2$$
+
+$$\Im M_{\alpha \alpha } = 
+- \pi \int d\beta  \delta^{4}(p_\beta  - p_\alpha ) |M_{\alpha \beta }|^2$$
+
+which implies 
+
+$$\int d\beta  \delta^{4}(p_\beta  - p_\alpha ) |M_{\alpha \beta }|^2 = \int d\beta  \delta^{4}(p_\beta  - p_\alpha ) |M_{\beta \alpha }|^2$$
+
 - further derivation shows  $$-\frac{d}{dt} \int d\alpha P_\alpha \ln{P_\alpha/c_\alpha} \ge 0 $$which called the Boltzmann H-theorem, equivalent to entropy never decreases.

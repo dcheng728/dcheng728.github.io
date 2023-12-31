@@ -14,7 +14,7 @@
 - you might guess that $u^{(1)}$ describes an electron with spin up, and $u^{(2)}$ with spin down. but no. if we orient the $z$ axis so that it points along the direction of motion ($\vec{p}_x=\vec{p}_y = 0$), then $u^{(1)},u^{(2)},u^{(3)},u^{(4)}$ would correspond to the eigenstate of $S_z$ for electron spin up, electron spin down, antielectron spin up, antielectron spin down, respectively. 
 
 # bilinear covariants
-- griffiths makes an argument that \textbf{the dirac spinor aint 4-vector} (7.52-57)
+- griffiths makes an argument that **the dirac spinor aint 4-vector** (7.52-57)
 - showed a way to construct scalar with dirac spinor (7.58-60), and asked is this a scalar or pseudoscalar?
     \footnote{the difference between scalar and pseudoscalar is how they transform under parity} It is a scalar (7.61-62). But is there another way to construct pseudoscalar out of dirac spinors? Yes, using $\gamma_5 = i \gamma^0\gamma^1\gamma^2\gamma^3$ (7.63-7.67)
 - besides scalars and pseudoscalars, we can also construct vectors, pseudovectors, and antisymmetric tensor with dirac spinors (7.68-69)
