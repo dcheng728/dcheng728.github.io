@@ -305,6 +305,47 @@ $$F_{centrifugal} = -m\omega^2 r, \quad F_{coriolis} = -2m \vec{\omega}\times \v
 </details>
 <details>
 <summary style="margin-left:0px;">
+(thermo)kittel<span class="icon"></span></summary>
+<details>
+<summary style="margin-left:30px;">
+0-intro<span class="icon"></span></summary>
+</details>
+<details>
+<summary style="margin-left:30px;">
+2-entropy and temperature<span class="icon"></span></summary>
+<div style="margin-left:60px;">
+<a href="(thermo)kittel/2-entropy and temperature/kittel_2_1.pdf">kittel_2_1.pdf</a></div>
+<div style="margin-left:60px;">
+<a href="(thermo)kittel/2-entropy and temperature/kittel_2_2.pdf">kittel_2_2.pdf</a></div>
+<details>
+<summary style="margin-left:60px;">
+kittel_2_notes.md<span class="icon"></span></summary>
+<div style="margin-left:90px;border: 3px dashed black; background-color:powderblue;"">
+<ul>
+<li>an ensemble of systems is composed of many systems, all constructed alike, each in one of the accessible states</li>
+<li>the probability distribution for state has an extremely sharp peak at the thermal equilibrium value suggests "most probable one" $\cong$ "the one"</li>
+</ul><span class="icon"></span></div>
+</details>
+</details>
+<details>
+<summary style="margin-left:30px;">
+3-boltzmann dist and helmholtz free energy<span class="icon"></span></summary>
+<div style="margin-left:60px;">
+<a href="(thermo)kittel/3-boltzmann dist and helmholtz free energy/kittel_3_4.pdf">kittel_3_4.pdf</a></div>
+<details>
+<summary style="margin-left:60px;">
+kittel_3_notes.md<span class="icon"></span></summary>
+<div style="margin-left:90px;border: 3px dashed black; background-color:powderblue;"">
+<h1>helmholtz free energy</h1>
+<ul>
+<li>$$F = U - \tau \sigma$$</li>
+</ul>
+<h2>- helmholtz free energy at constant temperature in thermal physics = potential energy of system in classical mechanics (with only a couple of particles)</h2><span class="icon"></span></div>
+</details>
+</details>
+</details>
+<details>
+<summary style="margin-left:0px;">
 (therst)fermi<span class="icon"></span></summary>
 <details>
 <summary style="margin-left:30px;">
@@ -1442,7 +1483,7 @@ griffiths_7_notes.md<span class="icon"></span></summary>
 </ul>
 <h1>bilinear covariants</h1>
 <ul>
-<li>griffiths makes an argument that \textbf{the dirac spinor aint 4-vector} (7.52-57)</li>
+<li>griffiths makes an argument that <strong>the dirac spinor aint 4-vector</strong> (7.52-57)</li>
 <li>showed a way to construct scalar with dirac spinor (7.58-60), and asked is this a scalar or pseudoscalar?
     \footnote{the difference between scalar and pseudoscalar is how they transform under parity} It is a scalar (7.61-62). But is there another way to construct pseudoscalar out of dirac spinors? Yes, using $\gamma_5 = i \gamma^0\gamma^1\gamma^2\gamma^3$ (7.63-7.67)</li>
 <li>besides scalars and pseudoscalars, we can also construct vectors, pseudovectors, and antisymmetric tensor with dirac spinors (7.68-69)</li>
@@ -1669,9 +1710,11 @@ U(a\psi_1 + b\psi_2) = a^</em>U\psi_1 + b^*U\psi_2$$</p>
 <ul>
 <li>symmetry transformations that can be made continuously into the identity must be <strong>unitary and linear</strong>, because the identity is unitary and linear.</li>
 <li>observables and infinitesmal transformations: the generators of infinitesmal symmetry transformations must be <strong>hermitian</strong> (adjoint equals itself) and <strong>linear</strong> for such transformation to be unitary, which makes them candidates for observables. Indeed, most perhaps all of the physical observables, such as <strong>angular momentum</strong>, <strong>momentum</strong>, <strong>energy</strong> arise from symmetry transformation.</li>
-<li>the transformations in hilbert space that corresponds to a given symmetry transformation is said to furnish a <strong>representation</strong> of the symmetry transformation group $$\textbf{Rep}(\Lambda_1)\textbf{Rep}(\Lambda_2)= N(\Lambda_1, \Lambda_2)\textbf{Rep}(\Lambda_1 \Lambda_2) \simeq \textbf{Rep}(\Lambda_1 \Lambda_2)$$in other words, representations of symmetry transformations tell us how the states transform in response to this symmetry transformation. </li>
-<li>[❤️] we are looking for Poincare-invariant theories thus we are interested in <strong>unitary representations of the Poincare group</strong>. </li>
+<li>the transformations in hilbert space that corresponds to a given symmetry transformation is said to furnish a <strong>representation</strong> of the symmetry transformation group </li>
 </ul>
+<p>$$\textbf{Rep}(\Lambda_1)\textbf{Rep}(\Lambda_2)= N(\Lambda_1, \Lambda_2)\textbf{Rep}(\Lambda_1 \Lambda_2) \simeq \textbf{Rep}(\Lambda_1 \Lambda_2)$$</p>
+<p>in other words, representations of symmetry transformations tell us how the states transform in response to this symmetry transformation. 
+- [❤️] we are looking for Poincare-invariant theories thus we are interested in <strong>unitary representations of the Poincare group</strong>. </p>
 <h2>quantum lorentz trans</h2>
 <ul>
 <li>the <strong>Poincare group</strong> is also known as the <strong>inhomogeneous lorentz group</strong>, while the group of <strong>boosts and rotations</strong> are known as the <strong>homogeneous poincare group</strong>, or the <strong>lorentz group</strong>.</li>
@@ -1876,7 +1919,7 @@ which when expressed in terms of the infinitesmal lorentz transformation, is</p>
 $$P' = PU_0(T) \text{ for internal symmetry } T$$
 - Must the intrinsic parity always take on $\pm 1$, ignoring normalization?
     - Yes, Suppose it doesn't, then we have         $$P^2 \Psi = e^{i\theta} \Psi $$
-       \ul{ if the theory we are considering has a continuous internal symmetry}, then we can redefine $\textbf{P} \rightarrow \textbf{P} I$ for some internal symmetry $I$ that cancels the $e^{i\theta}$ exactly, and this new $\textbf{P}'$ will give intrinsic parity of $\pm 1$, we then redefine it to be the parity operator $\Box$
+       <strong><em>if the theory we are considering has a continuous internal symmetry</em></strong>, then we can redefine $\textbf{P} \rightarrow \textbf{P} I$ for some internal symmetry $I$ that cancels the $e^{i\theta}$ exactly, and this new $\textbf{P}'$ will give intrinsic parity of $\pm 1$, we then redefine it to be the parity operator $\Box$
        - No, if we don't have continuous internal symmetry.
 - $P^2 \Psi = \eta \Psi$ means $P^2$ acts like an internal symmetry</p>
 <h3>time-reversal</h3>
@@ -1954,7 +1997,7 @@ weinberg_4_notes.md<span class="icon"></span></summary>
 </ul>
 <h1>Bosons and Fermions</h1>
 <ul>
-<li>the \textbf{bose and fermi statics} state that bosons are symmetric under exchange while fermions are antisymmetric
+<li>the <strong>bose and fermi statics</strong> state that bosons are symmetric under exchange while fermions are antisymmetric
     $$\Phi_{p_1, p_2} = \pm \Phi_{p_2, p_1}$$</li>
 <li>we will define the bosons to be the ones that take the plus sign, and fermion as the ones that take the minus sign</li>
 <li>claim: all particles are either bosons or fermions<ul>
@@ -2017,63 +2060,59 @@ weinberg_5_notes.md<span class="icon"></span></summary>
 <h1>Free fields</h1>
 <ul>
 <li>We would like to construct a Hamiltonian out of creation and annihilation operators, from (4.2.12) we know that under Lorentz transformations each of those operators is multiplied by a matrix that depends on the momentum of the operator, and the whole thing may not look as nice, because the Hamiltonian has different operators at different momentum the coefficients would be fked up, we would like to solve this issue.</li>
-<li>the solution is to construct the Hamiltonian out of \textbf{creation} and \textbf{annihilation} \textbf{fields}, $\Psi^-, \Psi^+$, respectively, (5.1.4, 5.1.5)</li>
+<li>the solution is to construct the Hamiltonian out of <strong>creation</strong> and <strong>annihilation</strong> <strong>fields</strong>, $\Psi^-, \Psi^+$, respectively, (5.1.4, 5.1.5)</li>
 <li>the nice thing about this is under lorentz transformation, each field is multiplied by a position-independent matrix, furthermore, we find that these $D$-matrices furnish a representation of the homogeneous lorentz group. <blockquote>
 <p>See (5.1.6, 5.1.7, the $D_{\bar{l} l}$) on the RHS is the matrix that weinberg is referring to</p>
 </blockquote>
 </li>
 <li>
-<p>(4.2.12) gives us the transformation rules of the $\ap^\dag$, we take its adjoint and find the transformation rules of both $\ap, \ap^\dag$. Then putting the transformation rules of $\ap, \ap^\dag$ with that of $\Psi^\pm$, we find the transformation rules of coefficients $u,v$ of $\ap, \ap^\dag$ in $\Psi^\pm$ under general Lorentz transformation (5.1.13, 5.1.14), these are the fundamental requirements that will allow us to calculate the $u,v$</p>
+<p>(4.2.12) gives us the transformation rules of the $\text{a}<em>{\text{p}}^\dag$, we take its adjoint and find the transformation rules of both $\text{a}</em>{\text{p}}, \text{a}<em>{\text{p}}^\dag$. Then putting the transformation rules of $\text{a}</em>{\text{p}}, \text{a}<em>{\text{p}}^\dag$ with that of $\Psi^\pm$, we find the transformation rules of coefficients $u,v$ of $\text{a}</em>{\text{p}}, \text{a}_{\text{p}}^\dag$ in $\Psi^\pm$ under general Lorentz transformation (5.1.13, 5.1.14), these are the fundamental requirements that will allow us to calculate the $u,v$</p>
 </li>
 <li>
 <p>[❤️] We then take the rule above, and plug in pure translations, boosts, and rotations, and find</p>
 </li>
-<li>\textbf{translation}: we get a general rule for arbitrary homogeneous lorentz transformation $\Lambda$ (5.1.19, 5.1.20)</li>
-<li>\textbf{boosts}: we get a relation between $u,v$ at $0$ momentum and some nonzero momentum (5.1.21, 5.1.22)</li>
-<li>\textbf{rotations}: we get a relation between $u,v$ of different spin $\sigma, \bar{\sigma}$ (5.1.23-5.1.26), notice that the summation on the LHS of these equations is over $\bar{\sigma}$, and that on the right is over $l$, which is an index in the coefficients $u,v$. </li>
+<li><strong>translation</strong>: we get a general rule for arbitrary homogeneous lorentz transformation $\Lambda$ (5.1.19, 5.1.20)</li>
+<li><strong>boosts</strong>: we get a relation between $u,v$ at $0$ momentum and some nonzero momentum (5.1.21, 5.1.22)</li>
+<li><strong>rotations</strong>: we get a relation between $u,v$ of different spin $\sigma, \bar{\sigma}$ (5.1.23-5.1.26), notice that the summation on the LHS of these equations is over $\bar{\sigma}$, and that on the right is over $l$, which is an index in the coefficients $u,v$. </li>
 </ul>
 <h1>Causality</h1>
-<p>\begin{itemize}
-- We check the causality condition of the general free field constructed with coefficients in front of a continuous spectrum of creation and annihilation operators.
-- The tator 
+<ul>
+<li>We check the causality condition of the general free field constructed with coefficients in front of a continuous spectrum of creation and annihilation operators.</li>
+<li>The tator 
     \footnote{tator means commutator/anticommutator}<br />
-    $[\psi^+(x),\psi^-(y)]$ in (5.1.30) does not vanish in general. This means \ul{we can not have fields that are created purely with creation operators, or fields that are purely annihilation operators}. So the natural thing is to try linear combinations of the creation and annihilation fields:
+    $[\psi^+(x),\psi^-(y)]$ in (5.1.30) does not vanish in general. This means <strong><em>we can not have fields that are created purely with creation operators, or fields that are purely annihilation operators</em></strong>. So the natural thing is to try linear combinations of the creation and annihilation fields:
     $$\kappa \psi^+ + \lambda \psi^-$$
-    We will see later that WLOG $\kappa = \lambda$ so we are only free to choose the scale of the field.
-- we see that in order for this theory to conserve quantum numbers like electric charge, there must be a doubling of particle species carrying non-zero values of such quantum numbers: if a particular componenet of the annihilation field destrooys a particle of species $n$, then the same component of the creation field must create particles of species $\bar{n}$, \ul{this is the reason for antiparticles}.
-\end{itemize}</p>
-<p>\paragraph{Conserved Quantum Number}
-\begin{itemize}
-- Lets say each particle carries some quantum number, and there is some sort of conservation law for that quantum number. Then creation of a particle would add such number and annihilation takes away such number. 
-- Formulating this in terms of mathematics: Suppose the Hermitian operator $Q$ corresponds to the observable of quantum number $q$ that the particle carries. Then we necessarily have
-    $$[Q,\ap] = Q\ap - \ap Q = -q \ap$$
-    $$[Q, \ap^\dag] = Q\ap^\dag - \ap^\dag Q = q \ap^\dag$$
-    \footnote{because $\ap Q$ first makes a measurement, then takes the particle away, and $Q \ap$ makes the measurement after the particle is taken away, so the former measurement seems to observe an additional $q$. Similar idea for the latter tator relation.}
-- Recall the form of our Hamiltonian $\Ham$ in terms of the creation and annihilation fields (5.1.9)
-    \footnote{
-    It would be fair to say $\Ham$ is a polynomial in $\psi^+$, $\psi^-$
-    }:
-    \begin{align<em>}
-        \Ham = &amp;\sum_{NM} \sum_{l'<em>1 ... l'_N} \sum</em>{l_1 ... l_M} g_{l'<em>1...l'_N,l_1...l_M}\
-        &amp; \psi^-</em>{l'<em>1}...\psi^-</em>{l'<em>N} \psi^+</em>{l_1}...\psi^+_{l_M}
-    \end{align</em>}
-    Weinberg claims that in order for the Hamiltonian to commute with $Q$, it is necessary that the Hamiltonian be formed out of fields that have simple commutation relations with $Q$, meaning $[Q, \psi_l] = -q_l \psi_l$\footnote{I don't understand why this HAS to be the case right now, I see why it would be nice, but I ll take his words.}.
-- But this is clearly not the case for $\psi = \ap + \ap^\dag$, unless $Q=0$. 
-    \footnote{for $[Q,\psi] = [Q, \ap + \ap^\dag] = -q(\ap- ap^\dag)$.}
-- A possible solution would be to introduce another particle that carries the opposite charge. This is the idea behind \textbf{antiparticles}.
-\end{itemize}</p>
-<p>\textbf{causal}: fields commute at spacelike separations.</p>
+    We will see later that WLOG $\kappa = \lambda$ so we are only free to choose the scale of the field.</li>
+<li>we see that in order for this theory to conserve quantum numbers like electric charge, there must be a doubling of particle species carrying non-zero values of such quantum numbers: if a particular componenet of the annihilation field destrooys a particle of species $n$, then the same component of the creation field must create particles of species $\bar{n}$, <strong><em>this is the reason for antiparticles</em></strong>.</li>
+</ul>
+<h3>Conserved Quantum Number</h3>
+<ul>
+<li>Lets say each particle carries some quantum number, and there is some sort of conservation law for that quantum number. Then creation of a particle would add such number and annihilation takes away such number. </li>
+<li>Formulating this in terms of mathematics: Suppose the Hermitian operator $Q$ corresponds to the observable of quantum number $q$ that the particle carries. Then we necessarily have
+    $$[Q,\text{a}<em>{\text{p}}] = Q\text{a}</em>{\text{p}} - \text{a}<em>{\text{p}} Q = -q \text{a}</em>{\text{p}}$$
+    $$[Q, \text{a}<em>{\text{p}}^\dag] = Q\text{a}</em>{\text{p}}^\dag - \text{a}<em>{\text{p}}^\dag Q = q \text{a}</em>{\text{p}}^\dag$$
+    \footnote{because $\text{a}<em>{\text{p}} Q$ first makes a measurement, then takes the particle away, and $Q \text{a}</em>{\text{p}}$ makes the measurement after the particle is taken away, so the former measurement seems to observe an additional $q$. Similar idea for the latter tator relation.}</li>
+<li>Recall the form of our Hamiltonian $\mathscr{H}$ in terms of the creation and annihilation fields (5.1.9)</li>
+</ul>
+<blockquote>
+<p>It would be fair to say $\mathscr{H}$ is a polynomial in $\psi^+$, $\psi^-$</p>
+</blockquote>
+<p>$$\mathscr{H} = \sum_{NM} \sum_{l'<em>1 ... l'_N} \sum</em>{l_1 ... l_M} g_{l'<em>1...l'_N,l_1...l_M} \psi^-</em>{l'<em>1}...\psi^-</em>{l'<em>N} \psi^+</em>{l_1}...\psi^+_{l_M}$$</p>
+<p>Weinberg claims that in order for the Hamiltonian to commute with $Q$, it is necessary that the Hamiltonian be formed out of fields that have simple commutation relations with $Q$, meaning $[Q, \psi_l] = -q_l \psi_l$\footnote{I don't understand why this HAS to be the case right now, I see why it would be nice, but I ll take his words.
+- But this is clearly not the case for $\psi = \text{a}<em>{\text{p}} + \text{a}</em>{\text{p}}^\dag$, unless $Q=0$. 
+    \footnote{for $[Q,\psi] = [Q, \text{a}<em>{\text{p}} + \text{a}</em>{\text{p}}^\dag] = -q(\text{a}_{\text{p}}- ap^\dag)$.}
+- A possible solution would be to introduce another particle that carries the opposite charge. This is the idea behind \textbf{antiparticles}.</p>
+<p><strong>causal</strong>: fields commute at spacelike separations.</p>
 <h2>Causal Scalar Fields</h2>
-<p>\paragraph{what 'scalar' means}
-\begin{itemize}
-- scalar representation means the field only takes on a scalar value at each point in spacetime, for that value to be Lorentz invariant \ul{it must be a Lorentz scalar}. 
- - [👉] Recall the definition of the annihilation field in terms of its operator and coefficient
-        $$\Psi^+<em>{\boxed{l}}(x) = \sum</em>{\sigma n} \int d^3 u_{\boxed{l}} (x;\pp, \sigma, n) a(\pp, \sigma, n) $$
-        having scalar field means \ul{we can remove this $l$ index}, 
-        again, keep in mind that the field only takes on a scalar value at each point in spacetime!
- - [👉] the field being just a scalar means the \textbf{matrix} $D_{\bar{l} l}(\Lambda)$ that we were talking about is \ul{simply a \textbf{scalar}: $D(\Lambda)$}!
-  - [👉] In his book weinberg considers the simplest representation where $D(\Lambda)=1$
-\end{itemize}</p>
+<h3>what 'scalar' means</h3>
+<ul>
+<li>scalar representation means the field only takes on a scalar value at each point in spacetime, for that value to be Lorentz invariant <strong><em>it must be a Lorentz scalar</em></strong>. </li>
+<li>[👉] Recall the definition of the annihilation field in terms of its operator and coefficient</li>
+</ul>
+<p>$$\Psi^+<em>{l}(x) = \sum</em>{\sigma n} \int d^3 u_{l} (x;\textbf{p}, \sigma, n) a(\textbf{p}, \sigma, n) $$</p>
+<p>having scalar field means <strong><em>we can remove this $l$ index</em></strong>, again, keep in mind that the field only takes on a scalar value at each point in spacetime!
+ - [👉] the field being just a scalar means the <strong>matrix</strong> $D_{\bar{l} l}(\Lambda)$ that we were talking about is <strong><em>simply a </em>*scalar</strong>: $D(\Lambda)$***!
+  - [👉] In his book weinberg considers the simplest representation where $D(\Lambda)=1$</p>
 <h3>spin 0 is necessary</h3>
 <p>\begin{itemize}
 - Recall that the $D^{(j)}$ representation of the rotation group is dim $2j + 1$, so for this representation to be a scalar representation we necessarily have spin = 0. A scalar field necessarily describes particle with 0 spin.
@@ -2081,14 +2120,14 @@ weinberg_5_notes.md<span class="icon"></span></summary>
     $$u = u(p), v = v(p)$$
 - it is conventional to normalize the annihilation and creation fields so that
     $u(0) = v(0) = \sqrt{\frac{1}{2m}}$, so we have
-    $$u(\pp) = \sqrt{\frac{1}{2p^0}}, 
+    $$u(\textbf{p}) = \sqrt{\frac{1}{2p^0}}, 
     \quad
-    v(\pp) = \sqrt{\frac{1}{2p^0}}$$
+    v(\textbf{p}) = \sqrt{\frac{1}{2p^0}}$$
 \end{itemize}</p>
 <h3>implications of causality</h3>
 <ul>
 <li>That's for the invariance under lorentz transformation, for causality, we need the fields to commute at spacelike separations. We find that while $[\phi^\pm , \phi^\pm]<em>{\mp} =0$, $[\phi^\pm , \phi^\mp]</em>{\mp}$ is not necessarily 0 for spacelike separations. </li>
-<li>To address this problem, we find that (5.2.6-5.2.9) the constants for both fields \ul{$\kappa, \lambda$ must be equal in magnitude}, and \ul{we must be considering the boson}, in other words, the \textbf{commutator} instead of \textbf{anticommutator}. This solution works by exploiting the evenness of $\Delta_+$. </li>
+<li>To address this problem, we find that (5.2.6-5.2.9) the constants for both fields <strong><em>$\kappa, \lambda$ must be equal in magnitude</em></strong>, and <strong><em>we must be considering the boson</em></strong>, in other words, the <strong>commutator</strong> instead of <strong>anticommutator</strong>. This solution works by exploiting the evenness of $\Delta_+$. </li>
 <li>we can redefine the relative phase of the creation and annihilation operators so that $\kappa$ and $\lambda$ are equal exactly (5.2.10)</li>
 </ul>
 <h3>scalar fields need anti-particles for conserved charge</h3>
@@ -2096,28 +2135,25 @@ weinberg_5_notes.md<span class="icon"></span></summary>
 <li>The issue here is that $[Q, \phi^+] = -q\phi^+$, $[Q, \phi^{+\dag}] = q\phi^+$, we will have 
     $$[Q, \phi^+ + \phi^{+\dag}] = q (\phi^{+\dag} - \phi^+)$$
     this is not a commutation relation that allows for charge conservation.</li>
-<li>Indeed, if the particles that are destroyed and created by $\phi$ carry some conserved quantum number like electric charge, then $\Ham$ will conserve the quantum number if and only if each term in $\Ham$ contains equal number of $\ap$ and $\ap^\dag$, but this would be impossible if $\Ham$ is a polynomial in $\ap + \ap^\dag$. </li>
-<li>[❤️] In order for the scalar field to have conserved charge, we must imagine there is another field of the particle with opposite charge， let these two fields be $\phi^+, \phi^{+c}$, then we form the field by
-    \begin{align<em>}
-        \phi &amp;= \phi^+ + \phi^{+c\dag} \
-        &amp; = \int \frac{d^3 p}{(2\pi)^{3/2} (2 p^0)^{1/2}} 
-        \left[ a_{\pp}e^{ip\cdot x} + a_{\pp}^{c\dag}e^{-ip \cdot x}\right]
-    \end{align</em>}</li>
+<li>Indeed, if the particles that are destroyed and created by $\phi$ carry some conserved quantum number like electric charge, then $\mathscr{H}$ will conserve the quantum number if and only if each term in $\mathscr{H}$ contains equal number of $\text{a}<em>{\text{p}}$ and $\text{a}</em>{\text{p}}^\dag$, but this would be impossible if $\mathscr{H}$ is a polynomial in $\text{a}<em>{\text{p}} + \text{a}</em>{\text{p}}^\dag$. </li>
+<li>[❤️] In order for the scalar field to have conserved charge, we must imagine there is another field of the particle with opposite charge， let these two fields be $\phi^+, \phi^{+c}$, then we form the field by</li>
 </ul>
+<p>$$ \phi = \phi^+ + \phi^{+c\dag}$$
+$$ = \int \frac{d^3 p}{(2\pi)^{3/2} (2 p^0)^{1/2}} 
+        \left[ a_{\textbf{p}}e^{ip\cdot x} + a_{\textbf{p}}^{c\dag}e^{-ip \cdot x}\right]
+$$</p>
 <h3>MISC</h3>
-<p>\begin{itemize}
-- The commutator of the complex scalar field with its adjoint is
-    $$[\phi(x), \phi^\dag(y)] = \Delta(x-y) = \Delta_+(x-y) - \Delta_+(y-x)$$
-    \begin{itemize}
- - Parity: The intrinsic parity of a state containing a spinless particle and its antiparticle is even.
- - Charge Conju: The intrinsic charge conjugation parity of a state consisting of a spinless particle and antiparticle is even. If the particle is its own antiparticle, the charge conjugation must be real, $\pm 1$
- - Merlin: even, real if its own antiparticle. 
-    \end{itemize}
-\end{itemize}</p>
-<p>\subsubsection{Causal Vector Fields}</p>
+<ul>
+<li>The commutator of the complex scalar field with its adjoint is
+    $$[\phi(x), \phi^\dag(y)] = \Delta(x-y) = \Delta_+(x-y) - \Delta_+(y-x)$$</li>
+<li>Parity: The intrinsic parity of a state containing a spinless particle and its antiparticle is even.</li>
+<li>Charge Conju: The intrinsic charge conjugation parity of a state consisting of a spinless particle and antiparticle is even. If the particle is its own antiparticle, the charge conjugation must be real, $\pm 1$</li>
+<li>Merlin: even, real if its own antiparticle. </li>
+</ul>
+<h2>Causal Vector Fields</h2>
 <p>We first follow the same procedure as we did for the scalar field (5.3.1-5.3.5), we encounter a difference when it comes to spin of the particle: vector field can have nontrivial spin (5.3.6, 5.3.7).
 Thus we need to examine spin by looking at the rotation transforamtion properties of the vector field, by looking at the rotation generators $\mathscr{J}^\mu_\nu$</p>
-<p>\paragraph{Rotation Generator}</p>
+<h3>Rotation Generator</h3>
 <p>\begin{itemize}
 - The rotation generators are
     $$\left(\begin{array}{rrr}
@@ -2138,50 +2174,42 @@ Thus we need to examine spin by looking at the rotation transforamtion propertie
      squaring them, and adding them up yields $2\delta^i_j$.
 - We know that in the four vector representation of the rotation group, the time component is zero, pluggint this into (5.3.6, 5.3.7) we obtain (5.3.12, 5.3.14). Plugging in our our last result of $2\delta$ into (5.3.6, 5.3.7), we find (5.3.13, 5.3.15).
     \footnote{Recall that $(J^{(s)})^2 = s(s+1)$, so it may seem like for the $2\delta$ to be true, we must have $s =1$, but that would be the case if the rotation generators are the entire story of this representation. Which isnt the case because there is also another component of time. If the spatial components is nonzero and nontrivial, then we necessarily have $s=1$. However, there is another solution of setting the spatial components trivially to be 0, which would allow us to set $s=0$. }
-    \begin{itemize}
- - \textbf{Possibility 1:} at $\pp=0$, only $u^0, v^0$ are nonzero and $s$ (or $j$) equals 0.
- - \textbf{Possibility 2:} at $\pp =0$, only $u^i, v^i$ are nonzero and $s = 1$.
-    \end{itemize}
-\end{itemize}</p>
-<p>\paragraph{Spin 0}
-\begin{itemize}
-- The conventional values for $u^0, v^0$ are
-    $$u^0, v^0 = \pm i \sqrt{\frac{1}{2m}}$$
-- as before, we drop the $\sigma$ label for they only take on a single value of $0$
- - [❤️] We find that for general momenta, the coefficients are (5.3.16, 5.3.17), and we observe that the annihilation and creation fields are simply the \textbf{4-gradient of the scalar field}. Then weinberg be like thats enough i dont feel like exploring this option no more. 
-\end{itemize}</p>
-<p>\paragraph{Spin 1}
-\begin{itemize}
-- For spin 1 the label $\sigma$ can take on between $-1, 0, 1$.
-- By the analogy of the past normalization conventions, we find the 0-momenta, 0-spin coefficients (5.3.20)
-- Using the raising and lowering operators $J_1^{(1)}\pm iJ_2^{(1)}$, we find the spin 1, -1 coefficients at $\pp = 0$ (5.3.21, 5.3.22)
- - [❤️] the above two procedures give us the coefficients for $\sigma = -1, 0, 1$, now we can apply a boost to find the coefficients for any general momenta, and any of those three spins!
-    \footnote{The $e^\mu(\pp, \sigma)$ vectors are a simpler way to state the the coefficients for arbitary momenta in terms of the three basis vectors $e(0,-1), e(0,0), e(0,1)$} 
-    and we find the fields $\phi^{+\mu}, \phi^{- \mu}$. 
-\end{itemize}</p>
-<p>\paragraph{Spin 1 causality}
-\begin{itemize}
-- In computing the tators relations for spin 1 particle at spacelike separations, we find this $\Pi^{\mu \nu}$, which by some algebra is reduced to the familiar $\Delta_+$, which we know is even.
- - [👉] we apply the same procedure for causality as we did for the scalar field, and we find that for causality it is necessary and sufficient that the spin 1 particle is \textbf{boson} and $|\kappa| = |\lambda|$. So we do the same procedure as scalar to adjust the pahse of the creation and annihilation operators to get them to be exactly equal. 
-- In addition, we find that this field is self-conjugate, so it is real which prohibits conservation of quantum number like electric charge. 
-- What if we want to conserve a charge? We do the same thing where we imageine there is another boson with exactly the same mass, spin, but opposite charge. This will give us a complex field. 
-- again, we can let the particle be neutral, and the boson would be its own antiparticle, and we simply conserve charge = 0.
-\end{itemize}
-\paragraph{spin 1 MISC}
-\begin{itemize}
-- A quick check indicates that the spin 1 field satisfies the KG equation. 
-- we can not get electrodynamics by simply taking the $m\rightarrow0$ limit of the massive spin 1 theory, because the spacelike commutator contains a $m^2$ at the bottom (5.3.30) which blows up.
-- weinberg then discusses something related to photon vs spin1 massive boson, then talk about discrete symmetries.
-\end{itemize}</p>
+    - <strong>Possibility 1</strong>: at $\textbf{p}=0$, only $u^0, v^0$ are nonzero and $s$ (or $j$) equals 0.
+    - <strong>Possibility 2</strong>: at $\textbf{p} =0$, only $u^i, v^i$ are nonzero and $s = 1$.</p>
+<h3>Spin 0</h3>
+<ul>
+<li>The conventional values for $u^0, v^0$ are
+    $$u^0, v^0 = \pm i \sqrt{\frac{1}{2m}}$$</li>
+<li>as before, we drop the $\sigma$ label for they only take on a single value of $0$</li>
+<li>[❤️] We find that for general momenta, the coefficients are (5.3.16, 5.3.17), and we observe that the annihilation and creation fields are simply the \textbf{4-gradient of the scalar field}. Then weinberg be like thats enough i dont feel like exploring this option no more. </li>
+</ul>
+<h3>Spin 1</h3>
+<ul>
+<li>For spin 1 the label $\sigma$ can take on between $-1, 0, 1$.</li>
+<li>By the analogy of the past normalization conventions, we find the 0-momenta, 0-spin coefficients (5.3.20)</li>
+<li>Using the raising and lowering operators $J_1^{(1)}\pm iJ_2^{(1)}$, we find the spin 1, -1 coefficients at $\textbf{p} = 0$ (5.3.21, 5.3.22)</li>
+<li>[❤️] the above two procedures give us the coefficients for $\sigma = -1, 0, 1$, now we can apply a boost to find the coefficients for any general momenta, and any of those three spins!
+    \footnote{The $e^\mu(\textbf{p}, \sigma)$ vectors are a simpler way to state the the coefficients for arbitary momenta in terms of the three basis vectors $e(0,-1), e(0,0), e(0,1)$} 
+    and we find the fields $\phi^{+\mu}, \phi^{- \mu}$. </li>
+</ul>
+<h3>Spin 1 causality</h3>
+<ul>
+<li>In computing the tators relations for spin 1 particle at spacelike separations, we find this $\Pi^{\mu \nu}$, which by some algebra is reduced to the familiar $\Delta_+$, which we know is even.</li>
+<li>[👉] we apply the same procedure for causality as we did for the scalar field, and we find that for causality it is necessary and sufficient that the spin 1 particle is \textbf{boson} and $|\kappa| = |\lambda|$. So we do the same procedure as scalar to adjust the pahse of the creation and annihilation operators to get them to be exactly equal. </li>
+<li>In addition, we find that this field is self-conjugate, so it is real which prohibits conservation of quantum number like electric charge. </li>
+<li>What if we want to conserve a charge? We do the same thing where we imageine there is another boson with exactly the same mass, spin, but opposite charge. This will give us a complex field. </li>
+<li>again, we can let the particle be neutral, and the boson would be its own antiparticle, and we simply conserve charge = 0.</li>
+</ul>
+<h3>spin 1 MISC</h3>
+<ul>
+<li>A quick check indicates that the spin 1 field satisfies the KG equation. </li>
+<li>we can not get electrodynamics by simply taking the $m\rightarrow0$ limit of the massive spin 1 theory, because the spacelike commutator contains a $m^2$ at the bottom (5.3.30) which blows up.</li>
+<li>weinberg then discusses something related to photon vs spin1 massive boson, then talk about discrete symmetries.</li>
+</ul>
 <h2>Dirac Formalism</h2>
 <ul>
-<li>The Dirac formalism is just one representation of the homogeneous lorentz group, but it has some \ul{special importance}
-    \footnote{
-    What is this special importance?</li>
-<li>A</li>
-<li>B
-    }. This formalism was introduced by Dirac, but weinberg wants to introduce it mathematically rather than historically</li>
-<li>from the point of view we are following here, the structure and properties of any quantum field are dictated by the \ul{representation of the homogeneous lorentz group} under which it transforms. </li>
+<li>The Dirac formalism is just one representation of the homogeneous lorentz group, but it has some <strong><em>special importance</em></strong> This formalism was introduced by Dirac, but weinberg wants to introduce it mathematically rather than historically</li>
+<li>from the point of view we are following here, the structure and properties of any quantum field are dictated by the <strong><em>representation of the homogeneous lorentz group</em></strong> under which it transforms. </li>
 </ul>
 <h3>Clifford Algebra</h3>
 <ul>
@@ -2223,11 +2251,11 @@ Thus we need to examine spin by looking at the rotation transforamtion propertie
 <h2>Causal Dirac Field</h2>
 <ul>
 <li>Naturally, we now apply the Dirac representation
-This simply means plugging the $\mathscr{J}$ that we obtained in the last section using $\gamma$ into the formula
-$$\sum_{\bar{\sigma}}u_{\bar{l}}(0, \bar{\sigma}) \JJ^{(j)}<em>{\bar{\sigma} \sigma} = \sum</em>{l} \mathscr{J}_{\bar{l}l} u_l(0, \sigma)$$
-    we find the two equations above (5.5.3). </li>
-<li>By a theorem from group theory, we find that the spin of the representation must be $\frac{1}{2}$, and we further find the basis vectors (equations above 5.5.6 )</li>
+This simply means plugging the $\mathscr{J}$ that we obtained in the last section using $\gamma$ into the formula</li>
 </ul>
+<p>$$\sum_{\bar{\sigma}}u_{\bar{l}}(0, \bar{\sigma}) J^{(j)}<em>{\bar{\sigma} \sigma} = \sum</em>{l} \mathscr{J}_{\bar{l}l} u_l(0, \sigma)$$</p>
+<p>we find the two equations above (5.5.3). 
+- By a theorem from group theory, we find that the spin of the representation must be $\frac{1}{2}$, and we further find the basis vectors (equations above 5.5.6 )</p>
 <h3>The following are read at an extremely cursory pace</h3>
 <ul>
 <li>Weinberg notes that the coefficients $\pm c, \pm b$ are determined by the parity operator. he illustrates this point to (5.5.17, 5.5.18). </li>
@@ -2237,9 +2265,9 @@ $$\sum_{\bar{\sigma}}u_{\bar{l}}(0, \bar{\sigma}) \JJ^{(j)}<em>{\bar{\sigma} \si
 <h2>Massless Particle fields</h2>
 <ul>
 <li>We begin by assuming that the massless particle field is also made out of the a field with creation and annihilation operators. Using the transformation relations (2.5.42), we arrive at (5.9.2, 3, 4)</li>
-<li>We find that the coefficients $u,v$ must satisfy (5.9.6,7), we simplify these equations by considering momentum-related transformations as not going from $p_1 \rightarrow p_2$, but $k \rightarrow p_2$. So we can express the general momentum coefficient $u(\pp),v(\pp)$ in terms of the standard momentum $u(\kk),v(\kk)$: (5.9.8,9).</li>
-<li>Now we zoom into the $\kk$ case, this transforms by the little group: (5.9.10,11).</li>
-<li>we find that \ul{no 4vector field can be constructed from the annihilation and creation operators for a particle of mass zero and helicity $\pm 1$. }</li>
+<li>We find that the coefficients $u,v$ must satisfy (5.9.6,7), we simplify these equations by considering momentum-related transformations as not going from $p_1 \rightarrow p_2$, but $k \rightarrow p_2$. So we can express the general momentum coefficient $u(\textbf{p}),v(\textbf{p})$ in terms of the standard momentum $u(\textbf{k}),v(\textbf{k})$: (5.9.8,9).</li>
+<li>Now we zoom into the $\textbf{k}$ case, this transforms by the little group: (5.9.10,11).</li>
+<li>we find that <strong><em>no 4vector field can be constructed from the annihilation and creation operators for a particle of mass zero and helicity $\pm 1$.</em></strong></li>
 <li>way out: use gauge invariance, and \textbf{tensor} field!</li>
 <li>we further find that causality implies the particle be its own charge conjugate, which would be the case for a photon. </li>
 </ul><span class="icon"></span></div>
@@ -2252,55 +2280,56 @@ $$\sum_{\bar{\sigma}}u_{\bar{l}}(0, \bar{\sigma}) \JJ^{(j)}<em>{\bar{\sigma} \si
 <summary style="margin-left:60px;">
 weinberg_6_notes.md<span class="icon"></span></summary>
 <div style="margin-left:90px;border: 3px dashed black; background-color:powderblue;"">
-<p>\subsection{The Feynman Rules}</p>
+<p>The Feynman Rules</p>
+<ul>
+<li>There is obvious advantage in using a perturbation technique which keeps lorentz invariance and causality (cluster decomposition principle) manifest at all stages of the expansion.</li>
+<li>The old-fashion perturbation theory was not one of those advantageous techniques. The Feynman-Schwinger-Tomonaga is one of those advantageous technique above.</li>
+<li>This chapter outlines the diagrammatic calculational techniques first described by Feynman at Poconos Conference in 1948.</li>
+</ul>
+<p>Feynman was led to these diagrammatic rules through his development of the path-integral approach, which will be the subject of section 9.</p>
+<h1>Derivation of the Rules via Dyson series</h1>
 <p>\begin{itemize}
-    \item There is obvious advantage in using a perturbation technique which keeps lorentz invariance and causality (cluster decomposition principle) manifest at all stages of the expansion.
-    \item The old-fashion perturbation theory was not one of those advantageous techniques. The Feynman-Schwinger-Tomonaga is one of those advantageous technique above.
-    \item This chapter outlines the diagrammatic calculational techniques first described by Feynman at Poconos Conference in 1948.
-    \footnote{
-    Feynman was led to these diagrammatic rules through his development of the path-integral approach, which will be the subject of section 9.
-    }
-\end{itemize}</p>
-<p>\subsubsection{Derivation of the Rules via Dyson series}</p>
-<p>\begin{itemize}
-    \item The Dyson's series expresses the matrix element as (6.1.1)
-    \footnote{
-    Recall the expression of $S$ in terms of Dyson series (3.5.10), using our newest creation and annihilation operator formalism, we put the free fields on both sides of (3.5.10), and putting the corresponding creation and annihilation operators between the free fields and $S$ yields (6.1.1)
-    }
-    \item The field of a specific particle that transforms under a particular representation of the homogeneous lorentz group, is given by (6.1.3)
-    \footnote{
-    This can be understood as the 'wave equation' of the particle, which contains everything we can possibly know about such particle. The integral over those coefficients imply that this is a localized particle, or 'wave packet'.
-    }
-    \item weinberg here convenes a distinction between particles and antiparticle:
-    \begin{itemize}
-        \item field operators that destroy particles and create antiparticles are '\textbf{fields}'
-        \item field operators that destroy antiparticles and create particles are '\textbf{field adjoints}'
-    \end{itemize}
-    \item We now move the $\ap$s on the left of (6.1.1) to the right, using the commutator relations (6.1.4, 5, 6).
-    \item In this way, the contributions to (6.1.1) are those arising from the delta function terms on the right-hand side of (6.1.4). The contribution to (6.1.1) of a given order in each of the terms $\Ham_i$ in the polynomial $\Ham(\psi(x),\psi^\dag(x))$ is given by a sum, over all the ways of pairing creation and annihilation operators, of the integrals of products of factors, in the 6 ways in (5.1.9-14)\footnote{These pairings are derived very trivially from 6.1.4 and 6.1.3}
-    \item The S-matrix is obtained by multiplying these factors together, along with additional numerical factors to be discussed below, then integrating over $x_1,x_2,...,x_N$, then summing over all pairings, and then over the numbers of interactions of each type.
-    \item It is probably worth nothing that Feynman diagrams are simply a diagrammatic mnemonics for keeping tracks of the terms that we encounter in moving the annihilation from left to right in (6.1.1) according to the rules between (6.1.9) and (6.1.14), which tells you how to handle $\ap$ with $\psi$, $\ap$ with $\ap^\dag$, and $\ap$ with time-ordering, respectively. Keep in mind that the lines represent a pairing that you can have. Figure 6.1 tells you more specifically what the pairings corresponds to. 
-\end{itemize}</p>
-<p>\paragraph{The rules}
-The rules for calculating the S-matrix are conveniently summarized in temrs of Feynman diagrams. Each vertex in the diagrams represent one of the $\Ham_i$, and each of the lines represent a pairing described above.</p>
-<p>\begin{itemize}
-    \item arrows always point \textbf{in} the direction that a \textbf{particle} is moving, and \textbf{opposite} to the direction an \textbf{antiparticle} is moving.
-    \item To compute the contribution to the S-matrix for a given process, of a given order $N_i$ in each of the interaction terms $H_i$ in (6.1.2), we carry over the following steps:
-    \begin{enumerate}
-        \item draw all feynman diagrams consisting of $N_i$ vertices of each type $i$, and containing a line coming into the diagram from below for each particle/antiparticle in the initial state, and a line going upwards out of the diagram for eevery orticle in the final state, together with any number of internal lines running from one vertex to another, as required to give each vertex the proper number of attached lines. Each vertex is labeled with an interaction type $i$ and spacetime coordinate $x^\mu$. Each internal or external line is labeled at the field $\psi_l(x)$ or $\psi_l^\dag(x)$ that creates or destroys the orticle at that vertex, and each external line where it enters or leaves the diagram is labeled with the quantum numbers $\pp, \sigma, n$ or $\pp' \sigma', n'$ of the initial or final orticle.
-        \item For each vertex of type $i$, include a factor $-i$, obviously from $(-i)^N$, and a factor $g_i$, the coupling constant. For every final orticle, include a factor of (6.1.9,10), For every initial orticle, include a factor of (6.1.11,12). For internal lines include factors of (6.1.13,14)
-        \item Integrate the product of all these factors over the coordinates $x_1, x_2, ...$ of each vertex
-        \item Add up the results obtained in this way from each Feynman Diagram. The complete perturbation series for the S-matrix is obtained by adding up the contribution of each order in each interaction type, up to whatever order our strength permits.
-    \end{enumerate}
-    \item Some special rules apply for specific scenarios:
-    \begin{enumerate}
-        \item Suppose that an interaction $\Ham_i(x)$ contains $M$ factors of the same field. Then we get an additional factor of $M!$ in front of each diagram. The traditional method to combat this is to adjust the coupling factor to $\frac{g}{M!}$ in the $M$-th order expansion.
-        \item Remember how the permutations of the vertices cancel with the factor of $\frac{1}{N!}$, this is not always the casae because some permutations of the vertices do not necessarily produce a new diagram. This occurs when we have loop diagrams. In loop diagrams, we need to add an additional factor of $\frac{1}{N}$.
-        \item Whenever permutation puts the annihilation part $\psi^+(x)$ of a field in $\Ham$ just to the left of the creation part $\psi^{+\dag}(y)$ of a field adjoint in $\Ham(y)$, the permutation that puts the annihilation part $\psi^{-\dag}(y)$ of the field adjoint just to the left of the creation part $\psi^-(x)$ of the field involves one extra interchange of fermion operators, yielding the minus sign in the second term of (6.1.14) for fermions.
-    \end{enumerate}
-    \item The overall sign of the S-mat does not matter, but the relative signs do.
-    \item general Feynman diagrams form either chains of lines that pass through the diagram with arbitrary number of interactions (traditional &gt;--&lt; diagrams), or else fermionic loops (loop ----&gt;O&lt; diagrams)
-\end{itemize}</p><span class="icon"></span></div>
+- The Dyson's series expresses the matrix element as (6.1.1)</p>
+<blockquote>
+<p>Recall the expression of $S$ in terms of Dyson series (3.5.10), using our newest creation and annihilation operator formalism, we put the free fields on both sides of (3.5.10), and putting the corresponding creation and annihilation operators between the free fields and $S$ yields (6.1.1)</p>
+</blockquote>
+<ul>
+<li>The field of a specific particle that transforms under a particular representation of the homogeneous lorentz group, is given by (6.1.3)</li>
+</ul>
+<blockquote>
+<p>This can be understood as the 'wave equation' of the particle, which contains everything we can possibly know about such particle. The integral over those coefficients imply that this is a localized particle, or 'wave packet'.</p>
+</blockquote>
+<ul>
+<li>weinberg here convenes a distinction between particles and antiparticle:<ul>
+<li>field operators that destroy particles and create antiparticles are '\textbf{fields}'</li>
+<li>field operators that destroy antiparticles and create particles are '\textbf{field adjoints}'</li>
+</ul>
+</li>
+<li>We now move the $\ap$s on the left of (6.1.1) to the right, using the commutator relations (6.1.4, 5, 6).</li>
+<li>In this way, the contributions to (6.1.1) are those arising from the delta function terms on the right-hand side of (6.1.4). The contribution to (6.1.1) of a given order in each of the terms $\Ham_i$ in the polynomial $\Ham(\psi(x),\psi^\dag(x))$ is given by a sum, over all the ways of pairing creation and annihilation operators, of the integrals of products of factors, in the 6 ways in (5.1.9-14)\footnote{These pairings are derived very trivially from 6.1.4 and 6.1.3}</li>
+<li>The S-matrix is obtained by multiplying these factors together, along with additional numerical factors to be discussed below, then integrating over $x_1,x_2,...,x_N$, then summing over all pairings, and then over the numbers of interactions of each type.</li>
+<li>It is probably worth nothing that Feynman diagrams are simply a diagrammatic mnemonics for keeping tracks of the terms that we encounter in moving the annihilation from left to right in (6.1.1) according to the rules between (6.1.9) and (6.1.14), which tells you how to handle $\ap$ with $\psi$, $\ap$ with $\ap^\dag$, and $\ap$ with time-ordering, respectively. Keep in mind that the lines represent a pairing that you can have. Figure 6.1 tells you more specifically what the pairings corresponds to. </li>
+</ul>
+<h1>The rules</h1>
+<p>The rules for calculating the S-matrix are conveniently summarized in temrs of Feynman diagrams. Each vertex in the diagrams represent one of the $\Ham_i$, and each of the lines represent a pairing described above.</p>
+<ul>
+<li>arrows always point \textbf{in} the direction that a \textbf{particle} is moving, and \textbf{opposite} to the direction an \textbf{antiparticle} is moving.</li>
+<li>To compute the contribution to the S-matrix for a given process, of a given order $N_i$ in each of the interaction terms $H_i$ in (6.1.2), we carry over the following steps:<ul>
+<li>draw all feynman diagrams consisting of $N_i$ vertices of each type $i$, and containing a line coming into the diagram from below for each particle/antiparticle in the initial state, and a line going upwards out of the diagram for eevery orticle in the final state, together with any number of internal lines running from one vertex to another, as required to give each vertex the proper number of attached lines. Each vertex is labeled with an interaction type $i$ and spacetime coordinate $x^\mu$. Each internal or external line is labeled at the field $\psi_l(x)$ or $\psi_l^\dag(x)$ that creates or destroys the orticle at that vertex, and each external line where it enters or leaves the diagram is labeled with the quantum numbers $\pp, \sigma, n$ or $\pp' \sigma', n'$ of the initial or final orticle.</li>
+<li>For each vertex of type $i$, include a factor $-i$, obviously from $(-i)^N$, and a factor $g_i$, the coupling constant. For every final orticle, include a factor of (6.1.9,10), For every initial orticle, include a factor of (6.1.11,12). For internal lines include factors of (6.1.13,14)</li>
+<li>Integrate the product of all these factors over the coordinates $x_1, x_2, ...$ of each vertex</li>
+<li>Add up the results obtained in this way from each Feynman Diagram. The complete perturbation series for the S-matrix is obtained by adding up the contribution of each order in each interaction type, up to whatever order our strength permits.</li>
+</ul>
+</li>
+<li>Some special rules apply for specific scenarios:<ul>
+<li>Suppose that an interaction $\Ham_i(x)$ contains $M$ factors of the same field. Then we get an additional factor of $M!$ in front of each diagram. The traditional method to combat this is to adjust the coupling factor to $\frac{g}{M!}$ in the $M$-th order expansion.</li>
+<li>Remember how the permutations of the vertices cancel with the factor of $\frac{1}{N!}$, this is not always the casae because some permutations of the vertices do not necessarily produce a new diagram. This occurs when we have loop diagrams. In loop diagrams, we need to add an additional factor of $\frac{1}{N}$.</li>
+<li>Whenever permutation puts the annihilation part $\psi^+(x)$ of a field in $\Ham$ just to the left of the creation part $\psi^{+\dag}(y)$ of a field adjoint in $\Ham(y)$, the permutation that puts the annihilation part $\psi^{-\dag}(y)$ of the field adjoint just to the left of the creation part $\psi^-(x)$ of the field involves one extra interchange of fermion operators, yielding the minus sign in the second term of (6.1.14) for fermions.</li>
+</ul>
+</li>
+<li>The overall sign of the S-mat does not matter, but the relative signs do.</li>
+<li>general Feynman diagrams form either chains of lines that pass through the diagram with arbitrary number of interactions (traditional &gt;--&lt; diagrams), or else fermionic loops (loop ----&gt;O&lt; diagrams)</li>
+</ul><span class="icon"></span></div>
 </details>
 </details>
 <details>
@@ -2310,78 +2339,76 @@ The rules for calculating the S-matrix are conveniently summarized in temrs of F
 <summary style="margin-left:60px;">
 weinberg_7_notes.md<span class="icon"></span></summary>
 <div style="margin-left:90px;border: 3px dashed black; background-color:powderblue;"">
-<p>\subsection{the canonical formalism}</p>
-<p>\begin{itemize}
-    \item all of the most familiar qft furnish canonical systems, and these can easily be put in a Lagrangian formalism
-    \item The benefit of using Lagrangian formalism, a classical theory with a lorentz-invariant lagrangian density will when canonically quantized lead to a lorentz-invariant quantum theory.
-    \item it would be hopeless to try to guess at a form of the Hamiltonian in non-abelian gauge theories without starting with a lorentz-invariant and gauge-invariant lagrangian density
-\end{itemize}</p>
-<p>\subsubsection{canonical variables}</p>
-<p>\paragraph{Weinberg formalism to Lagr to Hamiltonian}</p>
-<p>\begin{itemize}
-    \item this section shows that various quantum theories that we have constructed so far satisfy the commutation rules and equations of motions of the Hamiltonian version of the canonical formalism, this means identifying the operators $q,p$ in theories we have considered so far (scalar, vector, tensor, etc) that satisfy the canonical commutator or anticommutation relations
+<p>the canonical formalism</p>
+<ul>
+<li>all of the most familiar qft furnish canonical systems, and these can easily be put in a Lagrangian formalism</li>
+<li>The benefit of using Lagrangian formalism, a classical theory with a lorentz-invariant lagrangian density will when canonically quantized lead to a lorentz-invariant quantum theory.</li>
+<li>it would be hopeless to try to guess at a form of the Hamiltonian in non-abelian gauge theories without starting with a lorentz-invariant and gauge-invariant lagrangian density</li>
+</ul>
+<h1>canonical variables</h1>
+<h3>Weinberg formalism to Lagr to Hamiltonian</h3>
+<ul>
+<li>this section shows that various quantum theories that we have constructed so far satisfy the commutation rules and equations of motions of the Hamiltonian version of the canonical formalism, this means identifying the operators $q,p$ in theories we have considered so far (scalar, vector, tensor, etc) that satisfy the canonical commutator or anticommutation relations
     $$[q(\vec{x},t),p(\vec{y},t)]<em>{\mp} = i\delta^3(\vec{x}-\vec{y})$$
     $$[q(\vec{x},t),q(\vec{y},t)]</em>{\mp} = 0$$
-    $$[p(\vec{x},t),p(\vec{y},t)]_{\mp} = 0$$
-    \item Then weinberg uses the commutator relations between fields to find the right $p,q$ for each theory, specifically the \ul{real scalar field}, \ul{complex scalar field}, \ul{real vector field}, \ul{dirac field of non-majoranna spin 1/2 particle} (7.1.4-16). 
-    \item Then weinberg defines the quantum mechanical functional derivative (7.1.17,18) for a functional that takes in a system of operators that satisfy the canonical tator relations. 
-    \item Then he transitions to the Hamiltonian formalism by identifying that the functional derivative corresponds to the time-dependence of the operators $p,q$, and observing that the free Hamiltonian $H_0$ derived in weinberg formalism is equal to that of Hamiltonian formalism up to a constant.<br />
-\end{itemize}</p>
-<p>\paragraph{what Lagr gives free Hami}</p>
-<p>\begin{itemize}
-    \item This question may be answered by Legendre transformation from Hamiltonian to Lagrangian (7.1.26)
-    \item Lagr: lorentz-invariant, Hami: can be used to get S-mat elements, constraint, the Lagr must correspond to the right free field hami.
-\end{itemize}</p>
-<p>\paragraph{Can an interacting theory be formulated via canonical variable? }</p>
-<p>\begin{itemize}
-    \item weinberg introduces the canonical variables in heisenberg picture. He uses capital letters for those canonical variables.
-    \item These canonical variables are quantized in the same way as the non-interacting ones
-    \item weinberg notes that the relation between the canonical conjugates in interacting fields $P$ and the field variables $Q$, and the field variables $\dot{Q}$ is in general not the same as for the free theory operators. 
-\end{itemize}</p>
-<p>\subsubsection{the lagr formalism}</p>
-<p>\paragraph{How do we choose the hami?}</p>
-<p>\begin{itemize}
-    \item the easiest way to enforce lorentz invariance is via choosing a suitable lagr then derive the hami. 
-    \item The lagrangian is a functional of $\psi^l$ and $\dot{\psi}^l$ while the conjugate fields $\pi_l$ are defined to be the $\cdot{\psi}^l$ dependence of the lagr.
-    \item pretty standard stuff, gets Euler lagrange in (7.2.9)
-    \item The hamiltonian is obtained via legendre transformation, it would be a functional of the lagr, $\pi_l$ and $\cdot{\psi}$.
-    \item after obtaining the equations of motion from the lagr and hami formalism, it would be tempting to identify the field variables $\psi$ and $\pi$ with canonical variables $q,p$. This works for the simple example of real scalar field, but \textbf{does not work in general}, because there are field variables, such as the time component of a vector field or the hermitian conjugate of a dirac field, that are not canonical variables, and do not have canonical conjugates, yet lorentz invariance requires them to be in the lagr.
-\end{itemize}</p>
-<p>\paragraph{getting the 'non-canonical' terms in the lagrangian}</p>
-<p>\begin{itemize}
-    \item the terms that do not behave like canonical variables are denoted $C^r$, so now we have 
+    $$[p(\vec{x},t),p(\vec{y},t)]_{\mp} = 0$$</li>
+<li>Then weinberg uses the commutator relations between fields to find the right $p,q$ for each theory, specifically the <strong><em>real scalar field</em></strong>, <strong><em>complex scalar field</em></strong>, <strong><em>real vector field</em></strong>, <strong><em>dirac field of non-majoranna spin 1/2 particle</em></strong> (7.1.4-16). </li>
+<li>Then weinberg defines the quantum mechanical functional derivative (7.1.17,18) for a functional that takes in a system of operators that satisfy the canonical tator relations. </li>
+<li>Then he transitions to the Hamiltonian formalism by identifying that the functional derivative corresponds to the time-dependence of the operators $p,q$, and observing that the free Hamiltonian $H_0$ derived in weinberg formalism is equal to that of Hamiltonian formalism up to a constant.  </li>
+</ul>
+<h3>what Lagr gives free Hami</h3>
+<ul>
+<li>This question may be answered by Legendre transformation from Hamiltonian to Lagrangian (7.1.26)</li>
+<li>Lagr: lorentz-invariant, Hami: can be used to get S-mat elements, constraint, the Lagr must correspond to the right free field hami.</li>
+</ul>
+<h3>Can an interacting theory be formulated via canonical variable?</h3>
+<ul>
+<li>weinberg introduces the canonical variables in heisenberg picture. He uses capital letters for those canonical variables.</li>
+<li>These canonical variables are quantized in the same way as the non-interacting ones</li>
+<li>weinberg notes that the relation between the canonical conjugates in interacting fields $P$ and the field variables $Q$, and the field variables $\dot{Q}$ is in general not the same as for the free theory operators. </li>
+</ul>
+<h2>the lagr formalism</h2>
+<h3>How do we choose the hami?</h3>
+<ul>
+<li>the easiest way to enforce lorentz invariance is via choosing a suitable lagr then derive the hami. </li>
+<li>The lagrangian is a functional of $\psi^l$ and $\dot{\psi}^l$ while the conjugate fields $\pi_l$ are defined to be the $\cdot{\psi}^l$ dependence of the lagr.</li>
+<li>pretty standard stuff, gets Euler lagrange in (7.2.9)</li>
+<li>The hamiltonian is obtained via legendre transformation, it would be a functional of the lagr, $\pi_l$ and $\cdot{\psi}$.</li>
+<li>after obtaining the equations of motion from the lagr and hami formalism, it would be tempting to identify the field variables $\psi$ and $\pi$ with canonical variables $q,p$. This works for the simple example of real scalar field, but \textbf{does not work in general}, because there are field variables, such as the time component of a vector field or the hermitian conjugate of a dirac field, that are not canonical variables, and do not have canonical conjugates, yet lorentz invariance requires them to be in the lagr.</li>
+</ul>
+<h3>getting the 'non-canonical' terms in the lagrangian</h3>
+<ul>
+<li>the terms that do not behave like canonical variables are denoted $C^r$, so now we have 
     $$P_n(\vec{x},t) = \frac{\delta L[Q(t),\dot{Q}(t),C(t)]}{\delta \dot{Q}^n(\vec{x},t)}, \quad
-    0 = \frac{\delta L[Q(t),\dot{Q}(t),C(t)]}{\delta C^r(\vec{x},t)}$$
-    \item in a simple case, these equations can be solved to give $C$ in terms of $Q,P$. 
-\end{itemize}</p>
-<p>\subsubsection{global symmetries}</p>
+    0 = \frac{\delta L[Q(t),\dot{Q}(t),C(t)]}{\delta C^r(\vec{x},t)}$$</li>
+<li>in a simple case, these equations can be solved to give $C$ in terms of $Q,P$. </li>
+</ul>
+<h2>global symmetries</h2>
 <p>the real point of lagr is that it provides a natural framework for the qm implementation of symmetry principles</p>
-<p>\subsubsection{lorentz invariance}</p>
-<p>\subsubsection{example: transition to interaction picture}</p>
-<p>\subsubsection{constraints and dirac brackets}</p>
-<p>\begin{itemize}
-    \item the chief obstacle to deriving the hami from lagr is the constraints, there are two types
-    \begin{itemize}
-        \item \textbf{primary} constraints are either imposed on the system, or arise from the structure of the lagr
-        \item \textbf{secondary} constraints arise from the requirement that the primary constraint be consistent with the equations of motion. 
-    \end{itemize}
-    \item weinberg says the the distinction between primary, secondary constraints is not important and he will treat them equally, but then why bother mentioning it?
-    \item the constraints we have found for the massive vector field are of a type known as second class, which has a standard prescription for the tator relations.
-\end{itemize}</p>
-<p>\paragraph{the standard prescription for some constraints}</p>
-<p>\begin{itemize}
-    \item defines poisson bracket, notice that poisson brackets satisfy the algebraic properties of commutators and jacobi identity as well.
-    \begin{itemize}
-        \item a constraint is known to be \textbf{first} class if its poisson bracket with all other constraints vanishes when we impose the constraints.
-        \item after the first class constraints are eliminated by a choice of gauge, the remaining constraint equaitons are such that no linear combination of the poission brackets of these constraints with each other vanishes, it follows that the matrix of the poisson brackets of the remaining constraints is non-singular, these are called \textbf{second} class constraints 
-        \footnote{
-        there must be an even number of second class constraints
-        }. 
-    \end{itemize}
-    \item Dirac suggests that when all constraints are second class, the commutator relations will be given by the dirac bracket (7.6.19-20), which satisfies the commutator relations and jacobi identity as well (7.6.21-23)
-    \item Maskawa and Nakajima: for any set of canonical variables, governed by second class constraints, it is always possible by a canonical transformation to construct two sets of variables $Q^n, \mathscr{Q}^r$ and their respective conjugates $P_n, \mathscr{P}_r$ such that the constraints read $\mathscr{Q}^r = \mathscr{P}_r = 0$.
-    \item we then find that the dirac bracket is equal to the poisson bracket calculated in terms of the reduced set of unconstrained canonical variables. 
-\end{itemize}</p><span class="icon"></span></div>
+<h2>constraints and dirac brackets</h2>
+<ul>
+<li>the chief obstacle to deriving the hami from lagr is the constraints, there are two types<ul>
+<li>\textbf{primary} constraints are either imposed on the system, or arise from the structure of the lagr</li>
+<li>\textbf{secondary} constraints arise from the requirement that the primary constraint be consistent with the equations of motion. </li>
+</ul>
+</li>
+<li>weinberg says the the distinction between primary, secondary constraints is not important and he will treat them equally, but then why bother mentioning it?</li>
+<li>the constraints we have found for the massive vector field are of a type known as second class, which has a standard prescription for the tator relations.</li>
+</ul>
+<h3>the standard prescription for some constraints</h3>
+<ul>
+<li>defines poisson bracket, notice that poisson brackets satisfy the algebraic properties of commutators and jacobi identity as well.<ul>
+<li>a constraint is known to be \textbf{first} class if its poisson bracket with all other constraints vanishes when we impose the constraints.</li>
+<li>after the first class constraints are eliminated by a choice of gauge, the remaining constraint equaitons are such that no linear combination of the poission brackets of these constraints with each other vanishes, it follows that the matrix of the poisson brackets of the remaining constraints is non-singular, these are called <strong>second</strong> class constraints <blockquote>
+<p>there must be an even number of second class constraints</p>
+</blockquote>
+</li>
+</ul>
+</li>
+<li>Dirac suggests that when all constraints are second class, the commutator relations will be given by the dirac bracket (7.6.19-20), which satisfies the commutator relations and jacobi identity as well (7.6.21-23)</li>
+<li>Maskawa and Nakajima: for any set of canonical variables, governed by second class constraints, it is always possible by a canonical transformation to construct two sets of variables $Q^n, \mathscr{Q}^r$ and their respective conjugates $P_n, \mathscr{P}_r$ such that the constraints read $\mathscr{Q}^r = \mathscr{P}_r = 0$.</li>
+<li>we then find that the dirac bracket is equal to the poisson bracket calculated in terms of the reduced set of unconstrained canonical variables. </li>
+</ul><span class="icon"></span></div>
 </details>
 </details>
 <details>
@@ -2391,43 +2418,45 @@ weinberg_7_notes.md<span class="icon"></span></summary>
 <summary style="margin-left:60px;">
 weinberg_8_notes.md<span class="icon"></span></summary>
 <div style="margin-left:90px;border: 3px dashed black; background-color:powderblue;"">
-<p>\subsection{qed}</p>
-<p>\begin{itemize}
-    \item infer the need for a principle of gauge invariance from the difficulty of formulating quantum theory of massless particles with spin
-    \item deduce the features of electrodynamics from gauge invariance
-    \item take gauge invariance as a starting point and deduce the existence of a vector potential for massless particles of unit spin
-\end{itemize}</p>
-<p>\paragraph{gauge invariance}</p>
-<p>\begin{itemize}
-    \item there is no way to construct a 4-vector as a linear combination of the creation and annihilation operators for helicity $\pm 1$
-    \item Instead of banishing $A_\mu$ from the action, we shall require that the part of the action $I_M$ for matter and its interaction with radiation be invariant under a gauge transformation 
-    $A_\mu \rightarrow A_\mu +\partial_\mu \epsilon$
-    \item we'd find that the lorentz invariance of $I_M$ requires $\partial_\mu \frac{\delta I_M}{\delta A_\mu (x)} = 0$ which implies $\frac{\delta I_M}{\delta A_\mu (x)}$ is a conserved current
-    \item How to construct such current? We know that infinitesmal internal symmetries of the action implies conserved currents, in fact consider the transformation
+<p>qed</p>
+<ul>
+<li>infer the need for a principle of gauge invariance from the difficulty of formulating quantum theory of massless particles with spin</li>
+<li>deduce the features of electrodynamics from gauge invariance</li>
+<li>take gauge invariance as a starting point and deduce the existence of a vector potential for massless particles of unit spin</li>
+</ul>
+<h1>gauge invariance</h1>
+<ul>
+<li>there is no way to construct a 4-vector as a linear combination of the creation and annihilation operators for helicity $\pm 1$</li>
+<li>Instead of banishing $A_\mu$ from the action, we shall require that the part of the action $I_M$ for matter and its interaction with radiation be invariant under a gauge transformation 
+    $A_\mu \rightarrow A_\mu +\partial_\mu \epsilon$</li>
+<li>we'd find that the lorentz invariance of $I_M$ requires $\partial_\mu \frac{\delta I_M}{\delta A_\mu (x)} = 0$ which implies $\frac{\delta I_M}{\delta A_\mu (x)}$ is a conserved current</li>
+<li>How to construct such current? We know that infinitesmal internal symmetries of the action implies conserved currents, in fact consider the transformation
     $$\delta \psi^l(x) = i \epsilon(x) q_l \psi^l (x)$$
-    that leaves the matter action invariant for a constant $\epsilon$, when the matter field satisfies the field equations this transformation defines a conserved current $J^\mu$. 
-    \item we can construct a lorentz-invariant theory by coupling the vector field $A_\mu$ to the conserved $J^\mu$ in the sense that $\delta I_M/\delta A_\mu(x)$ is taken to be proportional to $J^\mu$ from above:
-    $$\frac{\delta I_M}{\delta A_\mu(x)} = J^\mu (x)$$
-    \item the requirement above can be restated as a principle of invariance: the matter action is invariant under the adjoint transformations:
+    that leaves the matter action invariant for a constant $\epsilon$, when the matter field satisfies the field equations this transformation defines a conserved current $J^\mu$. </li>
+<li>we can construct a lorentz-invariant theory by coupling the vector field $A_\mu$ to the conserved $J^\mu$ in the sense that $\delta I_M/\delta A_\mu(x)$ is taken to be proportional to $J^\mu$ from above:
+    $$\frac{\delta I_M}{\delta A_\mu(x)} = J^\mu (x)$$</li>
+<li>
+<p>the requirement above can be restated as a principle of invariance: the matter action is invariant under the adjoint transformations:
     $$\delta A_\mu(x) = \partial_\mu \epsilon(x), \quad
-    \delta \psi_l(x) = o \epsilon(x) q_l \psi_l(x)$$
-    \begin{itemize}
-        \item If $\epsilon$ is a constant, this is a global symmetry, or gauge invariance of the first kind
-        \item If $\epsilon(x)$ is arbitrary, then this is a local symmetry, or gauge invariance of the second kind
-    \end{itemize}
-    \item Taking the radiation action to be that of (8.1.14), and imposing the equation of motion yields $0 = \frac{\delta}{\delta A_\nu} [I_\gamma + I_{M}] = \partial_\mu F^{\mu \nu} + J^\nu$, which is the inhomogeneous maxwell equations. 
-\end{itemize}</p>
-<p>\paragraph{constraints and gauge conditions}
-\begin{itemize}
-    \item there are constraints that arise when we try to quantize the theory whose lagrangian we just studied above
-    \item the first constraint arises from the fact that the lagrangian density is independent of the time-derivative of $A_0$, meaning $\Pi_0 = 0$. this is a primary constraint. this primary constraint leads immediately to the secondary constraint of 
-    $$\partial_i \Pi^i = - J^0$$
-    \item because of the partial arbitrariness of $A_\mu$ due to gauge invariance, it is not possible to apply the canonical quantization procedure directly, rather, we need to first choose a gauge.
-\end{itemize}</p>
-<p>\paragraph{choosing coulomb gauge}</p>
-<p>\begin{itemize}
-    \item choosing the coulomb gauge, and then applying dirac's method of removing second class constraints, we done.
-\end{itemize}</p><span class="icon"></span></div>
+    \delta \psi_l(x) = o \epsilon(x) q_l \psi_l(x)$$</p>
+<ul>
+<li>If $\epsilon$ is a constant, this is a global symmetry, or gauge invariance of the first kind</li>
+<li>If $\epsilon(x)$ is arbitrary, then this is a local symmetry, or gauge invariance of the second kind</li>
+</ul>
+</li>
+<li>
+<p>Taking the radiation action to be that of (8.1.14), and imposing the equation of motion yields $0 = \frac{\delta}{\delta A_\nu} [I_\gamma + I_{M}] = \partial_\mu F^{\mu \nu} + J^\nu$, which is the inhomogeneous maxwell equations. </p>
+</li>
+</ul>
+<h1>constraints and gauge conditions</h1>
+<ul>
+<li>there are constraints that arise when we try to quantize the theory whose lagrangian we just studied above</li>
+<li>the first constraint arises from the fact that the lagrangian density is independent of the time-derivative of $A_0$, meaning $\Pi_0 = 0$. this is a primary constraint. this primary constraint leads immediately to the secondary constraint of 
+    $$\partial_i \Pi^i = - J^0$$</li>
+<li>because of the partial arbitrariness of $A_\mu$ due to gauge invariance, it is not possible to apply the canonical quantization procedure directly, rather, we need to first choose a gauge.</li>
+</ul>
+<h1>choosing coulomb gauge</h1>
+<p>choosing the coulomb gauge, and then applying dirac's method of removing second class constraints, we done.</p><span class="icon"></span></div>
 </details>
 </details>
 <details>
@@ -2437,59 +2466,58 @@ weinberg_8_notes.md<span class="icon"></span></summary>
 <summary style="margin-left:60px;">
 weinberg_9_notes.md<span class="icon"></span></summary>
 <div style="margin-left:90px;border: 3px dashed black; background-color:powderblue;"">
-<p>\subsection{path integral methods}</p>
-<p>\begin{itemize}
-    \item the awkwardness in obtaining simple results in the last chapter hinders canonical formalism from being applied to more complex theories (non-abelian gauge, general relativity, etc)
-    \item[(1960s)] fadeev, popov and dewitt showed how to apply it to non-abelian gauge theories and general relativity, this revived path integral approach
-    \item[(1971)] t'hooft used path-integral methods to derive the feynman rules for spontaneously broken gauge theories, including weak and electromagnetic interactions, in a gauge that made the high energy behavior of these theories transparent. this was a turning point for path integral
-    \item in this chapter we derive the path integral formalism from canonical formalism, and see what additional sorts of vertices are needed to supplement the simplest version of the feynman path-integral method. 
-\end{itemize}</p>
-<p>\paragraph{the general path integral formula}
-\begin{itemize}
-    \item weinberg begins with the general formalism for quantum mechanics (9.1.1-12)
-    \item the key insight is that after considering general $\braket{q':t}{q,t}$, weinberg considers the transition into a state with infinitesmal increment of time: $\braket{q': \tau + d\tau}{q: \tau}$
-    \item this can be written with $d\tau$ taken to be $N$ tiny slices of $d\tau/N$, and we obtain a semi-main equation (9.1.26) in the limit of $N \rightarrow \infty$ this becomes a integral and we obtain a main equation (9.1.34) which is a constrained path integral. Physically this is the integral of all path that take $q(\tau)$ from $q$ at $\tau = t$ to $q'$ at $\tau = t'$. 
-    \item the great advantage of writing matrix elements in this way is that the path integrals are easy to calculate when expanded in powers of the coupling constants in $H$
-    \item the path integral formalism allows us to not only compute transition probability between states, but also matrix elements between states with time-ordered products of general operators in between (9.1.35-38).
-\end{itemize}</p>
-<p>\paragraph{transition to the s-matrix}</p>
-<p>\begin{itemize}
-    \item if we want to convert the result of (9.1.34) to a notation appropriate to qft, we shall let the index $a$ run over all points $\vec{x}$
-    \footnote{
-    The idea being instead of all paths from point to point, we are integrating over all fields that take on the initial and final conditions
-    } 
-    in space and over a spin and species index $m$, and replacing $Q_a(t)$ with $Q_a(\vec{x},t)$, same for $P$.
-    \item Then to get the $S$ matrix element we just need to take the $t\rightarrow \pm \infty$ limits in the final and initial states. 
-    \item some derivations later we find an expression for the annihilation operators in the in and out states (9.2.7), together with (9.2.8), we have a differential equation to solve
-    \item going with a gaussian ansatz, and the solution of vacuum expectation value of time ordered products can be expressed as (9.2.17). recall that in 6.4 we learned that the S-mat element is like the vacuum expectation value of t-ordered products, so this marks a intermediate stoppoint.
-\end{itemize}</p>
-<p>\paragraph{lagr version of path integral}</p>
-<p>\begin{itemize}
-    \item In (9.1.38), if $H$ is of the form (9.3.1), then the exponential part of (9.1.38) can be written as the corresponding lagrangian (9.3.1-10)
-    \item however, there are some additional caveats with (9.3.10), being the determinant of $\mathscr{A}$.
-    \begin{itemize}
-        \item recall 
-        $$M = \frac{\mel{VAC}{T{...}}{VAC}}{\braket{VAC}{VAC}}$$
-        so if this determinant amounts to some constant, then we have no problem (this would be the case for a set of scalar fields)
-        \item HMANASS, weinberg gives an example of a 'nonlinear $\sigma$ model' whose lagrangian density amounts to the determinant of $\mathscr{A}$ having exponential dependence on the trace of a term in the lagrangian. we can regard this determinant as providing a correction ($\Delta \mathscr{L}$) to the effective lagrangian density. This means we can still interpert the exponential part as an exponential of a lagrangian, but the lagrangian needs to be modified.
-        \item HMANASS, weinberg gives another example where we need to add a correction to the lagrangian density in order to keep the $e^{i\int \mathscr{L}}$ interpretation. 
-        \item[❤️] In order to keep the exponentiated action interpretation, we add a $i\epsilon \times (\text{terms})$ to the lagrangian, giving (9.3.11). 
-    \end{itemize}
-\end{itemize}</p>
-<p>\paragraph{path integral derivation of the feynman rules}</p>
-<p>\begin{itemize}
-    \item using the equation for $M$ (9.4.1), and our newly derived interpretation of $e^{i I[\psi]}$ as the weight function in the path integral (9.3.11), we obtain a formula for $M$: (9.4.2). 
-    \item dividing the lagrangian into a free and interaction part, we get the action in free and interaction parts as well (9.4.4-7)
-    \item by adopting the actio weighting function interpretation, we have assumed that the lagrangian is quadratic in the fields, so we can always write the free action in the \textbf{generalized quadratic form} (9.4.8-9.4.11)
-    \item To deal with interactions, we will expand the exponential in powers of $I_1$ and then $I_1$ in powers of the field (9.4.12)
-    \item The general integral that we encounter both in the numerator and the denominator of (9.4.2) are of the form $\mathscr{J}$ in (9.4.13)
-    \footnote{
-    the $psi$s can be taken to be 1 to get the denominator
-    }
-    using some formula in the appendix, this can be written as (9.4.14), which amounts to the instructions of drawing feynman diagrams. what's left is to check that the factors of each vertex/line match the feynman rules we derived earlier
-    \item the propagator in the path integral approach can be written as (9.4.15), some derivations later we find that its the same as the propagator we found earlier (9.4.16-18). 
-    \item weinberg then goes on to show that the same equivalence between path integral and feynman rules holds for another unperturbed lagrangian (the previous example was with a scalar field), and that the same holds for a lagrangian with derivative couplings.<br />
-\end{itemize}</p><span class="icon"></span></div>
+<p>path integral methods</p>
+<ul>
+<li>the awkwardness in obtaining simple results in the last chapter hinders canonical formalism from being applied to more complex theories (non-abelian gauge, general relativity, etc)</li>
+<li>(1960s) fadeev, popov and dewitt showed how to apply it to non-abelian gauge theories and general relativity, this revived path integral approach</li>
+<li>(1971) t'hooft used path-integral methods to derive the feynman rules for spontaneously broken gauge theories, including weak and electromagnetic interactions, in a gauge that made the high energy behavior of these theories transparent. this was a turning point for path integral</li>
+<li>in this chapter we derive the path integral formalism from canonical formalism, and see what additional sorts of vertices are needed to supplement the simplest version of the feynman path-integral method. </li>
+</ul>
+<h1>the general path integral formula</h1>
+<ul>
+<li>weinberg begins with the general formalism for quantum mechanics (9.1.1-12)</li>
+<li>the key insight is that after considering general $<q':t | q,t>$, weinberg considers the transition into a state with infinitesmal increment of time: $&lt; q': \tau + d\tau | q: \tau&gt;$</li>
+<li>this can be written with $d\tau$ taken to be $N$ tiny slices of $d\tau/N$, and we obtain a semi-main equation (9.1.26) in the limit of $N \rightarrow \infty$ this becomes a integral and we obtain a main equation (9.1.34) which is a constrained path integral. Physically this is the integral of all path that take $q(\tau)$ from $q$ at $\tau = t$ to $q'$ at $\tau = t'$. </li>
+<li>the great advantage of writing matrix elements in this way is that the path integrals are easy to calculate when expanded in powers of the coupling constants in $H$</li>
+<li>the path integral formalism allows us to not only compute transition probability between states, but also matrix elements between states with time-ordered products of general operators in between (9.1.35-38).</li>
+</ul>
+<h1>transition to the s-matrix</h1>
+<ul>
+<li>if we want to convert the result of (9.1.34) to a notation appropriate to qft, we shall let the index $a$ run over all points $\vec{x}$</li>
+</ul>
+<blockquote>
+<p>The idea being instead of all paths from point to point, we are integrating over all fields that take on the initial and final conditions</p>
+</blockquote>
+<p>in space and over a spin and species index $m$, and replacing $Q_a(t)$ with $Q_a(\vec{x},t)$, same for $P$.</p>
+<ul>
+<li>Then to get the $S$ matrix element we just need to take the $t\rightarrow \pm \infty$ limits in the final and initial states. </li>
+<li>some derivations later we find an expression for the annihilation operators in the in and out states (9.2.7), together with (9.2.8), we have a differential equation to solve</li>
+<li>going with a gaussian ansatz, and the solution of vacuum expectation value of time ordered products can be expressed as (9.2.17). recall that in 6.4 we learned that the S-mat element is like the vacuum expectation value of t-ordered products, so this marks a intermediate stoppoint.</li>
+</ul>
+<h1>lagr version of path integral</h1>
+<ul>
+<li>In (9.1.38), if $H$ is of the form (9.3.1), then the exponential part of (9.1.38) can be written as the corresponding lagrangian (9.3.1-10)</li>
+<li>however, there are some additional caveats with (9.3.10), being the determinant of $\mathscr{A}$.<ul>
+<li>recall 
+    $$M = \frac{ &lt; VAC | T{...} | VAC&gt; }{&lt; VAC | VAC &gt; }$$
+    so if this determinant amounts to some constant, then we have no problem (this would be the case for a set of scalar fields)</li>
+<li>HMANASS, weinberg gives an example of a 'nonlinear $\sigma$ model' whose lagrangian density amounts to the determinant of $\mathscr{A}$ having exponential dependence on the trace of a term in the lagrangian. we can regard this determinant as providing a correction ($\Delta \mathscr{L}$) to the effective lagrangian density. This means we can still interpert the exponential part as an exponential of a lagrangian, but the lagrangian needs to be modified.</li>
+<li>HMANASS, weinberg gives another example where we need to add a correction to the lagrangian density in order to keep the $e^{i\int \mathscr{L}}$ interpretation. </li>
+<li>[❤️] In order to keep the exponentiated action interpretation, we add a $i\epsilon \times (\text{terms})$ to the lagrangian, giving (9.3.11). </li>
+</ul>
+</li>
+</ul>
+<h1>path integral derivation of the feynman rules</h1>
+<ul>
+<li>using the equation for $M$ (9.4.1), and our newly derived interpretation of $e^{i I[\psi]}$ as the weight function in the path integral (9.3.11), we obtain a formula for $M$: (9.4.2). </li>
+<li>dividing the lagrangian into a free and interaction part, we get the action in free and interaction parts as well (9.4.4-7)</li>
+<li>by adopting the actio weighting function interpretation, we have assumed that the lagrangian is quadratic in the fields, so we can always write the free action in the \textbf{generalized quadratic form} (9.4.8-9.4.11)</li>
+<li>To deal with interactions, we will expand the exponential in powers of $I_1$ and then $I_1$ in powers of the field (9.4.12)</li>
+<li>The general integral that we encounter both in the numerator and the denominator of (9.4.2) are of the form $\mathscr{J}$ in (9.4.13)
+    &gt; the $\psi$s can be taken to be 1 to get the denominator using some formula in the appendix, this can be written as (9.4.14), which amounts to the instructions of drawing feynman diagrams. what's left is to check that the factors of each vertex/line match the feynman rules we derived earlier</li>
+<li>the propagator in the path integral approach can be written as (9.4.15), some derivations later we find that its the same as the propagator we found earlier (9.4.16-18). </li>
+<li>weinberg then goes on to show that the same equivalence between path integral and feynman rules holds for another unperturbed lagrangian (the previous example was with a scalar field), and that the same holds for a lagrangian with derivative couplings.  </li>
+</ul><span class="icon"></span></div>
 </details>
 </details>
 </details>
@@ -2555,6 +2583,8 @@ Goldstein 1,2,3,4,5,6,7,8</p>
 <p><a href="https://ocw.mit.edu/courses/8-311-electromagnetic-theory-spring-2004/pages/readings/">MIT 8.311</a>: Schwinger + some Jackson. </p>
 <h1>solid state</h1>
 <p><a href="https://web.njit.edu/~sirenko/Phys-446/PHYS446SSP.htm">NJIT PHYS446</a>: Kittel 1,2,3,4,5,6,7,8,9,10,11,12</p>
+<p><a href="https://www.theory.physics.manchester.ac.uk/~godfrey/lecture/PHYS40352/">Manchester PHYS40352</a> </p>
+<p><a href="http://www.teorfys.lu.se/education/FYST25/">Lund FYST25</a></p>
 <h1>particle physics</h1>
 <p><a href="https://www.physics.purdue.edu/~jones105/phys564_Fall2005/notes/index.html">Purdue PHYS564</a></p>
 <p><a href="https://www2.ph.ed.ac.uk/~vjm/Lectures/SH_IM_Particle_Physics_2013.html">Edinburgh Particle Physics SH/IM</a>: griffiths 5,6,7,8,9</p>
