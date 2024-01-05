@@ -1,0 +1,2 @@
+- an ensemble of systems is composed of many systems, all constructed alike, each in one of the accessible states
+- the probability distribution for state has an extremely sharp peak at the thermal equilibrium value suggests "most probable one" $\cong$ "the one"
