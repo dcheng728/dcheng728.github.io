@@ -16,9 +16,14 @@ where $e_{\pm} = \frac{1}{\sqrt{2}}(e_1 \pm ie_2)$ represent circularly polarize
 The quantity $E_+ e_+ + E_- e_-$ is a constant, **complex** number. 
 It does not mean the direction of $\vec{E}(\vec{x},t)$ is constant; 
 for the real part of $(E_+ e_+ + E_- e_-)e^{i \vec{k} \cdot \vec{x} - i \omega t}$ may change. 
-- In the for  of the elliptical polarized wave form
-$$\vec{E} (\vec{x},t) = (E_+ e_+ + E_- e_-)e^{i \vec{k} \cdot \vec{x} - i \omega t}$$ 
+- In the for  of the elliptical polarized wave form $$\vec{E} (\vec{x},t) = (E_+ e_+ + E_- e_-)e^{i \vec{k} \cdot \vec{x} - i \omega t}$$ 
 if the $E_+, E_-$ have same phase then the principal axes don't get a phase, 
 if they differ by some phase $e^{i\alpha}$, this phase difference can be canceled out by the transformation
 $e_+ \rightarrow e^{i\alpha/2}e_+$, $e_- \rightarrow e^{-\alpha/2}$ which corresponds to 'rotating the ellipse'.
 See jackson's fig 7.4. 
+
+# model for dispersive media
+
+**dispersive:**  whenever the speed of wave depends on its frequency, the medium is dispersive
+
+- any small displacement near equilibrium is SHO <=> any function at local min resembles a quadratic polynomial
