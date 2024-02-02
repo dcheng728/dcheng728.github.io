@@ -22,6 +22,9 @@ if they differ by some phase $e^{i\alpha}$, this phase difference can be cancele
 $e_+ \rightarrow e^{i\alpha/2}e_+$, $e_- \rightarrow e^{-\alpha/2}$ which corresponds to 'rotating the ellipse'.
 See jackson's fig 7.4. 
 
+# boundary value problems
+- Use boundary conditions of maxwell equations to set up, **the entire wave must be considered as a whole! e.g. you can not consider a wave propagating from A to B to C by successively applying result of A to B, then B to C, see exercise 7.2.** 
+
 # model for dispersive media
 
 **dispersive:**  whenever the speed of wave depends on its frequency, the medium is dispersive
