@@ -17,7 +17,7 @@ The additional relaxation of allowing $U$ to resemble $\mathbb{R}_{\ge 0} \times
 
 - For a $d$-manifold $M$, we define the ***interior points*** $\text{int} (M)$ of $M$ to be the set of all points in $M$ that locally resembles $\mathbb{R}^n$.
 
-It would then be natural to define the ***boundary*** of $M$ to be $M \setminus \text{int} (M)$, denoted as $\partial M$. 
+It would then be natural to define the ***boundary*** of $M$ to be $M \setminus \text{interior} (M)$, denoted as $\partial M$. 
 
 
 
@@ -33,28 +33,19 @@ One can easily check that all points on a circle are interior, so a circle, as a
 
 
 
-\begin{example}
-    The sphere $S^2$ is a closed 2-manifold.
-\end{example}
+**example**: The sphere $S^2$ is a closed 2-manifold.
 
+**example**: A torus is a closed 2-manifold.
 
-\begin{example}
-    A torus is a closed 2-manifold.
-\end{example}
-
-\begin{example}
-    A pair of pants is closed a 2-manifold. 
-\end{example}
+**example**: A pair of pants is closed a 2-manifold. 
 
 Atiyah's TQFT requires the manifold to be ``oriented." However, the precise definition of orientable manifold is not necessary for the rest of this paper, because we mostly deal with manifolds in low dimension. All that a reader needs to know is the orientation of a manifold is a continuous assignment of a binary direction between clockwise and counter-clockwise along the manifold. Whenever necessary, we will specify the orientation of a manifold.
 
-\begin{example}
-    A circle is orientable.
-\end{example}
+**example**: A circle is orientable.
 
 By assumption we let circle $S^1$ be clockwise, and we will denote its mirror image which would be counter-clockwise with $\bar{S}^1$. For any orientable manifold $M$, we will denote its mirror image with opposite orientation with $\bar{M}$.
 
-\subsection{Cobordism}
+## Cobordism
 
 The concept of cobordism arises when considering a manifold of dimension one higher that can be constructed with some manifold as its boundary. 
 
