@@ -335,7 +335,7 @@ atiyah notes.md<span class="icon"></span></summary>
 <ul>
 <li>For a $d$-manifold $M$, we define the <strong><em>interior points</em></strong> $\text{int} (M)$ of $M$ to be the set of all points in $M$ that locally resembles $\mathbb{R}^n$.</li>
 </ul>
-<p>It would then be natural to define the <strong><em>boundary</em></strong> of $M$ to be $M \setminus \text{int} (M)$, denoted as $\partial M$. </p>
+<p>It would then be natural to define the <strong><em>boundary</em></strong> of $M$ to be $M \setminus \text{interior} (M)$, denoted as $\partial M$. </p>
 <h3>examples</h3>
 <ul>
 <li>a line segment is a 1-manifold its boundaries are its two endpoints. </li>
@@ -345,21 +345,13 @@ atiyah notes.md<span class="icon"></span></summary>
 <h3>lemma</h3>
 <p>Finite disjoint union of $k$-manifolds is a $k$-manifold. </p>
 <p>One can easily check that all points on a circle are interior, so a circle, as a 1-manifold has the empty set as its boundary. When this happens, we say the manifold is \textbf{closed}. Colloquially, the boundary of a manifold is be known as the ``sharp edges" of the manifold. In low dimensions, it is very convenient to determine the boundary of a manifold by identifying its sharp edges. </p>
-<p>\begin{example}
-    The sphere $S^2$ is a closed 2-manifold.
-\end{example}</p>
-<p>\begin{example}
-    A torus is a closed 2-manifold.
-\end{example}</p>
-<p>\begin{example}
-    A pair of pants is closed a 2-manifold. 
-\end{example}</p>
+<p><strong>example</strong>: The sphere $S^2$ is a closed 2-manifold.</p>
+<p><strong>example</strong>: A torus is a closed 2-manifold.</p>
+<p><strong>example</strong>: A pair of pants is closed a 2-manifold. </p>
 <p>Atiyah's TQFT requires the manifold to be ``oriented." However, the precise definition of orientable manifold is not necessary for the rest of this paper, because we mostly deal with manifolds in low dimension. All that a reader needs to know is the orientation of a manifold is a continuous assignment of a binary direction between clockwise and counter-clockwise along the manifold. Whenever necessary, we will specify the orientation of a manifold.</p>
-<p>\begin{example}
-    A circle is orientable.
-\end{example}</p>
+<p><strong>example</strong>: A circle is orientable.</p>
 <p>By assumption we let circle $S^1$ be clockwise, and we will denote its mirror image which would be counter-clockwise with $\bar{S}^1$. For any orientable manifold $M$, we will denote its mirror image with opposite orientation with $\bar{M}$.</p>
-<p>\subsection{Cobordism}</p>
+<h2>Cobordism</h2>
 <p>The concept of cobordism arises when considering a manifold of dimension one higher that can be constructed with some manifold as its boundary. </p>
 <p>\begin{definition}
     Given oriented $d$-manifolds $M_1, M_2$, we say that they are \textbf{cobordant} if there exists $(d+1)$-manifold $Y$ such that $\partial Y = M_1 \cup \bar{M_2}$. When such $Y$ exists, we call it the \textbf{cobordism} between $M_1$ and $M_2$.
@@ -503,13 +495,13 @@ We can regard a tube as a pair of pants wedged with a disc. Imagine a pair of pa
 <summary style="margin-left:30px;">
 3<span class="icon"></span></summary>
 <div style="margin-left:60px;">
-<a href="(ced)griffiths/3/griffithsced_3_29.pdf">griffithsced_3_29.pdf</a></div>
+<a href="(ced)griffiths/3/griffithsced_3_29|v|.pdf">griffithsced_3_29|v|.pdf</a></div>
 <div style="margin-left:60px;">
-<a href="(ced)griffiths/3/griffithsced_3_30.pdf">griffithsced_3_30.pdf</a></div>
+<a href="(ced)griffiths/3/griffithsced_3_30|v|.pdf">griffithsced_3_30|v|.pdf</a></div>
 <div style="margin-left:60px;">
-<a href="(ced)griffiths/3/griffithsced_3_31.pdf">griffithsced_3_31.pdf</a></div>
+<a href="(ced)griffiths/3/griffithsced_3_31|v|.pdf">griffithsced_3_31|v|.pdf</a></div>
 <div style="margin-left:60px;">
-<a href="(ced)griffiths/3/griffithsced_3_32.pdf">griffithsced_3_32.pdf</a></div>
+<a href="(ced)griffiths/3/griffithsced_3_32|v|.pdf">griffithsced_3_32|v|.pdf</a></div>
 </details>
 <details>
 <summary style="margin-left:30px;">
@@ -519,7 +511,7 @@ We can regard a tube as a pair of pants wedged with a disc. Imagine a pair of pa
 <div style="margin-left:60px;">
 <a href="(ced)griffiths/4/griffithsced_4_19.pdf">griffithsced_4_19.pdf</a></div>
 <div style="margin-left:60px;">
-<a href="(ced)griffiths/4/griffithsced_4_5.pdf">griffithsced_4_5.pdf</a></div>
+<a href="(ced)griffiths/4/griffithsced_4_5|v|.pdf">griffithsced_4_5|v|.pdf</a></div>
 </details>
 <details>
 <summary style="margin-left:30px;">
@@ -1227,6 +1219,12 @@ Obtaining Green Functions from the Method of Images</p>
 </details>
 <details>
 <summary style="margin-left:30px;">
+11-special relativity<span class="icon"></span></summary>
+<div style="margin-left:60px;">
+<a href="(ced)jackson/11-special relativity/jackson_11_3.pdf">jackson_11_3.pdf</a></div>
+</details>
+<details>
+<summary style="margin-left:30px;">
 2-electrostatics boundary problems I<span class="icon"></span></summary>
 <div style="margin-left:60px;">
 <a href="(ced)jackson/2-electrostatics boundary problems I/jackson_2_11ab.pdf">jackson_2_11ab.pdf</a></div>
@@ -1271,12 +1269,18 @@ jackson_2_notes.md<span class="icon"></span></summary>
 <summary style="margin-left:60px;">
 .ipynb_checkpoints<span class="icon"></span></summary>
 </details>
+<details>
+<summary style="margin-left:60px;">
+archive<span class="icon"></span></summary>
+<div style="margin-left:90px;">
+<a href="(ced)jackson/3-electrostatics boundary problems II/archive/jackson_3_1scratch.pdf">jackson_3_1scratch.pdf</a></div>
+<div style="margin-left:90px;">
+<a href="(ced)jackson/3-electrostatics boundary problems II/archive/jackson_3_extra1(examples of legendre expansion).pdf">jackson_3_extra1(examples of legendre expansion).pdf</a></div>
+</details>
 <div style="margin-left:60px;">
 <a href="(ced)jackson/3-electrostatics boundary problems II/jackson_3_1.pdf">jackson_3_1.pdf</a></div>
 <div style="margin-left:60px;">
 <a href="(ced)jackson/3-electrostatics boundary problems II/jackson_3_10a.pdf">jackson_3_10a.pdf</a></div>
-<div style="margin-left:60px;">
-<a href="(ced)jackson/3-electrostatics boundary problems II/jackson_3_1scratch.pdf">jackson_3_1scratch.pdf</a></div>
 <div style="margin-left:60px;">
 <a href="(ced)jackson/3-electrostatics boundary problems II/jackson_3_2a.pdf">jackson_3_2a.pdf</a></div>
 <div style="margin-left:60px;">
@@ -1287,8 +1291,6 @@ jackson_2_notes.md<span class="icon"></span></summary>
 <a href="(ced)jackson/3-electrostatics boundary problems II/jackson_3_7a.pdf">jackson_3_7a.pdf</a></div>
 <div style="margin-left:60px;">
 <a href="(ced)jackson/3-electrostatics boundary problems II/jackson_3_9.pdf">jackson_3_9.pdf</a></div>
-<div style="margin-left:60px;">
-<a href="(ced)jackson/3-electrostatics boundary problems II/jackson_3_extra1(examples of legendre expansion).pdf">jackson_3_extra1(examples of legendre expansion).pdf</a></div>
 <details>
 <summary style="margin-left:60px;">
 jackson_3_notes.md<span class="icon"></span></summary>
@@ -1350,6 +1352,8 @@ $$P_l(\cos \gamma) = \frac{4\pi}{2l+1} \sum_{m=-l}^{l} Y^*<em>{lm}(\theta',\phi'
 <summary style="margin-left:30px;">
 4-multipole and e in matter<span class="icon"></span></summary>
 <div style="margin-left:60px;">
+<a href="(ced)jackson/4-multipole and e in matter/jackson_4_12scratch.pdf">jackson_4_12scratch.pdf</a></div>
+<div style="margin-left:60px;">
 <a href="(ced)jackson/4-multipole and e in matter/jackson_4_1ab.pdf">jackson_4_1ab.pdf</a></div>
 <div style="margin-left:60px;">
 <a href="(ced)jackson/4-multipole and e in matter/jackson_4_5ab.pdf">jackson_4_5ab.pdf</a></div>
@@ -1363,8 +1367,22 @@ $$P_l(\cos \gamma) = \frac{4\pi}{2l+1} \sum_{m=-l}^{l} Y^*<em>{lm}(\theta',\phi'
 <details>
 <summary style="margin-left:30px;">
 5-magnetostatics faraday quasistatic fields<span class="icon"></span></summary>
+<details>
+<summary style="margin-left:60px;">
+archive<span class="icon"></span></summary>
+<div style="margin-left:90px;">
+<a href="(ced)jackson/5-magnetostatics faraday quasistatic fields/archive/jackson_5_7bscratch.pdf">jackson_5_7bscratch.pdf</a></div>
+</details>
+<div style="margin-left:60px;">
+<a href="(ced)jackson/5-magnetostatics faraday quasistatic fields/jackson_5_19a.pdf">jackson_5_19a.pdf</a></div>
+<div style="margin-left:60px;">
+<a href="(ced)jackson/5-magnetostatics faraday quasistatic fields/jackson_5_21.pdf">jackson_5_21.pdf</a></div>
 <div style="margin-left:60px;">
 <a href="(ced)jackson/5-magnetostatics faraday quasistatic fields/jackson_5_3.pdf">jackson_5_3.pdf</a></div>
+<div style="margin-left:60px;">
+<a href="(ced)jackson/5-magnetostatics faraday quasistatic fields/jackson_5_5ascratch.pdf">jackson_5_5ascratch.pdf</a></div>
+<div style="margin-left:60px;">
+<a href="(ced)jackson/5-magnetostatics faraday quasistatic fields/jackson_5_7ac.pdf">jackson_5_7ac.pdf</a></div>
 </details>
 <details>
 <summary style="margin-left:30px;">
