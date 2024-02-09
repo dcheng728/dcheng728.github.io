@@ -4,6 +4,20 @@ where $\vec{r}_1, \vec{r}_2$ are polar vectors to the COM. Goldstein shows
 $$T' = \frac{1}{2}\frac{m_1 m_2}{m_1 + m_2} \dot{\vec{r}}^2$$
 where $\vec{r}$ is the separation between particle 1 and particle 2.
 
+### algebraic derivation of separation of COM kinetic energy
+
+$$T \propto m_1 \dot{q}_1^2 + m_2 \dot{q}_2^2$$
+
+$$=  \frac{1}{(m_1 + m_2)} \left[ m_1(m_1 + m_2) \dot{q}_1^2 + m_2(m_1 + m_2) \dot{q}_2^2 \right]$$
+
+$$=  \frac{1}{(m_1 + m_2)} \left[ m_1^2 \dot{q}_1^2 + m_2^2 \dot{q}_2^2 + m_1m_2 \dot{q}_1^2 + m_1m_2 \dot{q}_2^2  \right]$$
+
+$$=  \frac{1}{(m_1 + m_2)} \left[ (m_1 \dot{q}_1 + m_2 \dot{q}_2)^2 -2m_1m_2\dot{q}_1\dot{q}_2 + m_1m_2 \dot{q}_1^2 + m_1m_2 \dot{q}_2^2  \right]$$
+
+$$=  \frac{1}{(m_1 + m_2)} \left[ (m_1 \dot{q}_1 + m_2 \dot{q}_2)^2 + m_1m_2(\dot{q}_1 - \dot{q}_2)^2  \right]$$
+
+This identifies a COM term and effective mass term. 
+
 ## goldstein 3.3
 - for 2 bodies under central force, examining the magnitude of the radial vector only gives a 1D problem. The fictitious centrifugal force is introduced: $f \rightarrow d' + \frac{l^2}{mr^3} \approx V \rightarrow V' = V + \frac{1}{2}\frac{l^2}{2mr^2}$
 
