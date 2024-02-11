@@ -12,9 +12,23 @@ has vanishing 1st order differential with respect to all nearby paths for $L$ de
 - **semiholonomic**: $f(q_1,..., q_n, \dot{q}_1, ..., \dot{q}_n) = 0$
 - l**agrange multipliers** can treat nonholonomic constraints
 
+# lagr multiplier
 
-- in almost every field of physics, the variational principle can be used to express equations of motion (EM, thermo)
-- impulse: $\int{\Delta t} F dt$. If impulse is finite then the force is called impulsive. 
-- semi-holonomic constraints are typically given in the form of $$\sum_i a_{ik} dq_k + a_{it}dt = 0$$
-- variational principle provides a clean explanation to the arbitrariness of lagr within an addition of a total time derivative: the action is integrated over time!
-- 
+A systematic approach for solving (sort of) semiholonomic constraints
+
+- write the constraints in form $f_\alpha(q_i, ..., \dot{q}_i, ...) = 0$
+- Then define lagrange multipliers, which are functions of $q_i,\dot{q}_i, t$: 
+$$\lambda_\alpha = \lambda_\alpha(q_i, \dot{q}_i, t)$$
+- It must be true that $\lambda_\alpha f_\alpha = 0$, summation implied. From our earlier derivation we found that hamilton's principle gives 
+$$\delta \int_{t_0}^{t_1} L(q_i,\dot{q}_i,t) dt = 0$$
+
+which implies
+
+$$\delta \int_{t_0}^{t_1} \left[ L(q_i,\dot{q}_i,t) + \lambda_\alpha f_\alpha \right] dt = 0$$
+
+Then apply the lagr eqm 
+
+$$\frac{d}{dt} \frac{\partial [ L+ \lambda_\alpha f_\alpha ] }{\partial \dot{q}_i} 
+- \frac{\partial [ L + \lambda_\alpha f_\alpha ]}{\partial q_i} = 0$$
+
+to obtain the desired eqm. **KEEP IN MIND THE TOTAL TIME DERIVATIVE, PRODUCT RULE NEED TO BE USED**.

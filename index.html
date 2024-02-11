@@ -610,6 +610,24 @@ $$\vec{A}\rightarrow \vec{A} + \nabla \psi, \quad \phi \rightarrow \phi - \frac{
 </details>
 <details>
 <summary style="margin-left:30px;">
+10-hamilton jacobi<span class="icon"></span></summary>
+<details>
+<summary style="margin-left:60px;">
+notes.md<span class="icon"></span></summary>
+<div style="margin-left:90px;border: 3px dashed black; background-color:powderblue;"">
+<h1>Hamilton Jacobi eq</h1>
+<p>Demand that from the canonical transformation $K(P,Q) = 0$, together assuming $F_2$ type generating function, then we have</p>
+<p>$$H(q_i; \frac{\partial F_2}{\partial q_i}; t) + \frac{\partial F_2}{\partial t} = 0$$</p>
+<p>The equation is the <strong>Hamilton-Jacobi eq</strong>. </p>
+<p>Write $S = S(qi; \alpha_i; t)$ as solution for $F_2$, where $\alpha$ are constants of integration. Then take $\alpha_i$ as momentum $P_i$, we have from generating function properties</p>
+<p>$$p_i = \frac{\partial S}{\partial q_i}, \quad Q_i = \frac{\partial S}{\partial P_i} = \frac{\partial S}{\partial \alpha_i} \equiv \beta_i$$</p>
+<p>Then we have parameterization</p>
+<p>$$q_j = q_j(\alpha, \beta, t)$$</p>
+<p>Hamilton's principal function is the generator of a canonical trans. to constant coordinates and momenta?</p><span class="icon"></span></div>
+</details>
+</details>
+<details>
+<summary style="margin-left:30px;">
 2-variational principles and lagr<span class="icon"></span></summary>
 <div style="margin-left:60px;">
 <a href="(cm)goldstein/2-variational principles and lagr/goldstein_2_12.pdf">goldstein_2_12.pdf</a></div>
@@ -621,6 +639,8 @@ $$\vec{A}\rightarrow \vec{A} + \nabla \psi, \quad \phi \rightarrow \phi - \frac{
 <a href="(cm)goldstein/2-variational principles and lagr/goldstein_2_20.pdf">goldstein_2_20.pdf</a></div>
 <div style="margin-left:60px;">
 <a href="(cm)goldstein/2-variational principles and lagr/goldstein_2_3.pdf">goldstein_2_3.pdf</a></div>
+<div style="margin-left:60px;">
+<a href="(cm)goldstein/2-variational principles and lagr/goldstein_2_4.pdf">goldstein_2_4.pdf</a></div>
 <div style="margin-left:60px;">
 <a href="(cm)goldstein/2-variational principles and lagr/goldstein_2_5?.pdf">goldstein_2_5?.pdf</a></div>
 <details>
@@ -644,17 +664,23 @@ has vanishing 1st order differential with respect to all nearby paths for $L$ de
 <ul>
 <li>In deriving lagr, the constraints as holonomic ones were only used in the last step to move to generalized coordinates, this then gives independent equations of motion. Nonholonomic constraints clearly ruins this.</li>
 <li><strong>semiholonomic</strong>: $f(q_1,..., q_n, \dot{q}_1, ..., \dot{q}_n) = 0$</li>
-<li>
-<p>l<strong>agrange multipliers</strong> can treat nonholonomic constraints</p>
-</li>
-<li>
-<p>in almost every field of physics, the variational principle can be used to express equations of motion (EM, thermo)</p>
-</li>
-<li>impulse: $\int{\Delta t} F dt$. If impulse is finite then the force is called impulsive. </li>
-<li>semi-holonomic constraints are typically given in the form of $$\sum_i a_{ik} dq_k + a_{it}dt = 0$$</li>
-<li>variational principle provides a clean explanation to the arbitrariness of lagr within an addition of a total time derivative: the action is integrated over time!</li>
-<li></li>
-</ul><span class="icon"></span></div>
+<li>l<strong>agrange multipliers</strong> can treat nonholonomic constraints</li>
+</ul>
+<h1>lagr multiplier</h1>
+<p>A systematic approach for solving (sort of) semiholonomic constraints</p>
+<ul>
+<li>write the constraints in form $f_\alpha(q_i, ..., \dot{q}_i, ...) = 0$</li>
+<li>Then define lagrange multipliers, which are functions of $q_i,\dot{q}<em>i, t$: 
+$$\lambda</em>\alpha = \lambda_\alpha(q_i, \dot{q}_i, t)$$</li>
+<li>It must be true that $\lambda_\alpha f_\alpha = 0$, summation implied. From our earlier derivation we found that hamilton's principle gives 
+$$\delta \int_{t_0}^{t_1} L(q_i,\dot{q}_i,t) dt = 0$$</li>
+</ul>
+<p>which implies</p>
+<p>$$\delta \int_{t_0}^{t_1} \left[ L(q_i,\dot{q}<em>i,t) + \lambda</em>\alpha f_\alpha \right] dt = 0$$</p>
+<p>Then apply the lagr eqm </p>
+<p>$$\frac{d}{dt} \frac{\partial [ L+ \lambda_\alpha f_\alpha ] }{\partial \dot{q}<em>i} 
+- \frac{\partial [ L + \lambda</em>\alpha f_\alpha ]}{\partial q_i} = 0$$</p>
+<p>to obtain the desired eqm. <strong>KEEP IN MIND THE TOTAL TIME DERIVATIVE, PRODUCT RULE NEED TO BE USED</strong>.</p><span class="icon"></span></div>
 </details>
 </details>
 <details>
@@ -677,6 +703,13 @@ where $\vec{r}_1, \vec{r}_2$ are polar vectors to the COM. Goldstein shows
 $$T' = \frac{1}{2}\frac{m_1 m_2}{m_1 + m_2} \dot{\vec{r}}^2$$
 where $\vec{r}$ is the separation between particle 1 and particle 2.</li>
 </ul>
+<h3>algebraic derivation of separation of COM kinetic energy</h3>
+<p>$$T \propto m_1 \dot{q}_1^2 + m_2 \dot{q}_2^2$$</p>
+<p>$$=  \frac{1}{(m_1 + m_2)} \left[ m_1(m_1 + m_2) \dot{q}_1^2 + m_2(m_1 + m_2) \dot{q}_2^2 \right]$$</p>
+<p>$$=  \frac{1}{(m_1 + m_2)} \left[ m_1^2 \dot{q}_1^2 + m_2^2 \dot{q}_2^2 + m_1m_2 \dot{q}_1^2 + m_1m_2 \dot{q}_2^2  \right]$$</p>
+<p>$$=  \frac{1}{(m_1 + m_2)} \left[ (m_1 \dot{q}_1 + m_2 \dot{q}_2)^2 -2m_1m_2\dot{q}_1\dot{q}_2 + m_1m_2 \dot{q}_1^2 + m_1m_2 \dot{q}_2^2  \right]$$</p>
+<p>$$=  \frac{1}{(m_1 + m_2)} \left[ (m_1 \dot{q}_1 + m_2 \dot{q}_2)^2 + m_1m_2(\dot{q}_1 - \dot{q}_2)^2  \right]$$</p>
+<p>This identifies a COM term and effective mass term. </p>
 <h2>goldstein 3.3</h2>
 <ul>
 <li>for 2 bodies under central force, examining the magnitude of the radial vector only gives a 1D problem. The fictitious centrifugal force is introduced: $f \rightarrow d' + \frac{l^2}{mr^3} \approx V \rightarrow V' = V + \frac{1}{2}\frac{l^2}{2mr^2}$</li>
@@ -749,16 +782,22 @@ $d\Omega = 2\pi \sin \theta d \theta$</p><span class="icon"></span></div>
 <a href="(cm)goldstein/7-special theory of relativity/goldstein_7_19.pdf">goldstein_7_19.pdf</a></div>
 <div style="margin-left:60px;">
 <a href="(cm)goldstein/7-special theory of relativity/goldstein_7_20.pdf">goldstein_7_20.pdf</a></div>
+<div style="margin-left:60px;">
+<a href="(cm)goldstein/7-special theory of relativity/goldstein_7_6.pdf">goldstein_7_6.pdf</a></div>
 </details>
 <details>
 <summary style="margin-left:30px;">
 8-hamiltonian<span class="icon"></span></summary>
+<details>
+<summary style="margin-left:60px;">
+archive<span class="icon"></span></summary>
+<div style="margin-left:90px;">
+<a href="(cm)goldstein/8-hamiltonian/archive/goldstein_8_15scratch.pdf">goldstein_8_15scratch.pdf</a></div>
+</details>
 <div style="margin-left:60px;">
 <a href="(cm)goldstein/8-hamiltonian/goldstein_8_1.pdf">goldstein_8_1.pdf</a></div>
 <div style="margin-left:60px;">
 <a href="(cm)goldstein/8-hamiltonian/goldstein_8_12.pdf">goldstein_8_12.pdf</a></div>
-<div style="margin-left:60px;">
-<a href="(cm)goldstein/8-hamiltonian/goldstein_8_15scratch.pdf">goldstein_8_15scratch.pdf</a></div>
 <div style="margin-left:60px;">
 <a href="(cm)goldstein/8-hamiltonian/goldstein_8_2.pdf">goldstein_8_2.pdf</a></div>
 <div style="margin-left:60px;">
@@ -789,9 +828,120 @@ $$p_i = \frac{\partial L}{\partial \dot{q}_i}$$</p>
 <summary style="margin-left:30px;">
 9-canonical transformation<span class="icon"></span></summary>
 <div style="margin-left:60px;">
+<a href="(cm)goldstein/9-canonical transformation/goldstein_9_17.pdf">goldstein_9_17.pdf</a></div>
+<div style="margin-left:60px;">
+<a href="(cm)goldstein/9-canonical transformation/goldstein_9_21.pdf">goldstein_9_21.pdf</a></div>
+<div style="margin-left:60px;">
+<a href="(cm)goldstein/9-canonical transformation/goldstein_9_24.pdf">goldstein_9_24.pdf</a></div>
+<div style="margin-left:60px;">
 <a href="(cm)goldstein/9-canonical transformation/goldstein_9_4.pdf">goldstein_9_4.pdf</a></div>
 <div style="margin-left:60px;">
 <a href="(cm)goldstein/9-canonical transformation/goldstein_9_5.pdf">goldstein_9_5.pdf</a></div>
+<details>
+<summary style="margin-left:60px;">
+notes.md<span class="icon"></span></summary>
+<div style="margin-left:90px;border: 3px dashed black; background-color:powderblue;"">
+<h1>canonical trans</h1>
+<p>Apply cano. tran. defined by p-&gt;P, q-&gt;Q, H-&gt;K. Then Hamilton's principle takes form</p>
+<p>$$\delta \int [P_i \dot{Q}_i - K(Q,P,t)]dt = 0$$</p>
+<p>$$\delta \int [p_i \dot{q}_i - H(q,p,t)]dt = 0$$</p>
+<p>The general solution takes the form</p>
+<p>$$\lambda (p_i \dot{q}_i - H) = P_i \dot{Q}_i - K + \frac{d F}{dt}$$</p>
+<p>for F function of two of p,q,P,Q, called generating function.</p>
+<p>If $\lambda = 1$, the transform is called canonical transformation. If $\lambda \neq$, the transformation is called extended canonical transformation.</p>
+<ul>
+<li>any extended canonical transformation can be made up by a canonical one + scaled transformation. </li>
+</ul>
+<p>Table 9.1 gi es trlations between the canonical trans and generating functions. </p>
+<h1>symplectic relation</h1>
+<h2>reminder</h2>
+<p>Let $Q_i = Q_i(q,p)$, then </p>
+<p>$$\dot{Q}_i = \frac{\partial Q_i}{\partial q_j} \dot{q}_j + \frac{\partial Q_i}{\partial p_j} \dot{p}_j$$</p>
+<p>when combined with hami eqm, it is</p>
+<p>$$\dot{Q}_i = \frac{\partial Q_i}{\partial q_j} \frac{\partial H}{\partial p_j} - \frac{\partial Q_i}{\partial p_j} \frac{\partial H}{\partial q_j}$$</p>
+<p>This is written compactly in matrix form:</p>
+<p>$$\dot{\vec{\eta}} = \vec{J} \frac{\partial H}{\partial \vec{\eta}}$$</p>
+<p>where $\vec{J}$ is the 2nx2n matrix of </p>
+<p>$$\left[\begin{array}{rr}
+0 &amp; I \
+-I &amp; 0
+\end{array}\right]$$</p>
+<p>and $\vec{\eta} = (q_1, q_2, ..., p_1, ..., p_n)$</p>
+<p>As an illustration</p>
+<p>$$
+\left[\begin{array}{rr}
+\dot{q}_1 \
+\dot{q}_2 \
+\dot{p}_1 \
+\dot{p}_2
+\end{array}\right]</p>
+<p>=</p>
+<p>\left[\begin{array}{rr}
+ 0 &amp;  0 &amp; 1 &amp; 0 \
+ 0 &amp;  0 &amp; 0 &amp; 1 \
+-1 &amp;  0 &amp; 0 &amp; 0 \
+ 0 &amp; -1 &amp; 0 &amp; 0 
+\end{array}\right]</p>
+<p>\left[\begin{array}{rr}
+\partial_{q_1} H \
+\partial_{q_2} H \
+\partial_{p_1} H \
+\partial_{p_2} H
+\end{array}\right]
+$$</p>
+<h2>symplectic structure</h2>
+<p>Now take restricted transformation $\vec{\zeta} = \vec{\zeta}(\vec{\eta})$. Then $\dot{\vec{eta}} = \vec{M} \dot{\vec{\eta}}$ where $\vec{M}$ is Jacobian. Together with Hami eqm, we have</p>
+<p>$$\dot{\vec{\eta}} = \vec{M} \vec{J} \frac{\partial{H}}{{\partial \vec{\eta}}}$$</p>
+<p>But $\frac{\partial H}{\partial \vec{\eta}} = \tilde{M} \frac{\partial H}{\partial \vec{\zeta}}$. The Hami eqm for $\zeta$ is</p>
+<p>$$\dot{\zeta} = M J \tilde{M} \frac{\partial H}{\partial \zeta}$$</p>
+<p>as oppose to $$\dot{\eta} = J \frac{\partial H}{\partial \eta}$$</p>
+<p>But we also must have </p>
+<p>$$\dot{\zeta} = J \frac{\partial H}{\partial \zeta}$$</p>
+<p>This implies $$MJ\tilde{M} = J$$</p>
+<p>note: for extedned canonical trans, it is $MJ\tilde{M} = J$</p>
+<p>This is called <strong>symplectic condition</strong>, $M$ is called <strong>symplectic</strong> matrix. </p>
+<h1>Poisson Bracket</h1>
+<p>define </p>
+<p>$$[u,v]_{q,p} = \frac{\partial u}{\partial q_i} \frac{\partial v}{\partial p_i} - \frac{\partial u}{\partial p_i}\frac{\partial v}{\partial q_i}$$</p>
+<p>similarily, the definition can be written as</p>
+<p>$$[u,v]_{\eta} = \left( \frac{\partial u}{\partial \vec{\eta}} \right)^T J \left( \frac{\partial v}{\partial \vec{\eta}} \right)$$</p>
+<ul>
+<li>$[q_j, q_k]<em>{q,p} = 0 = [p_j, p_k]</em>{q,p}$</li>
+<li>$[q_j, p_k]<em>{q,p} = \delta</em>{jk} = - [p_j, q_k]_{q,p}$</li>
+</ul>
+<p>The above two relations are written neatly as $[\eta, \eta]_{\eta} = J$</p>
+<ul>
+<li>$[\zeta, \zeta]_\eta = M^T J M$</li>
+<li>This implies if $\eta$ -&gt; $\zeta$ canonical, then $[\zeta, \zeta]_\eta = J$</li>
+</ul>
+<p>The relation $[\zeta, \zeta]<em>\eta = J = [\zeta, \zeta]</em>\zeta$ is <strong><em>called fundamental poisson bracket. It is invariant under cano. trans.</em></strong> </p>
+<h2>some poisson bracket algebra</h2>
+<ul>
+<li>[u,v] = 0</li>
+<li>[u,v] = - [v,u]</li>
+<li>(linearity) [a + bv, w] = a [u,w] + b[v,w]</li>
+<li>[uv,w] = [u,w]v + u[v,w]</li>
+<li>(nontrivial, Jacobi's identity) [u,[v,w]] + [v,[w,u]] + [w,[u,v]] = 0</li>
+</ul>
+<h2>some other cano invariants</h2>
+<ul>
+<li>lagrange bracket ${u,v}$. It also satisfies $${u,u}[u,u] = - I$$</li>
+<li>the magnitude of volume element in phase space is canonically invariant</li>
+</ul>
+<h1>canonical trans. grp</h1>
+<p>Cano. trans. form a group. The subgrp that is analytic of continuous parameters form a lie grp. </p>
+<ul>
+<li>
+<p>lie grp of parameter $\theta_i$ lie on flat vector space whose basis vectors constitute a lie algebra satisfying the poisson bracket
+$$[u_i, u_j] = \sum_k c_{ij}^k u_k$$
+The elements of the lie grp are generated by 
+$$Q(theta_i) = \exp \left[ \frac{i}{2} \sum \theta_i u_i \right]$$</p>
+</li>
+<li>
+<p>pauli matrices form a representation of rotation grp, the vectors add, in a sense. </p>
+</li>
+</ul><span class="icon"></span></div>
+</details>
 </details>
 </details>
 <details>
@@ -1289,6 +1439,12 @@ Obtaining Green Functions from the Method of Images</p>
 <details>
 <summary style="margin-left:30px;">
 2-electrostatics boundary problems I<span class="icon"></span></summary>
+<details>
+<summary style="margin-left:60px;">
+archive<span class="icon"></span></summary>
+<div style="margin-left:90px;">
+<a href="(ced)jackson/2-electrostatics boundary problems I/archive/jackson_2_14bscratch.pdf">jackson_2_14bscratch.pdf</a></div>
+</details>
 <div style="margin-left:60px;">
 <a href="(ced)jackson/2-electrostatics boundary problems I/jackson_2_11ab.pdf">jackson_2_11ab.pdf</a></div>
 <div style="margin-left:60px;">
@@ -1341,6 +1497,8 @@ jackson_2_notes.md<span class="icon"></span></summary>
 archive<span class="icon"></span></summary>
 <div style="margin-left:90px;">
 <a href="(ced)jackson/3-electrostatics boundary problems II/archive/jackson_3_1scratch.pdf">jackson_3_1scratch.pdf</a></div>
+<div style="margin-left:90px;">
+<a href="(ced)jackson/3-electrostatics boundary problems II/archive/jackson_3_3scratch.pdf">jackson_3_3scratch.pdf</a></div>
 <div style="margin-left:90px;">
 <a href="(ced)jackson/3-electrostatics boundary problems II/archive/jackson_3_extra1(examples of legendre expansion).pdf">jackson_3_extra1(examples of legendre expansion).pdf</a></div>
 </details>
@@ -1509,6 +1667,10 @@ See jackson's fig 7.4. </li>
 <li>any small displacement near equilibrium is SHO &lt;=&gt; any function at local min resembles a quadratic polynomial</li>
 </ul><span class="icon"></span></div>
 </details>
+</details>
+<details>
+<summary style="margin-left:30px;">
+misc scripts<span class="icon"></span></summary>
 </details>
 </details>
 <details>
