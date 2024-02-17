@@ -6,11 +6,11 @@ assuming lattice vibrational excitations: $\epsilon = s\hbar \omega$. Consider o
 
 $$Z_\omega = \sum_s \exp(-s\hbar \omega / \tau) = \frac{1}{1- e^{-\hbar \omega/ \tau}}$$
 
-$$<s>_\omega = \frac{<\epsilon>_\omega}{\hbar \omega} = \sum_s (s) \exp(-s\hbar \omega / \tau) =  \frac{1}{e^{\hbar \omega / \tau} - 1}$$
+$$\left< s \right>_\omega = \frac{\left< \epsilon \right>_\omega}{\hbar \omega} = \sum_s (s) \exp(-s\hbar \omega / \tau) =  \frac{1}{e^{\hbar \omega / \tau} - 1}$$
 
-> for bosons, particle # need not be conserved, and $<s>_\omega$ can be interpreted as the thermal equilibrium expec number of $\omega$-energy photons/phonons in the system. *This formalism is completely general to all bosons*
+> for bosons, particle # need not be conserved, and $\left< s \right>_\omega$ can be interpreted as the thermal equilibrium expec number of $\omega$-energy photons/phonons in the system. *This formalism is completely general to all bosons*
 
-In the realm of therst, $<\epsilon>_\omega$ **"IS"** $\epsilon_\omega$. So lifting our discussion to all $\omega$:
+In the realm of therst, $\left< \epsilon \right>_\omega$ **"IS"** $\epsilon_\omega$. So lifting our discussion to all $\omega$:
 
 $$U = \sum_\omega D(\omega) \epsilon_\omega$$
 
@@ -29,7 +29,7 @@ $$u_\omega = \frac{\hbar}{\pi^2 c^3} \frac{\omega^3}{ e^{\hbar \omega / \tau} - 
 # debye phonons
 - the distribution function for phonon/photon is the same:
 
-$$<s(\omega)> = \frac{1}{\exp (\hbar \omega / \tau) - 1}$$
+$$\left< s(\omega) \right> = \frac{1}{\exp (\hbar \omega / \tau) - 1}$$
 
 - the form $x = A e^{i\omega t}$ for hamonic oscillators leads us to assume amplitude and frequency are independent for phonons
 
