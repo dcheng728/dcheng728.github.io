@@ -11,7 +11,18 @@ biblography = {'(ced)griffiths':  'Griffiths. <i>Intro. to Electrodynamics</i>, 
                '(therst)fermi': 'Fermi. <i>Thermodynamics</i>.',
                '(therst)glazer wark': 'Glazer & Wark. <i>Stat. Mechanics A Survival Guide</i>.',
                '(therst)kittel': 'Kittel & Kroemer. <i>Thermal Physics</i>, 2nd ed. ',
-               '(therst)pathria': 'Pathria & Beale. <i>Stat. Mechanics</i>, 4th ed.'}
+               '(therst)pathria': 'Pathria & Beale. <i>Stat. Mechanics</i>, 4th ed.',
+               '(qft)weinberg': 'Weinberg. <i>The Quantum Theory of Fields</i>, vol. 1,2.'}
+
+subject_abbr_to_display = ['cm','ced','therst','particles','sstate', 'gr','qft']
+
+subject_full_name = {'cm': 'Classical Mechanics',
+                     'ced': 'Classical Electrodynamics',
+                     'therst': 'Thermal and Statistical Physics',
+                     'particles': 'Particle Physics',
+                     'sstate': 'Solid State Physics',
+                     'gr': 'General Relativity',
+                     'qft': 'Quantum Field Theory'}
 
 def summaryBlock(margin, content):
     holder = """<summary style="margin-left:{0}px;">\n{1}<span class="icon"></span></summary>\n""".format(margin, content)
@@ -25,11 +36,12 @@ def pBlock(margin, content):
     holder = """<p style="margin-left:{0}px;">\n{1}<span class="icon"></span></p>\n""".format(margin,content)
     f.write(holder)
     
-def divBlock(margin, content):
-    holder = """<div style="margin-left:{0}px;border: 3px dashed black; background-color:powderblue;">\n{1}<span class="icon"></span></div>\n""".format(margin,content)
+def divBlock(margin, color, content):
+    holder = """<div style="margin-left:{0}px;border: 3px dashed black; background-color:{1};">\n{2}<span class="icon"></span></div>\n""".format(margin,color,content)
     f.write(holder)
     
 def link(margin,url,text):
+    url = url.replace("?", "%3F")
     holder = """<div style="margin-left:{0}px;">\n<a href="{1}" target="_blank">{2}</a></div>\n""".format(margin,url,text)
     f.write(holder)
     
@@ -121,7 +133,7 @@ def dig(file_or_dir,level):
         if file_or_dir.split('.')[-1] == 'md':
             f.write('<details>\n')
             summaryBlock(level * 30, to_display)
-            divBlock((level+1)*30,readMarkdown(file_or_dir))
+            divBlock((level+1)*30,'LightGray',readMarkdown(file_or_dir))
             f.write("</details>\n")
             
         if file_or_dir.split('.')[-1] == 'pdf':
@@ -131,10 +143,6 @@ def dig(file_or_dir,level):
 
 
 
-            
-    
-
-
 f = open("index.html", "w")
 
 f.write("""<!DOCTYPE html>
@@ -142,7 +150,7 @@ f.write("""<!DOCTYPE html>
 
 
 <head>
-<title>Davidson Cheng's Homepage</title>
+<title>Davidson Cheng's Physics Study</title>
 
 <script type="text/x-mathjax-config">
   MathJax.Hub.Config({tex2jax: {inlineMath: [['$','$'], ['\_\_(','\_\_)']]}});
@@ -160,26 +168,20 @@ body {
 </style>
 </head>
 <body>
-<h1>Davidson Cheng's Homepage</h1>\n
+        
+<h1>Davidson Cheng's Physics Study</h1>\n
 
 <p>This website tracks my progress in self-studying physics. 
-        The contents are mostly notes and solutions to exercises in books. 
-        The notes might not display as intended in browsers other than chorme.</p>
+        The contents are mostly my notes and solutions to exercises in books. 
+        The math in notes might not display properly depending on browser.</p>
+
+<hr>
 
 """)
     
 subject_abbr_and_booktitle_list = removeJunk(os.listdir(os.getcwd()))
 
-#print(subject_abbr_and_booktitle)
 
-subject_abbr_to_display = ['cm','ced','therst','particles','sstate', 'gr']
-
-subject_full_name = {'cm': 'Classical Mechanics',
-                     'ced': 'Classical Electrodynamics',
-                     'therst': 'Thermal and Statistical Physics',
-                     'particles': 'Particle Physics',
-                     'sstate': 'Solid State Physics',
-                     'gr': 'General Relativity'}
 
 for subject_abbr in subject_abbr_to_display:
     hBlock(0,subject_full_name[subject_abbr],3)
@@ -192,7 +194,7 @@ for subject_abbr in subject_abbr_to_display:
             if subject_abbr_curr == subject_abbr:
                 dig(filename,1)
 
-    
+f.write("<hr>")
             
 f.write("""</body>\n""")
 f.write("""</html>""")

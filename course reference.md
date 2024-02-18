@@ -27,7 +27,7 @@ Goldstein 1,2,3,4,5,6,7,8
 
 
 # misc:
-spinors: 1312_3824
+spinors: arxiv 1312_3824, comes with exercises
 
 # undergraduate physics curricula:
 caltech: [course catalog](https://pma.caltech.edu/courses/undergrad/department/Ph/2020-21), [degree requirement](https://pma.caltech.edu/research-and-academics/physics/physics-undergraduate-studies/physics-undergraduate-option-requirements)
