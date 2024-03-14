@@ -12,7 +12,8 @@ biblography = {'(ced)griffiths':  'Griffiths. <i>Intro. to Electrodynamics</i>, 
                '(therst)glazer wark': 'Glazer & Wark. <i>Stat. Mechanics A Survival Guide</i>.',
                '(therst)kittel': 'Kittel & Kroemer. <i>Thermal Physics</i>, 2nd ed. ',
                '(therst)pathria': 'Pathria & Beale. <i>Stat. Mechanics</i>, 4th ed.',
-               '(qft)weinberg': 'Weinberg. <i>The Quantum Theory of Fields</i>, vol. 1,2.'}
+               '(qft)weinberg': 'Weinberg. <i>The Quantum Theory of Fields</i>, vol. 1,2.',
+               '(qft)schwartz': 'Schwartz. <i>Quantum Field Theory and the Standard Model</i>.'}
 
 subject_abbr_to_display = ['cm','ced','therst','particles','sstate', 'gr','qft']
 
