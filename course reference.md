@@ -25,6 +25,18 @@ Goldstein 1,2,3,4,5,6,7,8
 
 [Edinburgh Particle Physics SH/IM](https://www2.ph.ed.ac.uk/~vjm/Lectures/SH_IM_Particle_Physics_2013.html): griffiths 5,6,7,8,9
 
+# qft
+[UNM Phy523](http://quantum.phys.unm.edu/523-14/index.html): schwartz part I, II. 
+
+Homeworks: 2.3, 2.6, 2.7, 3.5, 5.3, 7.8, 10.5(b), and 11.1.
+
+
+[Carleton Phys6701](https://physics.carleton.ca/sites/default/files/content-files/202130_17.pdf): Schwartz 6,8,14,15,16,17,18,19,20,21,22,23. 
+
+[OSU PHYS8808.02](https://www.asc.ohio-state.edu/braaten.1//qft/qft_home.html): Schwartz 14,15,16,18,19,20,21,22,23,28
+
+Homeworks: 14.1, 14.2, 14.3, 14.5, 14.6, 15.1, 16.1, 16.4, 16.3, 17.1, 18.1, 19.1, 19.2, 20.1, 20.6, 21.1, 21.3, 22.2, 22.3, 23.2, 23.4, 28.4
+
 
 # misc:
 spinors: arxiv 1312_3824, comes with exercises
