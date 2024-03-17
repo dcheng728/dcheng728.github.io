@@ -37,6 +37,16 @@ Homeworks: 2.3, 2.6, 2.7, 3.5, 5.3, 7.8, 10.5(b), and 11.1.
 
 Homeworks: 14.1, 14.2, 14.3, 14.5, 14.6, 15.1, 16.1, 16.4, 16.3, 17.1, 18.1, 19.1, 19.2, 20.1, 20.6, 21.1, 21.3, 22.2, 22.3, 23.2, 23.4, 28.4
 
+[FSU Phys5667](http://courses.physics.fsu.edu/~phy5667-fall18/): Schwartz 1,2,3,4,5,6,7,8,9,10,11,12,13,14,16,17,18,19
+
+# string theory
+
+[KITP Phy230A](https://www.kitp.ucsb.edu/joep/teaching/physics-230a-string-theory): By Polchinski, uses Polchinski 1-17.
+
+[UMD Phys859](https://www.physics.umd.edu/courses/Phys859/becker/index.html): uses Polchinski.
+
+[Michigan Phy646](https://public.websites.umich.edu/~larsenf/PHY646.html): uses Polchinski, with problems taken from Polchinski.
+
 
 # misc:
 spinors: arxiv 1312_3824, comes with exercises
