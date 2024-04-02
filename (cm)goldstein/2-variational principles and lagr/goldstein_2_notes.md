@@ -31,4 +31,4 @@ Then apply the lagr eqm
 $$\frac{d}{dt} \frac{\partial [ L+ \lambda_\alpha f_\alpha ] }{\partial \dot{q}_i} 
 - \frac{\partial [ L + \lambda_\alpha f_\alpha ]}{\partial q_i} = 0$$
 
-to obtain the desired eqm. **KEEP IN MIND THE TOTAL TIME DERIVATIVE, PRODUCT RULE NEED TO BE USED**.
+to obtain the desired eqm. **KEEP IN MIND THE TOTAL TIME DERIVATIVE, PRODUCT RULE NEED TO BE USED**, because $\lambda$ is time dependent. 

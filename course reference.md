@@ -47,6 +47,9 @@ Homeworks: 14.1, 14.2, 14.3, 14.5, 14.6, 15.1, 16.1, 16.4, 16.3, 17.1, 18.1, 19.
 
 [Michigan Phy646](https://public.websites.umich.edu/~larsenf/PHY646.html): uses Polchinski, with problems taken from Polchinski.
 
+# Electronics
+
+[UMD PHYS426](https://www.physics.umd.edu/courses/CourseWare/EssentialMathematica/): By James Kelly
 
 # misc:
 spinors: arxiv 1312_3824, comes with exercises
