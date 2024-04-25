@@ -47,9 +47,21 @@ Homeworks: 14.1, 14.2, 14.3, 14.5, 14.6, 15.1, 16.1, 16.4, 16.3, 17.1, 18.1, 19.
 
 [Michigan Phy646](https://public.websites.umich.edu/~larsenf/PHY646.html): uses Polchinski, with problems taken from Polchinski.
 
-# Electronics
 
+---
+
+# Electronics
+[Lessons In Electric Circuits](https://www.ibiblio.org/kuphaldt/electricCircuits/): By Tony R. Kuphaldt
+
+# Computational Physics
 [UMD PHYS426](https://www.physics.umd.edu/courses/CourseWare/EssentialMathematica/): By James Kelly
+
+# Physical Chemistry
+[Starting Place](http://vergil.chemistry.gatech.edu/notes/): By Sherrill
+
+# Plasma Physics
+[Intro to Plasma Physics](https://farside.ph.utexas.edu/teaching/plasma/lectures1/index.html): Richard Fitzpatrick
+---
 
 # misc:
 spinors: arxiv 1312_3824, comes with exercises

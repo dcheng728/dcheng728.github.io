@@ -31,6 +31,8 @@ for some generalized force $Q_j$ that can be put into
 
 - frictional force is derivable from Rayleigh's dissipation function, a 2nd order equation in velopcity
 
+---
+
 - The lagrangian is invariant under 
 $$L \rightarrow L' = L + \frac{dF(q_1, ..., q_n, t)}{dt}$$
 - the EM field is invariant under
