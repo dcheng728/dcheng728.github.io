@@ -19,6 +19,13 @@ Goldstein 1,2,3,4,5,6,7,8
 
 [Lund FYST25](http://www.teorfys.lu.se/education/FYST25/)
 
+# statistical physics
+
+[kansas state 2020](https://www.phys.ksu.edu/personal/wysin/SM/index.html)
+uses pathria
+
+[pathrai homework from duke](https://webhome.phy.duke.edu/~gleb/Homeworks)
+
 
 # particle physics
 [Purdue PHYS564](https://www.physics.purdue.edu/~jones105/phys564_Fall2005/notes/index.html)
