@@ -65,25 +65,16 @@ goldstein_1_notes.md<span class="icon"></span></summary>
 <div style="margin-left:120px;border: 3px dashed black; background-color:LightGray;">
 <ul>
 <li>conservative force: work done independent of path taken in configuration space, $\vec{F} = -\vec{\nabla} V(\vec{r})$</li>
-<li>
-<p>A exerting force on B = A transferring its momentum to B</p>
-</li>
-<li>
-<p>force on systems of particles are distinguished as <strong>external</strong> and <strong>internal</strong></p>
-</li>
+<li>(<em>A</em> exerting force on <em>B</em>) = (<em>A</em> transferring its momentum to <em>B</em>)</li>
+<li>force on systems of particles are distinguished as <strong>external</strong> and <strong>internal</strong></li>
 <li>weak, strong <strong>law of action and reaction</strong> come hand in hand with conservation of total momentum and total angular momentum, for a system of particles</li>
-<li>total kinetic energy decomposed into COM kinetic energy and kinetic energy of individual particles about COM</li>
+<li>total kinetic energy decomposes into COM kinetic energy and kinetic energy of individual particles about COM</li>
 </ul>
 <h1>constraints</h1>
 <ul>
 <li><strong>holonomic</strong> constraints: $$f(\vec{r}_1,...,\vec{r}_n,t) = 0$$</li>
-<li><strong>rheonomous</strong>: constraint depends on time, <strong>scleronomous</strong>: constraint time-independent</li>
-<li>
-<p>constraints introduce dependence between coordinates, decoupling of such facilitates the introduction of generalized coordinates.</p>
-</li>
-<li>
-<p><strong>holonomic</strong> constraints are more tractable</p>
-</li>
+<li>constraints introduce dependence between coordinates, decoupling of such facilitates the introduction of generalized coordinates.</li>
+<li><strong>holonomic</strong> constraints are more tractable</li>
 </ul>
 <h1>d'alembert's principle</h1>
 <ul>
@@ -98,16 +89,19 @@ $$\sum_i [\vec{F}_i^{(a)} - \dot{\vec{p}}_i] \cdot \delta \vec{r}_i = 0$$</li>
 <h1>velocity-dependent potentials</h1>
 <ul>
 <li>lorentz force in EM is derivable from a velocity-dependent potential</li>
-<li>when not all forces acting on the system are derivable from a potential, then Lagrange's equation can be written in a more generalized form
-$$\frac{d}{dt}(\frac{\partial L}{\partial \dot{q}_j}) - \frac{\partial L}{\partial q_j} = Q_j$$
-for some generalized force $Q_j$ that can be put into $Q_j = - \frac{\partial U}{q_j} + \frac{d}{dt}(\frac{\partial U}{\partial \dot{\vec{q}}_j})$. Notice the velocity dependence.</li>
-<li>
-<p>frictional force is derivable from Rayleigh's dissipation function, a 2nd order equation in velopcity</p>
-</li>
-<li>
-<p>The lagrangian is invariant under 
-$$L \rightarrow L' = L + \frac{dF(q_1, ..., q_n, t)}{dt}$$</p>
-</li>
+<li>when not all forces acting on the system are derivable from a potential, Lagrange's equation can be written in a more generalized form</li>
+</ul>
+<p>$$\frac{d}{dt}(\frac{\partial L}{\partial \dot{q}_j}) - \frac{\partial L}{\partial q_j} = Q_j$$</p>
+<p>for some generalized force $Q_j$ that can be put into</p>
+<p>$$Q_j = - \frac{\partial U}{q_j} + \frac{d}{dt}(\frac{\partial U}{\partial \dot{q}_j})$$</p>
+<p>Notice the velocity dependence.</p>
+<ul>
+<li>frictional force is derivable from Rayleigh's dissipation function, a 2nd order equation in velopcity</li>
+</ul>
+<hr />
+<ul>
+<li>The lagrangian is invariant under 
+$$L \rightarrow L' = L + \frac{dF(q_1, ..., q_n, t)}{dt}$$</li>
 <li>the EM field is invariant under
 $$\vec{A}\rightarrow \vec{A} + \nabla \psi, \quad \phi \rightarrow \phi - \frac{1}{c}\frac{\partial \psi}{\partial t}$$</li>
 </ul><span class="icon"></span></div>
@@ -175,7 +169,7 @@ $$\delta \int_{t_0}^{t_1} L(q_i,\dot{q}_i,t) dt = 0$$</li>
 <p>Then apply the lagr eqm </p>
 <p>$$\frac{d}{dt} \frac{\partial [ L+ \lambda_\alpha f_\alpha ] }{\partial \dot{q}<em>i} 
 - \frac{\partial [ L + \lambda</em>\alpha f_\alpha ]}{\partial q_i} = 0$$</p>
-<p>to obtain the desired eqm. <strong>KEEP IN MIND THE TOTAL TIME DERIVATIVE, PRODUCT RULE NEED TO BE USED</strong>.</p><span class="icon"></span></div>
+<p>to obtain the desired eqm. <strong>KEEP IN MIND THE TOTAL TIME DERIVATIVE, PRODUCT RULE NEED TO BE USED</strong>, because $\lambda$ is time dependent. </p><span class="icon"></span></div>
 </details>
 </details>
 <details>
@@ -191,12 +185,13 @@ $$\delta \int_{t_0}^{t_1} L(q_i,\dot{q}_i,t) dt = 0$$</li>
 <summary style="margin-left:90px;">
 goldstein_3_notes.md<span class="icon"></span></summary>
 <div style="margin-left:120px;border: 3px dashed black; background-color:LightGray;">
+<h2>Separation of COM and relative motion</h2>
 <ul>
 <li>the relative energy of two particles about their COM is 
 $$T' = \frac{1}{2}m_1 \vec{r}_1^2 + \frac{1}{2}m_2\vec{r}^2_2,$$
 where $\vec{r}_1, \vec{r}_2$ are polar vectors to the COM. Goldstein shows
 $$T' = \frac{1}{2}\frac{m_1 m_2}{m_1 + m_2} \dot{\vec{r}}^2$$
-where $\vec{r}$ is the separation between particle 1 and particle 2.</li>
+where $\vec{r}$ is the separation between particle 1 and particle 2. Below I show an algebraic derivation.</li>
 </ul>
 <h3>algebraic derivation of separation of COM kinetic energy</h3>
 <p>$$T \propto m_1 \dot{q}_1^2 + m_2 \dot{q}_2^2$$</p>
@@ -204,11 +199,13 @@ where $\vec{r}$ is the separation between particle 1 and particle 2.</li>
 <p>$$=  \frac{1}{(m_1 + m_2)} \left[ m_1^2 \dot{q}_1^2 + m_2^2 \dot{q}_2^2 + m_1m_2 \dot{q}_1^2 + m_1m_2 \dot{q}_2^2  \right]$$</p>
 <p>$$=  \frac{1}{(m_1 + m_2)} \left[ (m_1 \dot{q}_1 + m_2 \dot{q}_2)^2 -2m_1m_2\dot{q}_1\dot{q}_2 + m_1m_2 \dot{q}_1^2 + m_1m_2 \dot{q}_2^2  \right]$$</p>
 <p>$$=  \frac{1}{(m_1 + m_2)} \left[ (m_1 \dot{q}_1 + m_2 \dot{q}_2)^2 + m_1m_2(\dot{q}_1 - \dot{q}_2)^2  \right]$$</p>
+<p>$$=\frac{1}{m_1+m_2}(p_1^2 + p_2^2) + \frac{m_1 m_2}{m_1 + m_2}(\dot{q_1}-\dot{q_2})^2$$</p>
 <p>This identifies a COM term and effective mass term. </p>
 <h2>goldstein 3.3</h2>
 <ul>
-<li>for 2 bodies under central force, examining the magnitude of the radial vector only gives a 1D problem. The fictitious centrifugal force is introduced: $f \rightarrow d' + \frac{l^2}{mr^3} \approx V \rightarrow V' = V + \frac{1}{2}\frac{l^2}{2mr^2}$</li>
+<li>for 2 bodies under central force, examining the magnitude of the radial vector gives a 1D problem. The fictitious centrifugal force is introduced: </li>
 </ul>
+<p>$f \rightarrow f' = f + \frac{l^2}{mr^3} &lt;=&gt; V \rightarrow V' = V + \frac{1}{2}\frac{l^2}{2mr^2}$</p>
 <h2>goldstein 3.4</h2>
 <ul>
 <li>by considering $G = \sum_i \vec{p}_i \cdot \vec{r}_i$, and taking time average, we arrive at
@@ -1067,8 +1064,15 @@ Kittel & Kroemer. <i>Thermal Physics</i>, 2nd ed. <span class="icon"></span></su
 <summary style="margin-left:90px;">
 kittel_2_notes.md<span class="icon"></span></summary>
 <div style="margin-left:120px;border: 3px dashed black; background-color:LightGray;">
+<p><strong>fundamental assumption</strong>: a closed system is equally likely to be in any of the quantum states accessible to it. By accessible, we mean 'compatible' with the physical description (temperature, volume, energy, pressure, etc.). This has nothing to do with which state the system will collapse to, but the number of states compatible (degeneracy) wich the state that the system collapses to. Usually this number is large.</p>
 <ul>
-<li>an ensemble of systems is composed of many systems, all constructed alike, each in one of the accessible states</li>
+<li>
+<p>an ensemble is a collection of many systems, all constructed alike. Each system in the ensemble is a replica of the actual system in one of the quantum states accesible to the system. If there are g accessible states, then there will be g systems in the ensemble, one system for each state. 
+<em>The concept of ensemble facilitates turning the fundamental assumption into mathematical language</em>.</p>
+</li>
+<li>
+<p>an ensemble of systems is composed of many systems, all constructed alike, each in one of the accessible states</p>
+</li>
 <li>the probability distribution for state has an extremely sharp peak at the thermal equilibrium value suggests "most probable one" $\cong$ "the one"</li>
 </ul><span class="icon"></span></div>
 </details>
@@ -1819,6 +1823,14 @@ Schutz. <i>A first course in general relativity</i>.<span class="icon"></span></
 </details>
 <details>
 <summary style="margin-left:60px;">
+5-pre-curvature<span class="icon"></span></summary>
+<div style="margin-left:90px;">
+<a href="(gr)schutz/5-pre-curvature/schutz_5_5.pdf" target="_blank">exercise 5.5.pdf</a></div>
+<div style="margin-left:90px;">
+<a href="(gr)schutz/5-pre-curvature/schutz_5_12.pdf" target="_blank">exercise 5.12.pdf</a></div>
+</details>
+<details>
+<summary style="margin-left:60px;">
 6-curved manifolds<span class="icon"></span></summary>
 <div style="margin-left:90px;">
 <a href="(gr)schutz/6-curved manifolds/schutz_6_7a.pdf" target="_blank">exercise 6.7a.pdf</a></div>
@@ -1838,16 +1850,105 @@ Schutz. <i>A first course in general relativity</i>.<span class="icon"></span></
 <a href="(gr)schutz/6-curved manifolds/schutz_6_33.pdf" target="_blank">exercise 6.33.pdf</a></div>
 <div style="margin-left:90px;">
 <a href="(gr)schutz/6-curved manifolds/schutz_6_35.pdf" target="_blank">exercise 6.35.pdf</a></div>
+<div style="margin-left:90px;">
+<a href="(gr)schutz/6-curved manifolds/schutz_6_38.pdf" target="_blank">exercise 6.38.pdf</a></div>
+<div style="margin-left:90px;">
+<a href="(gr)schutz/6-curved manifolds/schutz_6_39.pdf" target="_blank">exercise 6.39.pdf</a></div>
+<details>
+<summary style="margin-left:90px;">
+schutz_6_notes.md<span class="icon"></span></summary>
+<div style="margin-left:120px;border: 3px dashed black; background-color:LightGray;">
+<h1>6. Curved Manifolds</h1>
+<p>Because Schutz does such a good job with clarity, the notes here only highlights key points and eqs. </p>
+<h2>Review of tensor algebra</h2>
+<ol>
+<li>a tensor field defines a tensor at every point</li>
+<li>vectors and 1-forms are linear operators on each other, producing real numbers</li>
+<li>tensors are linear operators on vectors and 1-forms, producing real numbers</li>
+<li>If two tensors of the same type have equal components in a given basis, they have
+equal components in all bases and are said to be identical (or equal, or the same). Only tensors of the same type can be equal. In particular, if a tensor’s components are all zero in one basis, they are zero in all, and the tensor is said to be zero.</li>
+<li>A number of manipulations of components of tensor fields are called ‘permissible tensor operations’ because they produce components of new tensors:<ol>
+<li>Multiplication by a scalar field produces components of a new tensor of the same type.</li>
+<li>Addition of components of two tensors of the same type gives components of a new tensor of the same type. (In particular, only tensors of the same type can be added.)</li>
+<li>Multiplication of components of two tensors of arbitrary type gives components of a new tensor of the sum of the types, the outer product of the two tensors.</li>
+<li>Covariant differentiation (to be discussed later) of the components of a tensor of type $\begin{pmatrix}N\M\end{pmatrix}$ gives components of a tensor of type $\begin{pmatrix}N\M+1\end{pmatrix}$ .</li>
+<li>Contraction on a pair of indices of the components of a tensor of type $\begin{pmatrix}N\M\end{pmatrix}$ produces components of a tensor of type $\begin{pmatrix}N-1\M-1\end{pmatrix}$. (Contraction is only defined between an upper and lowe rindex)</li>
+</ol>
+</li>
+<li>Ifanequationisformedusingcomponentsoftensorscombinedonlybythepermissible tensor operations, and if the equation is true in one basis, then it is true in any other. This is a very useful result. It comes from the fact that the equation (from (5) above) is simply an equality between components of two tensors of the same type, which (from (4)) is then true in any system</li>
+</ol>
+<h3>Lengths and Volumes</h3>
+<p>$$l = \int_{\lambda_0}^{\lambda_1}|\vec{V} \cdot \vec{V}|^{1/2} d\lambda$$</p>
+<h2>Covariant differentiation</h2>
+<h3>Christoffel Symbol (5.75)</h3>
+<p>$$\Gamma^\gamma_{\beta\mu} = \frac{1}{2}g^{\alpha \gamma}(g_{\alpha\beta,\mu}+g_{\alpha\mu,\beta}-g_{\beta\mu,\alpha})$$</p>
+<p>$$V^\alpha_{,\beta} = \frac{\partial V^\alpha}{\partial x^\beta}$$</p>
+<p>$$V^\alpha_{;\beta} = \frac{\partial V^\alpha}{\partial x^\beta} + V^\mu \Gamma^\alpha_{\mu \beta}$$</p>
+<p>$$P_{\alpha;\beta} = P_{\alpha,\beta} - \Gamma^\mu_{\alpha \beta} P_\mu$$</p>
+<p>$$T^{\alpha \beta}<em>{;\gamma} = T^{\alpha\beta}</em>{,\gamma} + \Gamma^\alpha_{\mu \gamma}T^{\mu \beta} + \Gamma^\beta_{\mu \gamma}T^{\alpha \mu}$$</p>
+<h3>metric</h3>
+<p>$$g_{\alpha \beta;\gamma} = 0 $$</p>
+<p>in any basis</p>
+<h3>divergence</h3>
+<p>$$V^\alpha_{;\alpha} = V^\alpha_{,\alpha} + \Gamma^\alpha_{\mu\alpha} V^\mu$$</p>
+<h3>Parallel Transport</h3>
+<p>Let vector $V$ be taken by a curve parameterized by $\lambda$, parallel transport means</p>
+<p>$$\frac{dV^\alpha}{d\lambda} = 0 $$</p>
+<h3>geodesic</h3>
+<p>a geodesic is parallel transport of parallel line, generalization of the idea of "staight line".</p>
+<p>In curved space, parallel lines when extended do not remain parallel.</p>
+<h2>curvature tensor</h2>
+<p>riemann curvature tensor: quantifying the amount of change of parallel transport of a vector around a infinitesimally small rectangular loop.</p>
+<p>$$R_{\alpha \beta \mu \nu} = -R_{\beta \alpha \mu \nu} = -R_{\alpha \beta \nu \mu} = R_{\mu \nu \alpha \beta}$$
+$$R_{\alpha \beta \mu \nu} + R_{\alpha \nu \beta \mu} + R_{\alpha \mu \nu \beta} = 0$$</p>
+<p>it has a relationship to commutator:</p>
+<p>$$[\nabla_{\alpha}, \nabla_{\beta}] V^{\nu} = R^{\mu}_{\nu \alpha\beta} V^{\nu}
+$$</p>
+<h3>bianchi identities</h3>
+<p>$$R_{\alpha\beta\mu\nu;\lambda} + R_{\alpha\beta\lambda\mu;\nu} + R_{\alpha\beta\nu\lambda;\mu} = 0
+$$</p>
+<h3>ricci tensor</h3>
+<p>$$R_{\alpha \beta} \equiv R^\mu_{\sigma \mu \beta} = R_{\beta\alpha}$$</p>
+<h3>einstein tensor</h3>
+<p>$$G^\alpha \beta \equiv R^{\alpha \beta} - \frac{1}{2}g^{\alpha \beta} R = G^{\beta\alpha}$$</p>
+<p>$$G^{\alpha \beta}_{;\beta} = 0$$</p><span class="icon"></span></div>
+</details>
 </details>
 <details>
 <summary style="margin-left:60px;">
 7-physics in a curved spacetime<span class="icon"></span></summary>
+<div style="margin-left:90px;">
+<a href="(gr)schutz/7-physics in a curved spacetime/schutz_7_1.pdf" target="_blank">exercise 7.1.pdf</a></div>
 <div style="margin-left:90px;">
 <a href="(gr)schutz/7-physics in a curved spacetime/schutz_7_2.pdf" target="_blank">exercise 7.2.pdf</a></div>
 <div style="margin-left:90px;">
 <a href="(gr)schutz/7-physics in a curved spacetime/schutz_7_3.pdf" target="_blank">exercise 7.3.pdf</a></div>
 <div style="margin-left:90px;">
 <a href="(gr)schutz/7-physics in a curved spacetime/schutz_7_6.pdf" target="_blank">exercise 7.6.pdf</a></div>
+</details>
+<details>
+<summary style="margin-left:60px;">
+8-field eq<span class="icon"></span></summary>
+<div style="margin-left:90px;">
+<a href="(gr)schutz/8-field eq/schutz_8_1.pdf" target="_blank">exercise 8.1.pdf</a></div>
+<div style="margin-left:90px;">
+<a href="(gr)schutz/8-field eq/schutz_8_2.pdf" target="_blank">exercise 8.2.pdf</a></div>
+<div style="margin-left:90px;">
+<a href="(gr)schutz/8-field eq/schutz_8_4.pdf" target="_blank">exercise 8.4.pdf</a></div>
+<div style="margin-left:90px;">
+<a href="(gr)schutz/8-field eq/schutz_8_5.pdf" target="_blank">exercise 8.5.pdf</a></div>
+<div style="margin-left:90px;">
+<a href="(gr)schutz/8-field eq/schutz_8_6.pdf" target="_blank">exercise 8.6.pdf</a></div>
+<div style="margin-left:90px;">
+<a href="(gr)schutz/8-field eq/schutz_8_7.pdf" target="_blank">exercise 8.7.pdf</a></div>
+<div style="margin-left:90px;">
+<a href="(gr)schutz/8-field eq/schutz_8_8a.pdf" target="_blank">exercise 8.8a.pdf</a></div>
+</details>
+<details>
+<summary style="margin-left:60px;">
+notes.md<span class="icon"></span></summary>
+<div style="margin-left:90px;border: 3px dashed black; background-color:LightGray;">
+<p>I began with the 1st edition, doing exercises from that, then switched to the 3rd edition, on 4/25/2024, and relabeled exercise numbers. Interestingly, within exercises I have done, the exercise numbers match the newer edition.</p><span class="icon"></span></div>
 </details>
 </details>
 <h3 style="margin-left:0px;">
