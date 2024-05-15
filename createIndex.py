@@ -179,8 +179,9 @@ body {
 <h1>Davidson Cheng's Physics Study</h1>\n
 
 <p>This website tracks my progress in self-studying physics. 
-        The contents are mostly my notes and solutions to exercises in books. 
-        The math in notes might not display properly depending on browser.</p>
+        The contents are mostly my notes and solutions to exercises in books. </p>
+
+<p>Contact: dcheng728@{google's email}.com</p>
 
 <hr>
 
