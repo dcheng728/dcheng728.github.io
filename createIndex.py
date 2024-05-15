@@ -5,6 +5,7 @@ biblography = {'(ced)griffiths':  'Griffiths. <i>Intro. to Electrodynamics</i>, 
                '(ced)jackson':    'Jackson. <i>Classical Electrodynamics</i>, 3rd ed. ',
                '(cm)goldstein':   'Goldstein, Poole & Safko. <i>Classical Mechanics</i>, 3rd ed.',
                '(gr)schutz':      'Schutz. <i>A first course in general relativity</i>.',
+               "(gr)'t hooft":     "'t Hooft. <i></i>.",
                '(particles)griffiths': 'Griffiths. <i>Intro. to Elementary Particles</i>, 1st ed.',
                '(sstate)kittel': 'Kittel. <i>Intro. to Solid State Physics</i>, 8th ed.',
                '(therst)callen': 'Callen. <i>Thermodynamics and an Intro. to Thermostatistics</i>, 2nd ed.',
@@ -153,12 +154,17 @@ f.write("""<!DOCTYPE html>
 <head>
 <title>Davidson Cheng's Physics Study</title>
 
-<script type="text/x-mathjax-config">
-  MathJax.Hub.Config({tex2jax: {inlineMath: [['$','$'], ['\_\_(','\_\_)']]}});
-</script>
-<script type="text/javascript"
-  src="http://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML">
-</script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.16.10/dist/katex.min.css" integrity="sha384-wcIxkf4k558AjM3Yz3BBFQUbk/zgIYC2R0QpeeYb+TwlBVMrlgLqwRjRtGZiK7ww" crossorigin="anonymous">
+
+    <!-- The loading of KaTeX is deferred to speed up page rendering -->
+    <script defer src="https://cdn.jsdelivr.net/npm/katex@0.16.10/dist/katex.min.js" integrity="sha384-hIoBPJpTUs74ddyc4bFZSM1TVlQDA60VBbJS0oA934VSz82sBx1X7kSx2ATBDIyd" crossorigin="anonymous"></script>
+
+    <!-- To automatically render math in text elements, include the auto-render extension: -->
+    <script defer src="https://cdn.jsdelivr.net/npm/katex@0.16.10/dist/contrib/auto-render.min.js" integrity="sha384-43gviWU0YVjaDtb/GhzOouOXtZMP/7XUzwPTstBeZFe/+rCMvRwr4yROQP43s0Xk" crossorigin="anonymous"
+    onload="renderMathInElement(document.body, {delimiters: [
+        {left: '$$', right: '$$', display: true},
+        {left: '$', right: '$', display: false}
+    ]});"></script>
 
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
