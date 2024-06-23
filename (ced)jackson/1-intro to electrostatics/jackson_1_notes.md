@@ -1,11 +1,10 @@
-- [ ] 1.6 
-- [ ] 1.10
-- [ ] 1.12
-- [ ] 1.13
- 
-- **mean value theorem:** In charge-free space, the value of the electrostatic potential at any point is the average of the potential over the surface of any sphere centered on that point. 
+### mean value theorem 
+
+In charge-free space, the value of the electrostatic potential at any point is the average of the potential over the surface of any sphere centered on that point. 
 electrostatics = coulomb's law at various extents and contexts
 - $\rho \rightarrow$  potential $\rightarrow \vec{E} \rightarrow$ force
+
+### electrostatic units and SI
 
 |ESU|SI|
 |--|--|
@@ -13,7 +12,7 @@ electrostatics = coulomb's law at various extents and contexts
 |charge in units of **statcoulomb**|charge in **coulombs**|
 |field in statvolts/meter|field in volts/meter|
 
-# delta function in 8 equations
+### delta function in 8 equations
 1. $\delta(x-a) = 0$ for $x\neq a$
 2. $\int \delta(x-a) dx = 1$
 3. $\int f(x)\delta(x-a)dx = f(a)$
@@ -23,6 +22,8 @@ electrostatics = coulomb's law at various extents and contexts
 7. $\int_{V}\delta(\vec{x}-\vec{X}) d^3x =$ 1 if $V$ contains $\vec{X}$ else 0
 8. $\nabla^2 \frac{1}{|\vec{x} - \vec{x}'|} = -4\pi \delta (\vec{x}-\vec{x}')$
 - $\delta$ has units of inverse length 
+
+
 
 - $\vec{E}$'s gauss law depends on 1. inverse square law, 2. central force nature, 3. linear superposition
 
@@ -57,7 +58,8 @@ it has the most general form of
 $$G(\vec{x},\vec{x}') = \frac{1}{|\vec{x}-\vec{x}'|} + F(\vec{x},\vec{x}')$$
 with $F$ satisfying the laplace equation inside volume $V$: $\nabla'^2 F(\vec{x},\vec{x}') = 0$
 - the freedom in $F$ can be used to eliminate one of the surface integrals in (1.36), which one depends in the type of boundary condition (dirichlet/neumann)
-- ### method of images
+
+### method of images
 - the total induced surface charge is the image charge, the negative of the real charge, or some combination of the two.
 
 ### Lecture 6:Advanced Electrostatics III:
