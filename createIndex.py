@@ -5,7 +5,7 @@ biblography = {'(ced)griffiths':  'Griffiths. <i>Intro. to Electrodynamics</i>, 
                '(ced)jackson':    'Jackson. <i>Classical Electrodynamics</i>, 3rd ed. ',
                '(cm)goldstein':   'Goldstein, Poole & Safko. <i>Classical Mechanics</i>, 3rd ed.',
                '(gr)schutz':      'Schutz. <i>A first course in general relativity</i>.',
-               "(gr)'t hooft":     "'t Hooft. <i></i>.",
+               "(gr)thooftgr":     "'t Hooft. <i></i>.",
                '(particles)griffiths': 'Griffiths. <i>Intro. to Elementary Particles</i>, 1st ed.',
                '(sstate)kittel': 'Kittel. <i>Intro. to Solid State Physics</i>, 8th ed.',
                '(therst)callen': 'Callen. <i>Thermodynamics and an Intro. to Thermostatistics</i>, 2nd ed.',
@@ -14,9 +14,11 @@ biblography = {'(ced)griffiths':  'Griffiths. <i>Intro. to Electrodynamics</i>, 
                '(therst)kittel': 'Kittel & Kroemer. <i>Thermal Physics</i>, 2nd ed. ',
                '(therst)pathria': 'Pathria & Beale. <i>Stat. Mechanics</i>, 4th ed.',
                '(qft)weinberg': 'Weinberg. <i>The Quantum Theory of Fields</i>, vol. 1,2.',
-               '(qft)schwartz': 'Schwartz. <i>Quantum Field Theory and the Standard Model</i>.'}
+               '(qft)schwartz': 'Schwartz. <i>Quantum Field Theory and the Standard Model</i>.',
+               '(string)polchinski': 'Polchinski. <i>String Theory</i>, vol. 1.',
+               '(string)thooftstring': "'t Hooft. <i>Introduction to String Theory</i>."}
 
-subject_abbr_to_display = ['cm','ced','therst','particles','sstate', 'gr','qft']
+subject_abbr_to_display = ['cm','ced','therst','gr','qft','string','particles','sstate']
 
 subject_full_name = {'cm': 'Classical Mechanics',
                      'ced': 'Classical Electrodynamics',
@@ -24,7 +26,8 @@ subject_full_name = {'cm': 'Classical Mechanics',
                      'particles': 'Particle Physics',
                      'sstate': 'Solid State Physics',
                      'gr': 'General Relativity',
-                     'qft': 'Quantum Field Theory'}
+                     'qft': 'Quantum Field Theory',
+                     'string': 'String Theory'}
 
 def summaryBlock(margin, content):
     holder = """<summary style="margin-left:{0}px;">\n{1}<span class="icon"></span></summary>\n""".format(margin, content)
