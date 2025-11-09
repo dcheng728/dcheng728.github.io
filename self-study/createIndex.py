@@ -18,7 +18,7 @@ biblography = {'(ced)griffiths':  'Griffiths. <i>Intro. to Electrodynamics</i>, 
                '(string)polchinski': 'Polchinski. <i>String Theory</i>, vol. 1.',
                '(string)thooftstring': "'t Hooft. <i>Introduction to String Theory</i>."}
 
-subject_abbr_to_display = ['cm','ced','therst','gr','qft','string','particles','sstate']
+subject_abbr_to_display = ['cm','ced','therst','particles','sstate','gr','qft','string']
 
 subject_full_name = {'cm': 'Classical Mechanics',
                      'ced': 'Classical Electrodynamics',
@@ -151,12 +151,20 @@ def dig(file_or_dir,level):
 
 f = open("self-study.html", "w")
 
-f.write("""<!DOCTYPE html>
-<html lang="en">
+f.write("""
+<!DOCTYPE html>
+
+<html>
+
+
+
 
 
 <head>
 <title>Davidson Cheng's Physics Study</title>
+	<meta charset=utf-8>
+	<link rel="stylesheet" type="text/css" href="../style.css">
+	<script src="../loadSidebar.js"></script>
 
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.16.10/dist/katex.min.css" integrity="sha384-wcIxkf4k558AjM3Yz3BBFQUbk/zgIYC2R0QpeeYb+TwlBVMrlgLqwRjRtGZiK7ww" crossorigin="anonymous">
 
@@ -170,7 +178,6 @@ f.write("""<!DOCTYPE html>
         {left: '$', right: '$', display: false}
     ]});"></script>
 
-<meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <style>
 body {
@@ -178,7 +185,9 @@ body {
 }
 </style>
 </head>
-<body>
+
+<body id="homeBody">
+	<div id="homeTextDiv">
         
 <h1>Davidson Cheng's Physics Study</h1>\n
 
@@ -213,6 +222,7 @@ for subject_abbr in subject_abbr_to_display:
 
 f.write("<hr>")
             
+f.write("""</div>\n""")
 f.write("""</body>\n""")
 f.write("""</html>""")
 f.close()

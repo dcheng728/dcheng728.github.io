@@ -1,9 +1,17 @@
+
 <!DOCTYPE html>
-<html lang="en">
+
+<html>
+
+
+
 
 
 <head>
 <title>Davidson Cheng's Physics Study</title>
+	<meta charset=utf-8>
+	<link rel="stylesheet" type="text/css" href="../style.css">
+	<script src="../loadSidebar.js"></script>
 
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.16.10/dist/katex.min.css" integrity="sha384-wcIxkf4k558AjM3Yz3BBFQUbk/zgIYC2R0QpeeYb+TwlBVMrlgLqwRjRtGZiK7ww" crossorigin="anonymous">
 
@@ -17,7 +25,6 @@
         {left: '$', right: '$', display: false}
     ]});"></script>
 
-<meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <style>
 body {
@@ -25,7 +32,9 @@ body {
 }
 </style>
 </head>
-<body>
+
+<body id="homeBody">
+	<div id="homeTextDiv">
         
 <h1>Davidson Cheng's Physics Study</h1>
 
@@ -1227,6 +1236,601 @@ kittel_5_notes.md<span class="icon"></span></summary>
 8-heat and work<span class="icon"></span></summary>
 <div style="margin-left:90px;">
 <a href="(therst)kittel/8-heat and work/kitteltp_8_1x.pdf" target="_blank">exercise 8.1x.pdf</a></div>
+</details>
+</details>
+<h3 style="margin-left:0px;">
+Particle Physics<span class="icon"></span></h3>
+<details>
+<summary style="margin-left:30px;">
+Griffiths. <i>Intro. to Elementary Particles</i>, 1st ed.<span class="icon"></span></summary>
+<details>
+<summary style="margin-left:60px;">
+2-elementary particle dynamics<span class="icon"></span></summary>
+<div style="margin-left:90px;">
+<a href="(particles)griffiths/2-elementary particle dynamics/griffiths_2_1.pdf" target="_blank">exercise 2.1.pdf</a></div>
+<div style="margin-left:90px;">
+<a href="(particles)griffiths/2-elementary particle dynamics/griffiths_2_2.pdf" target="_blank">exercise 2.2.pdf</a></div>
+<div style="margin-left:90px;">
+<a href="(particles)griffiths/2-elementary particle dynamics/griffiths_2_3.pdf" target="_blank">exercise 2.3.pdf</a></div>
+</details>
+<details>
+<summary style="margin-left:60px;">
+4-symmetries<span class="icon"></span></summary>
+<div style="margin-left:90px;">
+<a href="(particles)griffiths/4-symmetries/griffiths_4_15.pdf" target="_blank">exercise 4.15.pdf</a></div>
+<div style="margin-left:90px;">
+<a href="(particles)griffiths/4-symmetries/griffiths_4_17.pdf" target="_blank">exercise 4.17.pdf</a></div>
+<div style="margin-left:90px;">
+<a href="(particles)griffiths/4-symmetries/griffiths_4_21.pdf" target="_blank">exercise 4.21.pdf</a></div>
+<div style="margin-left:90px;">
+<a href="(particles)griffiths/4-symmetries/griffiths_4_23.pdf" target="_blank">exercise 4.23.pdf</a></div>
+<div style="margin-left:90px;">
+<a href="(particles)griffiths/4-symmetries/griffiths_4_24.pdf" target="_blank">exercise 4.24.pdf</a></div>
+<div style="margin-left:90px;">
+<a href="(particles)griffiths/4-symmetries/griffiths_4_27.pdf" target="_blank">exercise 4.27.pdf</a></div>
+<div style="margin-left:90px;">
+<a href="(particles)griffiths/4-symmetries/griffiths_4_28.pdf" target="_blank">exercise 4.28.pdf</a></div>
+</details>
+<details>
+<summary style="margin-left:60px;">
+5-bound states<span class="icon"></span></summary>
+<div style="margin-left:90px;">
+<a href="(particles)griffiths/5-bound states/griffiths_5_1.pdf" target="_blank">exercise 5.1.pdf</a></div>
+<div style="margin-left:90px;">
+<a href="(particles)griffiths/5-bound states/griffiths_5_3.pdf" target="_blank">exercise 5.3.pdf</a></div>
+<div style="margin-left:90px;">
+<a href="(particles)griffiths/5-bound states/griffiths_5_10.pdf" target="_blank">exercise 5.10.pdf</a></div>
+<div style="margin-left:90px;">
+<a href="(particles)griffiths/5-bound states/griffiths_5_11.pdf" target="_blank">exercise 5.11.pdf</a></div>
+<details>
+<summary style="margin-left:90px;">
+griffiths_5_notes.md<span class="icon"></span></summary>
+<div style="margin-left:120px;border: 3px dashed black; background-color:LightGray;">
+<ul>
+<li>[ ] 5.8</li>
+<li>[ ] 5.10</li>
+<li>bound states are made significant by quark model</li>
+<li>perturbation theory was made to handle scattering and decaying, dont handle bound states well</li>
+<li>relativistic $\approx$ kinetic energy &gt;&gt; $mc^2$ or binding energy &gt;&gt; $mc^2$</li>
+<li>schro are treated as axioms in QM</li>
+</ul>
+<h1>hydrogen atom</h1>
+<ul>
+<li>radial schro picks up an effective potential
+$$V(r) \rightarrow V(r) + \frac{\hbar^2}{2m}\frac{l(l+1)}{r^2}$$
+just like in CM</li>
+<li><strong>relativistic</strong> correction together with <strong>spin-orbit</strong> coupling to form <strong>fine structure</strong> because they are both $O(\alpha^4)$</li>
+<li><strong>lambshift</strong>: splits 2s, 2p, $O(\alpha^5)$</li>
+<li><strong>hyperfine</strong>: spin-spin coupling via magnetic dipole, $O(\alpha^4)$</li>
+<li><strong>quarkoniums</strong> are difficult to deal with because <ol>
+<li>strong force is involved, whose potential we dont know</li>
+<li>light quarks (u,d,s) are intrinsically relativistic</li>
+</ol>
+</li>
+</ul>
+<h1>light quark mesons</h1>
+<ul>
+<li>within a multiplet, the particle with the higher charge is assigned the greater $I_3$</li>
+<li>$\pi^0$ is neither $u\bar{u}$ nor $d\bar{d}$, but the $I_3= 0$ state of the isospin triplet
+$$\text{isospin triplet} = \begin{cases} 
+|11&gt; = -u\bar{u}\
+|10&gt; = (u\bar{u} - d\bar{d})/\sqrt{2} \
+|1-1&gt; = d \bar{u}
+\end{cases}$$</li>
+<li>$\eta' = (u\bar{u} + d\bar{d} + s\bar{s})/\sqrt{3}$ is unaffected under SU(3) in the same sense that $\pi^0$ is an singlet under isospin SU(2)</li>
+<li>light quarks (u,d,s) belong to the fundamental rep. of SU(3), their antiquarks belong to the conjugate rep. of SU(3): $3 \otimes \bar{3} = 8 \oplus 1$ </li>
+<li>the fact that quarks have unequal masses breaks mass symmetry in quark multilets</li>
+</ul>
+<h1>heavy quark baryons</h1>
+<ul>
+<li>non-relativistic due to large mass</li>
+<li>3 body systems, complicates things</li>
+<li>
+<p>most similar to helium in theories we have already studied</p>
+</li>
+<li>
+<p>the 3-body difficulty is alleviated by considering $l=0$ states, where angular momentum of entire system comes from only coupling of the spins. This gives a j=3/2 quartet (totally symmetric), and two j=1/2 doublets (both antisymmetric among two particles): $2\otimes 2 \otimes 2 = 4 \oplus 2 \oplus 1$</p>
+</li>
+<li>pauli's exclusion principle dictates which flavor states are allowed to couple with which color, spin, space state. The total spin of baryon being 3/2 or 1/2 implies the entire state must be totally antisymmetric. </li>
+<li>3 light quarks in 3 flavors yields 1 decuplet, 2 octets, and a singlet: $3 \otimes 3 \otimes = 10 \oplus 8 \oplus 8 \oplus 1$</li>
+<li>every naturally occuring particle is a color singlet. Baryons have 3 particles with color, there is only 1 singlet, so <strong>that singlet must be the one baryons occupy</strong>: 
+$$\psi(\text{color}) = (rgb-rbg + gbr - grb + brg - bgr)/\sqrt{6}$$</li>
+<li>Since a baryon is antisymmetric, its color being singlet means the rest of its wavefunction is symmetric</li>
+<li>natural occuring particles are color singlets because suppose it's a colorless non singlet then a SU(3) color transformation can give it a color</li>
+</ul><span class="icon"></span></div>
+</details>
+</details>
+<details>
+<summary style="margin-left:60px;">
+6-the feynman calculus<span class="icon"></span></summary>
+<div style="margin-left:90px;">
+<a href="(particles)griffiths/6-the feynman calculus/griffiths_6_7.pdf" target="_blank">exercise 6.7.pdf</a></div>
+<div style="margin-left:90px;">
+<a href="(particles)griffiths/6-the feynman calculus/griffiths_6_8.pdf" target="_blank">exercise 6.8.pdf</a></div>
+<details>
+<summary style="margin-left:90px;">
+griffiths_6_notes.md<span class="icon"></span></summary>
+<div style="margin-left:120px;border: 3px dashed black; background-color:LightGray;">
+<p>There are 3 experimental probes of elementary particle interactions: bound states, decays, scattering.</p>
+<h1>decaying</h1>
+<ul>
+<li>We can not hope to calculate the lifetime of any particular particle, rather, we calculate the mean lifetime $\tau$ of a bunch of particles. The critical parameter, then, is the <strong>decay rate</strong> $\Gamma$, the probability per unit time that any muon will decay, for example.  </li>
+<li>A short derivation finds the mean lifetime $\tau$ is $\tau = \frac{1}{\Gamma}$</li>
+<li>The <strong>branching ratio</strong> is the fraction of all particles of a given type that decay by each mode.</li>
+<li>For decays, the essential problem is to calculate the decay rate $\Gamma$, then it would be easy to compute everything else</li>
+</ul>
+<h1>Scattering</h1>
+<ul>
+<li>The parameter of interest is the cross-sectional $\sigma$</li>
+<li><strong>resonance</strong>: a special energy at which the particles involved 'like' to interact, forming a short-lived semibound state before breaking apart. resonance produces bumps in the graph of $\sigma$ v.s. $E$. </li>
+</ul>
+<h1>The golden rule</h1>
+<ul>
+<li>the amplitude contains all the <strong>dynamical</strong> information, we calculate it by evaluating the feynman diagrams.</li>
+<li>the phase space factors contains only the <strong>kinematical</strong> information, it depends on the masses, energies, and momenta of the participant. </li>
+<li>The transition rate for a given process is determined by the amplitude and phase space according to <strong>Fermi's golden rule</strong>:
+$$\text{transition rate} = \frac{2\pi}{\hbar}|\mathscr{M}|^2\times (\text{phase space})$$</li>
+</ul><span class="icon"></span></div>
+</details>
+</details>
+<details>
+<summary style="margin-left:60px;">
+7-quantum electrodynamics<span class="icon"></span></summary>
+<div style="margin-left:90px;">
+<a href="(particles)griffiths/7-quantum electrodynamics/griffiths_7_9.pdf" target="_blank">exercise 7.9.pdf</a></div>
+<div style="margin-left:90px;">
+<a href="(particles)griffiths/7-quantum electrodynamics/griffiths_7_10.pdf" target="_blank">exercise 7.10.pdf</a></div>
+<div style="margin-left:90px;">
+<a href="(particles)griffiths/7-quantum electrodynamics/griffiths_7_25.pdf" target="_blank">exercise 7.25.pdf</a></div>
+<div style="margin-left:90px;">
+<a href="(particles)griffiths/7-quantum electrodynamics/griffiths_7_26.pdf" target="_blank">exercise 7.26.pdf</a></div>
+<div style="margin-left:90px;">
+<a href="(particles)griffiths/7-quantum electrodynamics/griffiths_7_28.pdf" target="_blank">exercise 7.28.pdf</a></div>
+<div style="margin-left:90px;">
+<a href="(particles)griffiths/7-quantum electrodynamics/griffiths_7_30.pdf" target="_blank">exercise 7.30.pdf</a></div>
+<div style="margin-left:90px;">
+<a href="(particles)griffiths/7-quantum electrodynamics/griffiths_7_34%3F.pdf" target="_blank">exercise 7.34?.pdf</a></div>
+<div style="margin-left:90px;">
+<a href="(particles)griffiths/7-quantum electrodynamics/griffiths_7_38%3F.pdf" target="_blank">exercise 7.38?.pdf</a></div>
+<details>
+<summary style="margin-left:90px;">
+griffiths_7_notes.md<span class="icon"></span></summary>
+<div style="margin-left:120px;border: 3px dashed black; background-color:LightGray;">
+<ul>
+<li>[ ] renormalization</li>
+</ul>
+<h1>the dirac equation</h1>
+<ul>
+<li>in nonrelativistic qm, particles are described by the schrodinger equation, in relativistic qm, particles of spin 0 are described by the KG equation, particles of spin 1/2 are described by the dirac equation, and particles of spin 1 are described by the proca equation.</li>
+<li>the derivation of dirac's equation involves first 'factor' the enerty momentum relation:
+    $$(p^0)^2 - m^2c^2=(p^0+mc)(p^0-mc)=0$$</li>
+<li>the next brillance of dirac was the idea of making the $\gamma$s matrices instead of just a number, then we find the anticommutator relation (7.15), and some further derivation yields the <strong>dirac equation</strong> (7.20).</li>
+<li>Although the solution to Dirac equation has 4 components, it's not a 4-vector, rather it transforms like 2 spinors.</li>
+</ul>
+<h1>solutions to the dirac equation</h1>
+<ul>
+<li>one solves the dirac equation in the rest frame ($\vec{p} = 0$) and finds 4 independent solutions (7.30).these shall be interpreted as a spin up, spin down electron, and a spin up, spin down antielectron. <strong>this is not a 4 vector</strong>!</li>
+<li>A quick examination of the solutions in (7.30) lets one find that these solutions only propagate in time, but not in space. 
+    The natural next step would be to extend the result at $\vec{p} = 0$ to general 4-momentum of a massive particle. Such planewaves furnish a representation of the corresponding little group.</li>
+<li>The above pursuit would yield the momentum space dirac equation, which then leads to the solution in (7.43), which after conventional normalization is written as (7.46)</li>
+<li>you might guess that $u^{(1)}$ describes an electron with spin up, and $u^{(2)}$ with spin down. but no. if we orient the $z$ axis so that it points along the direction of motion ($\vec{p}_x=\vec{p}_y = 0$), then $u^{(1)},u^{(2)},u^{(3)},u^{(4)}$ would correspond to the eigenstate of $S_z$ for electron spin up, electron spin down, antielectron spin up, antielectron spin down, respectively. </li>
+</ul>
+<h1>bilinear covariants</h1>
+<ul>
+<li>griffiths makes an argument that <strong>the dirac spinor aint 4-vector</strong> (7.52-57)</li>
+<li>showed a way to construct scalar with dirac spinor (7.58-60), and asked is this a scalar or pseudoscalar?
+    \footnote{the difference between scalar and pseudoscalar is how they transform under parity} It is a scalar (7.61-62). But is there another way to construct pseudoscalar out of dirac spinors? Yes, using $\gamma_5 = i \gamma^0\gamma^1\gamma^2\gamma^3$ (7.63-7.67)</li>
+<li>besides scalars and pseudoscalars, we can also construct vectors, pseudovectors, and antisymmetric tensor with dirac spinors (7.68-69)</li>
+</ul>
+<h1>the photon</h1>
+<ul>
+<li>states the field forms of the maxwell equations (7.70), finds the index notation form of the inhomogeneous maxwell equations (7.70-74)</li>
+<li>for the homogeneous maxwell equations, introduce a vector potential $\vec{A}$, which gives us an index notation form of the homogeneous equations in terms of the potential (7.75-7.79), and notice that we can also write the inhomogeneous maxwell equations with the potential rather than field (7.80)
+-[❤️] we have two ways to write maxwell's equations, in EM fields, or in a single potential $A$. \href{https://en.wikipedia.org/wiki/Maxwell%27s_equations#Alternative_formulations}{wikipedia}</li>
+<li>in classical electrodynamics, the fields are the physical entities while the potentials are mathematical constructs that automatically satisfy the homogeneous equations. the subtlety in the potential formulations is that is only unique up to a gauge. There is no way to eliminate the gauge ambiguity, so we can either <ul>
+<li>live with the indeterminacy, meaning carrying along spurious degrees of freedom</li>
+<li>impose an additional constraint, which spoils the manifest lorentz covariance of the theory</li>
+</ul>
+</li>
+<li>griffiths choose the coulomb gauge $\nabla \cdot \vec{A} = 0$.</li>
+<li>in qed, the potential $A^\mu$ becomes the wave function of the photon, and we have a eqm for this photon: $\Box A^\mu = 0 $. solving this equation yields $A^\mu(x) = a e^{-(i/\hbar)p\cdot x}\epsilon^\mu(p)$, which can be interpreted as a wave propagation (exponential part) of some initial condition $\epsilon^\mu(p)$ at $x = 0$, this $\epsilon^\mu(p)$ is called the <strong>polarization vector</strong>.</li>
+<li>some further derivation indicates the polarization vector is orthogonal to the direction of the momentum vector, so we say a free photon is <strong>transversely polarized</strong>, for this reason the coulomb gauge is also called <strong>transverse gauge</strong>. </li>
+</ul>
+<h1>casimir's trick and the trace theorems</h1>
+<p>the feynman rules stated for qed works with spin, but we often dont care about the spins in actual experiments. In those cases the relevant cross section is an <strong>average</strong> over all initial spin configurations, and <strong>sum</strong> over all final spin configurations. </p><span class="icon"></span></div>
+</details>
+</details>
+<details>
+<summary style="margin-left:60px;">
+8-electrodynamics of quarks and hadrons<span class="icon"></span></summary>
+<div style="margin-left:90px;">
+<a href="(particles)griffiths/8-electrodynamics of quarks and hadrons/griffiths_8_1.pdf" target="_blank">exercise 8.1.pdf</a></div>
+<div style="margin-left:90px;">
+<a href="(particles)griffiths/8-electrodynamics of quarks and hadrons/griffiths_8_2.pdf" target="_blank">exercise 8.2.pdf</a></div>
+</details>
+<details>
+<summary style="margin-left:60px;">
+9-quantum chromodynamics<span class="icon"></span></summary>
+<div style="margin-left:90px;">
+<a href="(particles)griffiths/9-quantum chromodynamics/griffiths_9_3.pdf" target="_blank">exercise 9.3.pdf</a></div>
+<div style="margin-left:90px;">
+<a href="(particles)griffiths/9-quantum chromodynamics/griffiths_9_4.pdf" target="_blank">exercise 9.4.pdf</a></div>
+<div style="margin-left:90px;">
+<a href="(particles)griffiths/9-quantum chromodynamics/griffiths_9_5.pdf" target="_blank">exercise 9.5.pdf</a></div>
+</details>
+</details>
+<h3 style="margin-left:0px;">
+Solid State Physics<span class="icon"></span></h3>
+<details>
+<summary style="margin-left:30px;">
+Kittel. <i>Intro. to Solid State Physics</i>, 8th ed.<span class="icon"></span></summary>
+<details>
+<summary style="margin-left:60px;">
+1-crystal structure<span class="icon"></span></summary>
+<div style="margin-left:90px;">
+<a href="(sstate)kittel/1-crystal structure/kittel_1_1.pdf" target="_blank">exercise 1.1.pdf</a></div>
+<div style="margin-left:90px;">
+<a href="(sstate)kittel/1-crystal structure/kittel_1_2correction.pdf" target="_blank">exercise 1.2correction.pdf</a></div>
+<div style="margin-left:90px;">
+<a href="(sstate)kittel/1-crystal structure/kittel_1_2x.pdf" target="_blank">exercise 1.2x.pdf</a></div>
+<div style="margin-left:90px;">
+<a href="(sstate)kittel/1-crystal structure/kittel_1_3.pdf" target="_blank">exercise 1.3.pdf</a></div>
+<details>
+<summary style="margin-left:90px;">
+kittel_1_notes.md<span class="icon"></span></summary>
+<div style="margin-left:120px;border: 3px dashed black; background-color:LightGray;">
+<p>I. Crystal structure, symmetry and types of chemical bonds. (Chapter 1)
+• The crystal lattice
+• Point symmetry
+• The 32 crystal classes
+• Types of bonding (covalent, ionic, metallic bonding; hydrogen and van der Waals).</p>
+<p>• II. Diffraction from periodic structures (Chapter 2)
+• Reciprocal lattice; Brillouin zones
+• Laue condition and Bragg law
+• Structure factor; defects
+• Methods of structure analysis
+• HRXRD. Experimental demonstration in the Physics Lab using Bruker D8 Discover XRD</p>
+<p>• III. Lattice vibrations and thermal properties (Chapter 3)
+• Elastic properties of crystals; elastic waves
+• Models of lattice vibrations
+• Phonons
+• Theories of phonon specific heat; thermal conduction.
+• Anharmonicity; thermal expansion
+• Raman Scattering by phonons. Experimental demonstration in the Physics Lab using Ar-laser/SPEX 500M, CCD –based Raman Scattering setup</p>
+<p>• IV. Electrons in metals (Chapters 4–5)
+• Free electron theory of metals
+• Fermi Statistics
+• Band theory of solids</p>
+<p>• V. Semiconductors (Chapters 6–7)
+• Band structure.
+• Electron statistics; carrier concentration and transport; conductivity; mobility
+• Impurities and defects
+• Magnetic field effects: cyclotron resonance and Hall effect
+• Optical properties; absorption, photoconductivity and luminescence
+• Basic semiconductor devices
+• Photoluminescence. Experimental demonstration in the Physics Lab using Nd:YAG laser/SPEX –based Photoluminescence setup</p>
+<p>• VI. Dielectric properties of solids (Chapters 8)
+• Dielectric constant and polarizability (susceptibility)
+• Dipolar polarizability, ionic and electronic polarizability
+• Piezoelectricity; pyro- and ferroelectricity
+• Light propagation in solids</p>
+<p>• VII. Magnetism (Chapters 9)
+• Magnetic susceptibility
+• Classification of materials; diamagnetism, paramagnetism
+• Ferromagnetism and antiferromagnetism
+• Magnetic resonance
+• Multiferroic Materials
+• VIII. Superconductivity (Chapter 10)</p><span class="icon"></span></div>
+</details>
+</details>
+<details>
+<summary style="margin-left:60px;">
+2-wave diffraction and the reciprocal lattice<span class="icon"></span></summary>
+<div style="margin-left:90px;">
+<a href="(sstate)kittel/2-wave diffraction and the reciprocal lattice/kittel_2_1a correction.pdf" target="_blank">exercise 2.1a correction.pdf</a></div>
+<div style="margin-left:90px;">
+<a href="(sstate)kittel/2-wave diffraction and the reciprocal lattice/kittel_2_1x.pdf" target="_blank">exercise 2.1x.pdf</a></div>
+<div style="margin-left:90px;">
+<a href="(sstate)kittel/2-wave diffraction and the reciprocal lattice/kittel_2_2ab.pdf" target="_blank">exercise 2.2ab.pdf</a></div>
+<div style="margin-left:90px;">
+<a href="(sstate)kittel/2-wave diffraction and the reciprocal lattice/kittel_2_3.pdf" target="_blank">exercise 2.3.pdf</a></div>
+<div style="margin-left:90px;">
+<a href="(sstate)kittel/2-wave diffraction and the reciprocal lattice/kittel_2_4.pdf" target="_blank">exercise 2.4.pdf</a></div>
+<details>
+<summary style="margin-left:90px;">
+kittel_2_notes.md<span class="icon"></span></summary>
+<div style="margin-left:120px;border: 3px dashed black; background-color:LightGray;">
+<ul>
+<li>
+<p>ordinary optical refraction happens at 500A in crystals</p>
+</li>
+<li>
+<p>bragg diffraction (crystal diffraction) can be used to select a special spectrum of beam</p>
+</li>
+<li>
+<p>bragg law: $2d \sin{\theta} = n \lambda$, this is the recurring theme of this chapter and will be echoed in the next chapter</p>
+</li>
+</ul>
+<h1>reciprocal lattice and fourier</h1>
+<ul>
+<li>
+<p>in the fourer expansion of a function on the lattice, periodicity only allows terms with the same periodicity as the lattice in phase space. This defines the <strong>reciprocal</strong> lattice. Thus we can say the function is expanded on the reciprocal lattice in phase space:
+$$n(x) = \sum_p n_p \exp{i \frac{2 \pi p}{a} x}$$
+where $\frac{2 \pi p}{a}$ is a point in the <em>reciprocal lattice</em>, with dimension of inverse distance. </p>
+</li>
+<li>
+<p>periodicity is the realm of fourier analysis</p>
+</li>
+<li>
+<p>If $\vec{a}_1, \vec{a}_2, \vec{a}_3$ are primitive vectors of the crystal lattice, the primitive vectors of the reciprocal lattice $\vec{b}_1, \vec{b}_2, \vec{b}_3$ are give by 
+$$\vec{b}_i = 2 \pi \frac{\vec{a}_j \times \vec{a}_k }{\vec{a}_i \cdot \vec{a}_j \times \vec{a}_k}$$</p>
+</li>
+<li>
+<p>the diffraction pattern of the crystal is a map of the reciprocal lattice</p>
+</li>
+<li>a reciprocal lattice vector $G=h b_1 + kb_2 + lb_3$ is normal to the plane (hkl) planes of direct lattice</li>
+</ul>
+<h1>brillouin zones</h1>
+<ul>
+<li>a brillouin zone is defined as a wigner-seitz primitive cell in the reciprocal lattice</li>
+<li>
+<p>only waves whose wavevector $\vec{k}$ drawn from the origin terminates on the surface of the brillouin zone can be diffracted by the crystal</p>
+</li>
+<li>
+<p>sc has reciprocal of sc</p>
+</li>
+<li>bcc and fcc are reciprocals of each other</li>
+</ul>
+<h1>some fourier analysis</h1>
+<ul>
+<li>by assuming refraction amplitude proportional to electron density, the total amplitude of the scattered wave in direction $k'$ from original wave in direction $k$ can be written as a function modulo the lattice with a function of the directions, such as below
+$$n(\vec{r})dV \times \exp{[i(\vec{k} - \vec{k}') \cdot \vec{r}]}$$
+scattering amplitude for crystal with $N$ cells can be written as 
+$$F_G = N \int_{cell} dV n(\vec{r}) \exp{-i\vec{G} \cdot \vec{r}} = N s_G$$
+where $s_G$ is the structure factor. </li>
+<li>the structure factor contains single-cell information </li>
+<li>atomic form factor is integrated over all space</li>
+</ul>
+<h1>TODO:</h1>
+<ul>
+<li>understand structure factor and form factor</li>
+</ul><span class="icon"></span></div>
+</details>
+</details>
+<details>
+<summary style="margin-left:60px;">
+3-crystal binding and elastic constants<span class="icon"></span></summary>
+<div style="margin-left:90px;">
+<a href="(sstate)kittel/3-crystal binding and elastic constants/kittel_3_1.pdf" target="_blank">exercise 3.1.pdf</a></div>
+<div style="margin-left:90px;">
+<a href="(sstate)kittel/3-crystal binding and elastic constants/kittel_3_2.pdf" target="_blank">exercise 3.2.pdf</a></div>
+<div style="margin-left:90px;">
+<a href="(sstate)kittel/3-crystal binding and elastic constants/kittel_3_3.pdf" target="_blank">exercise 3.3.pdf</a></div>
+<div style="margin-left:90px;">
+<a href="(sstate)kittel/3-crystal binding and elastic constants/kittel_3_5.pdf" target="_blank">exercise 3.5.pdf</a></div>
+<div style="margin-left:90px;">
+<a href="(sstate)kittel/3-crystal binding and elastic constants/kittel_3_extra1.pdf" target="_blank">exercise 3.extra1.pdf</a></div>
+<details>
+<summary style="margin-left:90px;">
+kittel_3_notes.md<span class="icon"></span></summary>
+<div style="margin-left:120px;border: 3px dashed black; background-color:LightGray;">
+<ul>
+<li>inert gas ~ noble gas ~ rare gas</li>
+</ul>
+<h1>inert bonds</h1>
+<ul>
+<li><strong><em>van der waal potential ~ london potential ~ induced dip-dip potental</em></strong>. It is the principal attractive interaction in inert gas. The othe major contribution to inert gas interactions is <em>pauli exclusive principle</em>, repulsive. These two forces add to give lennard jones.</li>
+<li>
+<p><strong>lennard jones potential</strong>: a combination of induced-dipole (or van der waal, or london) amd pauli exclusion principle
+$$U(R) = 4 \epsilon [(\frac{\sigma}{R})^{12} - (\frac{\sigma}{R})^6]$$</p>
+</li>
+<li>
+<p>if we neglect the kinetic energy of the inert gas atoms, the cohesive energy of an inert gas crystal is given by summing the <strong>lennard-jones</strong> potential over all pairs of atoms in the crystal.</p>
+</li>
+</ul>
+<h1>ionic crystals</h1>
+<ul>
+<li>the interaction of ionic crystals are largely coulomb, van der waal in ionic crystals only make contribute 1-2% in ionic crystals</li>
+<li>the name for electrostatic energy in ionic crystals is called <strong>madelung energy</strong>, because madelung was the first one to compute complicated sums over whole lattice of electrostatics</li>
+<li>the madelung constant is a sum of inverse of lattice separation over whole lattice, it decouples lattice structure in cohesive energy</li>
+<li>ionic bond examples: NaCl, CsCl</li>
+</ul>
+<h1>covalent bonds</h1>
+<ul>
+<li>covalent bonds consists of two antisymmetric electrons</li>
+<li>
+<p>in metals, bonds are formed due to lowering of valence electron energy as compared with free atoms without bonding</p>
+</li>
+<li>
+<p><strong>hydrogen bonds</strong>: an atom of H is attracted to 2 other atoms. h-bond is important for th einteraction between H2O molecules and is responsible together with the electrostatic attraction of edip for water and ice</p>
+</li>
+<li>
+<p>the elastic properties of a crystal is viewed by consideration of it as a continuous homogeneous medium, rather than a lattice. This is valid for elastic waves with $\lambda$ longer than E-6 cm or E12 Hz.</p>
+</li>
+</ul><span class="icon"></span></div>
+</details>
+</details>
+<details>
+<summary style="margin-left:60px;">
+4-phonons I crystal vibrations<span class="icon"></span></summary>
+<div style="margin-left:90px;">
+<a href="(sstate)kittel/4-phonons I crystal vibrations/kittel_4_1.pdf" target="_blank">exercise 4.1.pdf</a></div>
+<div style="margin-left:90px;">
+<a href="(sstate)kittel/4-phonons I crystal vibrations/kittel_4_4.pdf" target="_blank">exercise 4.4.pdf</a></div>
+<details>
+<summary style="margin-left:90px;">
+kittel_4_notes.md<span class="icon"></span></summary>
+<div style="margin-left:120px;border: 3px dashed black; background-color:LightGray;">
+<ul>
+<li>
+<p>when a wave propagates in a crystal, we model it with entire planes of atoms moving in phase with displacements either parallel or perpendicular to wave vector (longitudinal/transverse)</p>
+</li>
+<li>
+<p>the author builds a model using hook's law assuming contributions from planes after the most two closest planes vanish, then solved as a coupled oscillator. The dispersion relation is then obtained</p>
+</li>
+<li>
+<p>only the elastic waves in the first brillouin zone are physically significant, for those outside such can be lattice-transformed into the first brillouin zone. </p>
+</li>
+<li>
+<p>at the boundaries of the first brillouin zone, the solution to the wave is not traveling, i.e. standing. Recall that for refraction the boundaries on the first brillouin zone give the only wavevectors that can refract. </p>
+</li>
+<li>
+<p>zero point energy $\approx$ GND state energy</p>
+</li>
+<li>
+<p>wave-like solutions do not exist for certain frequencies in polyatomic lattices.
+for diatomic, this is between $\sqrt{2C/M_1}$ and $\sqrt{2C/M_2}$. There is a frequency gap at the boundary $K_{max} = \pm \frac{\pi}{a}$ of first brillouin zone.</p>
+</li>
+</ul>
+<p>TODO:
+- [x] understand the connection between elastic waves, refraction, bragg law, first brillouin zone. 
+When bragg condition is satisfied, traveling waves dont form, so we obtain standing waves that oscillate back and forth</p><span class="icon"></span></div>
+</details>
+</details>
+<details>
+<summary style="margin-left:60px;">
+6-free electron fermi gas<span class="icon"></span></summary>
+<div style="margin-left:90px;">
+<a href="(sstate)kittel/6-free electron fermi gas/kittel_6_1.pdf" target="_blank">exercise 6.1.pdf</a></div>
+<div style="margin-left:90px;">
+<a href="(sstate)kittel/6-free electron fermi gas/kittel_6_2.pdf" target="_blank">exercise 6.2.pdf</a></div>
+<div style="margin-left:90px;">
+<a href="(sstate)kittel/6-free electron fermi gas/kittel_6_3.pdf" target="_blank">exercise 6.3.pdf</a></div>
+<details>
+<summary style="margin-left:90px;">
+kittel_6_notes.md<span class="icon"></span></summary>
+<div style="margin-left:120px;border: 3px dashed black; background-color:LightGray;">
+<ul>
+<li>the free electron model have the valence electrons in metals move freely through the volume of the metal</li>
+<li>free electron model most useful when we focus on kinematic properties of conduction electrons</li>
+<li>[ ] 3s conduction band</li>
+<li>electrons in metals can have mean free path of $10^8$ interatomic spacing. This observation is incompatible with treating particles as solid balls, so wave-theory (QM) is needed. Further, infrequency of electron-electron scattering may be interpreted by pauli xclu principle in free electron fermi gas model.</li>
+</ul>
+<h1>energy levels in 1D</h1>
+<ul>
+<li><strong>orbital</strong> denotes solutions to the wave equation for a system of only 1 electron. The orbital formalism is relevant for when we treat N particle wave func as N x 1 particle wave func</li>
+<li>uses ISW model</li>
+<li>pauli xclu pcpl allows only one e- per orbital</li>
+<li>pauli xclu pcpl demand ISW orbitals are filled from bottom up in pairs</li>
+<li>fermi energy is the energy of topmost filled level, for N e- in GND state: 
+$$\epsilon_F \frac{\hbar^2}{2m}(\frac{N \pi}{2L})^2$$</li>
+</ul>
+<h1>effect of T on the fermi-dirac dist</h1>
+<ul>
+<li>fermi-dirac dist gives the probability that an orbital at energy $\epsilon$ will be occupied in an ideal electorn gas in thermal equilibrium: 
+$$f(\epsilon)= \frac{1}{\exp{[(\epsilon-\mu(T))/k_B T]} + 1}$$</li>
+<li>By imposing $f(\epsilon)$ be binary at $T = 0$, we find $\mu(T=0) = \epsilon_F$</li>
+<li>The $\epsilon - \mu &gt;&gt; k_B T$ is the classical limit (giving Boltzmann Maxwell dist)</li>
+</ul>
+<h1>free electron gas in 3D</h1>
+<ul>
+<li>3D generalization of 1D is straightforward (see Kittel/Griffiths/Glazer&amp;Wark/etc.)</li>
+<li>By transitioning to $k$ space, we obtain the density of state and find fermi energy $k_F = (\frac{3\pi^2N}{V})^{1/3}$, $\epsilon_F = \frac{\hbar^2}{2m}(\frac{3\pi^2 N }{V})^{2/3}$</li>
+<li>Density of state: 
+$$D(\epsilon) = \frac{dN}{d\epsilon} = \frac{V}{2\pi^2}( \frac{2m}{\hbar^2} )^{3/2}\epsilon^{1/2}$$</li>
+</ul>
+<h1>heat capacity of the electron gas</h1>
+<ul>
+<li>classical mechanics predicts $\frac{3}{2}k_B$, yet the actual heat capacity is 0.01 of this value</li>
+<li>this is due to electrons below fermi energy being 'locked'</li>
+<li>only a fraction $T/T_F$ can be excited at $T$, giving energy O(kT)</li>
+<li>At room temp, fermi temperature is approximately $5\times10^4$ K</li>
+</ul>
+<h1>experimental heat capacity of metals</h1>
+<ul>
+<li>debye + free electron gas gives
+$$C = \gamma T + AT^3$$ this $\gamma$ is given the name of <strong>sommerfeld parameter</strong></li>
+<li>thermal effective mass measures discrepancy between observed and actual values of $\gamma$. This discrepancy is due to other interactions besides pauli exclu, lattice inperfection, phonon scattering, etc.</li>
+</ul>
+<h1>electrical conductivity &amp; Ohm</h1>
+<ul>
+<li>use mv = $\hbar k$, a classical interperetation of electorn quantum momentum + lorentz force law</li>
+<li>in the absence of collisions, the fermi sphere accelerates, But the collisions and lattice imperfections introduce a 'frag'</li>
+<li>The collisions are measured with $\tau$, 'collision time'</li>
+</ul><span class="icon"></span></div>
+</details>
+</details>
+<details>
+<summary style="margin-left:60px;">
+7-energy bands<span class="icon"></span></summary>
+<div style="margin-left:90px;">
+<a href="(sstate)kittel/7-energy bands/kittel_7_1ab.pdf" target="_blank">exercise 7.1ab.pdf</a></div>
+<div style="margin-left:90px;">
+<a href="(sstate)kittel/7-energy bands/kittel_7_3.pdf" target="_blank">exercise 7.3.pdf</a></div>
+<details>
+<summary style="margin-left:90px;">
+kittel_7_notes.md<span class="icon"></span></summary>
+<div style="margin-left:120px;border: 3px dashed black; background-color:LightGray;">
+<ul>
+<li>free electron model fails to disitinguish metals, semimetals, semiconductors, insulators; positive hall coeff. etc. </li>
+<li><strong>energy bands/gaps</strong> = gaps in spectrum where no electron is permitted</li>
+<li>explanation of bands require periodicity potential to be taken into account</li>
+</ul>
+<h1>nearly free electron model</h1>
+<ul>
+<li>treat periodic potential as perturbation</li>
+<li>bragg reflection occurs for waves in crystals, electorns are waves so can reflect braggly, giving gaps</li>
+</ul>
+<h1>bloch functions</h1>
+<ul>
+<li><strong>bloch functions:</strong> solutions of the schro for a periodic potential must be of form</li>
+</ul>
+<p>$$\psi_{\vec{k}} (\vec{r}) = u_{\vec{k}} (\vec{r}) \exp[ i \vec{k} \cdot \vec{r}]$$ </p>
+<blockquote>
+<p>griffiths has a section on bloch's theorem in his qm book
+- bloch functions can be decomposed into a sum of traveling waves</p>
+</blockquote><span class="icon"></span></div>
+</details>
+</details>
+<details>
+<summary style="margin-left:60px;">
+notes.md<span class="icon"></span></summary>
+<div style="margin-left:90px;border: 3px dashed black; background-color:LightGray;">
+<ul>
+<li>ordinary optical refraction happens at 500A in crystals</li>
+<li>braggs diffraction (crystal diffraction) can be used to select a special spectrum of beam</li>
+<li>hydrogen bonds: an atom of H is attracted to 2 other atoms. h-bond is important for th einteraction between H2O molecules and is responsible together with the electrostatic attraction of edip for water and ice</li>
+<li>
+<p>the elastic properties of a crystal is viewed by consideration of it as a continuous homogeneous medium, rather than a lattice. This is valid for elastic waves with $\lambda$ longer than E-6 cm or E12 Hz.</p>
+</li>
+<li>
+<p>in the fourer expansion of a function on the lattice, periodicity only allows terms with the same periodicity as the lattice in phase space. This defines the reciprocal lattice. Thus we can say the function is expanded on the reciprocal lattice in phase space:
+$$n(x) = \sum_p n_p \exp{i \frac{2 \pi p}{a} x}$$
+where $\frac{2 \pi p}{a}$ is a point in the reciprocal lattice, with dimension of inverse distance. </p>
+</li>
+<li>If $\vec{a}_1, \vec{a}_2, \vec{a}_3$ are primitive vectors of the crystal lattice, the primitive vectors of the reciprocal lattice $\vec{b}_1, \vec{b}_2, \vec{b}_3$ are give by 
+$$\vec{b}_i = 2 \pi \frac{\vec{a}_j \times \vec{a}_k }{\vec{a}_i \cdot \vec{a}_j \times \vec{a}_k}$$</li>
+<li>the diffraction pattern of the crystal is a map of the reciprocal lattice</li>
+<li>by assuming refraction amplitude proportional to electron density, the total amplitude of the scattered wave in direction $k'$ from original wave in direction $k$ can be written as a function modulo the lattice with a function of the directions, such as below
+$$n(\vec{r})dV \times \exp{[i(\vec{k} - \vec{k}') \cdot \vec{r}]}$$
+scattering amplitude for crystal with $N$ cells can be written as 
+$$F_G = N \int_{cell} dV n(\vec{r}) \exp{-i\vec{G} \cdot \vec{r}} = N s_G$$
+where $s_G$ is the structure factor. </li>
+<li>bcc and fcc are reciprocals of each other</li>
+</ul>
+<p>-van der waal potential ~ london potential ~ induced dip-dip potental. It is the principal attractive interaction in inert gas. The othe major contribution to inert gas interactions is pauli exclusive principle, repulsive. 
+- inert gas ~ noble gas ~ rare gas</p>
+<h6></h6>
+<ul>
+<li>inert gas ~ noble gas ~ rare gas</li>
+</ul>
+<p>-<em>van der waal potential ~ london potential ~ induced dip-dip potental</em>. It is the principal attractive interaction in inert gas. The othe major contribution to inert gas interactions is <em>pauli exclusive principle</em>, repulsive. These two forces add to give lennard jones.</p>
+<ul>
+<li>
+<p>lennard jones potential: a combination of induced-dipole (or van der waal, or london) amd pauli exclusion principle
+$$U(R) = 4 \epsilon [(\frac{\sigma}{R})^{12} - (\frac{\sigma}{R})^6]$$</p>
+</li>
+<li>
+<p>if we neglect the kinetic energy of the inert gas atoms, the cohesive energy of an inert gas crystal is given by summing the lennard-jones potential over all pairs of atoms in the crystal.</p>
+</li>
+<li>
+<p>hydrogen bonds: an atom of H is attracted to 2 other atoms. h-bond is important for th einteraction between H2O molecules and is responsible together with the electrostatic attraction of edip for water and ice</p>
+</li>
+<li>
+<p>the elastic properties of a crystal is viewed by consideration of it as a continuous homogeneous medium, rather than a lattice. This is valid for elastic waves with $\lambda$ longer than E-6 cm or E12 Hz.</p>
+</li>
+</ul>
+<h6></h6><span class="icon"></span></div>
 </details>
 </details>
 <h3 style="margin-left:0px;">
@@ -2606,600 +3210,6 @@ Polchinski. <i>String Theory</i>, vol. 1.<span class="icon"></span></summary>
 <div style="margin-left:60px;">
 <a href="(string)polchinski/polchinski_A_1.pdf" target="_blank">exercise A.1.pdf</a></div>
 </details>
-<h3 style="margin-left:0px;">
-Particle Physics<span class="icon"></span></h3>
-<details>
-<summary style="margin-left:30px;">
-Griffiths. <i>Intro. to Elementary Particles</i>, 1st ed.<span class="icon"></span></summary>
-<details>
-<summary style="margin-left:60px;">
-2-elementary particle dynamics<span class="icon"></span></summary>
-<div style="margin-left:90px;">
-<a href="(particles)griffiths/2-elementary particle dynamics/griffiths_2_1.pdf" target="_blank">exercise 2.1.pdf</a></div>
-<div style="margin-left:90px;">
-<a href="(particles)griffiths/2-elementary particle dynamics/griffiths_2_2.pdf" target="_blank">exercise 2.2.pdf</a></div>
-<div style="margin-left:90px;">
-<a href="(particles)griffiths/2-elementary particle dynamics/griffiths_2_3.pdf" target="_blank">exercise 2.3.pdf</a></div>
-</details>
-<details>
-<summary style="margin-left:60px;">
-4-symmetries<span class="icon"></span></summary>
-<div style="margin-left:90px;">
-<a href="(particles)griffiths/4-symmetries/griffiths_4_15.pdf" target="_blank">exercise 4.15.pdf</a></div>
-<div style="margin-left:90px;">
-<a href="(particles)griffiths/4-symmetries/griffiths_4_17.pdf" target="_blank">exercise 4.17.pdf</a></div>
-<div style="margin-left:90px;">
-<a href="(particles)griffiths/4-symmetries/griffiths_4_21.pdf" target="_blank">exercise 4.21.pdf</a></div>
-<div style="margin-left:90px;">
-<a href="(particles)griffiths/4-symmetries/griffiths_4_23.pdf" target="_blank">exercise 4.23.pdf</a></div>
-<div style="margin-left:90px;">
-<a href="(particles)griffiths/4-symmetries/griffiths_4_24.pdf" target="_blank">exercise 4.24.pdf</a></div>
-<div style="margin-left:90px;">
-<a href="(particles)griffiths/4-symmetries/griffiths_4_27.pdf" target="_blank">exercise 4.27.pdf</a></div>
-<div style="margin-left:90px;">
-<a href="(particles)griffiths/4-symmetries/griffiths_4_28.pdf" target="_blank">exercise 4.28.pdf</a></div>
-</details>
-<details>
-<summary style="margin-left:60px;">
-5-bound states<span class="icon"></span></summary>
-<div style="margin-left:90px;">
-<a href="(particles)griffiths/5-bound states/griffiths_5_1.pdf" target="_blank">exercise 5.1.pdf</a></div>
-<div style="margin-left:90px;">
-<a href="(particles)griffiths/5-bound states/griffiths_5_3.pdf" target="_blank">exercise 5.3.pdf</a></div>
-<div style="margin-left:90px;">
-<a href="(particles)griffiths/5-bound states/griffiths_5_10.pdf" target="_blank">exercise 5.10.pdf</a></div>
-<div style="margin-left:90px;">
-<a href="(particles)griffiths/5-bound states/griffiths_5_11.pdf" target="_blank">exercise 5.11.pdf</a></div>
-<details>
-<summary style="margin-left:90px;">
-griffiths_5_notes.md<span class="icon"></span></summary>
-<div style="margin-left:120px;border: 3px dashed black; background-color:LightGray;">
-<ul>
-<li>[ ] 5.8</li>
-<li>[ ] 5.10</li>
-<li>bound states are made significant by quark model</li>
-<li>perturbation theory was made to handle scattering and decaying, dont handle bound states well</li>
-<li>relativistic $\approx$ kinetic energy &gt;&gt; $mc^2$ or binding energy &gt;&gt; $mc^2$</li>
-<li>schro are treated as axioms in QM</li>
-</ul>
-<h1>hydrogen atom</h1>
-<ul>
-<li>radial schro picks up an effective potential
-$$V(r) \rightarrow V(r) + \frac{\hbar^2}{2m}\frac{l(l+1)}{r^2}$$
-just like in CM</li>
-<li><strong>relativistic</strong> correction together with <strong>spin-orbit</strong> coupling to form <strong>fine structure</strong> because they are both $O(\alpha^4)$</li>
-<li><strong>lambshift</strong>: splits 2s, 2p, $O(\alpha^5)$</li>
-<li><strong>hyperfine</strong>: spin-spin coupling via magnetic dipole, $O(\alpha^4)$</li>
-<li><strong>quarkoniums</strong> are difficult to deal with because <ol>
-<li>strong force is involved, whose potential we dont know</li>
-<li>light quarks (u,d,s) are intrinsically relativistic</li>
-</ol>
-</li>
-</ul>
-<h1>light quark mesons</h1>
-<ul>
-<li>within a multiplet, the particle with the higher charge is assigned the greater $I_3$</li>
-<li>$\pi^0$ is neither $u\bar{u}$ nor $d\bar{d}$, but the $I_3= 0$ state of the isospin triplet
-$$\text{isospin triplet} = \begin{cases} 
-|11&gt; = -u\bar{u}\
-|10&gt; = (u\bar{u} - d\bar{d})/\sqrt{2} \
-|1-1&gt; = d \bar{u}
-\end{cases}$$</li>
-<li>$\eta' = (u\bar{u} + d\bar{d} + s\bar{s})/\sqrt{3}$ is unaffected under SU(3) in the same sense that $\pi^0$ is an singlet under isospin SU(2)</li>
-<li>light quarks (u,d,s) belong to the fundamental rep. of SU(3), their antiquarks belong to the conjugate rep. of SU(3): $3 \otimes \bar{3} = 8 \oplus 1$ </li>
-<li>the fact that quarks have unequal masses breaks mass symmetry in quark multilets</li>
-</ul>
-<h1>heavy quark baryons</h1>
-<ul>
-<li>non-relativistic due to large mass</li>
-<li>3 body systems, complicates things</li>
-<li>
-<p>most similar to helium in theories we have already studied</p>
-</li>
-<li>
-<p>the 3-body difficulty is alleviated by considering $l=0$ states, where angular momentum of entire system comes from only coupling of the spins. This gives a j=3/2 quartet (totally symmetric), and two j=1/2 doublets (both antisymmetric among two particles): $2\otimes 2 \otimes 2 = 4 \oplus 2 \oplus 1$</p>
-</li>
-<li>pauli's exclusion principle dictates which flavor states are allowed to couple with which color, spin, space state. The total spin of baryon being 3/2 or 1/2 implies the entire state must be totally antisymmetric. </li>
-<li>3 light quarks in 3 flavors yields 1 decuplet, 2 octets, and a singlet: $3 \otimes 3 \otimes = 10 \oplus 8 \oplus 8 \oplus 1$</li>
-<li>every naturally occuring particle is a color singlet. Baryons have 3 particles with color, there is only 1 singlet, so <strong>that singlet must be the one baryons occupy</strong>: 
-$$\psi(\text{color}) = (rgb-rbg + gbr - grb + brg - bgr)/\sqrt{6}$$</li>
-<li>Since a baryon is antisymmetric, its color being singlet means the rest of its wavefunction is symmetric</li>
-<li>natural occuring particles are color singlets because suppose it's a colorless non singlet then a SU(3) color transformation can give it a color</li>
-</ul><span class="icon"></span></div>
-</details>
-</details>
-<details>
-<summary style="margin-left:60px;">
-6-the feynman calculus<span class="icon"></span></summary>
-<div style="margin-left:90px;">
-<a href="(particles)griffiths/6-the feynman calculus/griffiths_6_7.pdf" target="_blank">exercise 6.7.pdf</a></div>
-<div style="margin-left:90px;">
-<a href="(particles)griffiths/6-the feynman calculus/griffiths_6_8.pdf" target="_blank">exercise 6.8.pdf</a></div>
-<details>
-<summary style="margin-left:90px;">
-griffiths_6_notes.md<span class="icon"></span></summary>
-<div style="margin-left:120px;border: 3px dashed black; background-color:LightGray;">
-<p>There are 3 experimental probes of elementary particle interactions: bound states, decays, scattering.</p>
-<h1>decaying</h1>
-<ul>
-<li>We can not hope to calculate the lifetime of any particular particle, rather, we calculate the mean lifetime $\tau$ of a bunch of particles. The critical parameter, then, is the <strong>decay rate</strong> $\Gamma$, the probability per unit time that any muon will decay, for example.  </li>
-<li>A short derivation finds the mean lifetime $\tau$ is $\tau = \frac{1}{\Gamma}$</li>
-<li>The <strong>branching ratio</strong> is the fraction of all particles of a given type that decay by each mode.</li>
-<li>For decays, the essential problem is to calculate the decay rate $\Gamma$, then it would be easy to compute everything else</li>
-</ul>
-<h1>Scattering</h1>
-<ul>
-<li>The parameter of interest is the cross-sectional $\sigma$</li>
-<li><strong>resonance</strong>: a special energy at which the particles involved 'like' to interact, forming a short-lived semibound state before breaking apart. resonance produces bumps in the graph of $\sigma$ v.s. $E$. </li>
-</ul>
-<h1>The golden rule</h1>
-<ul>
-<li>the amplitude contains all the <strong>dynamical</strong> information, we calculate it by evaluating the feynman diagrams.</li>
-<li>the phase space factors contains only the <strong>kinematical</strong> information, it depends on the masses, energies, and momenta of the participant. </li>
-<li>The transition rate for a given process is determined by the amplitude and phase space according to <strong>Fermi's golden rule</strong>:
-$$\text{transition rate} = \frac{2\pi}{\hbar}|\mathscr{M}|^2\times (\text{phase space})$$</li>
-</ul><span class="icon"></span></div>
-</details>
-</details>
-<details>
-<summary style="margin-left:60px;">
-7-quantum electrodynamics<span class="icon"></span></summary>
-<div style="margin-left:90px;">
-<a href="(particles)griffiths/7-quantum electrodynamics/griffiths_7_9.pdf" target="_blank">exercise 7.9.pdf</a></div>
-<div style="margin-left:90px;">
-<a href="(particles)griffiths/7-quantum electrodynamics/griffiths_7_10.pdf" target="_blank">exercise 7.10.pdf</a></div>
-<div style="margin-left:90px;">
-<a href="(particles)griffiths/7-quantum electrodynamics/griffiths_7_25.pdf" target="_blank">exercise 7.25.pdf</a></div>
-<div style="margin-left:90px;">
-<a href="(particles)griffiths/7-quantum electrodynamics/griffiths_7_26.pdf" target="_blank">exercise 7.26.pdf</a></div>
-<div style="margin-left:90px;">
-<a href="(particles)griffiths/7-quantum electrodynamics/griffiths_7_28.pdf" target="_blank">exercise 7.28.pdf</a></div>
-<div style="margin-left:90px;">
-<a href="(particles)griffiths/7-quantum electrodynamics/griffiths_7_30.pdf" target="_blank">exercise 7.30.pdf</a></div>
-<div style="margin-left:90px;">
-<a href="(particles)griffiths/7-quantum electrodynamics/griffiths_7_34%3F.pdf" target="_blank">exercise 7.34?.pdf</a></div>
-<div style="margin-left:90px;">
-<a href="(particles)griffiths/7-quantum electrodynamics/griffiths_7_38%3F.pdf" target="_blank">exercise 7.38?.pdf</a></div>
-<details>
-<summary style="margin-left:90px;">
-griffiths_7_notes.md<span class="icon"></span></summary>
-<div style="margin-left:120px;border: 3px dashed black; background-color:LightGray;">
-<ul>
-<li>[ ] renormalization</li>
-</ul>
-<h1>the dirac equation</h1>
-<ul>
-<li>in nonrelativistic qm, particles are described by the schrodinger equation, in relativistic qm, particles of spin 0 are described by the KG equation, particles of spin 1/2 are described by the dirac equation, and particles of spin 1 are described by the proca equation.</li>
-<li>the derivation of dirac's equation involves first 'factor' the enerty momentum relation:
-    $$(p^0)^2 - m^2c^2=(p^0+mc)(p^0-mc)=0$$</li>
-<li>the next brillance of dirac was the idea of making the $\gamma$s matrices instead of just a number, then we find the anticommutator relation (7.15), and some further derivation yields the <strong>dirac equation</strong> (7.20).</li>
-<li>Although the solution to Dirac equation has 4 components, it's not a 4-vector, rather it transforms like 2 spinors.</li>
-</ul>
-<h1>solutions to the dirac equation</h1>
-<ul>
-<li>one solves the dirac equation in the rest frame ($\vec{p} = 0$) and finds 4 independent solutions (7.30).these shall be interpreted as a spin up, spin down electron, and a spin up, spin down antielectron. <strong>this is not a 4 vector</strong>!</li>
-<li>A quick examination of the solutions in (7.30) lets one find that these solutions only propagate in time, but not in space. 
-    The natural next step would be to extend the result at $\vec{p} = 0$ to general 4-momentum of a massive particle. Such planewaves furnish a representation of the corresponding little group.</li>
-<li>The above pursuit would yield the momentum space dirac equation, which then leads to the solution in (7.43), which after conventional normalization is written as (7.46)</li>
-<li>you might guess that $u^{(1)}$ describes an electron with spin up, and $u^{(2)}$ with spin down. but no. if we orient the $z$ axis so that it points along the direction of motion ($\vec{p}_x=\vec{p}_y = 0$), then $u^{(1)},u^{(2)},u^{(3)},u^{(4)}$ would correspond to the eigenstate of $S_z$ for electron spin up, electron spin down, antielectron spin up, antielectron spin down, respectively. </li>
-</ul>
-<h1>bilinear covariants</h1>
-<ul>
-<li>griffiths makes an argument that <strong>the dirac spinor aint 4-vector</strong> (7.52-57)</li>
-<li>showed a way to construct scalar with dirac spinor (7.58-60), and asked is this a scalar or pseudoscalar?
-    \footnote{the difference between scalar and pseudoscalar is how they transform under parity} It is a scalar (7.61-62). But is there another way to construct pseudoscalar out of dirac spinors? Yes, using $\gamma_5 = i \gamma^0\gamma^1\gamma^2\gamma^3$ (7.63-7.67)</li>
-<li>besides scalars and pseudoscalars, we can also construct vectors, pseudovectors, and antisymmetric tensor with dirac spinors (7.68-69)</li>
-</ul>
-<h1>the photon</h1>
-<ul>
-<li>states the field forms of the maxwell equations (7.70), finds the index notation form of the inhomogeneous maxwell equations (7.70-74)</li>
-<li>for the homogeneous maxwell equations, introduce a vector potential $\vec{A}$, which gives us an index notation form of the homogeneous equations in terms of the potential (7.75-7.79), and notice that we can also write the inhomogeneous maxwell equations with the potential rather than field (7.80)
--[❤️] we have two ways to write maxwell's equations, in EM fields, or in a single potential $A$. \href{https://en.wikipedia.org/wiki/Maxwell%27s_equations#Alternative_formulations}{wikipedia}</li>
-<li>in classical electrodynamics, the fields are the physical entities while the potentials are mathematical constructs that automatically satisfy the homogeneous equations. the subtlety in the potential formulations is that is only unique up to a gauge. There is no way to eliminate the gauge ambiguity, so we can either <ul>
-<li>live with the indeterminacy, meaning carrying along spurious degrees of freedom</li>
-<li>impose an additional constraint, which spoils the manifest lorentz covariance of the theory</li>
-</ul>
-</li>
-<li>griffiths choose the coulomb gauge $\nabla \cdot \vec{A} = 0$.</li>
-<li>in qed, the potential $A^\mu$ becomes the wave function of the photon, and we have a eqm for this photon: $\Box A^\mu = 0 $. solving this equation yields $A^\mu(x) = a e^{-(i/\hbar)p\cdot x}\epsilon^\mu(p)$, which can be interpreted as a wave propagation (exponential part) of some initial condition $\epsilon^\mu(p)$ at $x = 0$, this $\epsilon^\mu(p)$ is called the <strong>polarization vector</strong>.</li>
-<li>some further derivation indicates the polarization vector is orthogonal to the direction of the momentum vector, so we say a free photon is <strong>transversely polarized</strong>, for this reason the coulomb gauge is also called <strong>transverse gauge</strong>. </li>
-</ul>
-<h1>casimir's trick and the trace theorems</h1>
-<p>the feynman rules stated for qed works with spin, but we often dont care about the spins in actual experiments. In those cases the relevant cross section is an <strong>average</strong> over all initial spin configurations, and <strong>sum</strong> over all final spin configurations. </p><span class="icon"></span></div>
-</details>
-</details>
-<details>
-<summary style="margin-left:60px;">
-8-electrodynamics of quarks and hadrons<span class="icon"></span></summary>
-<div style="margin-left:90px;">
-<a href="(particles)griffiths/8-electrodynamics of quarks and hadrons/griffiths_8_1.pdf" target="_blank">exercise 8.1.pdf</a></div>
-<div style="margin-left:90px;">
-<a href="(particles)griffiths/8-electrodynamics of quarks and hadrons/griffiths_8_2.pdf" target="_blank">exercise 8.2.pdf</a></div>
-</details>
-<details>
-<summary style="margin-left:60px;">
-9-quantum chromodynamics<span class="icon"></span></summary>
-<div style="margin-left:90px;">
-<a href="(particles)griffiths/9-quantum chromodynamics/griffiths_9_3.pdf" target="_blank">exercise 9.3.pdf</a></div>
-<div style="margin-left:90px;">
-<a href="(particles)griffiths/9-quantum chromodynamics/griffiths_9_4.pdf" target="_blank">exercise 9.4.pdf</a></div>
-<div style="margin-left:90px;">
-<a href="(particles)griffiths/9-quantum chromodynamics/griffiths_9_5.pdf" target="_blank">exercise 9.5.pdf</a></div>
-</details>
-</details>
-<h3 style="margin-left:0px;">
-Solid State Physics<span class="icon"></span></h3>
-<details>
-<summary style="margin-left:30px;">
-Kittel. <i>Intro. to Solid State Physics</i>, 8th ed.<span class="icon"></span></summary>
-<details>
-<summary style="margin-left:60px;">
-1-crystal structure<span class="icon"></span></summary>
-<div style="margin-left:90px;">
-<a href="(sstate)kittel/1-crystal structure/kittel_1_1.pdf" target="_blank">exercise 1.1.pdf</a></div>
-<div style="margin-left:90px;">
-<a href="(sstate)kittel/1-crystal structure/kittel_1_2correction.pdf" target="_blank">exercise 1.2correction.pdf</a></div>
-<div style="margin-left:90px;">
-<a href="(sstate)kittel/1-crystal structure/kittel_1_2x.pdf" target="_blank">exercise 1.2x.pdf</a></div>
-<div style="margin-left:90px;">
-<a href="(sstate)kittel/1-crystal structure/kittel_1_3.pdf" target="_blank">exercise 1.3.pdf</a></div>
-<details>
-<summary style="margin-left:90px;">
-kittel_1_notes.md<span class="icon"></span></summary>
-<div style="margin-left:120px;border: 3px dashed black; background-color:LightGray;">
-<p>I. Crystal structure, symmetry and types of chemical bonds. (Chapter 1)
-• The crystal lattice
-• Point symmetry
-• The 32 crystal classes
-• Types of bonding (covalent, ionic, metallic bonding; hydrogen and van der Waals).</p>
-<p>• II. Diffraction from periodic structures (Chapter 2)
-• Reciprocal lattice; Brillouin zones
-• Laue condition and Bragg law
-• Structure factor; defects
-• Methods of structure analysis
-• HRXRD. Experimental demonstration in the Physics Lab using Bruker D8 Discover XRD</p>
-<p>• III. Lattice vibrations and thermal properties (Chapter 3)
-• Elastic properties of crystals; elastic waves
-• Models of lattice vibrations
-• Phonons
-• Theories of phonon specific heat; thermal conduction.
-• Anharmonicity; thermal expansion
-• Raman Scattering by phonons. Experimental demonstration in the Physics Lab using Ar-laser/SPEX 500M, CCD –based Raman Scattering setup</p>
-<p>• IV. Electrons in metals (Chapters 4–5)
-• Free electron theory of metals
-• Fermi Statistics
-• Band theory of solids</p>
-<p>• V. Semiconductors (Chapters 6–7)
-• Band structure.
-• Electron statistics; carrier concentration and transport; conductivity; mobility
-• Impurities and defects
-• Magnetic field effects: cyclotron resonance and Hall effect
-• Optical properties; absorption, photoconductivity and luminescence
-• Basic semiconductor devices
-• Photoluminescence. Experimental demonstration in the Physics Lab using Nd:YAG laser/SPEX –based Photoluminescence setup</p>
-<p>• VI. Dielectric properties of solids (Chapters 8)
-• Dielectric constant and polarizability (susceptibility)
-• Dipolar polarizability, ionic and electronic polarizability
-• Piezoelectricity; pyro- and ferroelectricity
-• Light propagation in solids</p>
-<p>• VII. Magnetism (Chapters 9)
-• Magnetic susceptibility
-• Classification of materials; diamagnetism, paramagnetism
-• Ferromagnetism and antiferromagnetism
-• Magnetic resonance
-• Multiferroic Materials
-• VIII. Superconductivity (Chapter 10)</p><span class="icon"></span></div>
-</details>
-</details>
-<details>
-<summary style="margin-left:60px;">
-2-wave diffraction and the reciprocal lattice<span class="icon"></span></summary>
-<div style="margin-left:90px;">
-<a href="(sstate)kittel/2-wave diffraction and the reciprocal lattice/kittel_2_1a correction.pdf" target="_blank">exercise 2.1a correction.pdf</a></div>
-<div style="margin-left:90px;">
-<a href="(sstate)kittel/2-wave diffraction and the reciprocal lattice/kittel_2_1x.pdf" target="_blank">exercise 2.1x.pdf</a></div>
-<div style="margin-left:90px;">
-<a href="(sstate)kittel/2-wave diffraction and the reciprocal lattice/kittel_2_2ab.pdf" target="_blank">exercise 2.2ab.pdf</a></div>
-<div style="margin-left:90px;">
-<a href="(sstate)kittel/2-wave diffraction and the reciprocal lattice/kittel_2_3.pdf" target="_blank">exercise 2.3.pdf</a></div>
-<div style="margin-left:90px;">
-<a href="(sstate)kittel/2-wave diffraction and the reciprocal lattice/kittel_2_4.pdf" target="_blank">exercise 2.4.pdf</a></div>
-<details>
-<summary style="margin-left:90px;">
-kittel_2_notes.md<span class="icon"></span></summary>
-<div style="margin-left:120px;border: 3px dashed black; background-color:LightGray;">
-<ul>
-<li>
-<p>ordinary optical refraction happens at 500A in crystals</p>
-</li>
-<li>
-<p>bragg diffraction (crystal diffraction) can be used to select a special spectrum of beam</p>
-</li>
-<li>
-<p>bragg law: $2d \sin{\theta} = n \lambda$, this is the recurring theme of this chapter and will be echoed in the next chapter</p>
-</li>
-</ul>
-<h1>reciprocal lattice and fourier</h1>
-<ul>
-<li>
-<p>in the fourer expansion of a function on the lattice, periodicity only allows terms with the same periodicity as the lattice in phase space. This defines the <strong>reciprocal</strong> lattice. Thus we can say the function is expanded on the reciprocal lattice in phase space:
-$$n(x) = \sum_p n_p \exp{i \frac{2 \pi p}{a} x}$$
-where $\frac{2 \pi p}{a}$ is a point in the <em>reciprocal lattice</em>, with dimension of inverse distance. </p>
-</li>
-<li>
-<p>periodicity is the realm of fourier analysis</p>
-</li>
-<li>
-<p>If $\vec{a}_1, \vec{a}_2, \vec{a}_3$ are primitive vectors of the crystal lattice, the primitive vectors of the reciprocal lattice $\vec{b}_1, \vec{b}_2, \vec{b}_3$ are give by 
-$$\vec{b}_i = 2 \pi \frac{\vec{a}_j \times \vec{a}_k }{\vec{a}_i \cdot \vec{a}_j \times \vec{a}_k}$$</p>
-</li>
-<li>
-<p>the diffraction pattern of the crystal is a map of the reciprocal lattice</p>
-</li>
-<li>a reciprocal lattice vector $G=h b_1 + kb_2 + lb_3$ is normal to the plane (hkl) planes of direct lattice</li>
-</ul>
-<h1>brillouin zones</h1>
-<ul>
-<li>a brillouin zone is defined as a wigner-seitz primitive cell in the reciprocal lattice</li>
-<li>
-<p>only waves whose wavevector $\vec{k}$ drawn from the origin terminates on the surface of the brillouin zone can be diffracted by the crystal</p>
-</li>
-<li>
-<p>sc has reciprocal of sc</p>
-</li>
-<li>bcc and fcc are reciprocals of each other</li>
-</ul>
-<h1>some fourier analysis</h1>
-<ul>
-<li>by assuming refraction amplitude proportional to electron density, the total amplitude of the scattered wave in direction $k'$ from original wave in direction $k$ can be written as a function modulo the lattice with a function of the directions, such as below
-$$n(\vec{r})dV \times \exp{[i(\vec{k} - \vec{k}') \cdot \vec{r}]}$$
-scattering amplitude for crystal with $N$ cells can be written as 
-$$F_G = N \int_{cell} dV n(\vec{r}) \exp{-i\vec{G} \cdot \vec{r}} = N s_G$$
-where $s_G$ is the structure factor. </li>
-<li>the structure factor contains single-cell information </li>
-<li>atomic form factor is integrated over all space</li>
-</ul>
-<h1>TODO:</h1>
-<ul>
-<li>understand structure factor and form factor</li>
-</ul><span class="icon"></span></div>
-</details>
-</details>
-<details>
-<summary style="margin-left:60px;">
-3-crystal binding and elastic constants<span class="icon"></span></summary>
-<div style="margin-left:90px;">
-<a href="(sstate)kittel/3-crystal binding and elastic constants/kittel_3_1.pdf" target="_blank">exercise 3.1.pdf</a></div>
-<div style="margin-left:90px;">
-<a href="(sstate)kittel/3-crystal binding and elastic constants/kittel_3_2.pdf" target="_blank">exercise 3.2.pdf</a></div>
-<div style="margin-left:90px;">
-<a href="(sstate)kittel/3-crystal binding and elastic constants/kittel_3_3.pdf" target="_blank">exercise 3.3.pdf</a></div>
-<div style="margin-left:90px;">
-<a href="(sstate)kittel/3-crystal binding and elastic constants/kittel_3_5.pdf" target="_blank">exercise 3.5.pdf</a></div>
-<div style="margin-left:90px;">
-<a href="(sstate)kittel/3-crystal binding and elastic constants/kittel_3_extra1.pdf" target="_blank">exercise 3.extra1.pdf</a></div>
-<details>
-<summary style="margin-left:90px;">
-kittel_3_notes.md<span class="icon"></span></summary>
-<div style="margin-left:120px;border: 3px dashed black; background-color:LightGray;">
-<ul>
-<li>inert gas ~ noble gas ~ rare gas</li>
-</ul>
-<h1>inert bonds</h1>
-<ul>
-<li><strong><em>van der waal potential ~ london potential ~ induced dip-dip potental</em></strong>. It is the principal attractive interaction in inert gas. The othe major contribution to inert gas interactions is <em>pauli exclusive principle</em>, repulsive. These two forces add to give lennard jones.</li>
-<li>
-<p><strong>lennard jones potential</strong>: a combination of induced-dipole (or van der waal, or london) amd pauli exclusion principle
-$$U(R) = 4 \epsilon [(\frac{\sigma}{R})^{12} - (\frac{\sigma}{R})^6]$$</p>
-</li>
-<li>
-<p>if we neglect the kinetic energy of the inert gas atoms, the cohesive energy of an inert gas crystal is given by summing the <strong>lennard-jones</strong> potential over all pairs of atoms in the crystal.</p>
-</li>
-</ul>
-<h1>ionic crystals</h1>
-<ul>
-<li>the interaction of ionic crystals are largely coulomb, van der waal in ionic crystals only make contribute 1-2% in ionic crystals</li>
-<li>the name for electrostatic energy in ionic crystals is called <strong>madelung energy</strong>, because madelung was the first one to compute complicated sums over whole lattice of electrostatics</li>
-<li>the madelung constant is a sum of inverse of lattice separation over whole lattice, it decouples lattice structure in cohesive energy</li>
-<li>ionic bond examples: NaCl, CsCl</li>
-</ul>
-<h1>covalent bonds</h1>
-<ul>
-<li>covalent bonds consists of two antisymmetric electrons</li>
-<li>
-<p>in metals, bonds are formed due to lowering of valence electron energy as compared with free atoms without bonding</p>
-</li>
-<li>
-<p><strong>hydrogen bonds</strong>: an atom of H is attracted to 2 other atoms. h-bond is important for th einteraction between H2O molecules and is responsible together with the electrostatic attraction of edip for water and ice</p>
-</li>
-<li>
-<p>the elastic properties of a crystal is viewed by consideration of it as a continuous homogeneous medium, rather than a lattice. This is valid for elastic waves with $\lambda$ longer than E-6 cm or E12 Hz.</p>
-</li>
-</ul><span class="icon"></span></div>
-</details>
-</details>
-<details>
-<summary style="margin-left:60px;">
-4-phonons I crystal vibrations<span class="icon"></span></summary>
-<div style="margin-left:90px;">
-<a href="(sstate)kittel/4-phonons I crystal vibrations/kittel_4_1.pdf" target="_blank">exercise 4.1.pdf</a></div>
-<div style="margin-left:90px;">
-<a href="(sstate)kittel/4-phonons I crystal vibrations/kittel_4_4.pdf" target="_blank">exercise 4.4.pdf</a></div>
-<details>
-<summary style="margin-left:90px;">
-kittel_4_notes.md<span class="icon"></span></summary>
-<div style="margin-left:120px;border: 3px dashed black; background-color:LightGray;">
-<ul>
-<li>
-<p>when a wave propagates in a crystal, we model it with entire planes of atoms moving in phase with displacements either parallel or perpendicular to wave vector (longitudinal/transverse)</p>
-</li>
-<li>
-<p>the author builds a model using hook's law assuming contributions from planes after the most two closest planes vanish, then solved as a coupled oscillator. The dispersion relation is then obtained</p>
-</li>
-<li>
-<p>only the elastic waves in the first brillouin zone are physically significant, for those outside such can be lattice-transformed into the first brillouin zone. </p>
-</li>
-<li>
-<p>at the boundaries of the first brillouin zone, the solution to the wave is not traveling, i.e. standing. Recall that for refraction the boundaries on the first brillouin zone give the only wavevectors that can refract. </p>
-</li>
-<li>
-<p>zero point energy $\approx$ GND state energy</p>
-</li>
-<li>
-<p>wave-like solutions do not exist for certain frequencies in polyatomic lattices.
-for diatomic, this is between $\sqrt{2C/M_1}$ and $\sqrt{2C/M_2}$. There is a frequency gap at the boundary $K_{max} = \pm \frac{\pi}{a}$ of first brillouin zone.</p>
-</li>
-</ul>
-<p>TODO:
-- [x] understand the connection between elastic waves, refraction, bragg law, first brillouin zone. 
-When bragg condition is satisfied, traveling waves dont form, so we obtain standing waves that oscillate back and forth</p><span class="icon"></span></div>
-</details>
-</details>
-<details>
-<summary style="margin-left:60px;">
-6-free electron fermi gas<span class="icon"></span></summary>
-<div style="margin-left:90px;">
-<a href="(sstate)kittel/6-free electron fermi gas/kittel_6_1.pdf" target="_blank">exercise 6.1.pdf</a></div>
-<div style="margin-left:90px;">
-<a href="(sstate)kittel/6-free electron fermi gas/kittel_6_2.pdf" target="_blank">exercise 6.2.pdf</a></div>
-<div style="margin-left:90px;">
-<a href="(sstate)kittel/6-free electron fermi gas/kittel_6_3.pdf" target="_blank">exercise 6.3.pdf</a></div>
-<details>
-<summary style="margin-left:90px;">
-kittel_6_notes.md<span class="icon"></span></summary>
-<div style="margin-left:120px;border: 3px dashed black; background-color:LightGray;">
-<ul>
-<li>the free electron model have the valence electrons in metals move freely through the volume of the metal</li>
-<li>free electron model most useful when we focus on kinematic properties of conduction electrons</li>
-<li>[ ] 3s conduction band</li>
-<li>electrons in metals can have mean free path of $10^8$ interatomic spacing. This observation is incompatible with treating particles as solid balls, so wave-theory (QM) is needed. Further, infrequency of electron-electron scattering may be interpreted by pauli xclu principle in free electron fermi gas model.</li>
-</ul>
-<h1>energy levels in 1D</h1>
-<ul>
-<li><strong>orbital</strong> denotes solutions to the wave equation for a system of only 1 electron. The orbital formalism is relevant for when we treat N particle wave func as N x 1 particle wave func</li>
-<li>uses ISW model</li>
-<li>pauli xclu pcpl allows only one e- per orbital</li>
-<li>pauli xclu pcpl demand ISW orbitals are filled from bottom up in pairs</li>
-<li>fermi energy is the energy of topmost filled level, for N e- in GND state: 
-$$\epsilon_F \frac{\hbar^2}{2m}(\frac{N \pi}{2L})^2$$</li>
-</ul>
-<h1>effect of T on the fermi-dirac dist</h1>
-<ul>
-<li>fermi-dirac dist gives the probability that an orbital at energy $\epsilon$ will be occupied in an ideal electorn gas in thermal equilibrium: 
-$$f(\epsilon)= \frac{1}{\exp{[(\epsilon-\mu(T))/k_B T]} + 1}$$</li>
-<li>By imposing $f(\epsilon)$ be binary at $T = 0$, we find $\mu(T=0) = \epsilon_F$</li>
-<li>The $\epsilon - \mu &gt;&gt; k_B T$ is the classical limit (giving Boltzmann Maxwell dist)</li>
-</ul>
-<h1>free electron gas in 3D</h1>
-<ul>
-<li>3D generalization of 1D is straightforward (see Kittel/Griffiths/Glazer&amp;Wark/etc.)</li>
-<li>By transitioning to $k$ space, we obtain the density of state and find fermi energy $k_F = (\frac{3\pi^2N}{V})^{1/3}$, $\epsilon_F = \frac{\hbar^2}{2m}(\frac{3\pi^2 N }{V})^{2/3}$</li>
-<li>Density of state: 
-$$D(\epsilon) = \frac{dN}{d\epsilon} = \frac{V}{2\pi^2}( \frac{2m}{\hbar^2} )^{3/2}\epsilon^{1/2}$$</li>
-</ul>
-<h1>heat capacity of the electron gas</h1>
-<ul>
-<li>classical mechanics predicts $\frac{3}{2}k_B$, yet the actual heat capacity is 0.01 of this value</li>
-<li>this is due to electrons below fermi energy being 'locked'</li>
-<li>only a fraction $T/T_F$ can be excited at $T$, giving energy O(kT)</li>
-<li>At room temp, fermi temperature is approximately $5\times10^4$ K</li>
-</ul>
-<h1>experimental heat capacity of metals</h1>
-<ul>
-<li>debye + free electron gas gives
-$$C = \gamma T + AT^3$$ this $\gamma$ is given the name of <strong>sommerfeld parameter</strong></li>
-<li>thermal effective mass measures discrepancy between observed and actual values of $\gamma$. This discrepancy is due to other interactions besides pauli exclu, lattice inperfection, phonon scattering, etc.</li>
-</ul>
-<h1>electrical conductivity &amp; Ohm</h1>
-<ul>
-<li>use mv = $\hbar k$, a classical interperetation of electorn quantum momentum + lorentz force law</li>
-<li>in the absence of collisions, the fermi sphere accelerates, But the collisions and lattice imperfections introduce a 'frag'</li>
-<li>The collisions are measured with $\tau$, 'collision time'</li>
-</ul><span class="icon"></span></div>
-</details>
-</details>
-<details>
-<summary style="margin-left:60px;">
-7-energy bands<span class="icon"></span></summary>
-<div style="margin-left:90px;">
-<a href="(sstate)kittel/7-energy bands/kittel_7_1ab.pdf" target="_blank">exercise 7.1ab.pdf</a></div>
-<div style="margin-left:90px;">
-<a href="(sstate)kittel/7-energy bands/kittel_7_3.pdf" target="_blank">exercise 7.3.pdf</a></div>
-<details>
-<summary style="margin-left:90px;">
-kittel_7_notes.md<span class="icon"></span></summary>
-<div style="margin-left:120px;border: 3px dashed black; background-color:LightGray;">
-<ul>
-<li>free electron model fails to disitinguish metals, semimetals, semiconductors, insulators; positive hall coeff. etc. </li>
-<li><strong>energy bands/gaps</strong> = gaps in spectrum where no electron is permitted</li>
-<li>explanation of bands require periodicity potential to be taken into account</li>
-</ul>
-<h1>nearly free electron model</h1>
-<ul>
-<li>treat periodic potential as perturbation</li>
-<li>bragg reflection occurs for waves in crystals, electorns are waves so can reflect braggly, giving gaps</li>
-</ul>
-<h1>bloch functions</h1>
-<ul>
-<li><strong>bloch functions:</strong> solutions of the schro for a periodic potential must be of form</li>
-</ul>
-<p>$$\psi_{\vec{k}} (\vec{r}) = u_{\vec{k}} (\vec{r}) \exp[ i \vec{k} \cdot \vec{r}]$$ </p>
-<blockquote>
-<p>griffiths has a section on bloch's theorem in his qm book
-- bloch functions can be decomposed into a sum of traveling waves</p>
-</blockquote><span class="icon"></span></div>
-</details>
-</details>
-<details>
-<summary style="margin-left:60px;">
-notes.md<span class="icon"></span></summary>
-<div style="margin-left:90px;border: 3px dashed black; background-color:LightGray;">
-<ul>
-<li>ordinary optical refraction happens at 500A in crystals</li>
-<li>braggs diffraction (crystal diffraction) can be used to select a special spectrum of beam</li>
-<li>hydrogen bonds: an atom of H is attracted to 2 other atoms. h-bond is important for th einteraction between H2O molecules and is responsible together with the electrostatic attraction of edip for water and ice</li>
-<li>
-<p>the elastic properties of a crystal is viewed by consideration of it as a continuous homogeneous medium, rather than a lattice. This is valid for elastic waves with $\lambda$ longer than E-6 cm or E12 Hz.</p>
-</li>
-<li>
-<p>in the fourer expansion of a function on the lattice, periodicity only allows terms with the same periodicity as the lattice in phase space. This defines the reciprocal lattice. Thus we can say the function is expanded on the reciprocal lattice in phase space:
-$$n(x) = \sum_p n_p \exp{i \frac{2 \pi p}{a} x}$$
-where $\frac{2 \pi p}{a}$ is a point in the reciprocal lattice, with dimension of inverse distance. </p>
-</li>
-<li>If $\vec{a}_1, \vec{a}_2, \vec{a}_3$ are primitive vectors of the crystal lattice, the primitive vectors of the reciprocal lattice $\vec{b}_1, \vec{b}_2, \vec{b}_3$ are give by 
-$$\vec{b}_i = 2 \pi \frac{\vec{a}_j \times \vec{a}_k }{\vec{a}_i \cdot \vec{a}_j \times \vec{a}_k}$$</li>
-<li>the diffraction pattern of the crystal is a map of the reciprocal lattice</li>
-<li>by assuming refraction amplitude proportional to electron density, the total amplitude of the scattered wave in direction $k'$ from original wave in direction $k$ can be written as a function modulo the lattice with a function of the directions, such as below
-$$n(\vec{r})dV \times \exp{[i(\vec{k} - \vec{k}') \cdot \vec{r}]}$$
-scattering amplitude for crystal with $N$ cells can be written as 
-$$F_G = N \int_{cell} dV n(\vec{r}) \exp{-i\vec{G} \cdot \vec{r}} = N s_G$$
-where $s_G$ is the structure factor. </li>
-<li>bcc and fcc are reciprocals of each other</li>
-</ul>
-<p>-van der waal potential ~ london potential ~ induced dip-dip potental. It is the principal attractive interaction in inert gas. The othe major contribution to inert gas interactions is pauli exclusive principle, repulsive. 
-- inert gas ~ noble gas ~ rare gas</p>
-<h6></h6>
-<ul>
-<li>inert gas ~ noble gas ~ rare gas</li>
-</ul>
-<p>-<em>van der waal potential ~ london potential ~ induced dip-dip potental</em>. It is the principal attractive interaction in inert gas. The othe major contribution to inert gas interactions is <em>pauli exclusive principle</em>, repulsive. These two forces add to give lennard jones.</p>
-<ul>
-<li>
-<p>lennard jones potential: a combination of induced-dipole (or van der waal, or london) amd pauli exclusion principle
-$$U(R) = 4 \epsilon [(\frac{\sigma}{R})^{12} - (\frac{\sigma}{R})^6]$$</p>
-</li>
-<li>
-<p>if we neglect the kinetic energy of the inert gas atoms, the cohesive energy of an inert gas crystal is given by summing the lennard-jones potential over all pairs of atoms in the crystal.</p>
-</li>
-<li>
-<p>hydrogen bonds: an atom of H is attracted to 2 other atoms. h-bond is important for th einteraction between H2O molecules and is responsible together with the electrostatic attraction of edip for water and ice</p>
-</li>
-<li>
-<p>the elastic properties of a crystal is viewed by consideration of it as a continuous homogeneous medium, rather than a lattice. This is valid for elastic waves with $\lambda$ longer than E-6 cm or E12 Hz.</p>
-</li>
-</ul>
-<h6></h6><span class="icon"></span></div>
-</details>
-</details>
-<hr></body>
+<hr></div>
+</body>
 </html>
