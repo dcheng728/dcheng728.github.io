@@ -192,14 +192,12 @@ body {
 <h1>Davidson Cheng's Physics Study</h1>\n
 
 <p>
-        Between 2023 and 2024, I was unable to enroll in a formal physics program.<br>
-        During that time I self-studied physics using established textbooks.<br>
-        This page served to demonstrate my proficiency in the subject in lieu of an institutional transcript.<br>
-        It contains my handwritten solutions (309 in total), signed and dated.<br><br>
-        I later enrolled in the physics MSc at Imperial College London in 2024.
+    Between 2023 and 2024, I was not enrolled in a formal physics program.<br>
+    During this period, I self-studied physics using established textbooks.<br>
+    This page serves to demonstrate my proficiency in the subject in lieu of an institutional transcript.<br>
+    It contains 309 handwritten, signed, and dated solutions to textbook exercises.<br><br>
+    In 2024, I enrolled in the MSc Physics program at Imperial College London.
 </p>
-
-<p>Contact: dcheng728@gmail.com</p>
 
 
 <hr>
