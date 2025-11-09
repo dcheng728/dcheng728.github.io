@@ -1,0 +1,293 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <title>Chang "Davidson" Cheng</title>
+        <meta charset=utf-8>
+        <link rel="stylesheet" type="text/css" href="style.css">
+    </head>
+
+    <style>
+        table, th, td {
+          border:1px solid black;
+          border-collapse: collapse;
+        }
+    </style>
+
+    <div class="sidenav">
+        <a href="index.html">Homepage</a>
+        <a href="publications+manuscripts.html">Publications & Manuscripts</a>
+        <a href="researchHighlights.html">Research Highlights</a>
+        <a href="personalProjects.html">Personal Projects</a>
+    </div>
+
+    <body id="homeBody">
+        <script src="stickgame.js"></script>
+    
+        <div id="homeTextDiv" style="margin-left:0%; margin-top:0%; line-height:120%">
+
+            <p class="publicationHeading">Personal Projects</p>
+            <hr>
+
+
+            <div style="width:100%; display:inline-block; ">
+
+                <div style = 'float:left; width: 20%;'>
+                    <div style = 'position: fixed;line-height:150%'>
+                        <div id="toc_container">
+                            <p class="toc_title">Contents</p>
+                            <ul class="toc_list">
+                              <li><a href="#miners_game_section">Miners' Game</a></li>
+                              <li><a href="#lol_section">Deep Learning in Video Game</a>
+                              <li><a href="#rubik_section">Rubik's Cube Scanner + Solver</a></li>
+                              <li><a href="#rps_section">Rock Paper Scissors Machine</a></li> 
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+
+
+
+                <div style = 'float:right; width:70%'>
+                    <h2 id="miners_game_section">The Miners' Game</h2>
+
+                    <p>
+                        Here is something that came up while I am doing my research on redistricting. 
+                        I made this HTML game called "Miners' Game".
+                        This is a two-player game where both players add a number between 1 and "max move" when it is their turn. 
+                        The game ends when the running sum reaches "target sum", and the last player that added their number wins.
+                        Give it a try!
+                    </p>
+
+                    <center>
+                        <div id="game" style ="font-size: 11pt; background-color: #D6EAF8;"">
+                            <div style="width:100%; display:inline-block; line-height: 20%; width: 500px; height: 90px; margin-top: 10px; border: 1px solid black; background-color: #AED6F1">
+
+                                <div style = 'float:left; width:35%; text-align: left;'>
+
+                                </div>
+
+
+                                <div style = 'float:right; width:60%; height: 85px; margin-top: 1px; margin-right: 10px; border: 0px solid black;'>
+                                    <div>
+                                        <div style="width:100%; display:inline-block; line-height: 50%">
+                                        
+                                            <div style = 'float:left; width:40%; line-height: 20%; margin-top:0px'>
+                                                <h5 style="margin-left: 0%;">New Target:</h5> 
+                                                <h5 style="margin-top: -3%; margin-left:0%;">New max move:</h5>
+                                                <h5 style="margin-top: -3%; margin-left:0%;">First Player:</h5>
+                                            </div>
+            
+                                            <div style = 'float:left; width:15%; line-height:150%; margin-top: 10px; '>
+                                                <input id="newTarget" style="margin-top: 0%; width: 30px; height: 10px;"><br>
+                                                <input id="newMax" style="margin-top: 0%; width: 30px; height: 10px;"><br>
+
+                                                <select id="firstPlayerDropdown" style="width:40px">
+                                                    <option value="0"></option>
+                                                    <option value="1">Me</option>
+                                                    <option value="2">Computer</option>
+                                                    
+                                                  </select>
+                                            </div>
+            
+                                            <div style = 'float:right; width:35%; line-height:180%; margin-top: 2px; '>
+                                                <button onclick="newGame()" id = "newGameButton" style="margin-left: 0%;">Custom<br>New Game</button><br>
+                                                <button onclick="randNewGame()" id = "randomNewGameButton" style="margin-left: 0%;">Random <br> New Game</button>
+
+
+                                            </div>
+                                        
+                                        </div>
+
+
+
+                                    </div>
+
+
+
+                                </div>
+
+
+                            </div>
+
+                            <hr>
+
+
+                            <!-- <h5 id="targetSumTxt">Target Sum: 24</h5>
+                            <h5 id="currentSumTxt" style="margin-top: -3%">Current Sum: 0</h5>
+                            <h5 id="mimMaxTxt" style="margin-top: -3%">Min: 1, Max: 5</h5> -->
+
+
+                            <div style="width:100%; height:40px; display:inline-block; ">
+
+                                <div style = 'float:left; width: 30%;'>
+                                    <p id='userTurnTxt'><b>Your Turn</b></p>
+                                </div>
+                
+                                <div style = 'float:left; width: 40%'>
+
+                                </div>
+
+                                <div style = 'float:right; width:30%; text-align:left'>
+
+                                    <img id="thinkingImg" src="media/thinking animation.gif" width="40px" /><br>
+
+                                </div>
+
+                            </div>
+
+                            <div style="width:100%; display:inline-block; ">
+
+                                <div style = 'float:left; width: 30%;'>
+                                    <img src="media/human.png" width="100"/><br>
+
+                                    <input id="userMove" style="margin-top: 0%; width: 50px;">
+                                    <br>
+                                    <button onclick="confirm()" id = "Confirm" style="margin-left: 0%; margin-top: 10px;">Confirm</button>
+
+                                </div>
+                
+                                <div style = 'float:left; width:40%'>
+                                    <h5 id="targetSumTxt" style="margin-left: 0%; margin-top: 30px;">Target Sum: 24</h5> 
+                                    <h5 id="mimMaxTxt" style="margin-left:0%;">Min: 1, Max: 5</h5>
+                                    <h5 id="currentSumTxt" style="margin-left:0%;">Current Sum: 0</h5>
+                                </div>
+
+                                <div style = 'float:right; width:30%'>
+                                    <img src="media/computer.png" width="100"  />
+                                    <p id="computerMoveTxt"></p>
+                                    
+
+                                </div>
+
+                            </div>
+
+                            
+
+                        </div>
+                    </center>
+                    
+                    <p>In some scenarios, multiple agents may be involved in completing the task while the reward can not be distributed fairly by their contribution.
+                        For example, consider two miners have their eyes on a goldmine below their foot. 
+                        The two miners will cooperate to dig a tunnel towards the mine, and they take turns working on the tunnel.
+                        However, the miner that reaches the mine will take away all the gold (or a disproportionate amount). 
+                        How do we expect the two miners will behave?
+                    </p>
+
+                    <center>
+                        <img src="media/two miners.png" width="800"  />
+                        <p>Two miners both want the gold mine, they will work together by taking turns to dig a tunnel to it.</p>
+                    </center>
+
+                    I modeled this scenario using the game above, which is why I call it the Miners' Game. 
+                    I worked out some properties of this game, and implemented a pretty good strategy into the computer player.
+                    If you can identify the optimal strategy in this game, you should be able to win half of the time playing against someone else with the same strategy.
+
+                    <hr>
+                    <h2 id="lol_section">Deep Learning in Video Game</h2>
+                        <p>
+                            This project started in January 2019, when I was very enthuisastic about the video game "League of Legends".
+                            In case you don't know what this game is about, League of Legends is a 5v5 multiplayer online game.
+                            The "minimap" is on the bottom of a player's screen, it provides a lot of macro-information about what the player's teammates and opponents are doing.
+                            Therefore, it is really important to look at the minimap once in a while, but a lot of players often forget.
+                            So I thought, can I create an AI that constantly keeps track of the minimap, and summarize the information for me?
+
+                        </p>
+
+                        <center>
+                            <img src="media/lol example.jpg" width="800"  />
+                            <p>In-game interface of League of Legends.</p>
+                        </center>
+
+                        <p>
+                            I wanted to extract information from the game without hacking the server, which will get me banned.
+                            My idea was to use image recognition, I want an AI to recognize the avatars on the screen and keep track of where my enemies are.
+                            My pipeline begins with a image processing algorithm that extracts the avatars from the minimap image. 
+                            Then individually, the avatar images are passed to a image classification network which will label the avatars, and we know what enemy is where on the map.   
+                            
+                            <center>
+                                <img src="media/classification pipeline.png" width="700"  />
+                                <p>The pipeline for avatar recognition.</p>
+                            </center>
+
+                            <center>
+                                <img src="media/leagueX demo.gif" width="700"  />
+                                <p>Demo of the pipeline running live.</p>
+                            </center>
+
+                            I detailed my approach in two posts on CSDN (in Chinese): 
+                            <a href="https://blog.csdn.net/weixin_42488182/article/details/95088716?spm=1001.2014.3001.5501">part I</a>,
+                            <a href="https://blog.csdn.net/weixin_42488182/article/details/105161123?spm=1001.2014.3001.5501">part II</a>.
+
+                        </p>
+            
+                        <hr>
+            
+                        <h2 id="rubik_section">Rubik's Cube Scanner + Solver</h2>
+                        
+                        
+                        <p>
+                            Rubik's cubes is one of my hobbies. In winter 2018, I wanted to make a program that can solve rubik's cube for those who do not know how.
+                            Fun fact, the maximum minimunm number of steps needed to solve any rubik's cube configuration is called <a href="https://www.cube20.org/">"God's Number"</a>.
+                            It was only recently proven that God's number is 20, and it has only been proven by solving every 46 quintillion configurations of the rubik's cube using a computer.
+                            At the time, there were already plenty of programs that can solve rubik's cubes, but the user have to enter the color of every face of the cube, which is tiring.
+                            So I thought, wouldn't it be nice if my program can scan the facets of the rubik's cube using the webcam, and then solve it for the user?
+                            
+
+                            <center>
+                                <img src="media/rubik demo.gif" width="700"  />
+                                <p>Demo of my rubik's cube scanner + solver.</p>
+                            </center>
+
+                            My program is actively scanning for rubik's cubes in the webcam image, and when it recognizes one, it will read the colors and automatically enter them into the solver.
+                            The solver then finds the solution and displays an animation of how to solve the cube.
+
+                            My source codes are accessible at <a href="https://github.com/dcheng728/Rubik-s-Cube-Scanner-Solver">github</a>, and I wrote a post about this program (in Chinese) at <a href="https://blog.csdn.net/weixin_42488182/article/details/103451877?spm=1001.2014.3001.5501">CSDN</a>.
+
+                        </p>
+
+
+                        <hr>
+
+                        <h2 id="rps_section">Rock Paper Scissors Machine</h2>
+                        <p>
+                            Now days, computers are just beating humans at everythings, chess, GO, even DOTA2. 
+                            How about Rock Paper Scissors? 
+                            The optimal strategy to play Rock Paper Scissors is indeed play randomly, can humans' faith be restored in this classic game?
+                            The answer is NO. In the spring of 2020, I gained access to a <a href="https://www.ultraleap.com/product/leap-motion-controller/">Leap Motion Controller</a>, tool
+                            that can be used to track hand motions. 
+                            I gathered enough data to train a neural network that would recognize the three gestures of Rock Paper Scissors, and used it to play against others. 
+
+                            <center>
+                                <img src="media/rps demo.gif" width="700"  />
+                                <p>Demo of the computer rock paper scissors player.</p>
+                            </center>
+
+                            The program is not actually "predicting" what the human will play next, it is classifying the human's hand motion into one of the three categories, then reacting very quickly.
+                            So technically, the computer is cheating, but does that mean faith in humanity can be restored?
+
+                        </p>
+
+                </div>
+
+            </div>
+
+
+            
+
+            
+           
+
+
+
+
+
+
+        </div>
+
+        
+
+
+
+    </body>
+</html> 
