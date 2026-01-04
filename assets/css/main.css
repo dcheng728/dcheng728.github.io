@@ -143,10 +143,6 @@ main > h1:first-child {
   outline-offset: 2px;
 }
 
-.brand {
-  /* font-weight: 600; */
-  font-size: larger;
-}
 
 
 @media (prefers-reduced-motion: reduce) {
