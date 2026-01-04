@@ -6,7 +6,7 @@ permalink: /physics-study/
 # Physics Self-Study
 
 This page is generated from the `self-study/` folder.
-Last generated: **2026-01-04 15:54 GMT**.
+Last generated: **2026-01-04 16:00 GMT**.
 
 ---
 
@@ -502,7 +502,41 @@ Last generated: **2026-01-04 15:54 GMT**.
 
 ## String Theory
 
-### Polchinski. *String Theory*, vol. 1.
+### Polchinski. *String Theory*, vol. 1 & 2.
+
+- 1-A first look at strings
+  - [1.1a](/self-study/%28string%29polchinski/1-A%20first%20look%20at%20strings/polchinski_1_1a.pdf)
+  - [1.1b](/self-study/%28string%29polchinski/1-A%20first%20look%20at%20strings/polchinski_1_1b.pdf)
+  - [1.2](/self-study/%28string%29polchinski/1-A%20first%20look%20at%20strings/polchinski_1_2.pdf)
+  - [1.3](/self-study/%28string%29polchinski/1-A%20first%20look%20at%20strings/polchinski_1_3.pdf)
+  - [1.4a](/self-study/%28string%29polchinski/1-A%20first%20look%20at%20strings/polchinski_1_4a.pdf)
+
+- 2-Conformal field theory
+  - [2.1a](/self-study/%28string%29polchinski/2-Conformal%20field%20theory/polchinski_2_1a.pdf)
+  - [2.2](/self-study/%28string%29polchinski/2-Conformal%20field%20theory/polchinski_2_2.pdf)
+  - [2.3a](/self-study/%28string%29polchinski/2-Conformal%20field%20theory/polchinski_2_3a.pdf)
+  - [2.4](/self-study/%28string%29polchinski/2-Conformal%20field%20theory/polchinski_2_4.pdf)
+  - [2.5](/self-study/%28string%29polchinski/2-Conformal%20field%20theory/polchinski_2_5.pdf)
+  - [2.6](/self-study/%28string%29polchinski/2-Conformal%20field%20theory/polchinski_2_6.pdf)
+  - [2.7a](/self-study/%28string%29polchinski/2-Conformal%20field%20theory/polchinski_2_7a.pdf)
+  - [2.7b](/self-study/%28string%29polchinski/2-Conformal%20field%20theory/polchinski_2_7b.pdf)
+  - [2.8](/self-study/%28string%29polchinski/2-Conformal%20field%20theory/polchinski_2_8.pdf)
+  - [2.12a](/self-study/%28string%29polchinski/2-Conformal%20field%20theory/polchinski_2_12a.pdf)
+  - [polchinski_2.9](/self-study/%28string%29polchinski/2-Conformal%20field%20theory/polchinski_2.9.pdf)
+
+- 3-The Polyakov path integral
+  - [3.1a](/self-study/%28string%29polchinski/3-The%20Polyakov%20path%20integral/polchinski_3_1a.pdf)
+  - [3.2ab](/self-study/%28string%29polchinski/3-The%20Polyakov%20path%20integral/polchinski_3_2ab.pdf)
+  - [3.3a](/self-study/%28string%29polchinski/3-The%20Polyakov%20path%20integral/polchinski_3_3a.pdf)
+  - [3.4](/self-study/%28string%29polchinski/3-The%20Polyakov%20path%20integral/polchinski_3_4.pdf)
+  - [3.6](/self-study/%28string%29polchinski/3-The%20Polyakov%20path%20integral/polchinski_3_6.pdf)
+
+- 10-Type I and type II superstrings
+  - [10.1a](/self-study/%28string%29polchinski/10-Type%20I%20and%20type%20II%20superstrings/polchinski_10_1a.pdf)
+  - [10.2](/self-study/%28string%29polchinski/10-Type%20I%20and%20type%20II%20superstrings/polchinski_10_2.pdf)
+
+- A-A short course on path integrals
+  - [A.1](/self-study/%28string%29polchinski/A-A%20short%20course%20on%20path%20integrals/polchinski_A_1.pdf)
 
 
 ### 't Hooft. *Introduction to String Theory*.
@@ -510,4 +544,4 @@ Last generated: **2026-01-04 15:54 GMT**.
 
 ---
 
-**Total PDFs linked:** 276
+**Total PDFs linked:** 300

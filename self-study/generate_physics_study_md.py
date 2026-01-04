@@ -18,7 +18,7 @@ BIBLIOGRAPHY: dict[str, str] = {
 	"(qft)schwartz": "Schwartz. *Quantum Field Theory and the Standard Model*.",
 	"(qft)weinberg": "Weinberg. *The Quantum Theory of Fields*.",
 	"(sstate)kittel": "Kittel. *Intro. to Solid State Physics*, 8th ed.",
-	"(string)polchinski": "Polchinski. *String Theory*, vol. 1.",
+	"(string)polchinski": "Polchinski. *String Theory*, vol. 1 & 2.",
 	"(string)thooftstring": "'t Hooft. *Introduction to String Theory*.",
 	"(therst)callen": "Callen. *Thermodynamics and an Intro. to Thermostatistics*, 2nd ed.",
 	"(therst)fermi": "Fermi. *Thermodynamics*.",
