@@ -6,9 +6,8 @@ permalink: /physics-study/
 # Physics Self-Study
 
 This page is generated from the `self-study/` folder.
-Last generated: **2026-01-04 16:21 GMT**.
+**Total PDFs linked:** 302
 
----
 
 ## Classical Mechanics
 
@@ -541,7 +540,13 @@ Last generated: **2026-01-04 16:21 GMT**.
 
 ### G. 't Hooft. *Introduction to String Theory (lecture notes)*.
 
+- 2-The classical string
+  - Exercise 2.1: [pdf](/self-study/%28string%29thooftstring/2-The%20classical%20string/thooftstring_2_1.pdf)
+
+- 3-Open and closed strings
+  - Exercise 3.1: [pdf](/self-study/%28string%29thooftstring/3-Open%20and%20closed%20strings/thooftstring_3_1.pdf)
+
 
 ---
 
-**Total PDFs linked:** 300
+Last generated: **2026-01-04 16:43 GMT**.

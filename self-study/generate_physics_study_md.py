@@ -204,16 +204,15 @@ def generate() -> None:
 		"# Physics Self-Study",
 		"",
 		"This page is generated from the `self-study/` folder.",
-		f"Last generated: **{generated_at}**.",
+		f"**Total PDFs linked:** {counts.pdfs}",
 		"",
-		"---",
 		"",
 	]
 
 	footer = [
 		"---",
 		"",
-		f"**Total PDFs linked:** {counts.pdfs}",
+		f"Last generated: **{generated_at}**.",
 		"",
 	]
 
