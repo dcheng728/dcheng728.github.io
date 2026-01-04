@@ -1,0 +1,96 @@
+---
+layout: default
+---
+
+<link rel="stylesheet" href="{{ '/assets/css/physics-study.css' | relative_url }}" />
+
+<article class="physics-study">
+  {{ content }}
+</article>
+
+<script>
+  (function () {
+    function wrapHeadingSections(root, headingSelector, stopSelector, detailsClass) {
+      const headings = Array.from(root.querySelectorAll(headingSelector));
+      for (const heading of headings) {
+        const title = (heading.textContent || '').replace(/\s+/g, ' ').trim();
+        if (!title) continue;
+
+        const details = document.createElement('details');
+        details.className = detailsClass;
+
+        const summary = document.createElement('summary');
+        summary.textContent = title;
+        details.appendChild(summary);
+
+        let node = heading.nextSibling;
+        while (node) {
+          if (node.nodeType === Node.ELEMENT_NODE && node.matches(stopSelector)) break;
+          const next = node.nextSibling;
+          details.appendChild(node);
+          node = next;
+        }
+
+        heading.replaceWith(details);
+      }
+    }
+
+    function textFromLeadingNodes(listItem) {
+      const parts = [];
+      for (const node of Array.from(listItem.childNodes)) {
+        if (node.nodeType === Node.ELEMENT_NODE && node.tagName === 'UL') break;
+        if (node.nodeType === Node.ELEMENT_NODE && node.tagName === 'P') {
+          parts.push(node.textContent);
+          continue;
+        }
+        if (node.nodeType === Node.TEXT_NODE) {
+          parts.push(node.textContent);
+          continue;
+        }
+        if (node.nodeType === Node.ELEMENT_NODE) {
+          parts.push(node.textContent);
+        }
+      }
+      return parts.join(' ').replace(/\s+/g, ' ').trim();
+    }
+
+    function removeLeadingNodesBeforeNestedList(listItem, nestedList) {
+      const toRemove = [];
+      for (const node of Array.from(listItem.childNodes)) {
+        if (node === nestedList) break;
+        toRemove.push(node);
+      }
+      for (const node of toRemove) node.remove();
+    }
+
+    const root = document.querySelector('article.physics-study');
+    if (!root) return;
+
+    // Initial view requirement:
+    // show only Subject (h2) + Textbook (h3). Hide chapters until the textbook expands.
+    wrapHeadingSections(root, 'h3', 'h2, h3', 'ps-book');
+
+    // Chapters (list items) are collapsible to reveal exercises.
+    const listItems = root.querySelectorAll('li');
+    for (const li of listItems) {
+      const nested = li.querySelector(':scope > ul');
+      if (!nested) continue;
+
+      const chapterLabel = textFromLeadingNodes(li);
+      if (!chapterLabel) continue;
+
+      removeLeadingNodesBeforeNestedList(li, nested);
+      nested.remove();
+
+      const details = document.createElement('details');
+      details.className = 'ps-chapter';
+
+      const summary = document.createElement('summary');
+      summary.textContent = chapterLabel;
+
+      details.appendChild(summary);
+      details.appendChild(nested);
+      li.appendChild(details);
+    }
+  })();
+</script>
