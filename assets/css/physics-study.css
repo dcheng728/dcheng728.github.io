@@ -49,6 +49,12 @@
   margin: 0.25rem 0;
 }
 
+/* Avoid double markers: markdown list bullet + <details> disclosure triangle */
+.physics-study li:has(> details) {
+  list-style: none;
+  padding-left: 0;
+}
+
 .physics-study details.ps-chapter {
   margin: 0.5rem 0;
   padding: 0.25rem 0.5rem;
