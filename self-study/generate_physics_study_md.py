@@ -177,7 +177,7 @@ def build_index(repo_root: Path) -> tuple[list[str], Counts]:
 						display = f"{parts[1]}.{parts[2]}"
 					counts = Counts(pdfs=counts.pdfs + 1)
 
-					lines.append(f"  - [{display}]({url})")
+					lines.append(f"  - Exercise {display}: [pdf]({url})")
 
 				lines.append("")
 
