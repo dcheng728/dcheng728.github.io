@@ -212,13 +212,13 @@ def generate() -> None:
 		"",
     	"Between 2023 and 2024, I was not enrolled in a formal physics program.",
 		"",
-    	"During this period, I self-studied physics using established textbooks.",
+    	"For about one year, I self-studied physics using established textbooks.",
 		"",
     	"This page serves to demonstrate my proficiency in the subject in lieu of an institutional transcript.",
 		"",
     	"It contains handwritten, signed, and dated solutions to textbook exercises.",
 		"",
-    	"In 2024, I enrolled in the MSc Physics program at Imperial College London.",
+    	"Later (Sep. 2024), I enrolled in the MSc Physics program at Imperial College London.",
 		"",
 		f"**Total worked solutions:** {counts.pdfs} PDFs.",
 		"",
@@ -228,7 +228,7 @@ def generate() -> None:
 	footer = [
 		"---",
 		"",
-		f"Last generated: **{generated_at}**.",
+		f"Last updated: **{generated_at}**.",
 		"",
 	]
 

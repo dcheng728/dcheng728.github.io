@@ -3,11 +3,14 @@ layout: default
 title: Home
 ---
 
-# Welcome
+# About me
 
-This is my website. $2\sqrt{2}$
+- I’m Chang Cheng (成畅), a physics MSc at Imperial College London.
+- I’m drawn to problems in fundamental physics that connect theories to calculable, measurable quantities.  
+- I'm particularly interested in applying AI and machine learning to these problems.
 
-$$
-\sqrt{2x}
-$$
+I hold a long-term view that AI will transform the way we do physics, and I look forward to becoming involved in this process both in research and beyond.
 
+---
+
+[chang.cheng24@imperial.ac.uk](mailto:chang.cheng24@imperial.ac.uk)
