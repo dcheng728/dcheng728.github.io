@@ -30,12 +30,18 @@ pre {
 /* topbar */
 .topbar {
   border-bottom: 1px solid #e5e5e5;
+  margin-bottom: 1.25rem;
 }
 
 .topbar-inner {
   display: flex;
   align-items: center;
   padding: 0.75rem 0;
+}
+
+/* Ensure consistent nav → title spacing across pages */
+main > h1:first-child {
+  margin-top: 0;
 }
 
 .nav-links {
