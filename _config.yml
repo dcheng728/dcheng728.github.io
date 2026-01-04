@@ -1,0 +1,10 @@
+# _config.yml
+title: Chang Cheng
+
+nav:
+  - title: "Home"
+    url: "/"
+  - title: "AI/ML Projects"
+    url: "/aiml/"
+  - title: "Physics Self-Study"
+    url: "/physics/"
