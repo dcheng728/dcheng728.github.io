@@ -4,8 +4,8 @@
     {% assign current_url = page.url | replace: 'index.html', '' %}
     <nav class="nav-links">
       <a class="brand{% if current_url == '/' %} is-active{% endif %}" href="{{ '/' | relative_url }}"{% if current_url == '/' %} aria-current="page"{% endif %}>{{ site.title }}</a>
-      <a class="{% if current_url == '/ml-projects/' %}is-active{% endif %}" href="{{ '/ml-projects/' | relative_url }}"{% if current_url == '/ml-projects/' %} aria-current="page"{% endif %}>AI/ML Projects</a>
       <a class="{% if current_url == '/physics-study/' %}is-active{% endif %}" href="{{ '/physics-study/' | relative_url }}"{% if current_url == '/physics-study/' %} aria-current="page"{% endif %}>Physics Self-Study</a>
+      <a class="{% if current_url == '/ml-projects/' %}is-active{% endif %}" href="{{ '/ml-projects/' | relative_url }}"{% if current_url == '/ml-projects/' %} aria-current="page"{% endif %}>AI/ML Projects</a>
     </nav>
   </div>
 </header>
