@@ -9,9 +9,9 @@ Between 2023 and 2024, I was not enrolled in a formal physics program.
 
 For about one year, I self-studied physics using established textbooks.
 
-This page serves to demonstrate my proficiency in the subject in lieu of an institutional transcript.
+This page served to demonstrate my understanding in physics, in lieu of an institutional transcript.
 
-It contains handwritten, signed, and dated solutions to textbook exercises.
+It contains my solutions to textbook exercises, signed and dated.
 
 Later (Sep. 2024), I enrolled in the MSc Physics program at Imperial College London.
 
@@ -558,4 +558,4 @@ Later (Sep. 2024), I enrolled in the MSc Physics program at Imperial College Lon
 
 ---
 
-Last updated: **2026-01-04 17:29 GMT**.
+Last updated: **2026-01-04 20:19 GMT**.
