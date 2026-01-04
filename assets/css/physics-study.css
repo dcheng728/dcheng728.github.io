@@ -8,18 +8,13 @@
 }
 
 .physics-study h2 {
-  margin-top: 2.5rem;
+  margin-top: 1.0rem;
   padding-top: 0.75rem;
   border-top: 1px solid #e5e5e5;
 }
 
-.physics-study h3 {
-  margin-top: 1.75rem;
-  font-size: 1.15rem;
-}
-
 .physics-study details.ps-book {
-  margin-top: 1.75rem;
+  margin-top: 1.0rem;
 }
 
 .physics-study details.ps-book > summary {
@@ -32,10 +27,7 @@
   margin-bottom: 0.25rem;
 }
 
-.physics-study h4 {
-  margin-top: 1.1rem;
-  font-size: 1rem;
-}
+
 
 .physics-study hr {
   margin: 1.5rem 0;
@@ -45,9 +37,6 @@
   padding-left: 1.2rem;
 }
 
-.physics-study li {
-  margin: 0.25rem 0;
-}
 
 /* Avoid double markers: markdown list bullet + <details> disclosure triangle */
 .physics-study li:has(> details) {
@@ -56,7 +45,7 @@
 }
 
 .physics-study details.ps-chapter {
-  margin: 0.5rem 0;
+  margin: 0.0rem 0;
   padding: 0.25rem 0.5rem;
   border: 1px solid #e5e5e5;
   border-radius: 8px;
