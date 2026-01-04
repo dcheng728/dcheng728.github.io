@@ -6,7 +6,7 @@ permalink: /physics-study/
 # Physics Self-Study
 
 This page is generated from the `self-study/` folder.
-Last generated: **2026-01-04 15:27 GMT**.
+Last generated: **2026-01-04 15:54 GMT**.
 
 ---
 
@@ -395,6 +395,33 @@ Last generated: **2026-01-04 15:27 GMT**.
 
 ### 't Hooft. *Introduction to General Relativity (Lecture Notes)*.
 
+- 4-Curved coordinates
+  - [4.1](/self-study/%28gr%29thooftgr/4-Curved%20coordinates/%27t%20hooft_4_1.pdf)
+
+- 5-The affine connection Riemann curvature
+  - [5.1](/self-study/%28gr%29thooftgr/5-The%20affine%20connection%20Riemann%20curvature/%27t%20hooft_5_1.pdf)
+  - [5.2](/self-study/%28gr%29thooftgr/5-The%20affine%20connection%20Riemann%20curvature/%27t%20hooft_5_2.pdf)
+
+- 8-The action principle
+  - [8.1](/self-study/%28gr%29thooftgr/8-The%20action%20principle/%27t%20hooft_8_1.pdf)
+
+- 10-Electromagnetism
+  - [10.1](/self-study/%28gr%29thooftgr/10-Electromagnetism/%27t%20hooft_10_1.pdf)
+  - [10.2](/self-study/%28gr%29thooftgr/10-Electromagnetism/%27t%20hooft_10_2.pdf)
+
+- 11-The Schwarzschild solution
+  - [11.1](/self-study/%28gr%29thooftgr/11-The%20Schwarzschild%20solution/%27t%20hooft_11_1.pdf)
+
+- 12-Mercury and light rays in the Schwarzschild metric
+  - [12.1](/self-study/%28gr%29thooftgr/12-Mercury%20and%20light%20rays%20in%20the%20Schwarzschild%20metric/%27t%20hooft_12_1.pdf)
+  - [12.2](/self-study/%28gr%29thooftgr/12-Mercury%20and%20light%20rays%20in%20the%20Schwarzschild%20metric/%27t%20hooft_12_2.pdf)
+
+- 13-Generalizations of the Schwarzschild metric
+  - [13.2](/self-study/%28gr%29thooftgr/13-Generalizations%20of%20the%20Schwarzschild%20metric/%27t%20hooft_13_2.pdf)
+
+- 14-The Robertson-Walker metric
+  - [14.1](/self-study/%28gr%29thooftgr/14-The%20Robertson-Walker%20metric/%27t%20hooft_14_1.pdf)
+
 
 ## Quantum Field Theory
 
@@ -483,4 +510,4 @@ Last generated: **2026-01-04 15:27 GMT**.
 
 ---
 
-**Total PDFs linked:** 265
+**Total PDFs linked:** 276
