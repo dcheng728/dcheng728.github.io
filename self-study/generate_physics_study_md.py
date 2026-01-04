@@ -9,22 +9,22 @@ from urllib.parse import quote
 
 # Book-level citations shown next to each book title.
 BIBLIOGRAPHY: dict[str, str] = {
-	"(ced)griffiths": "Griffiths. *Intro. to Electrodynamics*, 4th ed.",
-	"(ced)jackson": "Jackson. *Classical Electrodynamics*, 3rd ed.",
-	"(cm)goldstein": "Goldstein, Poole & Safko. *Classical Mechanics*, 3rd ed.",
-	"(gr)schutz": "Schutz. *A First Course in General Relativity*.",
-	"(gr)thooftgr": "'t Hooft. *Introduction to General Relativity (Lecture Notes)*.",
-	"(particles)griffiths": "Griffiths. *Intro. to Elementary Particles*.",
-	"(qft)schwartz": "Schwartz. *Quantum Field Theory and the Standard Model*.",
-	"(qft)weinberg": "Weinberg. *The Quantum Theory of Fields*.",
-	"(sstate)kittel": "Kittel. *Intro. to Solid State Physics*, 8th ed.",
-	"(string)polchinski": "Polchinski. *String Theory*, vol. 1 & 2.",
-	"(string)thooftstring": "'t Hooft. *Introduction to String Theory*.",
-	"(therst)callen": "Callen. *Thermodynamics and an Intro. to Thermostatistics*, 2nd ed.",
-	"(therst)fermi": "Fermi. *Thermodynamics*.",
-	"(therst)glazer wark": "Glazer & Wark. *Stat. Mechanics: A Survival Guide*.",
-	"(therst)kittel": "Kittel & Kroemer. *Thermal Physics*, 2nd ed.",
-	"(therst)pathria": "Pathria & Beale. *Stat. Mechanics*.",
+	"(ced)griffiths": "D. Griffiths. *Intro. to Electrodynamics*, 4th ed.",
+	"(ced)jackson": "J. Jackson. *Classical Electrodynamics*, 3rd ed.",
+	"(cm)goldstein": "H. Goldstein, C. Poole & J. Safko. *Classical Mechanics*, 3rd ed.",
+	"(gr)schutz": "B. Schutz. *A First Course in General Relativity*.",
+	"(gr)thooftgr": "G. 't Hooft. *Introduction to General Relativity (lecture notes)*.",
+	"(particles)griffiths": "D. Griffiths. *Intro. to Elementary Particles*.",
+	"(qft)schwartz": "M. Schwartz. *Quantum Field Theory and the Standard Model*.",
+	"(qft)weinberg": "S. Weinberg. *The Quantum Theory of Fields*.",
+	"(sstate)kittel": "C. Kittel. *Intro. to Solid State Physics*, 8th ed.",
+	"(string)polchinski": "J. Polchinski. *String Theory*, vol. 1 & 2.",
+	"(string)thooftstring": "G. 't Hooft. *Introduction to String Theory (lecture notes)*.",
+	"(therst)callen": "H. Callen. *Thermodynamics and an Intro. to Thermostatistics*, 2nd ed.",
+	"(therst)fermi": "E. Fermi. *Thermodynamics*.",
+	"(therst)glazer wark": "M. Glazer & J. Wark. *Stat. Mechanics: A Survival Guide*.",
+	"(therst)kittel": "C. Kittel & H. Kroemer. *Thermal Physics*, 2nd ed.",
+	"(therst)pathria": "R.K. Pathria & P. Beale. *Statistical Mechanics*.",
 }
 
 # Which subject buckets to show, and in what order.

@@ -6,13 +6,13 @@ permalink: /physics-study/
 # Physics Self-Study
 
 This page is generated from the `self-study/` folder.
-Last generated: **2026-01-04 16:00 GMT**.
+Last generated: **2026-01-04 16:17 GMT**.
 
 ---
 
 ## Classical Mechanics
 
-### Goldstein, Poole & Safko. *Classical Mechanics*, 3rd ed.
+### H. Goldstein, C. Poole & J. Safko. *Classical Mechanics*, 3rd ed.
 
 - 1-survey of the elementary principles
   - [1.1](/self-study/%28cm%29goldstein/1-survey%20of%20the%20elementary%20principles/goldstein_1_1.pdf)
@@ -75,7 +75,7 @@ Last generated: **2026-01-04 16:00 GMT**.
 
 ## Classical Electrodynamics
 
-### Griffiths. *Intro. to Electrodynamics*, 4th ed.
+### D. Griffiths. *Intro. to Electrodynamics*, 4th ed.
 
 - 3-potentials
   - [3.29|v|](/self-study/%28ced%29griffiths/3-potentials/griffithsced_3_29%7Cv%7C.pdf)
@@ -93,7 +93,7 @@ Last generated: **2026-01-04 16:00 GMT**.
   - [9.8abc](/self-study/%28ced%29griffiths/9-EM%20waves/griffithsced_9_8abc.pdf)
 
 
-### Jackson. *Classical Electrodynamics*, 3rd ed.
+### J. Jackson. *Classical Electrodynamics*, 3rd ed.
 
 - 1-intro to electrostatics
   - [1.1a](/self-study/%28ced%29jackson/1-intro%20to%20electrostatics/jackson_1_1a.pdf)
@@ -152,7 +152,7 @@ Last generated: **2026-01-04 16:00 GMT**.
 
 ## Thermal & Statistical Physics
 
-### Callen. *Thermodynamics and an Intro. to Thermostatistics*, 2nd ed.
+### H. Callen. *Thermodynamics and an Intro. to Thermostatistics*, 2nd ed.
 
 - 2-the conditions of equilibrium
   - [2.2-1](/self-study/%28therst%29callen/2-the%20conditions%20of%20equilibrium/callen_2_2-1.pdf)
@@ -175,14 +175,14 @@ Last generated: **2026-01-04 16:00 GMT**.
   - [4.4-2a?](/self-study/%28therst%29callen/4-reversible%20processes%20and%20the%20maximum%20work%20theorem/callen_4_4-2a%3F.pdf)
 
 
-### Fermi. *Thermodynamics*.
+### E. Fermi. *Thermodynamics*.
 
 - 4-entropy
   - [4.1](/self-study/%28therst%29fermi/4-entropy/fermi_4_1.pdf)
   - [4.2](/self-study/%28therst%29fermi/4-entropy/fermi_4_2.pdf)
 
 
-### Glazer & Wark. *Stat. Mechanics: A Survival Guide*.
+### M. Glazer & J. Wark. *Stat. Mechanics: A Survival Guide*.
 
 - 1-back to basics
   - [1.3](/self-study/%28therst%29glazer%20wark/1-back%20to%20basics/glazerwark_1_3.pdf)
@@ -212,7 +212,7 @@ Last generated: **2026-01-04 16:00 GMT**.
   - [8.5](/self-study/%28therst%29glazer%20wark/8-photons%20phonons/glazerwark_8_5.pdf)
 
 
-### Kittel & Kroemer. *Thermal Physics*, 2nd ed.
+### C. Kittel & H. Kroemer. *Thermal Physics*, 2nd ed.
 
 - 2-entropy and temperature
   - [2.1](/self-study/%28therst%29kittel/2-entropy%20and%20temperature/kittel_2_1.pdf)
@@ -249,7 +249,7 @@ Last generated: **2026-01-04 16:00 GMT**.
   - [8.1x](/self-study/%28therst%29kittel/8-heat%20and%20work/kitteltp_8_1x.pdf)
 
 
-### Pathria & Beale. *Stat. Mechanics*.
+### R.K. Pathria & P. Beale. *Statistical Mechanics*.
 
 - 1-stat and thermodynamics
   - [1.2](/self-study/%28therst%29pathria/1-stat%20and%20thermodynamics/pathria_1_2.pdf)
@@ -263,7 +263,7 @@ Last generated: **2026-01-04 16:00 GMT**.
 
 ## Particle Physics
 
-### Griffiths. *Intro. to Elementary Particles*.
+### D. Griffiths. *Intro. to Elementary Particles*.
 
 - 2-elementary particle dynamics
   - [2.1](/self-study/%28particles%29griffiths/2-elementary%20particle%20dynamics/griffiths_2_1.pdf)
@@ -311,7 +311,7 @@ Last generated: **2026-01-04 16:00 GMT**.
 
 ## Solid State Physics
 
-### Kittel. *Intro. to Solid State Physics*, 8th ed.
+### C. Kittel. *Intro. to Solid State Physics*, 8th ed.
 
 - 1-crystal structure
   - [1.1](/self-study/%28sstate%29kittel/1-crystal%20structure/kittel_1_1.pdf)
@@ -349,7 +349,7 @@ Last generated: **2026-01-04 16:00 GMT**.
 
 ## General Relativity
 
-### Schutz. *A First Course in General Relativity*.
+### B. Schutz. *A First Course in General Relativity*.
 
 - 4-perfect fluids in special relativity
   - [4.4](/self-study/%28gr%29schutz/4-perfect%20fluids%20in%20special%20relativity/schutz_4_4.pdf)
@@ -393,7 +393,7 @@ Last generated: **2026-01-04 16:00 GMT**.
   - [8.12](/self-study/%28gr%29schutz/8-field%20eq/schutz_8_12.pdf)
 
 
-### 't Hooft. *Introduction to General Relativity (Lecture Notes)*.
+### G. 't Hooft. *Introduction to General Relativity (lecture notes)*.
 
 - 4-Curved coordinates
   - [4.1](/self-study/%28gr%29thooftgr/4-Curved%20coordinates/%27t%20hooft_4_1.pdf)
@@ -425,7 +425,7 @@ Last generated: **2026-01-04 16:00 GMT**.
 
 ## Quantum Field Theory
 
-### Schwartz. *Quantum Field Theory and the Standard Model*.
+### M. Schwartz. *Quantum Field Theory and the Standard Model*.
 
 - 2-lorentz invariance and 2nd quantization
   - [2.1](/self-study/%28qft%29schwartz/2-lorentz%20invariance%20and%202nd%20quantization/schwartz_2_1.pdf)
@@ -489,7 +489,7 @@ Last generated: **2026-01-04 16:00 GMT**.
   - [16.2inprogress](/self-study/%28qft%29schwartz/16-vacuum%20polarization/schwartz_16_2inprogress.pdf)
 
 
-### Weinberg. *The Quantum Theory of Fields*.
+### S. Weinberg. *The Quantum Theory of Fields*.
 
 - 2-relativistic qm
   - [2.1](/self-study/%28qft%29weinberg/2-relativistic%20qm/weinberg_2_1.pdf)
@@ -502,7 +502,7 @@ Last generated: **2026-01-04 16:00 GMT**.
 
 ## String Theory
 
-### Polchinski. *String Theory*, vol. 1 & 2.
+### J. Polchinski. *String Theory*, vol. 1 & 2.
 
 - 1-A first look at strings
   - [1.1a](/self-study/%28string%29polchinski/1-A%20first%20look%20at%20strings/polchinski_1_1a.pdf)
@@ -539,7 +539,7 @@ Last generated: **2026-01-04 16:00 GMT**.
   - [A.1](/self-study/%28string%29polchinski/A-A%20short%20course%20on%20path%20integrals/polchinski_A_1.pdf)
 
 
-### 't Hooft. *Introduction to String Theory*.
+### G. 't Hooft. *Introduction to String Theory (lecture notes)*.
 
 
 ---
