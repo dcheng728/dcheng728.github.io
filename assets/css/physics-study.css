@@ -61,3 +61,12 @@
 .physics-study details.ps-chapter[open] {
   background: color-mix(in srgb, currentColor 4%, transparent);
 }
+
+.physics-study p {
+  margin: 0.0rem 0; /* reduces vertical gaps between paragraphs */
+}
+
+/* Optional: slightly larger gap only between consecutive paragraphs */
+.physics-study p + p {
+  margin-top: 0.0rem;
+}

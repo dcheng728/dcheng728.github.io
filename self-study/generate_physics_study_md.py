@@ -147,8 +147,8 @@ def build_index(repo_root: Path) -> tuple[list[str], Counts]:
 
 		for book_dir in books:
 			citation = book_citation(book_dir.name)
-			lines.append(f"### {citation}")
-			lines.append("")
+			book_lines: list[str] = []
+			book_pdfs = 0
 
 			chapters = [p for p in list_children(book_dir) if p.is_dir()]
 			chapters.sort(key=lambda p: chapter_sort_key(p.name))
@@ -162,7 +162,7 @@ def build_index(repo_root: Path) -> tuple[list[str], Counts]:
 				if not pdfs:
 					continue
 
-				lines.append(f"- {chapter_dir.name}")
+				book_lines.append(f"- {chapter_dir.name}")
 
 				for pdf in pdfs:
 					rel = (
@@ -176,12 +176,19 @@ def build_index(repo_root: Path) -> tuple[list[str], Counts]:
 						# exercise <chapter>.<exercise>
 						display = f"{parts[1]}.{parts[2]}"
 					counts = Counts(pdfs=counts.pdfs + 1)
+					book_pdfs += 1
+					book_lines.append(f"  - Exercise {display}: [PDF]({url}).")
 
-					lines.append(f"  - Exercise {display}: [pdf]({url})")
+				book_lines.append("")
 
-				lines.append("")
+			book_lines.append("")
 
+			if book_pdfs == 0:
+				continue
+
+			lines.append(f"### {citation} ({book_pdfs} worked solutions)")
 			lines.append("")
+			lines.extend(book_lines)
 
 	return lines, counts
 
@@ -203,8 +210,17 @@ def generate() -> None:
 		"---",
 		"# Physics Self-Study",
 		"",
-		"This page is generated from the `self-study/` folder.",
-		f"**Total PDFs linked:** {counts.pdfs}",
+    	"Between 2023 and 2024, I was not enrolled in a formal physics program.",
+		"",
+    	"During this period, I self-studied physics using established textbooks.",
+		"",
+    	"This page serves to demonstrate my proficiency in the subject in lieu of an institutional transcript.",
+		"",
+    	"It contains handwritten, signed, and dated solutions to textbook exercises.",
+		"",
+    	"In 2024, I enrolled in the MSc Physics program at Imperial College London.",
+		"",
+		f"**Total worked solutions:** {counts.pdfs} PDFs.",
 		"",
 		"",
 	]
