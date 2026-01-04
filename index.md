@@ -11,4 +11,4 @@ title: Home
 
 I hold a long-term view that AI will transform the way we do physics, and I look forward to becoming involved in this process both in research and beyond.
 
----
+
