@@ -25,17 +25,74 @@ pre {
   border-bottom: 1px solid #e5e5e5;
 }
 
+.topbar-inner {
+  display: flex;
+  align-items: center;
+  padding: 0.75rem 0;
+}
+
 .nav-links {
   display: flex;
   gap: 1.25rem;
+  align-items: center;
 }
 
 .nav-links a {
+  position: relative;
+  display: inline-flex;
+  align-items: center;
+  padding: 0;
+  border-radius: 0;
   text-decoration: none;
   color: inherit;
+  transition: transform 160ms ease, background-color 160ms ease;
+}
+
+/* Animated underline */
+.nav-links a::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: -0.2rem;
+  height: 2px;
+  background: currentColor;
+  transform: scaleX(0);
+  transform-origin: left;
+  transition: transform 180ms ease;
+}
+
+.nav-links a:hover {
+  text-decoration: none;
+  transform: translateY(-1px);
+  background-color: color-mix(in srgb, currentColor 10%, transparent);
+}
+
+.nav-links a:hover::after {
+  transform: scaleX(1);
+}
+
+.nav-links a:active {
+  transform: translateY(0);
+}
+
+.nav-links a:focus-visible {
+  outline: 2px solid currentColor;
+  outline-offset: 2px;
 }
 
 .brand {
   font-weight: 700;
+}
+
+.brand::after {
+  display: none;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .nav-links a,
+  .nav-links a::after {
+    transition: none;
+  }
 }
 
