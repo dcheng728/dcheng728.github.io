@@ -1,6 +1,11 @@
 # _config.yml
 title: Chang Cheng
 
+# Social links (used for tiny icons in the top navigation)
+email: dcheng728@gmail.com
+github_url: https://github.com/dcheng728
+inspire_url: https://inspirehep.net/
+
 nav:
   - title: "Home"
     url: "/"
