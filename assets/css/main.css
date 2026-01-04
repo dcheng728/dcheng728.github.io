@@ -94,10 +94,6 @@ main > h1:first-child {
   transform: scaleX(1);
 }
 
-.nav-links .brand.is-active {
-  text-decoration: underline;
-  text-underline-offset: 0.25rem;
-}
 
 .nav-links a:active {
   transform: translateY(0);
@@ -109,12 +105,10 @@ main > h1:first-child {
 }
 
 .brand {
-  font-weight: 700;
+  /* font-weight: 600; */
+  font-size: larger;
 }
 
-.brand::after {
-  display: none;
-}
 
 @media (prefers-reduced-motion: reduce) {
   .nav-links a,
