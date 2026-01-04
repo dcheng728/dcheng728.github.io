@@ -20,7 +20,7 @@ body {
   width: 100vw;
   margin-left: calc(50% - 50vw);
   margin-right: calc(50% - 50vw);
-  color: currentColor;
+  color: var(--footer-art-color, currentColor);
   pointer-events: none;
   user-select: none;
 }
@@ -28,7 +28,7 @@ body {
 .footer-art svg {
   display: block;
   width: 100%;
-  height: 170px;
+  height: 200px;
 }
 
 img {

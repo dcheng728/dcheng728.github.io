@@ -1,7 +1,37 @@
 <div class="footer-art" aria-hidden="true">
-  <svg viewBox="0 0 1440 220" preserveAspectRatio="none" focusable="false" aria-hidden="true">
-    <path fill="currentColor" opacity="0.05" d="M0,150 C160,110 320,190 480,150 C640,110 800,170 960,140 C1120,110 1280,170 1440,130 L1440,220 L0,220 Z" />
-    <path fill="currentColor" opacity="0.08" d="M0,170 C180,120 360,210 540,165 C720,120 900,200 1080,160 C1260,120 1350,155 1440,145 L1440,220 L0,220 Z" />
-    <path fill="currentColor" opacity="0.12" d="M0,195 C220,150 420,220 640,185 C860,150 1040,215 1220,175 C1340,155 1400,170 1440,165 L1440,220 L0,220 Z" />
+  <svg viewBox="0 0 1440 260" preserveAspectRatio="none" focusable="false" aria-hidden="true">
+    <defs>
+      <!-- Soft fade so the top feels like mist. -->
+      <linearGradient id="mistFade" x1="0" y1="0" x2="0" y2="1">
+        <stop offset="0%" stop-color="currentColor" stop-opacity="0" />
+        <stop offset="45%" stop-color="currentColor" stop-opacity="0.08" />
+        <stop offset="100%" stop-color="currentColor" stop-opacity="0.14" />
+      </linearGradient>
+
+      <!-- Watercolor-ish edge & pigment variation (subtle, fast). -->
+      <filter id="wash" x="-5%" y="-10%" width="110%" height="130%" color-interpolation-filters="sRGB">
+        <feTurbulence type="fractalNoise" baseFrequency="0.9" numOctaves="2" seed="7" result="noise" />
+        <feDisplacementMap in="SourceGraphic" in2="noise" scale="10" xChannelSelector="R" yChannelSelector="G" result="disp" />
+        <feGaussianBlur in="disp" stdDeviation="0.7" result="blur" />
+        <feComponentTransfer in="blur">
+          <feFuncA type="gamma" amplitude="1" exponent="1.1" offset="0" />
+        </feComponentTransfer>
+      </filter>
+
+      <filter id="mist" x="-5%" y="-20%" width="110%" height="160%" color-interpolation-filters="sRGB">
+        <feGaussianBlur stdDeviation="10" />
+      </filter>
+    </defs>
+
+    <!-- Background mist wash -->
+    <rect x="0" y="0" width="1440" height="260" fill="url(#mistFade)" filter="url(#mist)" opacity="0.9" />
+
+    <!-- Ink-wash mountain layers -->
+    <g filter="url(#wash)">
+      <path fill="currentColor" opacity="0.04" d="M0,140 C140,110 260,120 380,98 C520,72 620,54 770,80 C930,108 1040,78 1160,62 C1280,46 1360,66 1440,54 L1440,260 L0,260 Z" />
+      <path fill="currentColor" opacity="0.06" d="M0,170 C180,130 310,162 450,130 C610,92 720,112 860,118 C1030,124 1120,96 1240,92 C1340,88 1390,110 1440,102 L1440,260 L0,260 Z" />
+      <path fill="currentColor" opacity="0.085" d="M0,210 C150,176 310,220 470,190 C640,158 760,190 920,176 C1090,162 1180,140 1300,150 C1380,158 1420,170 1440,168 L1440,260 L0,260 Z" />
+      <path fill="currentColor" opacity="0.12" d="M0,242 C210,210 360,250 560,222 C760,194 910,232 1080,212 C1230,194 1330,204 1440,198 L1440,260 L0,260 Z" />
+    </g>
   </svg>
 </div>
