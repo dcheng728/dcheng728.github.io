@@ -15,7 +15,7 @@ It contains my solutions to textbook exercises, signed and dated.
 
 Later (Sep. 2024), I enrolled in the MSc Physics program at Imperial College London.
 
-**Total worked solutions:** 302 PDFs.
+**Total worked solutions:** 304 PDFs.
 
 
 ## Classical Mechanics
@@ -357,7 +357,7 @@ Later (Sep. 2024), I enrolled in the MSc Physics program at Imperial College Lon
 
 ## General Relativity
 
-### B. Schutz, *A First Course in General Relativity*. (31 worked solutions)
+### B. Schutz, *A First Course in General Relativity*, 3rd ed. (33 worked solutions)
 
 - **4.** Perfect fluids in special relativity
   - Exercise 4.4: [PDF](/self-study/%28gr%29schutz/4_Perfect_fluids_in_special_relativity/schutz_4_4.pdf).
@@ -366,11 +366,12 @@ Later (Sep. 2024), I enrolled in the MSc Physics program at Imperial College Lon
   - Exercise 4.7: [PDF](/self-study/%28gr%29schutz/4_Perfect_fluids_in_special_relativity/schutz_4_7.pdf).
 
 - **5.** Preface to curvature
-  - Exercise 5.5: [PDF](/self-study/%28gr%29schutz/5_Preface_to_curvature/schutz_5_5.pdf).
+  - Exercise 5.7: [PDF](/self-study/%28gr%29schutz/5_Preface_to_curvature/schutz_5_7.pdf).
   - Exercise 5.12: [PDF](/self-study/%28gr%29schutz/5_Preface_to_curvature/schutz_5_12.pdf).
 
 - **6.** Curved manifolds
   - Exercise 6.7a: [PDF](/self-study/%28gr%29schutz/6_Curved_manifolds/schutz_6_7a.pdf).
+  - Exercise 6.11: [PDF](/self-study/%28gr%29schutz/6_Curved_manifolds/schutz_6_11.pdf).
   - Exercise 6.21: [PDF](/self-study/%28gr%29schutz/6_Curved_manifolds/schutz_6_21.pdf).
   - Exercise 6.28: [PDF](/self-study/%28gr%29schutz/6_Curved_manifolds/schutz_6_28.pdf).
   - Exercise 6.29: [PDF](/self-study/%28gr%29schutz/6_Curved_manifolds/schutz_6_29.pdf).
@@ -388,6 +389,7 @@ Later (Sep. 2024), I enrolled in the MSc Physics program at Imperial College Lon
   - Exercise 7.3: [PDF](/self-study/%28gr%29schutz/7_Physics_in_a_curved_spacetime/schutz_7_3.pdf).
   - Exercise 7.4: [PDF](/self-study/%28gr%29schutz/7_Physics_in_a_curved_spacetime/schutz_7_4.pdf).
   - Exercise 7.6: [PDF](/self-study/%28gr%29schutz/7_Physics_in_a_curved_spacetime/schutz_7_6.pdf).
+  - Exercise 7.7: [PDF](/self-study/%28gr%29schutz/7_Physics_in_a_curved_spacetime/schutz_7_7.pdf).
 
 - **8.** The Einstein field equations
   - Exercise 8.1: [PDF](/self-study/%28gr%29schutz/8_The%20Einstein_field_equations/schutz_8_1.pdf).
@@ -558,4 +560,4 @@ Later (Sep. 2024), I enrolled in the MSc Physics program at Imperial College Lon
 
 ---
 
-Last updated: **2026-01-05 09:15 GMT**.
+Last updated: **2026-01-05 09:46 GMT**.

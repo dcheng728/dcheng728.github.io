@@ -12,7 +12,7 @@ BIBLIOGRAPHY: dict[str, str] = {
 	"(ced)griffiths": "D. Griffiths, *Intro. to Electrodynamics*, 4th ed.",
 	"(ced)jackson": "J. Jackson, *Classical Electrodynamics*, 3rd ed.",
 	"(cm)goldstein": "H. Goldstein, C. Poole & J. Safko, *Classical Mechanics*, 3rd ed.",
-	"(gr)schutz": "B. Schutz, *A First Course in General Relativity*.",
+	"(gr)schutz": "B. Schutz, *A First Course in General Relativity*, 3rd ed.",
 	"(gr)thooftgr": "G. 't Hooft, *Introduction to General Relativity (lecture notes)*.",
 	"(particles)griffiths": "D. Griffiths, *Introduction to Elementary Particles*, 1st ed.",
 	"(qft)schwartz": "M. Schwartz, *Quantum Field Theory and the Standard Model*.",
