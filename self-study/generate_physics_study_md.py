@@ -9,22 +9,22 @@ from urllib.parse import quote
 
 # Book-level citations shown next to each book title.
 BIBLIOGRAPHY: dict[str, str] = {
-	"(ced)griffiths": "D. Griffiths. *Intro. to Electrodynamics*, 4th ed.",
-	"(ced)jackson": "J. Jackson. *Classical Electrodynamics*, 3rd ed.",
-	"(cm)goldstein": "H. Goldstein, C. Poole & J. Safko. *Classical Mechanics*, 3rd ed.",
-	"(gr)schutz": "B. Schutz. *A First Course in General Relativity*.",
-	"(gr)thooftgr": "G. 't Hooft. *Introduction to General Relativity (lecture notes)*.",
-	"(particles)griffiths": "D. Griffiths. *Intro. to Elementary Particles*.",
-	"(qft)schwartz": "M. Schwartz. *Quantum Field Theory and the Standard Model*.",
-	"(qft)weinberg": "S. Weinberg. *The Quantum Theory of Fields*.",
-	"(sstate)kittel": "C. Kittel. *Intro. to Solid State Physics*, 8th ed.",
-	"(string)polchinski": "J. Polchinski. *String Theory*, vol. 1 & 2.",
-	"(string)thooftstring": "G. 't Hooft. *Introduction to String Theory (lecture notes)*.",
-	"(therst)callen": "H. Callen. *Thermodynamics and an Intro. to Thermostatistics*, 2nd ed.",
-	"(therst)fermi": "E. Fermi. *Thermodynamics*.",
-	"(therst)glazer wark": "M. Glazer & J. Wark. *Stat. Mechanics: A Survival Guide*.",
-	"(therst)kittel": "C. Kittel & H. Kroemer. *Thermal Physics*, 2nd ed.",
-	"(therst)pathria": "R.K. Pathria & P. Beale. *Statistical Mechanics*.",
+	"(ced)griffiths": "D. Griffiths, *Intro. to Electrodynamics*, 4th ed.",
+	"(ced)jackson": "J. Jackson, *Classical Electrodynamics*, 3rd ed.",
+	"(cm)goldstein": "H. Goldstein, C. Poole & J. Safko, *Classical Mechanics*, 3rd ed.",
+	"(gr)schutz": "B. Schutz, *A First Course in General Relativity*.",
+	"(gr)thooftgr": "G. 't Hooft, *Introduction to General Relativity (lecture notes)*.",
+	"(particles)griffiths": "D. Griffiths, *Introduction to Elementary Particles*, 1st ed.",
+	"(qft)schwartz": "M. Schwartz, *Quantum Field Theory and the Standard Model*.",
+	"(qft)weinberg": "S. Weinberg, *The Quantum Theory of Fields*, vol. I & II.",
+	"(sstate)kittel": "C. Kittel, *Introduction to Solid State Physics*, 8th ed.",
+	"(string)polchinski": "J. Polchinski, *String Theory*, vol. I & II.",
+	"(string)thooftstring": "G. 't Hooft, *Introduction to String Theory (lecture notes)*.",
+	"(therst)callen": "H. Callen, *Thermodynamics and an Intro. to Thermostatistics*, 2nd ed.",
+	"(therst)fermi": "E. Fermi, *Thermodynamics*.",
+	"(therst)glazer wark": "M. Glazer & J. Wark, *Statistical Mechanics: A Survival Guide*.",
+	"(therst)kittel": "C. Kittel & H. Kroemer, *Thermal Physics*, 2nd ed.",
+	"(therst)pathria": "R.K. Pathria & P. Beale, *Statistical Mechanics*, 4th ed.",
 }
 
 # Which subject buckets to show, and in what order.
