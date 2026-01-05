@@ -222,39 +222,39 @@ Later (Sep. 2024), I enrolled in the MSc Physics program at Imperial College Lon
 
 ### C. Kittel & H. Kroemer. *Thermal Physics*, 2nd ed. (20 worked solutions)
 
-- **2.** entropy and temperature
-  - Exercise 2.1: [PDF](/self-study/%28therst%29kittel/2-entropy%20and%20temperature/kittel_2_1.pdf).
-  - Exercise 2.2: [PDF](/self-study/%28therst%29kittel/2-entropy%20and%20temperature/kittel_2_2.pdf).
-  - Exercise 2.3: [PDF](/self-study/%28therst%29kittel/2-entropy%20and%20temperature/kitteltp_2_3.pdf).
-  - Exercise 2.4: [PDF](/self-study/%28therst%29kittel/2-entropy%20and%20temperature/kitteltp_2_4.pdf).
+- **2.** Entropy and temperature
+  - Exercise 2.1: [PDF](/self-study/%28therst%29kittel/2_Entropy_and_temperature/kittel_2_1.pdf).
+  - Exercise 2.2: [PDF](/self-study/%28therst%29kittel/2_Entropy_and_temperature/kittel_2_2.pdf).
+  - Exercise 2.3: [PDF](/self-study/%28therst%29kittel/2_Entropy_and_temperature/kitteltp_2_3.pdf).
+  - Exercise 2.4: [PDF](/self-study/%28therst%29kittel/2_Entropy_and_temperature/kitteltp_2_4.pdf).
 
-- **3.** boltzmann dist and helmholtz free energy
-  - Exercise 3.1: [PDF](/self-study/%28therst%29kittel/3-boltzmann%20dist%20and%20helmholtz%20free%20energy/kittel_3_1.pdf).
-  - Exercise 3.3: [PDF](/self-study/%28therst%29kittel/3-boltzmann%20dist%20and%20helmholtz%20free%20energy/kittel_3_3.pdf).
-  - Exercise 3.4: [PDF](/self-study/%28therst%29kittel/3-boltzmann%20dist%20and%20helmholtz%20free%20energy/kittel_3_4.pdf).
-  - Exercise 3.5: [PDF](/self-study/%28therst%29kittel/3-boltzmann%20dist%20and%20helmholtz%20free%20energy/kitteltp_3_5.pdf).
-  - Exercise 3.8: [PDF](/self-study/%28therst%29kittel/3-boltzmann%20dist%20and%20helmholtz%20free%20energy/kitteltp_3_8.pdf).
+- **3.** Boltzmann distribution and Helmholtz free energy
+  - Exercise 3.1: [PDF](/self-study/%28therst%29kittel/3_Boltzmann_distribution_and_Helmholtz_free_energy/kittel_3_1.pdf).
+  - Exercise 3.3: [PDF](/self-study/%28therst%29kittel/3_Boltzmann_distribution_and_Helmholtz_free_energy/kittel_3_3.pdf).
+  - Exercise 3.4: [PDF](/self-study/%28therst%29kittel/3_Boltzmann_distribution_and_Helmholtz_free_energy/kittel_3_4.pdf).
+  - Exercise 3.5: [PDF](/self-study/%28therst%29kittel/3_Boltzmann_distribution_and_Helmholtz_free_energy/kitteltp_3_5.pdf).
+  - Exercise 3.8: [PDF](/self-study/%28therst%29kittel/3_Boltzmann_distribution_and_Helmholtz_free_energy/kitteltp_3_8.pdf).
 
-- **4.** planck and stefan boltzmann
-  - Exercise 4.1: [PDF](/self-study/%28therst%29kittel/4-planck%20and%20stefan%20boltzmann/kittel_4_1.pdf).
-  - Exercise 4.2: [PDF](/self-study/%28therst%29kittel/4-planck%20and%20stefan%20boltzmann/kittel_4_2.pdf).
-  - Exercise 4.5: [PDF](/self-study/%28therst%29kittel/4-planck%20and%20stefan%20boltzmann/kitteltp_4_5.pdf).
+- **4.** Thermal radiation and Planck distribution
+  - Exercise 4.1: [PDF](/self-study/%28therst%29kittel/4_Thermal_radiation_and_Planck_distribution/kittel_4_1.pdf).
+  - Exercise 4.2: [PDF](/self-study/%28therst%29kittel/4_Thermal_radiation_and_Planck_distribution/kittel_4_2.pdf).
+  - Exercise 4.5: [PDF](/self-study/%28therst%29kittel/4_Thermal_radiation_and_Planck_distribution/kitteltp_4_5.pdf).
 
-- **5.** chemical potential and gibbs dist
-  - Exercise 5.1: [PDF](/self-study/%28therst%29kittel/5-chemical%20potential%20and%20gibbs%20dist/kitteltp_5_1.pdf).
-  - Exercise 5.4: [PDF](/self-study/%28therst%29kittel/5-chemical%20potential%20and%20gibbs%20dist/kitteltp_5_4.pdf).
-  - Exercise 5.6: [PDF](/self-study/%28therst%29kittel/5-chemical%20potential%20and%20gibbs%20dist/kitteltp_5_6.pdf).
+- **5.** Chemical potential and Gibbs distribution
+  - Exercise 5.1: [PDF](/self-study/%28therst%29kittel/5_Chemical_potential_and_Gibbs_distribution/kitteltp_5_1.pdf).
+  - Exercise 5.4: [PDF](/self-study/%28therst%29kittel/5_Chemical_potential_and_Gibbs_distribution/kitteltp_5_4.pdf).
+  - Exercise 5.6: [PDF](/self-study/%28therst%29kittel/5_Chemical_potential_and_Gibbs_distribution/kitteltp_5_6.pdf).
 
-- **6.** ideal gas
-  - Exercise 6.1: [PDF](/self-study/%28therst%29kittel/6-ideal%20gas/kitteltp_6_1.pdf).
-  - Exercise 6.2: [PDF](/self-study/%28therst%29kittel/6-ideal%20gas/kitteltp_6_2.pdf).
+- **6.** Ideal gas
+  - Exercise 6.1: [PDF](/self-study/%28therst%29kittel/6_Ideal_gas/kitteltp_6_1.pdf).
+  - Exercise 6.2: [PDF](/self-study/%28therst%29kittel/6_Ideal_gas/kitteltp_6_2.pdf).
 
-- **7.** fermi and bose gas
-  - Exercise 7.2: [PDF](/self-study/%28therst%29kittel/7-fermi%20and%20bose%20gas/kitteltp_7_2.pdf).
-  - Exercise 7.3: [PDF](/self-study/%28therst%29kittel/7-fermi%20and%20bose%20gas/kitteltp_7_3.pdf).
+- **7.** Fermi and Bose gases
+  - Exercise 7.2: [PDF](/self-study/%28therst%29kittel/7_Fermi_and_Bose_gases/kitteltp_7_2.pdf).
+  - Exercise 7.3: [PDF](/self-study/%28therst%29kittel/7_Fermi_and_Bose_gases/kitteltp_7_3.pdf).
 
-- **8.** heat and work
-  - Exercise 8.1x: [PDF](/self-study/%28therst%29kittel/8-heat%20and%20work/kitteltp_8_1x.pdf).
+- **8.** Heat and work
+  - Exercise 8.1x: [PDF](/self-study/%28therst%29kittel/8_Heat_and_work/kitteltp_8_1x.pdf).
 
 
 ### R.K. Pathria & P. Beale. *Statistical Mechanics*. (5 worked solutions)
@@ -558,4 +558,4 @@ Later (Sep. 2024), I enrolled in the MSc Physics program at Imperial College Lon
 
 ---
 
-Last updated: **2026-01-05 07:37 GMT**.
+Last updated: **2026-01-05 07:42 GMT**.
