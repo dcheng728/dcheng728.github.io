@@ -468,7 +468,7 @@ Later (Sep. 2024), I enrolled in the MSc Physics program at Imperial College Lon
   - Exercise 14.1: [PDF](/self-study/%28gr%29thooftgr/14_The_Robertson-Walker_metric/%27t%20hooft_14_1.pdf).
 
 
-### P. Townsend, *Black Holes* (lecture notes). (9 worked solutions)
+### P. Townsend, *Black Holes* (lecture notes), arXiv:9707012[gr-qc]. (9 worked solutions)
 
 - **2.** Schwarzschild black hole
   - Exercise 2.18: [PDF](/self-study/%28gr%29townsendbh/2_Schwarzschild_black_hole/townsend_2_18.pdf).
@@ -572,4 +572,4 @@ Later (Sep. 2024), I enrolled in the MSc Physics program at Imperial College Lon
 
 ---
 
-Last updated: **2026-01-05 10:37 GMT**.
+Last updated: **2026-01-05 10:41 GMT**.

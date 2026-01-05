@@ -14,7 +14,7 @@ BIBLIOGRAPHY: dict[str, str] = {
 	"(cm)goldstein": "H. Goldstein, C. Poole & J. Safko, *Classical Mechanics*, 3rd ed.",
 	"(gr)schutz": "B. Schutz, *A First Course in General Relativity*, 3rd ed.",
 	"(gr)thooftgr": "G. 't Hooft, *Introduction to General Relativity* (lecture notes).",
-	"(gr)townsendbh": "P. Townsend, *Black Holes* (lecture notes).",
+	"(gr)townsendbh": "P. Townsend, *Black Holes* (lecture notes), arXiv:9707012[gr-qc].",
 	"(qft)griffiths": "D. Griffiths, *Introduction to Elementary Particles*, 2nd ed.",
 	"(qft)schwartz": "M. Schwartz, *Quantum Field Theory and the Standard Model*.",
 	"(qft)weinberg": "S. Weinberg, *The Quantum Theory of Fields*, vol. I & II.",
