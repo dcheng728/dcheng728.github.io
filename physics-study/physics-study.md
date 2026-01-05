@@ -162,25 +162,25 @@ Later (Sep. 2024), I enrolled in the MSc Physics program at Imperial College Lon
 
 ### H. Callen. *Thermodynamics and an Intro. to Thermostatistics*, 2nd ed. (14 worked solutions)
 
-- **2.** the conditions of equilibrium
-  - Exercise 2.2-1: [PDF](/self-study/%28therst%29callen/2-the%20conditions%20of%20equilibrium/callen_2_2-1.pdf).
-  - Exercise 2.2-4: [PDF](/self-study/%28therst%29callen/2-the%20conditions%20of%20equilibrium/callen_2_2-4.pdf).
-  - Exercise 2.3-2: [PDF](/self-study/%28therst%29callen/2-the%20conditions%20of%20equilibrium/callen_2_3-2.pdf).
+- **2.** The conditions of equilibrium
+  - Exercise 2.2-1: [PDF](/self-study/%28therst%29callen/2_The_conditions_of_equilibrium/callen_2_2-1.pdf).
+  - Exercise 2.2-4: [PDF](/self-study/%28therst%29callen/2_The_conditions_of_equilibrium/callen_2_2-4.pdf).
+  - Exercise 2.3-2: [PDF](/self-study/%28therst%29callen/2_The_conditions_of_equilibrium/callen_2_3-2.pdf).
 
-- **3.** some formal relationships and sample systems
-  - Exercise 3.2-1: [PDF](/self-study/%28therst%29callen/3-some%20formal%20relationships%20and%20sample%20systems/callen_3_2-1.pdf).
-  - Exercise 3.3-1?: [PDF](/self-study/%28therst%29callen/3-some%20formal%20relationships%20and%20sample%20systems/callen_3_3-1%3F.pdf).
-  - Exercise 3.3-2: [PDF](/self-study/%28therst%29callen/3-some%20formal%20relationships%20and%20sample%20systems/callen_3_3-2.pdf).
-  - Exercise 3.4-3: [PDF](/self-study/%28therst%29callen/3-some%20formal%20relationships%20and%20sample%20systems/callen_3_4-3.pdf).
-  - Exercise 3.5-2: [PDF](/self-study/%28therst%29callen/3-some%20formal%20relationships%20and%20sample%20systems/callen_3_5-2.pdf).
-  - Exercise 3.6-1: [PDF](/self-study/%28therst%29callen/3-some%20formal%20relationships%20and%20sample%20systems/callen_3_6-1.pdf).
-  - Exercise 3.6-2: [PDF](/self-study/%28therst%29callen/3-some%20formal%20relationships%20and%20sample%20systems/callen_3_6-2.pdf).
+- **3.** Some formal relationships and sample systems
+  - Exercise 3.2-1: [PDF](/self-study/%28therst%29callen/3_Some_formal_relationships_and_sample_systems/callen_3_2-1.pdf).
+  - Exercise 3.3-1?: [PDF](/self-study/%28therst%29callen/3_Some_formal_relationships_and_sample_systems/callen_3_3-1%3F.pdf).
+  - Exercise 3.3-2: [PDF](/self-study/%28therst%29callen/3_Some_formal_relationships_and_sample_systems/callen_3_3-2.pdf).
+  - Exercise 3.4-3: [PDF](/self-study/%28therst%29callen/3_Some_formal_relationships_and_sample_systems/callen_3_4-3.pdf).
+  - Exercise 3.5-2: [PDF](/self-study/%28therst%29callen/3_Some_formal_relationships_and_sample_systems/callen_3_5-2.pdf).
+  - Exercise 3.6-1: [PDF](/self-study/%28therst%29callen/3_Some_formal_relationships_and_sample_systems/callen_3_6-1.pdf).
+  - Exercise 3.6-2: [PDF](/self-study/%28therst%29callen/3_Some_formal_relationships_and_sample_systems/callen_3_6-2.pdf).
 
-- **4.** reversible processes and the maximum work theorem
-  - Exercise 4.2-1: [PDF](/self-study/%28therst%29callen/4-reversible%20processes%20and%20the%20maximum%20work%20theorem/callen_4_2-1.pdf).
-  - Exercise 4.2-3: [PDF](/self-study/%28therst%29callen/4-reversible%20processes%20and%20the%20maximum%20work%20theorem/callen_4_2-3.pdf).
-  - Exercise 4.4-1: [PDF](/self-study/%28therst%29callen/4-reversible%20processes%20and%20the%20maximum%20work%20theorem/callen_4_4-1.pdf).
-  - Exercise 4.4-2a?: [PDF](/self-study/%28therst%29callen/4-reversible%20processes%20and%20the%20maximum%20work%20theorem/callen_4_4-2a%3F.pdf).
+- **4.** Reversible processes and the maximum work theorem
+  - Exercise 4.2-1: [PDF](/self-study/%28therst%29callen/4_Reversible_processes_and_the_maximum_work_theorem/callen_4_2-1.pdf).
+  - Exercise 4.2-3: [PDF](/self-study/%28therst%29callen/4_Reversible_processes_and_the_maximum_work_theorem/callen_4_2-3.pdf).
+  - Exercise 4.4-1: [PDF](/self-study/%28therst%29callen/4_Reversible_processes_and_the_maximum_work_theorem/callen_4_4-1.pdf).
+  - Exercise 4.4-2a?: [PDF](/self-study/%28therst%29callen/4_Reversible_processes_and_the_maximum_work_theorem/callen_4_4-2a%3F.pdf).
 
 
 ### E. Fermi. *Thermodynamics*. (2 worked solutions)
@@ -558,4 +558,4 @@ Later (Sep. 2024), I enrolled in the MSc Physics program at Imperial College Lon
 
 ---
 
-Last updated: **2026-01-05 07:42 GMT**.
+Last updated: **2026-01-05 07:44 GMT**.
