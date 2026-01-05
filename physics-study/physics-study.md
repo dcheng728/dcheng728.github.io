@@ -550,12 +550,12 @@ Later (Sep. 2024), I enrolled in the MSc Physics program at Imperial College Lon
 ### G. 't Hooft. *Introduction to String Theory (lecture notes)*. (2 worked solutions)
 
 - **2.** The classical string
-  - Exercise 2.1: [PDF](/self-study/%28string%29thooftstring/2-The%20classical%20string/thooftstring_2_1.pdf).
+  - Exercise 2.1: [PDF](/self-study/%28string%29thooftstring/2_The_classical_string/thooftstring_2_1.pdf).
 
 - **3.** Open and closed strings
-  - Exercise 3.1: [PDF](/self-study/%28string%29thooftstring/3-Open%20and%20closed%20strings/thooftstring_3_1.pdf).
+  - Exercise 3.1: [PDF](/self-study/%28string%29thooftstring/3_Open_and_closed_strings/thooftstring_3_1.pdf).
 
 
 ---
 
-Last updated: **2026-01-05 07:44 GMT**.
+Last updated: **2026-01-05 07:46 GMT**.
