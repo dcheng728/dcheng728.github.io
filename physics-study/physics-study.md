@@ -499,13 +499,13 @@ Later (Sep. 2024), I enrolled in the MSc Physics program at Imperial College Lon
 
 ### S. Weinberg. *The Quantum Theory of Fields*. (4 worked solutions)
 
-- **2.** relativistic qm
-  - Exercise 2.1: [PDF](/self-study/%28qft%29weinberg/2-relativistic%20qm/weinberg_2_1.pdf).
-  - Exercise 2.2: [PDF](/self-study/%28qft%29weinberg/2-relativistic%20qm/weinberg_2_2.pdf).
-  - Exercise 2.5: [PDF](/self-study/%28qft%29weinberg/2-relativistic%20qm/weinberg_2_5.pdf).
+- **2.** Relativistic quantum mechanics
+  - Exercise 2.1: [PDF](/self-study/%28qft%29weinberg/2_Relativistic_quantum_mechanics/weinberg_2_1.pdf).
+  - Exercise 2.2: [PDF](/self-study/%28qft%29weinberg/2_Relativistic_quantum_mechanics/weinberg_2_2.pdf).
+  - Exercise 2.5: [PDF](/self-study/%28qft%29weinberg/2_Relativistic_quantum_mechanics/weinberg_2_5.pdf).
 
-- **3.** scattering theory
-  - Exercise 3.1: [PDF](/self-study/%28qft%29weinberg/3-scattering%20theory/weinberg_3_1.pdf).
+- **3.** Scattering theory
+  - Exercise 3.1: [PDF](/self-study/%28qft%29weinberg/3_Scattering_theory/weinberg_3_1.pdf).
 
 
 ## String Theory
@@ -543,7 +543,7 @@ Later (Sep. 2024), I enrolled in the MSc Physics program at Imperial College Lon
   - Exercise 10.1a: [PDF](/self-study/%28string%29polchinski/10_Type_I_and_type_II_superstrings/polchinski_10_1a.pdf).
   - Exercise 10.2: [PDF](/self-study/%28string%29polchinski/10_Type_I_and_type_II_superstrings/polchinski_10_2.pdf).
 
-- A_A_short_course_on_path_integrals
+- **A.** A short course on path integrals
   - Exercise A.1: [PDF](/self-study/%28string%29polchinski/A_A_short_course_on_path_integrals/polchinski_A_1.pdf).
 
 
@@ -558,4 +558,4 @@ Later (Sep. 2024), I enrolled in the MSc Physics program at Imperial College Lon
 
 ---
 
-Last updated: **2026-01-05 08:45 GMT**.
+Last updated: **2026-01-05 08:49 GMT**.

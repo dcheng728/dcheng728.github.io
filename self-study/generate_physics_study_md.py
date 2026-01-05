@@ -95,20 +95,22 @@ def chapter_display_name(dir_name: str) -> str:
 	Supports both legacy formats like "1-foo" and the newer "1_foo".
 	"""
 	chapter_index = dir_name.split("_")[0]
-	chapter_name = dir_name[len(chapter_index) + 1 :]
+	chapter_name = dir_name[len(chapter_index) + 1 :].replace("_", " ")
 	print(chapter_index, chapter_name)
+	return f"**{chapter_index}.** {chapter_name}"
+	
 
-	m = re.match(r"^(\d+)[_-](.+)$", dir_name)
-	if not m:
-		return dir_name
-	chapter_num = int(m.group(1))
-	title = m.group(2).replace("_", " ")
-	title = re.sub(r"\s+", " ", title).strip()
-	# Important: Avoid leading "1." patterns in list items like "- 1. Title",
-	# which Markdown parses as a nested ordered list (the number becomes a marker,
-	# not text). Render the number as formatted text instead.
-	num_text = f"**{chapter_num}.**"
-	return f"{num_text} {title}" if title else num_text
+	# m = re.match(r"^(\d+)[_-](.+)$", dir_name)
+	# if not m:
+	# 	return dir_name
+	# chapter_num = int(m.group(1))
+	# title = m.group(2).replace("_", " ")
+	# title = re.sub(r"\s+", " ", title).strip()
+	# # Important: Avoid leading "1." patterns in list items like "- 1. Title",
+	# # which Markdown parses as a nested ordered list (the number becomes a marker,
+	# # not text). Render the number as formatted text instead.
+	# num_text = f"**{chapter_num}.**"
+	# return f"{num_text} {title}" if title else num_text
 
 
 def exercise_sort_key(p: Path) -> tuple:
