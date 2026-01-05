@@ -192,32 +192,32 @@ Later (Sep. 2024), I enrolled in the MSc Physics program at Imperial College Lon
 
 ### M. Glazer & J. Wark. *Stat. Mechanics: A Survival Guide*. (13 worked solutions)
 
-- **1.** back to basics
-  - Exercise 1.3: [PDF](/self-study/%28therst%29glazer%20wark/1-back%20to%20basics/glazerwark_1_3.pdf).
+- **1.** Back to basics
+  - Exercise 1.3: [PDF](/self-study/%28therst%29glazer%20wark/1_Back_to_basics/glazerwark_1_3.pdf).
 
-- **2.** the statistics of distinguishable particles
-  - Exercise 2.4: [PDF](/self-study/%28therst%29glazer%20wark/2-the%20statistics%20of%20distinguishable%20particles/glazerwark_2_4.pdf).
-  - Exercise 2.7: [PDF](/self-study/%28therst%29glazer%20wark/2-the%20statistics%20of%20distinguishable%20particles/glazerwark_2_7.pdf).
+- **2.** The statistics of distinguishable particles
+  - Exercise 2.4: [PDF](/self-study/%28therst%29glazer%20wark/2_The_statistics_of_distinguishable_particles/glazerwark_2_4.pdf).
+  - Exercise 2.7: [PDF](/self-study/%28therst%29glazer%20wark/2_The_statistics_of_distinguishable_particles/glazerwark_2_7.pdf).
 
-- **3.** paramagnet and oscillators
-  - Exercise 3.2: [PDF](/self-study/%28therst%29glazer%20wark/3-paramagnet%20and%20oscillators/glazerwark_3_2.pdf).
-  - Exercise 3.3: [PDF](/self-study/%28therst%29glazer%20wark/3-paramagnet%20and%20oscillators/glazerwark_3_3.pdf).
+- **3.** Paramagnet and oscillators
+  - Exercise 3.2: [PDF](/self-study/%28therst%29glazer%20wark/3_Paramagnet_and_oscillators/glazerwark_3_2.pdf).
+  - Exercise 3.3: [PDF](/self-study/%28therst%29glazer%20wark/3_Paramagnet_and_oscillators/glazerwark_3_3.pdf).
 
-- **4.** indistinguishable particles and monatomic ideal gases
-  - Exercise 4.1: [PDF](/self-study/%28therst%29glazer%20wark/4-indistinguishable%20particles%20and%20monatomic%20ideal%20gases/glazerwark_4_1.pdf).
+- **4.** Indistinguishable particles and monatomic ideal gases
+  - Exercise 4.1: [PDF](/self-study/%28therst%29glazer%20wark/4_Indistinguishable_particles_and_monatomic_ideal_gases/glazerwark_4_1.pdf).
 
-- **5.** diatomic ideal gases
-  - Exercise 5.1: [PDF](/self-study/%28therst%29glazer%20wark/5-diatomic%20ideal%20gases/glazerwark_5_1.pdf).
+- **5.** Diatomic ideal gases
+  - Exercise 5.1: [PDF](/self-study/%28therst%29glazer%20wark/5_Diatomic_ideal_gases/glazerwark_5_1.pdf).
 
-- **7.** electrons in metals
-  - Exercise 7.1: [PDF](/self-study/%28therst%29glazer%20wark/7-electrons%20in%20metals/glazerwark_7_1.pdf).
-  - Exercise 7.2: [PDF](/self-study/%28therst%29glazer%20wark/7-electrons%20in%20metals/glazerwark_7_2.pdf).
-  - Exercise 7.5: [PDF](/self-study/%28therst%29glazer%20wark/7-electrons%20in%20metals/glazerwark_7_5.pdf).
+- **7.** Electrons in metals
+  - Exercise 7.1: [PDF](/self-study/%28therst%29glazer%20wark/7_Electrons_in_metals/glazerwark_7_1.pdf).
+  - Exercise 7.2: [PDF](/self-study/%28therst%29glazer%20wark/7_Electrons_in_metals/glazerwark_7_2.pdf).
+  - Exercise 7.5: [PDF](/self-study/%28therst%29glazer%20wark/7_Electrons_in_metals/glazerwark_7_5.pdf).
 
-- **8.** photons phonons
-  - Exercise 8.1: [PDF](/self-study/%28therst%29glazer%20wark/8-photons%20phonons/glazerwark_8_1.pdf).
-  - Exercise 8.4: [PDF](/self-study/%28therst%29glazer%20wark/8-photons%20phonons/glazerwark_8_4.pdf).
-  - Exercise 8.5: [PDF](/self-study/%28therst%29glazer%20wark/8-photons%20phonons/glazerwark_8_5.pdf).
+- **8.** Photons and phonons
+  - Exercise 8.1: [PDF](/self-study/%28therst%29glazer%20wark/8_Photons_and_phonons/glazerwark_8_1.pdf).
+  - Exercise 8.4: [PDF](/self-study/%28therst%29glazer%20wark/8_Photons_and_phonons/glazerwark_8_4.pdf).
+  - Exercise 8.5: [PDF](/self-study/%28therst%29glazer%20wark/8_Photons_and_phonons/glazerwark_8_5.pdf).
 
 
 ### C. Kittel & H. Kroemer. *Thermal Physics*, 2nd ed. (20 worked solutions)
@@ -558,4 +558,4 @@ Later (Sep. 2024), I enrolled in the MSc Physics program at Imperial College Lon
 
 ---
 
-Last updated: **2026-01-05 07:47 GMT**.
+Last updated: **2026-01-05 07:49 GMT**.
