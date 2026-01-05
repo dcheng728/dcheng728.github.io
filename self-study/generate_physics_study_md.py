@@ -15,7 +15,7 @@ BIBLIOGRAPHY: dict[str, str] = {
 	"(gr)schutz": "B. Schutz, *A First Course in General Relativity*, 3rd ed.",
 	"(gr)thooftgr": "G. 't Hooft, *Introduction to General Relativity* (lecture notes).",
 	"(gr)townsendbh": "P. Townsend, *Black Holes* (lecture notes).",
-	"(particles)griffiths": "D. Griffiths, *Introduction to Elementary Particles*, 1st ed.",
+	"(qft)griffiths": "D. Griffiths, *Introduction to Elementary Particles*, 1st ed.",
 	"(qft)schwartz": "M. Schwartz, *Quantum Field Theory and the Standard Model*.",
 	"(qft)weinberg": "S. Weinberg, *The Quantum Theory of Fields*, vol. I & II.",
 	"(sstate)kittel": "C. Kittel, *Introduction to Solid State Physics*, 8th ed.",
@@ -33,22 +33,20 @@ SUBJECT_ORDER: list[str] = [
 	"cm",
 	"ced",
 	"therst",
-	"particles",
-	"sstate",
-	"gr",
 	"qft",
+	"gr",
 	"string",
+	"sstate",
 ]
 
 SUBJECT_NAMES: dict[str, str] = {
 	"cm": "Classical Mechanics",
 	"ced": "Classical Electrodynamics",
 	"therst": "Thermal & Statistical Physics",
-	"particles": "Particle Physics",
-	"sstate": "Solid State Physics",
+	"qft": "Quantum Field Theory and Particle Physics",
 	"gr": "General Relativity",
-	"qft": "Quantum Field Theory",
 	"string": "String Theory",
+	"sstate": "Solid State Physics",
 }
 
 # Files/folders to ignore while walking.
