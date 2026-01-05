@@ -1,0 +1,92 @@
+<div class="footer-art" aria-hidden="true">
+  <svg viewBox="0 0 1440 260" preserveAspectRatio="none" focusable="false" aria-hidden="true">
+    <defs>
+      <!-- Soft fade so the top feels like mist. -->
+      <linearGradient id="mistFade" x1="0" y1="0" x2="0" y2="1">
+        <stop offset="0%" stop-color="currentColor" stop-opacity="0" />
+        <stop offset="45%" stop-color="currentColor" stop-opacity="0.08" />
+        <stop offset="100%" stop-color="currentColor" stop-opacity="0.14" />
+      </linearGradient>
+
+      <!-- Watercolor-ish edge & pigment variation (subtle, fast). -->
+      <filter id="wash" x="-5%" y="-10%" width="110%" height="130%" color-interpolation-filters="sRGB">
+        <feTurbulence type="fractalNoise" baseFrequency="0.9" numOctaves="2" seed="7" result="noise" />
+        <feDisplacementMap in="SourceGraphic" in2="noise" scale="10" xChannelSelector="R" yChannelSelector="G" result="disp" />
+        <feGaussianBlur in="disp" stdDeviation="0.7" result="blur" />
+        <feComponentTransfer in="blur">
+          <feFuncA type="gamma" amplitude="1" exponent="1.1" offset="0" />
+        </feComponentTransfer>
+      </filter>
+
+      <filter id="mist" x="-5%" y="-20%" width="110%" height="160%" color-interpolation-filters="sRGB">
+        <feGaussianBlur stdDeviation="10" />
+      </filter>
+    </defs>
+
+    <!-- Background mist wash -->
+    <rect x="0" y="0" width="1440" height="260" fill="url(#mistFade)" filter="url(#mist)" opacity="0.9" />
+
+    <!-- Small flock (geese) in the distance -->
+    <g fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" opacity="0.22">
+      <!-- Each bird is two quick brush arcs (a classic ink silhouette). -->
+      <path d="M215 62 q 7 -5.5 14 0" stroke-width="2.1" />
+      <path d="M235 62 q 7 -5.5 14 0" stroke-width="2.1" />
+
+      <path d="M265 78 q 6.3 -4.9 12.6 0" stroke-width="2.0" />
+      <path d="M282 78 q 6.3 -4.9 12.6 0" stroke-width="2.0" />
+
+      <path d="M330 58 q 7.7 -6.3 15.4 0" stroke-width="2.2" />
+      <path d="M351 58 q 7.7 -6.3 15.4 0" stroke-width="2.2" />
+
+      <path d="M375 86 q 5.6 -4.2 11.2 0" stroke-width="1.8" />
+      <path d="M390 86 q 5.6 -4.2 11.2 0" stroke-width="1.8" />
+
+      <path d="M430 70 q 7 -5.5 14 0" stroke-width="2.0" />
+      <path d="M450 70 q 7 -5.5 14 0" stroke-width="2.0" />
+    </g>
+
+    <!-- Ink-wash mountain layers -->
+    <g filter="url(#wash)">
+      <!-- distant ridge (subtle, higher) -->
+      <path fill="currentColor" opacity="0.035" d="M0,132
+        C90,112 165,120 240,104
+        C310,90 360,62 430,74
+        C500,86 540,56 610,64
+        C700,74 730,34 820,52
+        C910,70 960,92 1040,72
+        C1120,52 1180,58 1260,48
+        C1340,40 1395,60 1440,46
+        L1440,260 L0,260 Z" />
+
+      <!-- mid ridge with clearer peaks -->
+      <path fill="currentColor" opacity="0.06" d="M0,168
+        C110,138 190,150 280,132
+        C360,116 390,92 460,104
+        C540,118 585,90 650,98
+        C730,108 760,78 820,86
+        C900,96 930,70 1005,80
+        C1090,92 1125,112 1200,98
+        C1300,80 1365,104 1440,90
+        L1440,260 L0,260 Z" />
+
+      <!-- near ridge (largest silhouettes) -->
+      <path fill="currentColor" opacity="0.09" d="M0,214
+        C130,188 240,228 360,196
+        C440,176 500,152 570,170
+        C660,194 720,160 790,174
+        C880,192 900,146 990,162
+        C1090,180 1160,150 1240,160
+        C1340,172 1390,186 1440,178
+        L1440,260 L0,260 Z" />
+
+      <!-- foreground wash (heaviest) -->
+      <path fill="currentColor" opacity="0.125" d="M0,244
+        C170,220 300,258 470,232
+        C560,218 610,202 700,216
+        C790,230 840,210 930,218
+        C1030,228 1100,206 1200,210
+        C1310,214 1380,220 1440,214
+        L1440,260 L0,260 Z" />
+    </g>
+  </svg>
+</div>
