@@ -513,38 +513,38 @@ Later (Sep. 2024), I enrolled in the MSc Physics program at Imperial College Lon
 ### J. Polchinski. *String Theory*, vol. 1 & 2. (24 worked solutions)
 
 - **1.** A first look at strings
-  - Exercise 1.1a: [PDF](/self-study/%28string%29polchinski/1-A%20first%20look%20at%20strings/polchinski_1_1a.pdf).
-  - Exercise 1.1b: [PDF](/self-study/%28string%29polchinski/1-A%20first%20look%20at%20strings/polchinski_1_1b.pdf).
-  - Exercise 1.2: [PDF](/self-study/%28string%29polchinski/1-A%20first%20look%20at%20strings/polchinski_1_2.pdf).
-  - Exercise 1.3: [PDF](/self-study/%28string%29polchinski/1-A%20first%20look%20at%20strings/polchinski_1_3.pdf).
-  - Exercise 1.4a: [PDF](/self-study/%28string%29polchinski/1-A%20first%20look%20at%20strings/polchinski_1_4a.pdf).
+  - Exercise 1.1a: [PDF](/self-study/%28string%29polchinski/1_A_first_look_at_strings/polchinski_1_1a.pdf).
+  - Exercise 1.1b: [PDF](/self-study/%28string%29polchinski/1_A_first_look_at_strings/polchinski_1_1b.pdf).
+  - Exercise 1.2: [PDF](/self-study/%28string%29polchinski/1_A_first_look_at_strings/polchinski_1_2.pdf).
+  - Exercise 1.3: [PDF](/self-study/%28string%29polchinski/1_A_first_look_at_strings/polchinski_1_3.pdf).
+  - Exercise 1.4a: [PDF](/self-study/%28string%29polchinski/1_A_first_look_at_strings/polchinski_1_4a.pdf).
 
 - **2.** Conformal field theory
-  - Exercise 2.1a: [PDF](/self-study/%28string%29polchinski/2-Conformal%20field%20theory/polchinski_2_1a.pdf).
-  - Exercise 2.2: [PDF](/self-study/%28string%29polchinski/2-Conformal%20field%20theory/polchinski_2_2.pdf).
-  - Exercise 2.3a: [PDF](/self-study/%28string%29polchinski/2-Conformal%20field%20theory/polchinski_2_3a.pdf).
-  - Exercise 2.4: [PDF](/self-study/%28string%29polchinski/2-Conformal%20field%20theory/polchinski_2_4.pdf).
-  - Exercise 2.5: [PDF](/self-study/%28string%29polchinski/2-Conformal%20field%20theory/polchinski_2_5.pdf).
-  - Exercise 2.6: [PDF](/self-study/%28string%29polchinski/2-Conformal%20field%20theory/polchinski_2_6.pdf).
-  - Exercise 2.7a: [PDF](/self-study/%28string%29polchinski/2-Conformal%20field%20theory/polchinski_2_7a.pdf).
-  - Exercise 2.7b: [PDF](/self-study/%28string%29polchinski/2-Conformal%20field%20theory/polchinski_2_7b.pdf).
-  - Exercise 2.8: [PDF](/self-study/%28string%29polchinski/2-Conformal%20field%20theory/polchinski_2_8.pdf).
-  - Exercise 2.12a: [PDF](/self-study/%28string%29polchinski/2-Conformal%20field%20theory/polchinski_2_12a.pdf).
-  - Exercise polchinski_2.9: [PDF](/self-study/%28string%29polchinski/2-Conformal%20field%20theory/polchinski_2.9.pdf).
+  - Exercise 2.1a: [PDF](/self-study/%28string%29polchinski/2_Conformal_field_theory/polchinski_2_1a.pdf).
+  - Exercise 2.2: [PDF](/self-study/%28string%29polchinski/2_Conformal_field_theory/polchinski_2_2.pdf).
+  - Exercise 2.3a: [PDF](/self-study/%28string%29polchinski/2_Conformal_field_theory/polchinski_2_3a.pdf).
+  - Exercise 2.4: [PDF](/self-study/%28string%29polchinski/2_Conformal_field_theory/polchinski_2_4.pdf).
+  - Exercise 2.5: [PDF](/self-study/%28string%29polchinski/2_Conformal_field_theory/polchinski_2_5.pdf).
+  - Exercise 2.6: [PDF](/self-study/%28string%29polchinski/2_Conformal_field_theory/polchinski_2_6.pdf).
+  - Exercise 2.7a: [PDF](/self-study/%28string%29polchinski/2_Conformal_field_theory/polchinski_2_7a.pdf).
+  - Exercise 2.7b: [PDF](/self-study/%28string%29polchinski/2_Conformal_field_theory/polchinski_2_7b.pdf).
+  - Exercise 2.8: [PDF](/self-study/%28string%29polchinski/2_Conformal_field_theory/polchinski_2_8.pdf).
+  - Exercise 2.12a: [PDF](/self-study/%28string%29polchinski/2_Conformal_field_theory/polchinski_2_12a.pdf).
+  - Exercise polchinski_2.9: [PDF](/self-study/%28string%29polchinski/2_Conformal_field_theory/polchinski_2.9.pdf).
 
 - **3.** The Polyakov path integral
-  - Exercise 3.1a: [PDF](/self-study/%28string%29polchinski/3-The%20Polyakov%20path%20integral/polchinski_3_1a.pdf).
-  - Exercise 3.2ab: [PDF](/self-study/%28string%29polchinski/3-The%20Polyakov%20path%20integral/polchinski_3_2ab.pdf).
-  - Exercise 3.3a: [PDF](/self-study/%28string%29polchinski/3-The%20Polyakov%20path%20integral/polchinski_3_3a.pdf).
-  - Exercise 3.4: [PDF](/self-study/%28string%29polchinski/3-The%20Polyakov%20path%20integral/polchinski_3_4.pdf).
-  - Exercise 3.6: [PDF](/self-study/%28string%29polchinski/3-The%20Polyakov%20path%20integral/polchinski_3_6.pdf).
+  - Exercise 3.1a: [PDF](/self-study/%28string%29polchinski/3_The_Polyakov_path_integral/polchinski_3_1a.pdf).
+  - Exercise 3.2ab: [PDF](/self-study/%28string%29polchinski/3_The_Polyakov_path_integral/polchinski_3_2ab.pdf).
+  - Exercise 3.3a: [PDF](/self-study/%28string%29polchinski/3_The_Polyakov_path_integral/polchinski_3_3a.pdf).
+  - Exercise 3.4: [PDF](/self-study/%28string%29polchinski/3_The_Polyakov_path_integral/polchinski_3_4.pdf).
+  - Exercise 3.6: [PDF](/self-study/%28string%29polchinski/3_The_Polyakov_path_integral/polchinski_3_6.pdf).
 
 - **10.** Type I and type II superstrings
-  - Exercise 10.1a: [PDF](/self-study/%28string%29polchinski/10-Type%20I%20and%20type%20II%20superstrings/polchinski_10_1a.pdf).
-  - Exercise 10.2: [PDF](/self-study/%28string%29polchinski/10-Type%20I%20and%20type%20II%20superstrings/polchinski_10_2.pdf).
+  - Exercise 10.1a: [PDF](/self-study/%28string%29polchinski/10_Type_I_and_type_II_superstrings/polchinski_10_1a.pdf).
+  - Exercise 10.2: [PDF](/self-study/%28string%29polchinski/10_Type_I_and_type_II_superstrings/polchinski_10_2.pdf).
 
-- A-A short course on path integrals
-  - Exercise A.1: [PDF](/self-study/%28string%29polchinski/A-A%20short%20course%20on%20path%20integrals/polchinski_A_1.pdf).
+- A_A_short_course_on_path_integrals
+  - Exercise A.1: [PDF](/self-study/%28string%29polchinski/A_A_short_course_on_path_integrals/polchinski_A_1.pdf).
 
 
 ### G. 't Hooft. *Introduction to String Theory (lecture notes)*. (2 worked solutions)
@@ -558,4 +558,4 @@ Later (Sep. 2024), I enrolled in the MSc Physics program at Imperial College Lon
 
 ---
 
-Last updated: **2026-01-05 08:23 GMT**.
+Last updated: **2026-01-05 08:45 GMT**.

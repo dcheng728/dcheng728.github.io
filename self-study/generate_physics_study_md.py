@@ -94,6 +94,10 @@ def chapter_display_name(dir_name: str) -> str:
 
 	Supports both legacy formats like "1-foo" and the newer "1_foo".
 	"""
+	chapter_index = dir_name.split("_")[0]
+	chapter_name = dir_name[len(chapter_index) + 1 :]
+	print(chapter_index, chapter_name)
+
 	m = re.match(r"^(\d+)[_-](.+)$", dir_name)
 	if not m:
 		return dir_name
