@@ -13,11 +13,15 @@
   </head>
 
   <body>
-    {% include nav.html %}
-    
-    <main>
-      {{ content }}
-    </main>
+    <div class="page">
+      {% include nav.html %}
+      
+      <main>
+        {{ content }}
+      </main>
+    </div>
+
+    {% include footer-art.html %}
 
     <script>
       document.addEventListener("DOMContentLoaded", function () {

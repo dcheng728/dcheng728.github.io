@@ -8,46 +8,45 @@ from urllib.parse import quote
 
 
 # Book-level citations shown next to each book title.
-BIBLIOGRAPHY: dict[str, str] = {
-	"(ced)griffiths": "D. Griffiths. *Intro. to Electrodynamics*, 4th ed.",
-	"(ced)jackson": "J. Jackson. *Classical Electrodynamics*, 3rd ed.",
-	"(cm)goldstein": "H. Goldstein, C. Poole & J. Safko. *Classical Mechanics*, 3rd ed.",
-	"(gr)schutz": "B. Schutz. *A First Course in General Relativity*.",
-	"(gr)thooftgr": "G. 't Hooft. *Introduction to General Relativity (lecture notes)*.",
-	"(particles)griffiths": "D. Griffiths. *Intro. to Elementary Particles*.",
-	"(qft)schwartz": "M. Schwartz. *Quantum Field Theory and the Standard Model*.",
-	"(qft)weinberg": "S. Weinberg. *The Quantum Theory of Fields*.",
-	"(sstate)kittel": "C. Kittel. *Intro. to Solid State Physics*, 8th ed.",
-	"(string)polchinski": "J. Polchinski. *String Theory*, vol. 1 & 2.",
-	"(string)thooftstring": "G. 't Hooft. *Introduction to String Theory (lecture notes)*.",
-	"(therst)callen": "H. Callen. *Thermodynamics and an Intro. to Thermostatistics*, 2nd ed.",
-	"(therst)fermi": "E. Fermi. *Thermodynamics*.",
-	"(therst)glazer wark": "M. Glazer & J. Wark. *Stat. Mechanics: A Survival Guide*.",
-	"(therst)kittel": "C. Kittel & H. Kroemer. *Thermal Physics*, 2nd ed.",
-	"(therst)pathria": "R.K. Pathria & P. Beale. *Statistical Mechanics*.",
+BIBLIOGRAPHY: dict[str, str] = { 
+	"(ced)griffiths": "D. Griffiths, *Intro. to Electrodynamics*, 4th ed.",
+	"(ced)jackson": "J. Jackson, *Classical Electrodynamics*, 3rd ed.",
+	"(cm)goldstein": "H. Goldstein, C. Poole & J. Safko, *Classical Mechanics*, 3rd ed.",
+	"(gr)schutz": "B. Schutz, *A First Course in General Relativity*, 3rd ed.",
+	"(gr)thooftgr": "G. 't Hooft, *Introduction to General Relativity* (lecture notes).",
+	"(gr)townsendbh": "P. Townsend, *Black Holes* (lecture notes), arXiv:9707012[gr-qc].",
+	"(qft)griffiths": "D. Griffiths, *Introduction to Elementary Particles*, 2nd ed.",
+	"(qft)schwartz": "M. Schwartz, *Quantum Field Theory and the Standard Model*.",
+	"(qft)weinberg": "S. Weinberg, *The Quantum Theory of Fields*, vol. I & II.",
+	"(sstate)kittel": "C. Kittel, *Introduction to Solid State Physics*, 8th ed.",
+	"(string)polchinski": "J. Polchinski, *String Theory*, vol. I & II.",
+	"(string)thooftstring": "G. 't Hooft, *Introduction to String Theory* (lecture notes).",
+	"(therst)callen": "H. Callen, *Thermodynamics and an Intro. to Thermostatistics*, 2nd ed.",
+	"(therst)fermi": "E. Fermi, *Thermodynamics*.",
+	"(therst)glazer wark": "M. Glazer & J. Wark, *Statistical Mechanics: A Survival Guide*.",
+	"(therst)kittel": "C. Kittel & H. Kroemer, *Thermal Physics*, 2nd ed.",
+	"(therst)pathria": "R.K. Pathria & P. Beale, *Statistical Mechanics*, 4th ed.",
 }
 
 # Which subject buckets to show, and in what order.
 SUBJECT_ORDER: list[str] = [
 	"cm",
 	"ced",
-	"therst",
-	"particles",
-	"sstate",
-	"gr",
 	"qft",
+	"gr",
 	"string",
+	"therst",
+	"sstate",
 ]
 
 SUBJECT_NAMES: dict[str, str] = {
 	"cm": "Classical Mechanics",
 	"ced": "Classical Electrodynamics",
 	"therst": "Thermal & Statistical Physics",
-	"particles": "Particle Physics",
-	"sstate": "Solid State Physics",
+	"qft": "Quantum Field Theory and Particle Physics",
 	"gr": "General Relativity",
-	"qft": "Quantum Field Theory",
 	"string": "String Theory",
+	"sstate": "Solid State Physics",
 }
 
 # Files/folders to ignore while walking.
@@ -80,11 +79,37 @@ def parse_subject_abbr(book_dir_name: str) -> str | None:
 
 
 def chapter_sort_key(name: str) -> tuple:
-	# Prefer numeric prefixes like "1-...".
-	m = re.match(r"^(\d+)-", name)
+	# Prefer numeric prefixes like "1-..." or "1_...".
+	m = re.match(r"^(\d+)[_-](.+)$", name)
 	if m:
-		return (0, int(m.group(1)), name)
-	return (1, 10**9, name)
+		chapter_num = int(m.group(1))
+		tail = m.group(2).replace("_", " ").strip()
+		return (0, chapter_num, tail.lower(), name)
+	return (1, 10**9, name.lower())
+
+
+def chapter_display_name(dir_name: str) -> str:
+	"""Make chapter folder names human-readable.
+
+	Supports both legacy formats like "1-foo" and the newer "1_foo".
+	"""
+	chapter_index = dir_name.split("_")[0]
+	chapter_name = dir_name[len(chapter_index) + 1 :].replace("_", " ")
+	print(chapter_index, chapter_name)
+	return f"**{chapter_index}.** {chapter_name}"
+	
+
+	# m = re.match(r"^(\d+)[_-](.+)$", dir_name)
+	# if not m:
+	# 	return dir_name
+	# chapter_num = int(m.group(1))
+	# title = m.group(2).replace("_", " ")
+	# title = re.sub(r"\s+", " ", title).strip()
+	# # Important: Avoid leading "1." patterns in list items like "- 1. Title",
+	# # which Markdown parses as a nested ordered list (the number becomes a marker,
+	# # not text). Render the number as formatted text instead.
+	# num_text = f"**{chapter_num}.**"
+	# return f"{num_text} {title}" if title else num_text
 
 
 def exercise_sort_key(p: Path) -> tuple:
@@ -162,7 +187,7 @@ def build_index(repo_root: Path) -> tuple[list[str], Counts]:
 				if not pdfs:
 					continue
 
-				book_lines.append(f"- {chapter_dir.name}")
+				book_lines.append(f"- {chapter_display_name(chapter_dir.name)}")
 
 				for pdf in pdfs:
 					rel = (
@@ -214,9 +239,9 @@ def generate() -> None:
 		"",
     	"For about one year, I self-studied physics using established textbooks.",
 		"",
-    	"This page serves to demonstrate my proficiency in the subject in lieu of an institutional transcript.",
+    	"This page served to demonstrate my understanding in physics, in lieu of an institutional transcript.",
 		"",
-    	"It contains handwritten, signed, and dated solutions to textbook exercises.",
+    	"It contains my solutions to textbook exercises, signed and dated.",
 		"",
     	"Later (Sep. 2024), I enrolled in the MSc Physics program at Imperial College London.",
 		"",
