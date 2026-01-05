@@ -404,31 +404,31 @@ Later (Sep. 2024), I enrolled in the MSc Physics program at Imperial College Lon
 ### G. 't Hooft. *Introduction to General Relativity (lecture notes)*. (11 worked solutions)
 
 - **4.** Curved coordinates
-  - Exercise 4.1: [PDF](/self-study/%28gr%29thooftgr/4-Curved%20coordinates/%27t%20hooft_4_1.pdf).
+  - Exercise 4.1: [PDF](/self-study/%28gr%29thooftgr/4_Curved_coordinates/%27t%20hooft_4_1.pdf).
 
 - **5.** The affine connection Riemann curvature
-  - Exercise 5.1: [PDF](/self-study/%28gr%29thooftgr/5-The%20affine%20connection%20Riemann%20curvature/%27t%20hooft_5_1.pdf).
-  - Exercise 5.2: [PDF](/self-study/%28gr%29thooftgr/5-The%20affine%20connection%20Riemann%20curvature/%27t%20hooft_5_2.pdf).
+  - Exercise 5.1: [PDF](/self-study/%28gr%29thooftgr/5_The_affine_connection_Riemann_curvature/%27t%20hooft_5_1.pdf).
+  - Exercise 5.2: [PDF](/self-study/%28gr%29thooftgr/5_The_affine_connection_Riemann_curvature/%27t%20hooft_5_2.pdf).
 
 - **8.** The action principle
-  - Exercise 8.1: [PDF](/self-study/%28gr%29thooftgr/8-The%20action%20principle/%27t%20hooft_8_1.pdf).
+  - Exercise 8.1: [PDF](/self-study/%28gr%29thooftgr/8_The_action_principle/%27t%20hooft_8_1.pdf).
 
 - **10.** Electromagnetism
-  - Exercise 10.1: [PDF](/self-study/%28gr%29thooftgr/10-Electromagnetism/%27t%20hooft_10_1.pdf).
-  - Exercise 10.2: [PDF](/self-study/%28gr%29thooftgr/10-Electromagnetism/%27t%20hooft_10_2.pdf).
+  - Exercise 10.1: [PDF](/self-study/%28gr%29thooftgr/10_Electromagnetism/%27t%20hooft_10_1.pdf).
+  - Exercise 10.2: [PDF](/self-study/%28gr%29thooftgr/10_Electromagnetism/%27t%20hooft_10_2.pdf).
 
 - **11.** The Schwarzschild solution
-  - Exercise 11.1: [PDF](/self-study/%28gr%29thooftgr/11-The%20Schwarzschild%20solution/%27t%20hooft_11_1.pdf).
+  - Exercise 11.1: [PDF](/self-study/%28gr%29thooftgr/11_The_Schwarzschild_solution/%27t%20hooft_11_1.pdf).
 
 - **12.** Mercury and light rays in the Schwarzschild metric
-  - Exercise 12.1: [PDF](/self-study/%28gr%29thooftgr/12-Mercury%20and%20light%20rays%20in%20the%20Schwarzschild%20metric/%27t%20hooft_12_1.pdf).
-  - Exercise 12.2: [PDF](/self-study/%28gr%29thooftgr/12-Mercury%20and%20light%20rays%20in%20the%20Schwarzschild%20metric/%27t%20hooft_12_2.pdf).
+  - Exercise 12.1: [PDF](/self-study/%28gr%29thooftgr/12_Mercury_and_light_rays_in_the_Schwarzschild_metric/%27t%20hooft_12_1.pdf).
+  - Exercise 12.2: [PDF](/self-study/%28gr%29thooftgr/12_Mercury_and_light_rays_in_the_Schwarzschild_metric/%27t%20hooft_12_2.pdf).
 
 - **13.** Generalizations of the Schwarzschild metric
-  - Exercise 13.2: [PDF](/self-study/%28gr%29thooftgr/13-Generalizations%20of%20the%20Schwarzschild%20metric/%27t%20hooft_13_2.pdf).
+  - Exercise 13.2: [PDF](/self-study/%28gr%29thooftgr/13_Generalizations_of_the_Schwarzschild_metric/%27t%20hooft_13_2.pdf).
 
 - **14.** The Robertson-Walker metric
-  - Exercise 14.1: [PDF](/self-study/%28gr%29thooftgr/14-The%20Robertson-Walker%20metric/%27t%20hooft_14_1.pdf).
+  - Exercise 14.1: [PDF](/self-study/%28gr%29thooftgr/14_The_Robertson-Walker_metric/%27t%20hooft_14_1.pdf).
 
 
 ## Quantum Field Theory
@@ -558,4 +558,4 @@ Later (Sep. 2024), I enrolled in the MSc Physics program at Imperial College Lon
 
 ---
 
-Last updated: **2026-01-04 21:48 GMT**.
+Last updated: **2026-01-05 07:32 GMT**.
