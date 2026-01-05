@@ -273,86 +273,86 @@ Later (Sep. 2024), I enrolled in the MSc Physics program at Imperial College Lon
 
 ### D. Griffiths. *Intro. to Elementary Particles*. (29 worked solutions)
 
-- **2.** elementary particle dynamics
-  - Exercise 2.1: [PDF](/self-study/%28particles%29griffiths/2-elementary%20particle%20dynamics/griffiths_2_1.pdf).
-  - Exercise 2.2: [PDF](/self-study/%28particles%29griffiths/2-elementary%20particle%20dynamics/griffiths_2_2.pdf).
-  - Exercise 2.3: [PDF](/self-study/%28particles%29griffiths/2-elementary%20particle%20dynamics/griffiths_2_3.pdf).
+- **2.** Elementary particle dynamics
+  - Exercise 2.1: [PDF](/self-study/%28particles%29griffiths/2_Elementary_particle_dynamics/griffiths_2_1.pdf).
+  - Exercise 2.2: [PDF](/self-study/%28particles%29griffiths/2_Elementary_particle_dynamics/griffiths_2_2.pdf).
+  - Exercise 2.3: [PDF](/self-study/%28particles%29griffiths/2_Elementary_particle_dynamics/griffiths_2_3.pdf).
 
-- **4.** symmetries
-  - Exercise 4.15: [PDF](/self-study/%28particles%29griffiths/4-symmetries/griffiths_4_15.pdf).
-  - Exercise 4.17: [PDF](/self-study/%28particles%29griffiths/4-symmetries/griffiths_4_17.pdf).
-  - Exercise 4.21: [PDF](/self-study/%28particles%29griffiths/4-symmetries/griffiths_4_21.pdf).
-  - Exercise 4.23: [PDF](/self-study/%28particles%29griffiths/4-symmetries/griffiths_4_23.pdf).
-  - Exercise 4.24: [PDF](/self-study/%28particles%29griffiths/4-symmetries/griffiths_4_24.pdf).
-  - Exercise 4.27: [PDF](/self-study/%28particles%29griffiths/4-symmetries/griffiths_4_27.pdf).
-  - Exercise 4.28: [PDF](/self-study/%28particles%29griffiths/4-symmetries/griffiths_4_28.pdf).
+- **4.** Symmetries
+  - Exercise 4.15: [PDF](/self-study/%28particles%29griffiths/4_Symmetries/griffiths_4_15.pdf).
+  - Exercise 4.17: [PDF](/self-study/%28particles%29griffiths/4_Symmetries/griffiths_4_17.pdf).
+  - Exercise 4.21: [PDF](/self-study/%28particles%29griffiths/4_Symmetries/griffiths_4_21.pdf).
+  - Exercise 4.23: [PDF](/self-study/%28particles%29griffiths/4_Symmetries/griffiths_4_23.pdf).
+  - Exercise 4.24: [PDF](/self-study/%28particles%29griffiths/4_Symmetries/griffiths_4_24.pdf).
+  - Exercise 4.27: [PDF](/self-study/%28particles%29griffiths/4_Symmetries/griffiths_4_27.pdf).
+  - Exercise 4.28: [PDF](/self-study/%28particles%29griffiths/4_Symmetries/griffiths_4_28.pdf).
 
-- **5.** bound states
-  - Exercise 5.1: [PDF](/self-study/%28particles%29griffiths/5-bound%20states/griffiths_5_1.pdf).
-  - Exercise 5.3: [PDF](/self-study/%28particles%29griffiths/5-bound%20states/griffiths_5_3.pdf).
-  - Exercise 5.10: [PDF](/self-study/%28particles%29griffiths/5-bound%20states/griffiths_5_10.pdf).
-  - Exercise 5.11: [PDF](/self-study/%28particles%29griffiths/5-bound%20states/griffiths_5_11.pdf).
+- **5.** Bound states
+  - Exercise 5.1: [PDF](/self-study/%28particles%29griffiths/5_Bound_states/griffiths_5_1.pdf).
+  - Exercise 5.3: [PDF](/self-study/%28particles%29griffiths/5_Bound_states/griffiths_5_3.pdf).
+  - Exercise 5.10: [PDF](/self-study/%28particles%29griffiths/5_Bound_states/griffiths_5_10.pdf).
+  - Exercise 5.11: [PDF](/self-study/%28particles%29griffiths/5_Bound_states/griffiths_5_11.pdf).
 
-- **6.** the feynman calculus
-  - Exercise 6.7: [PDF](/self-study/%28particles%29griffiths/6-the%20feynman%20calculus/griffiths_6_7.pdf).
-  - Exercise 6.8: [PDF](/self-study/%28particles%29griffiths/6-the%20feynman%20calculus/griffiths_6_8.pdf).
+- **6.** The Feynman calculus
+  - Exercise 6.7: [PDF](/self-study/%28particles%29griffiths/6_The_Feynman_calculus/griffiths_6_7.pdf).
+  - Exercise 6.8: [PDF](/self-study/%28particles%29griffiths/6_The_Feynman_calculus/griffiths_6_8.pdf).
 
-- **7.** quantum electrodynamics
-  - Exercise 7.9: [PDF](/self-study/%28particles%29griffiths/7-quantum%20electrodynamics/griffiths_7_9.pdf).
-  - Exercise 7.10: [PDF](/self-study/%28particles%29griffiths/7-quantum%20electrodynamics/griffiths_7_10.pdf).
-  - Exercise 7.25: [PDF](/self-study/%28particles%29griffiths/7-quantum%20electrodynamics/griffiths_7_25.pdf).
-  - Exercise 7.26: [PDF](/self-study/%28particles%29griffiths/7-quantum%20electrodynamics/griffiths_7_26.pdf).
-  - Exercise 7.28: [PDF](/self-study/%28particles%29griffiths/7-quantum%20electrodynamics/griffiths_7_28.pdf).
-  - Exercise 7.30: [PDF](/self-study/%28particles%29griffiths/7-quantum%20electrodynamics/griffiths_7_30.pdf).
-  - Exercise 7.34?: [PDF](/self-study/%28particles%29griffiths/7-quantum%20electrodynamics/griffiths_7_34%3F.pdf).
-  - Exercise 7.38?: [PDF](/self-study/%28particles%29griffiths/7-quantum%20electrodynamics/griffiths_7_38%3F.pdf).
+- **7.** Quantum Electrodynamics
+  - Exercise 7.9: [PDF](/self-study/%28particles%29griffiths/7_Quantum_Electrodynamics/griffiths_7_9.pdf).
+  - Exercise 7.10: [PDF](/self-study/%28particles%29griffiths/7_Quantum_Electrodynamics/griffiths_7_10.pdf).
+  - Exercise 7.25: [PDF](/self-study/%28particles%29griffiths/7_Quantum_Electrodynamics/griffiths_7_25.pdf).
+  - Exercise 7.26: [PDF](/self-study/%28particles%29griffiths/7_Quantum_Electrodynamics/griffiths_7_26.pdf).
+  - Exercise 7.28: [PDF](/self-study/%28particles%29griffiths/7_Quantum_Electrodynamics/griffiths_7_28.pdf).
+  - Exercise 7.30: [PDF](/self-study/%28particles%29griffiths/7_Quantum_Electrodynamics/griffiths_7_30.pdf).
+  - Exercise 7.34?: [PDF](/self-study/%28particles%29griffiths/7_Quantum_Electrodynamics/griffiths_7_34%3F.pdf).
+  - Exercise 7.38?: [PDF](/self-study/%28particles%29griffiths/7_Quantum_Electrodynamics/griffiths_7_38%3F.pdf).
 
-- **8.** electrodynamics of quarks and hadrons
-  - Exercise 8.1: [PDF](/self-study/%28particles%29griffiths/8-electrodynamics%20of%20quarks%20and%20hadrons/griffiths_8_1.pdf).
-  - Exercise 8.2: [PDF](/self-study/%28particles%29griffiths/8-electrodynamics%20of%20quarks%20and%20hadrons/griffiths_8_2.pdf).
+- **8.** Electrodynamics of quarks and hadrons
+  - Exercise 8.1: [PDF](/self-study/%28particles%29griffiths/8_Electrodynamics_of_quarks_and_hadrons/griffiths_8_1.pdf).
+  - Exercise 8.2: [PDF](/self-study/%28particles%29griffiths/8_Electrodynamics_of_quarks_and_hadrons/griffiths_8_2.pdf).
 
-- **9.** quantum chromodynamics
-  - Exercise 9.3: [PDF](/self-study/%28particles%29griffiths/9-quantum%20chromodynamics/griffiths_9_3.pdf).
-  - Exercise 9.4: [PDF](/self-study/%28particles%29griffiths/9-quantum%20chromodynamics/griffiths_9_4.pdf).
-  - Exercise 9.5: [PDF](/self-study/%28particles%29griffiths/9-quantum%20chromodynamics/griffiths_9_5.pdf).
+- **9.** Quantum chromodynamics
+  - Exercise 9.3: [PDF](/self-study/%28particles%29griffiths/9_Quantum_chromodynamics/griffiths_9_3.pdf).
+  - Exercise 9.4: [PDF](/self-study/%28particles%29griffiths/9_Quantum_chromodynamics/griffiths_9_4.pdf).
+  - Exercise 9.5: [PDF](/self-study/%28particles%29griffiths/9_Quantum_chromodynamics/griffiths_9_5.pdf).
 
 
 ## Solid State Physics
 
 ### C. Kittel. *Intro. to Solid State Physics*, 8th ed. (21 worked solutions)
 
-- **1.** crystal structure
-  - Exercise 1.1: [PDF](/self-study/%28sstate%29kittel/1-crystal%20structure/kittel_1_1.pdf).
-  - Exercise 1.2correction: [PDF](/self-study/%28sstate%29kittel/1-crystal%20structure/kittel_1_2correction.pdf).
-  - Exercise 1.2x: [PDF](/self-study/%28sstate%29kittel/1-crystal%20structure/kittel_1_2x.pdf).
-  - Exercise 1.3: [PDF](/self-study/%28sstate%29kittel/1-crystal%20structure/kittel_1_3.pdf).
+- **1.** Crystal structure
+  - Exercise 1.1: [PDF](/self-study/%28sstate%29kittel/1_Crystal_structure/kittel_1_1.pdf).
+  - Exercise 1.2correction: [PDF](/self-study/%28sstate%29kittel/1_Crystal_structure/kittel_1_2correction.pdf).
+  - Exercise 1.2x: [PDF](/self-study/%28sstate%29kittel/1_Crystal_structure/kittel_1_2x.pdf).
+  - Exercise 1.3: [PDF](/self-study/%28sstate%29kittel/1_Crystal_structure/kittel_1_3.pdf).
 
-- **2.** wave diffraction and the reciprocal lattice
-  - Exercise 2.1a correction: [PDF](/self-study/%28sstate%29kittel/2-wave%20diffraction%20and%20the%20reciprocal%20lattice/kittel_2_1a%20correction.pdf).
-  - Exercise 2.1x: [PDF](/self-study/%28sstate%29kittel/2-wave%20diffraction%20and%20the%20reciprocal%20lattice/kittel_2_1x.pdf).
-  - Exercise 2.2ab: [PDF](/self-study/%28sstate%29kittel/2-wave%20diffraction%20and%20the%20reciprocal%20lattice/kittel_2_2ab.pdf).
-  - Exercise 2.3: [PDF](/self-study/%28sstate%29kittel/2-wave%20diffraction%20and%20the%20reciprocal%20lattice/kittel_2_3.pdf).
-  - Exercise 2.4: [PDF](/self-study/%28sstate%29kittel/2-wave%20diffraction%20and%20the%20reciprocal%20lattice/kittel_2_4.pdf).
+- **2.** Wave diffraction and the reciprocal lattice
+  - Exercise 2.1a correction: [PDF](/self-study/%28sstate%29kittel/2_Wave_diffraction_and_the_reciprocal_lattice/kittel_2_1a%20correction.pdf).
+  - Exercise 2.1x: [PDF](/self-study/%28sstate%29kittel/2_Wave_diffraction_and_the_reciprocal_lattice/kittel_2_1x.pdf).
+  - Exercise 2.2ab: [PDF](/self-study/%28sstate%29kittel/2_Wave_diffraction_and_the_reciprocal_lattice/kittel_2_2ab.pdf).
+  - Exercise 2.3: [PDF](/self-study/%28sstate%29kittel/2_Wave_diffraction_and_the_reciprocal_lattice/kittel_2_3.pdf).
+  - Exercise 2.4: [PDF](/self-study/%28sstate%29kittel/2_Wave_diffraction_and_the_reciprocal_lattice/kittel_2_4.pdf).
 
-- **3.** crystal binding and elastic constants
-  - Exercise 3.1: [PDF](/self-study/%28sstate%29kittel/3-crystal%20binding%20and%20elastic%20constants/kittel_3_1.pdf).
-  - Exercise 3.2: [PDF](/self-study/%28sstate%29kittel/3-crystal%20binding%20and%20elastic%20constants/kittel_3_2.pdf).
-  - Exercise 3.3: [PDF](/self-study/%28sstate%29kittel/3-crystal%20binding%20and%20elastic%20constants/kittel_3_3.pdf).
-  - Exercise 3.5: [PDF](/self-study/%28sstate%29kittel/3-crystal%20binding%20and%20elastic%20constants/kittel_3_5.pdf).
-  - Exercise 3.extra1: [PDF](/self-study/%28sstate%29kittel/3-crystal%20binding%20and%20elastic%20constants/kittel_3_extra1.pdf).
+- **3.** Crystal binding and elastic constants
+  - Exercise 3.1: [PDF](/self-study/%28sstate%29kittel/3_Crystal_binding_and_elastic_constants/kittel_3_1.pdf).
+  - Exercise 3.2: [PDF](/self-study/%28sstate%29kittel/3_Crystal_binding_and_elastic_constants/kittel_3_2.pdf).
+  - Exercise 3.3: [PDF](/self-study/%28sstate%29kittel/3_Crystal_binding_and_elastic_constants/kittel_3_3.pdf).
+  - Exercise 3.5: [PDF](/self-study/%28sstate%29kittel/3_Crystal_binding_and_elastic_constants/kittel_3_5.pdf).
+  - Exercise 3.extra1: [PDF](/self-study/%28sstate%29kittel/3_Crystal_binding_and_elastic_constants/kittel_3_extra1.pdf).
 
-- **4.** phonons I crystal vibrations
-  - Exercise 4.1: [PDF](/self-study/%28sstate%29kittel/4-phonons%20I%20crystal%20vibrations/kittel_4_1.pdf).
-  - Exercise 4.4: [PDF](/self-study/%28sstate%29kittel/4-phonons%20I%20crystal%20vibrations/kittel_4_4.pdf).
+- **4.** Phonons I crystal vibrations
+  - Exercise 4.1: [PDF](/self-study/%28sstate%29kittel/4_Phonons_I_crystal_vibrations/kittel_4_1.pdf).
+  - Exercise 4.4: [PDF](/self-study/%28sstate%29kittel/4_Phonons_I_crystal_vibrations/kittel_4_4.pdf).
 
-- **6.** free electron fermi gas
-  - Exercise 6.1: [PDF](/self-study/%28sstate%29kittel/6-free%20electron%20fermi%20gas/kittel_6_1.pdf).
-  - Exercise 6.2: [PDF](/self-study/%28sstate%29kittel/6-free%20electron%20fermi%20gas/kittel_6_2.pdf).
-  - Exercise 6.3: [PDF](/self-study/%28sstate%29kittel/6-free%20electron%20fermi%20gas/kittel_6_3.pdf).
+- **6.** Free electron fermi gas
+  - Exercise 6.1: [PDF](/self-study/%28sstate%29kittel/6_Free_electron_fermi_gas/kittel_6_1.pdf).
+  - Exercise 6.2: [PDF](/self-study/%28sstate%29kittel/6_Free_electron_fermi_gas/kittel_6_2.pdf).
+  - Exercise 6.3: [PDF](/self-study/%28sstate%29kittel/6_Free_electron_fermi_gas/kittel_6_3.pdf).
 
-- **7.** energy bands
-  - Exercise 7.1ab: [PDF](/self-study/%28sstate%29kittel/7-energy%20bands/kittel_7_1ab.pdf).
-  - Exercise 7.3: [PDF](/self-study/%28sstate%29kittel/7-energy%20bands/kittel_7_3.pdf).
+- **7.** Energy bands
+  - Exercise 7.1ab: [PDF](/self-study/%28sstate%29kittel/7_Energy_bands/kittel_7_1ab.pdf).
+  - Exercise 7.3: [PDF](/self-study/%28sstate%29kittel/7_Energy_bands/kittel_7_3.pdf).
 
 
 ## General Relativity
@@ -558,4 +558,4 @@ Later (Sep. 2024), I enrolled in the MSc Physics program at Imperial College Lon
 
 ---
 
-Last updated: **2026-01-05 07:49 GMT**.
+Last updated: **2026-01-05 08:23 GMT**.
