@@ -8,7 +8,7 @@ from urllib.parse import quote
 
 
 # Book-level citations shown next to each book title.
-BIBLIOGRAPHY: dict[str, str] = {
+BIBLIOGRAPHY: dict[str, str] = { 
 	"(ced)griffiths": "D. Griffiths, *Intro. to Electrodynamics*, 4th ed.",
 	"(ced)jackson": "J. Jackson, *Classical Electrodynamics*, 3rd ed.",
 	"(cm)goldstein": "H. Goldstein, C. Poole & J. Safko, *Classical Mechanics*, 3rd ed.",
