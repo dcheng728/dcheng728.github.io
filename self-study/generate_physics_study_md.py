@@ -32,10 +32,10 @@ BIBLIOGRAPHY: dict[str, str] = {
 SUBJECT_ORDER: list[str] = [
 	"cm",
 	"ced",
-	"therst",
 	"qft",
 	"gr",
 	"string",
+	"therst",
 	"sstate",
 ]
 

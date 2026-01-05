@@ -158,117 +158,6 @@ Later (Sep. 2024), I enrolled in the MSc Physics program at Imperial College Lon
   - Exercise 11.3: [PDF](/self-study/%28ced%29jackson/11_Special_theory_of_relativity/jackson_11_3.pdf).
 
 
-## Thermal & Statistical Physics
-
-### H. Callen, *Thermodynamics and an Intro. to Thermostatistics*, 2nd ed. (14 worked solutions)
-
-- **2.** The conditions of equilibrium
-  - Exercise 2.2-1: [PDF](/self-study/%28therst%29callen/2_The_conditions_of_equilibrium/callen_2_2-1.pdf).
-  - Exercise 2.2-4: [PDF](/self-study/%28therst%29callen/2_The_conditions_of_equilibrium/callen_2_2-4.pdf).
-  - Exercise 2.3-2: [PDF](/self-study/%28therst%29callen/2_The_conditions_of_equilibrium/callen_2_3-2.pdf).
-
-- **3.** Some formal relationships and sample systems
-  - Exercise 3.2-1: [PDF](/self-study/%28therst%29callen/3_Some_formal_relationships_and_sample_systems/callen_3_2-1.pdf).
-  - Exercise 3.3-1?: [PDF](/self-study/%28therst%29callen/3_Some_formal_relationships_and_sample_systems/callen_3_3-1%3F.pdf).
-  - Exercise 3.3-2: [PDF](/self-study/%28therst%29callen/3_Some_formal_relationships_and_sample_systems/callen_3_3-2.pdf).
-  - Exercise 3.4-3: [PDF](/self-study/%28therst%29callen/3_Some_formal_relationships_and_sample_systems/callen_3_4-3.pdf).
-  - Exercise 3.5-2: [PDF](/self-study/%28therst%29callen/3_Some_formal_relationships_and_sample_systems/callen_3_5-2.pdf).
-  - Exercise 3.6-1: [PDF](/self-study/%28therst%29callen/3_Some_formal_relationships_and_sample_systems/callen_3_6-1.pdf).
-  - Exercise 3.6-2: [PDF](/self-study/%28therst%29callen/3_Some_formal_relationships_and_sample_systems/callen_3_6-2.pdf).
-
-- **4.** Reversible processes and the maximum work theorem
-  - Exercise 4.2-1: [PDF](/self-study/%28therst%29callen/4_Reversible_processes_and_the_maximum_work_theorem/callen_4_2-1.pdf).
-  - Exercise 4.2-3: [PDF](/self-study/%28therst%29callen/4_Reversible_processes_and_the_maximum_work_theorem/callen_4_2-3.pdf).
-  - Exercise 4.4-1: [PDF](/self-study/%28therst%29callen/4_Reversible_processes_and_the_maximum_work_theorem/callen_4_4-1.pdf).
-  - Exercise 4.4-2a?: [PDF](/self-study/%28therst%29callen/4_Reversible_processes_and_the_maximum_work_theorem/callen_4_4-2a%3F.pdf).
-
-
-### E. Fermi, *Thermodynamics*. (2 worked solutions)
-
-- **4.** Entropy
-  - Exercise 4.1: [PDF](/self-study/%28therst%29fermi/4_Entropy/fermi_4_1.pdf).
-  - Exercise 4.2: [PDF](/self-study/%28therst%29fermi/4_Entropy/fermi_4_2.pdf).
-
-
-### M. Glazer & J. Wark, *Statistical Mechanics: A Survival Guide*. (13 worked solutions)
-
-- **1.** Back to basics
-  - Exercise 1.3: [PDF](/self-study/%28therst%29glazer%20wark/1_Back_to_basics/glazerwark_1_3.pdf).
-
-- **2.** The statistics of distinguishable particles
-  - Exercise 2.4: [PDF](/self-study/%28therst%29glazer%20wark/2_The_statistics_of_distinguishable_particles/glazerwark_2_4.pdf).
-  - Exercise 2.7: [PDF](/self-study/%28therst%29glazer%20wark/2_The_statistics_of_distinguishable_particles/glazerwark_2_7.pdf).
-
-- **3.** Paramagnet and oscillators
-  - Exercise 3.2: [PDF](/self-study/%28therst%29glazer%20wark/3_Paramagnet_and_oscillators/glazerwark_3_2.pdf).
-  - Exercise 3.3: [PDF](/self-study/%28therst%29glazer%20wark/3_Paramagnet_and_oscillators/glazerwark_3_3.pdf).
-
-- **4.** Indistinguishable particles and monatomic ideal gases
-  - Exercise 4.1: [PDF](/self-study/%28therst%29glazer%20wark/4_Indistinguishable_particles_and_monatomic_ideal_gases/glazerwark_4_1.pdf).
-
-- **5.** Diatomic ideal gases
-  - Exercise 5.1: [PDF](/self-study/%28therst%29glazer%20wark/5_Diatomic_ideal_gases/glazerwark_5_1.pdf).
-
-- **7.** Electrons in metals
-  - Exercise 7.1: [PDF](/self-study/%28therst%29glazer%20wark/7_Electrons_in_metals/glazerwark_7_1.pdf).
-  - Exercise 7.2: [PDF](/self-study/%28therst%29glazer%20wark/7_Electrons_in_metals/glazerwark_7_2.pdf).
-  - Exercise 7.5: [PDF](/self-study/%28therst%29glazer%20wark/7_Electrons_in_metals/glazerwark_7_5.pdf).
-
-- **8.** Photons and phonons
-  - Exercise 8.1: [PDF](/self-study/%28therst%29glazer%20wark/8_Photons_and_phonons/glazerwark_8_1.pdf).
-  - Exercise 8.4: [PDF](/self-study/%28therst%29glazer%20wark/8_Photons_and_phonons/glazerwark_8_4.pdf).
-  - Exercise 8.5: [PDF](/self-study/%28therst%29glazer%20wark/8_Photons_and_phonons/glazerwark_8_5.pdf).
-
-
-### C. Kittel & H. Kroemer, *Thermal Physics*, 2nd ed. (20 worked solutions)
-
-- **2.** Entropy and temperature
-  - Exercise 2.1: [PDF](/self-study/%28therst%29kittel/2_Entropy_and_temperature/kittel_2_1.pdf).
-  - Exercise 2.2: [PDF](/self-study/%28therst%29kittel/2_Entropy_and_temperature/kittel_2_2.pdf).
-  - Exercise 2.3: [PDF](/self-study/%28therst%29kittel/2_Entropy_and_temperature/kitteltp_2_3.pdf).
-  - Exercise 2.4: [PDF](/self-study/%28therst%29kittel/2_Entropy_and_temperature/kitteltp_2_4.pdf).
-
-- **3.** Boltzmann distribution and Helmholtz free energy
-  - Exercise 3.1: [PDF](/self-study/%28therst%29kittel/3_Boltzmann_distribution_and_Helmholtz_free_energy/kittel_3_1.pdf).
-  - Exercise 3.3: [PDF](/self-study/%28therst%29kittel/3_Boltzmann_distribution_and_Helmholtz_free_energy/kittel_3_3.pdf).
-  - Exercise 3.4: [PDF](/self-study/%28therst%29kittel/3_Boltzmann_distribution_and_Helmholtz_free_energy/kittel_3_4.pdf).
-  - Exercise 3.5: [PDF](/self-study/%28therst%29kittel/3_Boltzmann_distribution_and_Helmholtz_free_energy/kitteltp_3_5.pdf).
-  - Exercise 3.8: [PDF](/self-study/%28therst%29kittel/3_Boltzmann_distribution_and_Helmholtz_free_energy/kitteltp_3_8.pdf).
-
-- **4.** Thermal radiation and Planck distribution
-  - Exercise 4.1: [PDF](/self-study/%28therst%29kittel/4_Thermal_radiation_and_Planck_distribution/kittel_4_1.pdf).
-  - Exercise 4.2: [PDF](/self-study/%28therst%29kittel/4_Thermal_radiation_and_Planck_distribution/kittel_4_2.pdf).
-  - Exercise 4.5: [PDF](/self-study/%28therst%29kittel/4_Thermal_radiation_and_Planck_distribution/kitteltp_4_5.pdf).
-
-- **5.** Chemical potential and Gibbs distribution
-  - Exercise 5.1: [PDF](/self-study/%28therst%29kittel/5_Chemical_potential_and_Gibbs_distribution/kitteltp_5_1.pdf).
-  - Exercise 5.4: [PDF](/self-study/%28therst%29kittel/5_Chemical_potential_and_Gibbs_distribution/kitteltp_5_4.pdf).
-  - Exercise 5.6: [PDF](/self-study/%28therst%29kittel/5_Chemical_potential_and_Gibbs_distribution/kitteltp_5_6.pdf).
-
-- **6.** Ideal gas
-  - Exercise 6.1: [PDF](/self-study/%28therst%29kittel/6_Ideal_gas/kitteltp_6_1.pdf).
-  - Exercise 6.2: [PDF](/self-study/%28therst%29kittel/6_Ideal_gas/kitteltp_6_2.pdf).
-
-- **7.** Fermi and Bose gases
-  - Exercise 7.2: [PDF](/self-study/%28therst%29kittel/7_Fermi_and_Bose_gases/kitteltp_7_2.pdf).
-  - Exercise 7.3: [PDF](/self-study/%28therst%29kittel/7_Fermi_and_Bose_gases/kitteltp_7_3.pdf).
-
-- **8.** Heat and work
-  - Exercise 8.1x: [PDF](/self-study/%28therst%29kittel/8_Heat_and_work/kitteltp_8_1x.pdf).
-
-
-### R.K. Pathria & P. Beale, *Statistical Mechanics*, 4th ed. (5 worked solutions)
-
-- **1.** The statistical basis of thermodynamics
-  - Exercise 1.2: [PDF](/self-study/%28therst%29pathria/1_The_statistical_basis_of_thermodynamics/pathria_1_2.pdf).
-  - Exercise 1.7: [PDF](/self-study/%28therst%29pathria/1_The_statistical_basis_of_thermodynamics/pathria_1_7.pdf).
-  - Exercise 1.8: [PDF](/self-study/%28therst%29pathria/1_The_statistical_basis_of_thermodynamics/pathria_1_8.pdf).
-
-- **2.** Elements of ensemble theory
-  - Exercise 2.1: [PDF](/self-study/%28therst%29pathria/2_Elements_of_ensemble_theory/pathria_2_1.pdf).
-  - Exercise 2.4: [PDF](/self-study/%28therst%29pathria/2_Elements_of_ensemble_theory/pathria_2_4.pdf).
-
-
 ## Quantum Field Theory and Particle Physics
 
 ### D. Griffiths, *Introduction to Elementary Particles*, 2nd ed. (29 worked solutions)
@@ -532,6 +421,117 @@ Later (Sep. 2024), I enrolled in the MSc Physics program at Imperial College Lon
   - Exercise 3.1: [PDF](/self-study/%28string%29thooftstring/3_Open_and_closed_strings/thooftstring_3_1.pdf).
 
 
+## Thermal & Statistical Physics
+
+### H. Callen, *Thermodynamics and an Intro. to Thermostatistics*, 2nd ed. (14 worked solutions)
+
+- **2.** The conditions of equilibrium
+  - Exercise 2.2-1: [PDF](/self-study/%28therst%29callen/2_The_conditions_of_equilibrium/callen_2_2-1.pdf).
+  - Exercise 2.2-4: [PDF](/self-study/%28therst%29callen/2_The_conditions_of_equilibrium/callen_2_2-4.pdf).
+  - Exercise 2.3-2: [PDF](/self-study/%28therst%29callen/2_The_conditions_of_equilibrium/callen_2_3-2.pdf).
+
+- **3.** Some formal relationships and sample systems
+  - Exercise 3.2-1: [PDF](/self-study/%28therst%29callen/3_Some_formal_relationships_and_sample_systems/callen_3_2-1.pdf).
+  - Exercise 3.3-1?: [PDF](/self-study/%28therst%29callen/3_Some_formal_relationships_and_sample_systems/callen_3_3-1%3F.pdf).
+  - Exercise 3.3-2: [PDF](/self-study/%28therst%29callen/3_Some_formal_relationships_and_sample_systems/callen_3_3-2.pdf).
+  - Exercise 3.4-3: [PDF](/self-study/%28therst%29callen/3_Some_formal_relationships_and_sample_systems/callen_3_4-3.pdf).
+  - Exercise 3.5-2: [PDF](/self-study/%28therst%29callen/3_Some_formal_relationships_and_sample_systems/callen_3_5-2.pdf).
+  - Exercise 3.6-1: [PDF](/self-study/%28therst%29callen/3_Some_formal_relationships_and_sample_systems/callen_3_6-1.pdf).
+  - Exercise 3.6-2: [PDF](/self-study/%28therst%29callen/3_Some_formal_relationships_and_sample_systems/callen_3_6-2.pdf).
+
+- **4.** Reversible processes and the maximum work theorem
+  - Exercise 4.2-1: [PDF](/self-study/%28therst%29callen/4_Reversible_processes_and_the_maximum_work_theorem/callen_4_2-1.pdf).
+  - Exercise 4.2-3: [PDF](/self-study/%28therst%29callen/4_Reversible_processes_and_the_maximum_work_theorem/callen_4_2-3.pdf).
+  - Exercise 4.4-1: [PDF](/self-study/%28therst%29callen/4_Reversible_processes_and_the_maximum_work_theorem/callen_4_4-1.pdf).
+  - Exercise 4.4-2a?: [PDF](/self-study/%28therst%29callen/4_Reversible_processes_and_the_maximum_work_theorem/callen_4_4-2a%3F.pdf).
+
+
+### E. Fermi, *Thermodynamics*. (2 worked solutions)
+
+- **4.** Entropy
+  - Exercise 4.1: [PDF](/self-study/%28therst%29fermi/4_Entropy/fermi_4_1.pdf).
+  - Exercise 4.2: [PDF](/self-study/%28therst%29fermi/4_Entropy/fermi_4_2.pdf).
+
+
+### M. Glazer & J. Wark, *Statistical Mechanics: A Survival Guide*. (13 worked solutions)
+
+- **1.** Back to basics
+  - Exercise 1.3: [PDF](/self-study/%28therst%29glazer%20wark/1_Back_to_basics/glazerwark_1_3.pdf).
+
+- **2.** The statistics of distinguishable particles
+  - Exercise 2.4: [PDF](/self-study/%28therst%29glazer%20wark/2_The_statistics_of_distinguishable_particles/glazerwark_2_4.pdf).
+  - Exercise 2.7: [PDF](/self-study/%28therst%29glazer%20wark/2_The_statistics_of_distinguishable_particles/glazerwark_2_7.pdf).
+
+- **3.** Paramagnet and oscillators
+  - Exercise 3.2: [PDF](/self-study/%28therst%29glazer%20wark/3_Paramagnet_and_oscillators/glazerwark_3_2.pdf).
+  - Exercise 3.3: [PDF](/self-study/%28therst%29glazer%20wark/3_Paramagnet_and_oscillators/glazerwark_3_3.pdf).
+
+- **4.** Indistinguishable particles and monatomic ideal gases
+  - Exercise 4.1: [PDF](/self-study/%28therst%29glazer%20wark/4_Indistinguishable_particles_and_monatomic_ideal_gases/glazerwark_4_1.pdf).
+
+- **5.** Diatomic ideal gases
+  - Exercise 5.1: [PDF](/self-study/%28therst%29glazer%20wark/5_Diatomic_ideal_gases/glazerwark_5_1.pdf).
+
+- **7.** Electrons in metals
+  - Exercise 7.1: [PDF](/self-study/%28therst%29glazer%20wark/7_Electrons_in_metals/glazerwark_7_1.pdf).
+  - Exercise 7.2: [PDF](/self-study/%28therst%29glazer%20wark/7_Electrons_in_metals/glazerwark_7_2.pdf).
+  - Exercise 7.5: [PDF](/self-study/%28therst%29glazer%20wark/7_Electrons_in_metals/glazerwark_7_5.pdf).
+
+- **8.** Photons and phonons
+  - Exercise 8.1: [PDF](/self-study/%28therst%29glazer%20wark/8_Photons_and_phonons/glazerwark_8_1.pdf).
+  - Exercise 8.4: [PDF](/self-study/%28therst%29glazer%20wark/8_Photons_and_phonons/glazerwark_8_4.pdf).
+  - Exercise 8.5: [PDF](/self-study/%28therst%29glazer%20wark/8_Photons_and_phonons/glazerwark_8_5.pdf).
+
+
+### C. Kittel & H. Kroemer, *Thermal Physics*, 2nd ed. (20 worked solutions)
+
+- **2.** Entropy and temperature
+  - Exercise 2.1: [PDF](/self-study/%28therst%29kittel/2_Entropy_and_temperature/kittel_2_1.pdf).
+  - Exercise 2.2: [PDF](/self-study/%28therst%29kittel/2_Entropy_and_temperature/kittel_2_2.pdf).
+  - Exercise 2.3: [PDF](/self-study/%28therst%29kittel/2_Entropy_and_temperature/kitteltp_2_3.pdf).
+  - Exercise 2.4: [PDF](/self-study/%28therst%29kittel/2_Entropy_and_temperature/kitteltp_2_4.pdf).
+
+- **3.** Boltzmann distribution and Helmholtz free energy
+  - Exercise 3.1: [PDF](/self-study/%28therst%29kittel/3_Boltzmann_distribution_and_Helmholtz_free_energy/kittel_3_1.pdf).
+  - Exercise 3.3: [PDF](/self-study/%28therst%29kittel/3_Boltzmann_distribution_and_Helmholtz_free_energy/kittel_3_3.pdf).
+  - Exercise 3.4: [PDF](/self-study/%28therst%29kittel/3_Boltzmann_distribution_and_Helmholtz_free_energy/kittel_3_4.pdf).
+  - Exercise 3.5: [PDF](/self-study/%28therst%29kittel/3_Boltzmann_distribution_and_Helmholtz_free_energy/kitteltp_3_5.pdf).
+  - Exercise 3.8: [PDF](/self-study/%28therst%29kittel/3_Boltzmann_distribution_and_Helmholtz_free_energy/kitteltp_3_8.pdf).
+
+- **4.** Thermal radiation and Planck distribution
+  - Exercise 4.1: [PDF](/self-study/%28therst%29kittel/4_Thermal_radiation_and_Planck_distribution/kittel_4_1.pdf).
+  - Exercise 4.2: [PDF](/self-study/%28therst%29kittel/4_Thermal_radiation_and_Planck_distribution/kittel_4_2.pdf).
+  - Exercise 4.5: [PDF](/self-study/%28therst%29kittel/4_Thermal_radiation_and_Planck_distribution/kitteltp_4_5.pdf).
+
+- **5.** Chemical potential and Gibbs distribution
+  - Exercise 5.1: [PDF](/self-study/%28therst%29kittel/5_Chemical_potential_and_Gibbs_distribution/kitteltp_5_1.pdf).
+  - Exercise 5.4: [PDF](/self-study/%28therst%29kittel/5_Chemical_potential_and_Gibbs_distribution/kitteltp_5_4.pdf).
+  - Exercise 5.6: [PDF](/self-study/%28therst%29kittel/5_Chemical_potential_and_Gibbs_distribution/kitteltp_5_6.pdf).
+
+- **6.** Ideal gas
+  - Exercise 6.1: [PDF](/self-study/%28therst%29kittel/6_Ideal_gas/kitteltp_6_1.pdf).
+  - Exercise 6.2: [PDF](/self-study/%28therst%29kittel/6_Ideal_gas/kitteltp_6_2.pdf).
+
+- **7.** Fermi and Bose gases
+  - Exercise 7.2: [PDF](/self-study/%28therst%29kittel/7_Fermi_and_Bose_gases/kitteltp_7_2.pdf).
+  - Exercise 7.3: [PDF](/self-study/%28therst%29kittel/7_Fermi_and_Bose_gases/kitteltp_7_3.pdf).
+
+- **8.** Heat and work
+  - Exercise 8.1x: [PDF](/self-study/%28therst%29kittel/8_Heat_and_work/kitteltp_8_1x.pdf).
+
+
+### R.K. Pathria & P. Beale, *Statistical Mechanics*, 4th ed. (5 worked solutions)
+
+- **1.** The statistical basis of thermodynamics
+  - Exercise 1.2: [PDF](/self-study/%28therst%29pathria/1_The_statistical_basis_of_thermodynamics/pathria_1_2.pdf).
+  - Exercise 1.7: [PDF](/self-study/%28therst%29pathria/1_The_statistical_basis_of_thermodynamics/pathria_1_7.pdf).
+  - Exercise 1.8: [PDF](/self-study/%28therst%29pathria/1_The_statistical_basis_of_thermodynamics/pathria_1_8.pdf).
+
+- **2.** Elements of ensemble theory
+  - Exercise 2.1: [PDF](/self-study/%28therst%29pathria/2_Elements_of_ensemble_theory/pathria_2_1.pdf).
+  - Exercise 2.4: [PDF](/self-study/%28therst%29pathria/2_Elements_of_ensemble_theory/pathria_2_4.pdf).
+
+
 ## Solid State Physics
 
 ### C. Kittel, *Introduction to Solid State Physics*, 8th ed. (21 worked solutions)
@@ -572,4 +572,4 @@ Later (Sep. 2024), I enrolled in the MSc Physics program at Imperial College Lon
 
 ---
 
-Last updated: **2026-01-05 10:45 GMT**.
+Last updated: **2026-01-05 10:47 GMT**.
