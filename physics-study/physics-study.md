@@ -185,9 +185,9 @@ Later (Sep. 2024), I enrolled in the MSc Physics program at Imperial College Lon
 
 ### E. Fermi. *Thermodynamics*. (2 worked solutions)
 
-- **4.** entropy
-  - Exercise 4.1: [PDF](/self-study/%28therst%29fermi/4-entropy/fermi_4_1.pdf).
-  - Exercise 4.2: [PDF](/self-study/%28therst%29fermi/4-entropy/fermi_4_2.pdf).
+- **4.** Entropy
+  - Exercise 4.1: [PDF](/self-study/%28therst%29fermi/4_Entropy/fermi_4_1.pdf).
+  - Exercise 4.2: [PDF](/self-study/%28therst%29fermi/4_Entropy/fermi_4_2.pdf).
 
 
 ### M. Glazer & J. Wark. *Stat. Mechanics: A Survival Guide*. (13 worked solutions)
@@ -558,4 +558,4 @@ Later (Sep. 2024), I enrolled in the MSc Physics program at Imperial College Lon
 
 ---
 
-Last updated: **2026-01-05 07:46 GMT**.
+Last updated: **2026-01-05 07:47 GMT**.
