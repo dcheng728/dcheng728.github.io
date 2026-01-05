@@ -15,7 +15,7 @@ It contains my solutions to textbook exercises, signed and dated.
 
 Later (Sep. 2024), I enrolled in the MSc Physics program at Imperial College London.
 
-**Total worked solutions:** 304 PDFs.
+**Total worked solutions:** 313 PDFs.
 
 
 ## Classical Mechanics
@@ -403,7 +403,7 @@ Later (Sep. 2024), I enrolled in the MSc Physics program at Imperial College Lon
   - Exercise 8.12: [PDF](/self-study/%28gr%29schutz/8_The%20Einstein_field_equations/schutz_8_12.pdf).
 
 
-### G. 't Hooft, *Introduction to General Relativity (lecture notes)*. (11 worked solutions)
+### G. 't Hooft, *Introduction to General Relativity* (lecture notes). (11 worked solutions)
 
 - **4.** Curved coordinates
   - Exercise 4.1: [PDF](/self-study/%28gr%29thooftgr/4_Curved_coordinates/%27t%20hooft_4_1.pdf).
@@ -431,6 +431,22 @@ Later (Sep. 2024), I enrolled in the MSc Physics program at Imperial College Lon
 
 - **14.** The Robertson-Walker metric
   - Exercise 14.1: [PDF](/self-study/%28gr%29thooftgr/14_The_Robertson-Walker_metric/%27t%20hooft_14_1.pdf).
+
+
+### P. Townsend, *Black Holes* (lecture notes). (9 worked solutions)
+
+- **2.** Schwarzschild black hole
+  - Exercise 2.18: [PDF](/self-study/%28gr%29townsendbh/2_Schwarzschild_black_hole/townsend_2_18.pdf).
+  - Exercise 2.20: [PDF](/self-study/%28gr%29townsendbh/2_Schwarzschild_black_hole/townsend_2_20.pdf).
+  - Exercise 2.24: [PDF](/self-study/%28gr%29townsendbh/2_Schwarzschild_black_hole/townsend_2_24.pdf).
+  - Exercise 2.41: [PDF](/self-study/%28gr%29townsendbh/2_Schwarzschild_black_hole/townsend_2_41.pdf).
+  - Exercise 2.60: [PDF](/self-study/%28gr%29townsendbh/2_Schwarzschild_black_hole/townsend_2_60.pdf).
+  - Exercise 2.90: [PDF](/self-study/%28gr%29townsendbh/2_Schwarzschild_black_hole/townsend_2_90.pdf).
+  - Exercise 2.118: [PDF](/self-study/%28gr%29townsendbh/2_Schwarzschild_black_hole/townsend_2_118.pdf).
+
+- **A2.** Example Sheet 2
+  - Exercise A2.1: [PDF](/self-study/%28gr%29townsendbh/A2_Example_Sheet_2/townsend_A2_1.pdf).
+  - Exercise A2.2: [PDF](/self-study/%28gr%29townsendbh/A2_Example_Sheet_2/Townsend_A2_2.pdf).
 
 
 ## Quantum Field Theory
@@ -549,7 +565,7 @@ Later (Sep. 2024), I enrolled in the MSc Physics program at Imperial College Lon
   - Exercise A.1: [PDF](/self-study/%28string%29polchinski/A_A_short_course_on_path_integrals/polchinski_A_1.pdf).
 
 
-### G. 't Hooft, *Introduction to String Theory (lecture notes)*. (2 worked solutions)
+### G. 't Hooft, *Introduction to String Theory* (lecture notes). (2 worked solutions)
 
 - **2.** The classical string
   - Exercise 2.1: [PDF](/self-study/%28string%29thooftstring/2_The_classical_string/thooftstring_2_1.pdf).
@@ -560,4 +576,4 @@ Later (Sep. 2024), I enrolled in the MSc Physics program at Imperial College Lon
 
 ---
 
-Last updated: **2026-01-05 09:46 GMT**.
+Last updated: **2026-01-05 09:55 GMT**.
