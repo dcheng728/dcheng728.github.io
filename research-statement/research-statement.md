@@ -7,18 +7,17 @@ permalink: /research-statement/
 
 My research interests lie at the intersection of AI and fundamental physics, viewed from two complementary directions: using AI as a tool for physics discovery, and using physical principles to better understand and design AI systems.
 
-**AI for physics.**
+**AI for physics**
 
 In particle physics and cosmology, a central challenge is the identification of subtle physical signals, whether signatures of Standard Model processes or new physics, from data filled with background processes, noise, and detector effects.
 Modern machine learning methods, with their ability to uncover the latent statistical structure in large, high-dimensional datasets, provide a promising new approach.
 I am particularly interested in methods that balance performance with physical insight, for example, methods that learn or respect symmetries, identify optimal summary statistics, or enable likelihood-free inference while remaining firmly grounded in physical models.
 
-**Physics for AI.**
+**Physics for AI**
 
 Many foundational ideas in machine learning are rooted in physics, from Hopfield networks to Boltzmann machines and modern energy-based models.
-<!-- I am interested in extending this connection by treating learning dynamics as a physical process, and to build on the challenge of machine learning interpretability. -->
-Physicists bring a distinctive perspective to questions of ML interpretability, drawing on symmetry principles, conservation laws, thermodynamic reasoning, and scale analysis to place principled constraints on model behavior, reduce effective complexity, and clarify what/how models have learned.
-Concrete directions I am interested in include defining entropy-like quantities during training, understanding learning dynamics through effective equations of motion/state, and using physical constraints to guide model design and reliability.
+Physicists bring a distinctive perspective to questions of ML interpretability, drawing on symmetry principles, conservation laws, thermodynamic reasoning, and scale analysis to place principled constraints on model behavior, reduce effective complexity, and clarify what and how models have learned.
+Concrete directions I hope to explore include defining entropy-like quantities during training, understanding learning dynamics through effective equations of motion or state, and using physical constraints to guide model design and reliability.
 
 
 <!-- ---
