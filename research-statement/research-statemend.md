@@ -9,6 +9,7 @@ I am interested in problems at the intersection of AI and physics, from two pers
 - AI for physics: How can we leverage AI to understand physics and discover new physics?
 - Physics for AI: How can a physicist's perspective help us make machine learning (ML) more interpretable and reliable?
 
+<!--
 ## AI for physics
 
 ### Particle Physics
@@ -36,3 +37,4 @@ More broadly, I hope to use ideas from theoretical physics to build a principled
 ## References
 
 [1] J. Hopfield, "Neural networks and physical systems with emergent collective computational abilities", [PNAS](https://pmc.ncbi.nlm.nih.gov/articles/PMC346238/).
+-->
