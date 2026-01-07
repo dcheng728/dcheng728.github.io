@@ -18,8 +18,8 @@ I am particularly interested in methods that balance performance with physical i
 Many foundational ideas in machine learning are rooted in physics, from Hopfield networks to Boltzmann machines and modern energy-based models.
 Physicists bring a distinctive perspective to questions of ML interpretability, drawing on symmetry principles, conservation laws, thermodynamic reasoning, and scale analysis to place principled constraints on model behavior, reduce effective complexity, and clarify what and how models have learned.
 Concrete directions I hope to explore include defining entropy-like quantities during training, understanding learning dynamics through effective equations of motion or state, and using physical constraints to guide model design and reliability.
+
 <!-- 
----
 
 # Research Statement (1000 words)
 
@@ -74,10 +74,10 @@ Concrete directions I hope to explore include defining entropy-like quantities d
 
 **Outlook**
 
-Taken together, these two directions reflect my broader research vision: to build a productive dialogue between AI and physics, where advances in one inform progress in the other. By using AI to extend the reach of physics inference while applying physical reasoning to clarify the behavior of learning systems, I aim to contribute to a more principled and interpretable integration of machine learning into fundamental science. -->
+Taken together, these two directions reflect my broader research vision: to build a productive dialogue between AI and physics, where advances in one inform progress in the other. By using AI to extend the reach of physics inference while applying physical reasoning to clarify the behavior of learning systems, I aim to contribute to a more principled and interpretable integration of machine learning into fundamental science. 
 
 
-<!-- ---
+
 
 I am interested in problems at the intersection of AI and physics, from two perspectives. 
 - AI for physics: How can we leverage AI to understand physics and discover new physics?
@@ -104,10 +104,10 @@ To address this challenge, I would like to treat neural network training as the 
 
 An alternative direction that excites me is the neural network field theory correspondence. In the infinite-width limit, ensembles of fully connected networks are known to correspond to Gaussian processes, which are equivalent to free field theories. However, how this correspondence extends to realistic network sizes, architectures, and training dynamics remains unclear.
 
-More broadly, I hope to use ideas from theoretical physics to build a principled framework for understanding modern AI at the scales at which it is used today. -->
+More broadly, I hope to use ideas from theoretical physics to build a principled framework for understanding modern AI at the scales at which it is used today. 
 
 
-<!--
+
 ## AI for physics
 
 ### Particle Physics
