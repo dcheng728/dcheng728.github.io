@@ -15,7 +15,7 @@ It contains my solutions to textbook exercises, signed and dated.
 
 Later (Sep. 2024), I enrolled in the MSc Physics program at Imperial College London.
 
-**Total worked solutions:** 314 PDFs.
+**Total worked solutions:** 316 PDFs.
 
 
 ## Classical Mechanics
@@ -204,7 +204,7 @@ Later (Sep. 2024), I enrolled in the MSc Physics program at Imperial College Lon
   - Exercise 8.15: [PDF](/self-study/%28qft%29griffiths/8_Electrodynamics_and_chromodynamics_of_quarks/griffiths_8_15.pdf).
 
 
-### M. Schwartz, *Quantum Field Theory and the Standard Model*. (38 worked solutions)
+### M. Schwartz, *Quantum Field Theory and the Standard Model*. (40 worked solutions)
 
 - **2.** Lorentz invariance and second quantization
   - Exercise 2.1: [PDF](/self-study/%28qft%29schwartz/2_Lorentz_invariance_and_second_quantization/schwartz_2_1.pdf).
@@ -268,7 +268,9 @@ Later (Sep. 2024), I enrolled in the MSc Physics program at Imperial College Lon
   - Exercise 16.2inprogress: [PDF](/self-study/%28qft%29schwartz/16_Vacuum_polarization/schwartz_16_2inprogress.pdf).
 
 - **25.** Yang-Mills theory
+  - Exercise 25.1: [PDF](/self-study/%28qft%29schwartz/25_Yang-Mills_theory/schwartz_25_1.pdf).
   - Exercise 25.2: [PDF](/self-study/%28qft%29schwartz/25_Yang-Mills_theory/schwartz_25_2.pdf).
+  - Exercise 25.4inprogress: [PDF](/self-study/%28qft%29schwartz/25_Yang-Mills_theory/schwartz_25_4inprogress.pdf).
 
 
 ### S. Weinberg, *The Quantum Theory of Fields*, vol. I & II. (4 worked solutions)
@@ -575,4 +577,4 @@ Later (Sep. 2024), I enrolled in the MSc Physics program at Imperial College Lon
 
 ---
 
-Last updated: **2026-01-07 13:06 GMT**.
+Last updated: **2026-01-07 17:23 GMT**.
