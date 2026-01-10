@@ -13,3 +13,5 @@ nav:
     url: "/aiml/"
   - title: "Physics Self-Study"
     url: "/physics/"
+  - title: "Research Statement"
+    url: "/research-statement/" 
