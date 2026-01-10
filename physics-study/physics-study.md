@@ -37,7 +37,7 @@ Later (Sep. 2024), I enrolled in the MSc Physics program at Imperial College Lon
 - **2.** Variational principles and Lagranges equations
   - Exercise 2.3: [PDF](/self-study/%28cm%29goldstein/2_Variational_principles_and_Lagranges_equations/goldstein_2_3.pdf).
   - Exercise 2.4: [PDF](/self-study/%28cm%29goldstein/2_Variational_principles_and_Lagranges_equations/goldstein_2_4.pdf).
-  - Exercise 2.5?: [PDF](/self-study/%28cm%29goldstein/2_Variational_principles_and_Lagranges_equations/goldstein_2_5%3F.pdf).
+  - Exercise 2.5notSure: [PDF](/self-study/%28cm%29goldstein/2_Variational_principles_and_Lagranges_equations/goldstein_2_5notSure.pdf).
   - Exercise 2.10: [PDF](/self-study/%28cm%29goldstein/2_Variational_principles_and_Lagranges_equations/goldstein_2_10.pdf).
   - Exercise 2.12: [PDF](/self-study/%28cm%29goldstein/2_Variational_principles_and_Lagranges_equations/goldstein_2_12.pdf).
   - Exercise 2.13: [PDF](/self-study/%28cm%29goldstein/2_Variational_principles_and_Lagranges_equations/goldstein_2_13.pdf).
@@ -437,7 +437,7 @@ Later (Sep. 2024), I enrolled in the MSc Physics program at Imperial College Lon
 
 - **3.** Some formal relationships and sample systems
   - Exercise 3.2-1: [PDF](/self-study/%28therst%29callen/3_Some_formal_relationships_and_sample_systems/callen_3_2-1.pdf).
-  - Exercise 3.3-1?: [PDF](/self-study/%28therst%29callen/3_Some_formal_relationships_and_sample_systems/callen_3_3-1%3F.pdf).
+  - Exercise 3.3-1notSure: [PDF](/self-study/%28therst%29callen/3_Some_formal_relationships_and_sample_systems/callen_3_3-1notSure.pdf).
   - Exercise 3.3-2: [PDF](/self-study/%28therst%29callen/3_Some_formal_relationships_and_sample_systems/callen_3_3-2.pdf).
   - Exercise 3.4-3: [PDF](/self-study/%28therst%29callen/3_Some_formal_relationships_and_sample_systems/callen_3_4-3.pdf).
   - Exercise 3.5-2: [PDF](/self-study/%28therst%29callen/3_Some_formal_relationships_and_sample_systems/callen_3_5-2.pdf).
@@ -448,7 +448,7 @@ Later (Sep. 2024), I enrolled in the MSc Physics program at Imperial College Lon
   - Exercise 4.2-1: [PDF](/self-study/%28therst%29callen/4_Reversible_processes_and_the_maximum_work_theorem/callen_4_2-1.pdf).
   - Exercise 4.2-3: [PDF](/self-study/%28therst%29callen/4_Reversible_processes_and_the_maximum_work_theorem/callen_4_2-3.pdf).
   - Exercise 4.4-1: [PDF](/self-study/%28therst%29callen/4_Reversible_processes_and_the_maximum_work_theorem/callen_4_4-1.pdf).
-  - Exercise 4.4-2a?: [PDF](/self-study/%28therst%29callen/4_Reversible_processes_and_the_maximum_work_theorem/callen_4_4-2a%3F.pdf).
+  - Exercise 4.4-2anotSure: [PDF](/self-study/%28therst%29callen/4_Reversible_processes_and_the_maximum_work_theorem/callen_4_4-2anotSure.pdf).
 
 
 ### E. Fermi, *Thermodynamics*. (2 worked solutions)
@@ -577,4 +577,4 @@ Later (Sep. 2024), I enrolled in the MSc Physics program at Imperial College Lon
 
 ---
 
-Last updated: **2026-01-07 17:23 GMT**.
+Last updated: **2026-01-10 11:07 GMT**.
