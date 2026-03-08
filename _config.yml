@@ -9,9 +9,5 @@ inspire_url: https://inspirehep.net/authors/3093156?ui-citation-summary=true
 nav:
   - title: "Home"
     url: "/"
-  - title: "AI/ML Projects"
-    url: "/aiml/"
   - title: "Physics Self-Study"
-    url: "/physics/"
-  - title: "Research Statement"
-    url: "/research-statement/" 
+    url: "/physics/" 
