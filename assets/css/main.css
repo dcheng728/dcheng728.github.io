@@ -38,6 +38,14 @@ img {
   margin: 1rem auto;
 }
 
+/* Headshot on the home page: small, beside the bio */
+img[src$="me.jpg"] {
+  float: right;
+  width: 160px;
+  margin: 0 0 1rem 1.5rem;
+  border-radius: 50%;
+}
+
 a { text-decoration: none; }
 a:hover { text-decoration: underline; }
 
