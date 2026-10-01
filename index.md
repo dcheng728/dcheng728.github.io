@@ -5,6 +5,8 @@ title: Home
 
 # About me
 
+![Chang Cheng](assets/images/me.jpg){: width="150" align="right"}
+
 - I’m Chang Cheng (成畅), a 1st year PhD student at Stanford Physics.
 - I’m drawn to problems in fundamental physics that connect theories to calculable, measurable quantities.
 - I’m particularly interested in applying AI to these problems. 
