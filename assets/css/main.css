@@ -168,13 +168,3 @@ main > h1:first-child {
   outline: 2px solid currentColor;
   outline-offset: 2px;
 }
-
-
-
-@media (prefers-reduced-motion: reduce) {
-  .nav-links a,
-  .nav-links a::after {
-    transition: none;
-  }
-}
-
