@@ -130,7 +130,6 @@ main > h1:first-child {
   border-radius: 0;
   text-decoration: none;
   color: inherit;
-  transition: transform 160ms ease, background-color 160ms ease;
 }
 
 /* Animated underline */
@@ -149,8 +148,6 @@ main > h1:first-child {
 
 .nav-links a:hover {
   text-decoration: none;
-  transform: translateY(-1px);
-  background-color: color-mix(in srgb, currentColor 10%, transparent);
 }
 
 .nav-links a:hover::after {
@@ -166,10 +163,6 @@ main > h1:first-child {
   transform: scaleX(1);
 }
 
-
-.nav-links a:active {
-  transform: translateY(0);
-}
 
 .nav-links a:focus-visible {
   outline: 2px solid currentColor;
