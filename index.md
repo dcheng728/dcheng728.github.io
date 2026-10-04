@@ -8,7 +8,7 @@ title: Home
 ![Chang Cheng](assets/images/me.jpg)
 
 - I'm Chang Cheng (成畅), a 1st year Physics PhD student at Stanford.
-- I'm drawn to problems in fundamental physics that connect theories to calculable, measurable quantities.
+- I'm drawn to problems in fundamental physics (to me mostly particle physics and cosmology) that connect theories to calculable, measurable quantities.
 
 Through my PhD, I hope to deepen our understanding of nature while developing ways of working with AI that strengthen researchers and the scientific community.
 
