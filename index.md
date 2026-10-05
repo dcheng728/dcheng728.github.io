@@ -10,7 +10,7 @@ title: Home
 - I'm Chang Cheng (成畅), a 1st year Physics PhD student at Stanford.
 - I'm drawn to problems in fundamental physics (to me mostly particle physics and cosmology) that connect theories to calculable, measurable quantities.
 
-Through my PhD, I hope to deepen our understanding of nature while developing ways of working with AI that strengthen researchers (see [Flashcards](https://dcheng728.github.io/flashcards/)) and the scientific community.
+Through my PhD, I hope to deepen our understanding of nature while developing ways of working with AI that strengthen researchers (try [Flashcards](https://dcheng728.github.io/flashcards/) or see [Flashcards/About](https://dcheng728.github.io/flashcards/about)) and the scientific community.
 
 Previously, I completed a Physics MSc at Imperial College London, where I took classes in QFT, relativity, and the Standard Model and beyond. 
 I wrote my dissertation under the supervision of Arkady Tseytlin on a 12-dimensional interpretation of type IIB string theory [(arXiv:2512.10746 [hep-th])](https://arxiv.org/abs/2512.10746).
