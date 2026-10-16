@@ -19,6 +19,8 @@ I also did research on AI safety and reliability at [Callosum](https://www.callo
 Before Imperial, I completed a BA in Math and CS at Colorado College. 
 During the final year of my undergraduate degree, my interest in physics grew, which led me to spend the subsequent year self-studying the subject before coming to Imperial.
 
+Here is my [CV](/assets/pdfs/cv.pdf).
+
 <!-- 
 - I’m Chang Cheng (成畅), a Physics PhD student at Stanford University. I previously completed an MSc in Physics at Imperial College London and a BA in Mathematics and Computer Science at Colorado College. During the final year of my undergraduate degree, a growing interest in physics led me to self-study the subject and ultimately pursue graduate study in physics.
 - I’m currently writing my master’s dissertation on a possible 12-dimensional interpretation of type IIB string theory. A summary of progress so far can be found in my literature review [(arXiv:2512.10746 [hep-th])](https://arxiv.org/abs/2512.10746). -->
