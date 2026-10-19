@@ -41,7 +41,7 @@ img {
 /* Headshot on the home page: small, beside the bio */
 img[src$="me.jpg"] {
   float: right;
-  width: 150px;
+  width: 135px;
   margin: 0 0 1rem 1.5rem;
   border-radius: 50%;
 }
